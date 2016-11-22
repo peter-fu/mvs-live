@@ -626,7 +626,24 @@ img{
 	.row .eight,.row .eleven,.row .five,.row .four,.row .nine,.row .one,.row .seven,.row .six,.row .ten,.row .three,.row .twelve,.row .two{
 		width:100%
 	}
-
+	.row .row{
+		height:500px;
+	}
+	.row .three{
+		height:210px;
+	}
+	.row .right{
+		width:100%;
+		padding:0 10px;
+	}
+	.row .c-details{
+		height:100%;
+		width:50%;
+	}
+	.row .r-details{
+		height:100%;
+		width:40%;
+	}
 	.eight.center,.eleven.center,.five.center,.four.center,.nine.center,.offset-by-eight,.offset-by-eleven,.offset-by-five,.offset-by-four,.offset-by-nine,.offset-by-one,.offset-by-seven,.offset-by-six,.offset-by-ten,.offset-by-three,.offset-by-two,.one.center,.seven.center,.six.center,.ten.center,.three.center,.two.center{
 		margin-left:0
 	}

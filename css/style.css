@@ -652,11 +652,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	transition:all .2s
 }
 .overlay-item img {
-	border-radius: 50%;
+	border-radius: 10%;
 }
 .o-hover{
 	position:absolute;
-	border-radius: 50%;
+	border-radius: 10%;
 	width:100%;
 	height:100%;
 	overflow:hidden;
@@ -670,7 +670,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	transition:all .2s
 }
 
-.overlay-item a:hover>.o-hover,.overlay-item:hover>.o-hover{
+/*.overlay-item a:hover>.o-hover,.overlay-item:hover>.o-hover{
 	color:rgba(255,255,255,1);
 	background:rgba(0,0,0,.5);
 	-webkit-transition:all .2s;
@@ -678,9 +678,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	-ms-transition:all .2s;
 	-o-transition:all .2s;
 	transition:all .2s
-}
+}*/
 
-.o-hover span{
+/*.o-hover span{
 	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
 	font-style:normal;
 	font-size:13px;
@@ -696,7 +696,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	-webkit-transform:translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
 	transform:translate(-50%,-50%)
-}
+}*/
 
 .o-hover em{
 	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
@@ -714,16 +714,16 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	transition:all .2s
 }
 
-.overlay-item a:hover>.o-hover em,.overlay-item:hover>.o-hover em{
+/*.overlay-item a:hover>.o-hover em,.overlay-item:hover>.o-hover em{
 	color:rgba(255,255,255,1);
 	-webkit-transition:all .2s;
 	-moz-transition:all .2s;
 	-ms-transition:all .2s;
 	-o-transition:all .2s;
 	transition:all .2s
-}
+}*/
 
-.o-hover i{
+/*.o-hover i{
 	font-size:14px;
 	font-weight:400;
 	letter-spacing:0;
@@ -738,9 +738,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	-ms-transition:all .2s;
 	-o-transition:all .2s;
 	transition:all .2s
-}
+}*/
 
-.overlay-item a:hover>.o-hover i,.overlay-item:hover>.o-hover i{
+/*.overlay-item a:hover>.o-hover i,.overlay-item:hover>.o-hover i{
 	color:rgba(255,255,255,1);
 	-webkit-transition:all .2s;
 	-moz-transition:all .2s;
@@ -757,16 +757,16 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	-ms-transition:all .2s;
 	-o-transition:all .2s;
 	transition:all .2s
-}
+}*/
 
 .o-hover i.fa-2x{
 	font-size:2em
 }
 
-.overlay-item a:hover>.o-hover i.fa-2x:hover,.overlay-item:hover>.o-hover i.fa-2x:hover{
+/*.overlay-item a:hover>.o-hover i.fa-2x:hover,.overlay-item:hover>.o-hover i.fa-2x:hover{
 	color:#fff;
 	background:0 0
-}
+}*/
 
 .e-info{
 	position:relative;
@@ -838,9 +838,12 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .tb-logo img{
 	float:left;
 	text-align:left;
-	width:auto;
-	max-height:30px;
-	margin:10px 10px 0 0
+	max-height:47px;
+	margin:5px 10px 0 0;
+	display:block;
+	width:212px;
+	height:47px;
+
 }
 
 #toggle,.menu ul ul,.toggle{
@@ -876,7 +879,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 .menu ul li{
 	float:left;
-	border-right:1px solid #1a1b1a; 
+
 }
 
 .menu ul li:hover a{
@@ -1110,7 +1113,8 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 .icon-nav{
 	text-align:center;
-	margin-bottom:25px
+	margin-bottom:25px;
+
 }
 
 .icon-nav a{
@@ -1125,7 +1129,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	line-height:100px;
 	text-align:center;
 	font-size:36px;
-	color:#ccc;
+	color:#ccc!important;
 	background:0 0;
 	-webkit-border-radius:0;
 	-moz-border-radius:0;
@@ -1148,6 +1152,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .icon-nav a:hover>i{
 	color:#fff;
 	background:#0fdd7a;
+	border-radius:10%;
 }
 
 .icon-nav b{
@@ -1442,6 +1447,36 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	color:red;
 	margin-bottom:10px
 }
+.c-details{
+	height:100%;
+	width:70%;
+}
+.r-details{
+	height:100%;
+	width:50%;
+}
+.r-details a{
+	color:#777;
+	display:inline-block
+}
+.r-details a:hover,.r-details a:hover i{
+	color:#0FDD7A
+}
+.r-details i{
+	float:left;
+	width:15px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+	color:#111
+}
+
+.r-details span{
+	display:block;
+	width:auto;
+	margin-bottom:10px;
+	margin-left:35px
+}
 
 .c-details a{
 	color:#777;
@@ -1464,8 +1499,8 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .c-details span{
 	display:block;
 	width:auto;
-	margin-bottom:25px;
-	margin-left:30px
+	margin-bottom:10px;
+	margin-left:35px
 }
 
 .back-top-wrap{
@@ -1689,7 +1724,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .background-one{
-	background-image:url('../images/bg-1.jpg')
+	background-image:url('../images/banner-1.png')
 }
 
 .background-two{
@@ -1710,4 +1745,8 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 .loader{
 	margin-left:10px
+}
+.row .right{
+	float:right;
+
 }

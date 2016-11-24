@@ -384,6 +384,9 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover{
 	border:2px solid #0fdd7a;
 	border:2px solid #0fdd7a;
 }
+.btn span{
+	display:block;
+}
 
 .btn.color{
 	background:#ff4800
@@ -1449,7 +1452,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 .c-details{
 	height:100%;
-	width:70%;
+	width:50%;
 }
 .r-details{
 	height:100%;
@@ -1748,5 +1751,10 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 .row .right{
 	float:right;
-
+}
+.row .twelve span{
+	padding:0 20px;
+}
+.row .twelve span:hover{
+	color:#fff;
 }

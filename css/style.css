@@ -1758,57 +1758,6 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	color:#fff;
 }
 
-.icon-nav .navicon_1{
-	display:block;
-	margin-left:80px;
-	margin-bottom:10px;
-	margin-top:40px;
-	width:100px;
-	height:72px;
-	line-height:100px;
-	text-align:center;
-	font-size:36px;
-	color:#ccc!important;
-	-webkit-border-radius:0;
-	-moz-border-radius:0;
-	border-radius:0;
-	background-color: black;
-	background:url(../images/icon1.png)no-repeat;
-}
-
-.icon-nav .navicon_2{
-	display:block;
-	margin-left:80px;
-	margin-bottom:10px;
-	margin-top:40px;
-	width:100px;
-	height:72px;
-	line-height:100px;
-	text-align:center;
-	font-size:36px;
-	color:#ccc!important;
-	-webkit-border-radius:0;
-	-moz-border-radius:0;
-	border-radius:0;
-	background:url(../images/icon2.png)no-repeat;
-}
-.icon-nav .navicon_3{
-	display:block;
-	margin-left:80px;
-	margin-bottom:10px;
-	margin-top:40px;
-	width:100px;
-	height:72px;
-	line-height:100px;
-	text-align:center;
-	font-size:36px;
-	color:#ccc!important;
-	-webkit-border-radius:0;
-	-moz-border-radius:0;
-	border-radius:0;
-	background:url(../images/icon3.png)no-repeat;
-}
-
 img {
     vertical-align: middle;
 }

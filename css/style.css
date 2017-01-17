@@ -1808,3 +1808,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	border-radius:0;
 	background:url(../images/icon3.png)no-repeat;
 }
+
+img {
+    vertical-align: middle;
+}

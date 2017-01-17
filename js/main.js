@@ -101,6 +101,23 @@
 		})
 	});
 	$(function() {
+		var e = $(".community-slider");
+		e.owlCarousel({
+			pagination: false,
+			navigation: false,
+			items: 5,
+			itemsDesktop: [1e3, 3],
+			itemsTablet: [600, 2],
+			itemsMobile: [321, 1]
+		});
+		$(".serv-next").click(function() {
+			e.trigger("owl.next")
+		});
+		$(".serv-prev").click(function() {
+			e.trigger("owl.prev")
+		})
+	});
+	$(function() {
 		var e = $(".employee-slider");
 		e.owlCarousel({
 			pagination: false,

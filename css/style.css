@@ -1761,3 +1761,48 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 img {
     vertical-align: middle;
 }
+
+
+.twelve_list,.form-list{
+	width:100%;
+	float:left;
+	font-family:Microsoft Yahei,Arial;
+	height:auto;
+}
+.twelve_list  ul li{
+	width:48%;
+	float:left;
+	line-height:47px;
+	margin-right:2%;
+	margin-bottom:20px;
+}
+.twelve_list  ul li > .creatAssetBtn{
+	background:#006599;
+	line-height:47px;
+	color:#fff;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	font-size:18px;
+}
+.twelve_list ul li >input{
+	width:100%;
+	float:left;
+	line-height:47px;
+	background:#333333;
+	font-size:18px;
+	padding-left:10px;
+	border:1px solid #666666;
+	color:#fff;
+}
+.social-footer h3{
+	color: white;
+}
+.error_message{
+	display: none;
+	color: red;
+}
+.success_message{
+	display: none;
+	color: green;
+}

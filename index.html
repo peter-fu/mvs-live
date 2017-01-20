@@ -272,6 +272,14 @@
 							</div>
 						</a>
 					</div>
+					<div class="grid-ms">
+						<a href="http://test1.metaverse.live:8820/">
+							<div class="service-item">
+								<i class="fa fa-globe"></i>
+								<h3>在线测试节点</h3>
+							</div>
+						</a>
+					</div>
 				</div>
 				<a class="serv-prev oc-left"><i class="arrow-control fa fa-angle-left"></i></a>
 				<a class="serv-next oc-right"><i class="arrow-control fa fa-angle-right"></i></a>
@@ -282,21 +290,25 @@
 		</div>
 		<footer class="social-footer">
 			<div class="row">
-				<div class="twelve col sf-icons">
-					<p class="uber">关于</p>
-					<a href="#">
-						<span>
-							MEMBER
-						</span>
-					</a>
-					<a href="#"><span>
-						JOIN US
-					</span></a>
-					<a href="#">
-						<span>
-							CONTACT
-						</span></a>
+				<h3>您可以通过注册来订阅我们的最新资讯，并且能够获取一些免费的元界测试币</h3>
+				<div class="col-md-3"></div>
+				<div class="col-md-4">
+					<div class="twelve_list">
+						<form class="form-list" id="newsletter_form" role="form">
+						<ul>
+							<li><input type="text" name="firstname" placeholder="名">
+							</li>
+							<li><input type="text" name="lastname" placeholder="姓"></li>
+							<li><input type="text" name="email" placeholder="邮箱地址"></li>
+							<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>
+							<li><button class="creatAssetBtn">注册</button></li>
+							<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>
+							<div class="error_message" id="connection_error">出错了。请稍后再试。</div>
+							<div class="error_message" id="email_error">您的邮箱地址无效</div>
+							<div class="error_message" id="duplicate_error">您的信息已存在</div>
+					</form>
 					</div>
+				</div>
 				</div>
 			</footer>
 			<footer class="footer">
@@ -314,6 +326,7 @@
 			<script src="js/lib/jquery.fitvids.js"></script>
 			<script src="js/lib/jquery.equal.js"></script>
 			<script src="js/main.js"></script>
+			<script src="js/signup.js"></script>
 		<script type="text/javascript">
   var _paq = _paq || [];
   // tracker methods like "setCustomDimension" should be called before "trackPageView"
@@ -328,7 +341,7 @@
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p>< img src="//139.196.21.148/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p ></noscript>	
+<noscript><p>< img src="//139.196.21.148/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p ></noscript>
 
 	</body>
 		</html>

@@ -269,6 +269,14 @@
 					</div>
 				</a>
 			</div>
+			<div class="grid-ms">
+				<a href="http://test5.metaverse.live:8820/">
+					<div class="service-item">
+						<i class="fa fa-globe"></i>
+						<h3>Testnet</h3>
+					</div>
+				</a>
+			</div>
 		</div>
 		<a class="serv-prev oc-left"><i class="arrow-control fa fa-angle-left"></i></a>
 		<a class="serv-next oc-right"><i class="arrow-control fa fa-angle-right"></i></a>
@@ -285,7 +293,7 @@
 			<div class="twelve_list">
 				<form class="form-list" id="newsletter_form" role="form">
 				<ul>
-					<li><input type="text" name="firstname" placeholder="First name">
+					<li><input type="text" name="firstname" placeholder="Given name">
 					</li>
 					<li><input type="text" name="lastname" placeholder="Family name"></li>
 					<li><input type="text" name="email" placeholder="Email address"></li>
@@ -294,7 +302,7 @@
 					<div class="success_message" id="confirmation_request">Please confirm your email address. We sent you a mail. Please open it and click on the confirmation link.</div>
 					<div class="error_message" id="connection_error">Connection problem. Sorry.</div>
 					<div class="error_message" id="email_error">Your email address seems to be invalid.</div>
-				</ul>
+					<div class="error_message" id="duplicate_error">Your are already on the list.</div>
 			</form>
 			</div>
 		</div>
@@ -315,37 +323,7 @@
 	<script src="js/lib/jquery.fitvids.js"></script>
 	<script src="js/lib/jquery.equal.js"></script>
 	<script src="js/main.js"></script>
-
-	<script>
-		$("#newsletter_form").submit(function(e) {
-
-    var url = "http://mvs.live/index.html";
-
-    $.ajax({
-           type: "GET",
-           url: url,
-           data: $("#newsletter_form").serialize(),
-           success: function(data)
-           {
-               clear_messages();
-							 $('#confirmation_request').css('display','block');
-           },
-					 error: function(data)
-           {
-						 clear_messages();
-              $('#connection_error').css('display','block');
-           }
-         });
-
-    e.preventDefault();
-	});
-
-	function clear_messages(){
-		$('.error_message').css('display','none');
-		$('.success_message').css('display','none');
-	}
-
-	</script>
+	<script src="js/signup.js"></script>
 	<script type="text/javascript">
   var _paq = _paq || [];
   // tracker methods like "setCustomDimension" should be called before "trackPageView"

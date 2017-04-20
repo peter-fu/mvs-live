@@ -1,6 +1,6 @@
 $("#newsletter_form").submit(function(e) {
 
-    var url = "http://info.viewfin.com:3000/signup";
+    var url = "http://signup.newmetaverse.org/signup";
 
     $.ajax({
            type: "GET",

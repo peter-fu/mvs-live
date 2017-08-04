@@ -223,7 +223,27 @@
 		removalDelay: 300,
 		mainClass: "mfp-fade"
 	});
-	$(document).ready(function() {
+
+
+	/* mini menu nav */
+
+    $(".menu-trigger, .mobilenav").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        // event.preventDefault();
+        $('.menu').toggleClass('is-active');
+        $('.menu').slideToggle(400);
+        $('#topnav .cart-open').removeClass('opened');
+    });
+    $(".menu-trigger, .mobilenav").click(function () {
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
+        // $('.menu').slideUp()
+    });
+    /* mini menu nav end */
+
+
+    $(document).ready(function() {
 		$(".equal").children(".col").equalizeHeight();
 		$(window).resize(function() {
 			$(".equal").children(".col").equalizeHeight()

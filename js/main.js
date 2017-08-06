@@ -240,6 +240,15 @@
         $(".bottom-menu").toggleClass("bottom-animate");
         // $('.menu').slideUp()
     });
+
+	$('.menu ul li a').click(function () {
+		$('.menu').css('display','none');
+		$('.menu').removeClass('is-active');
+		$(".top-menu").removeClass("top-animate");
+		$(".mid-menu").removeClass("mid-animate");
+		$(".bottom-menu").removeClass("bottom-animate");
+
+	});
     /* mini menu nav end */
 
 

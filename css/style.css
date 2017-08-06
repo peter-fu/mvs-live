@@ -34,17 +34,8 @@ body {
 
 	color: #777;
 
-
 }
 
-
-
-p {
-
-	margin-bottom: 25px;
-
-
-}
 
 .fl{
 	float: left;
@@ -54,44 +45,44 @@ p {
 	float: right;
 }
 /* Minified css in demo only */
-h1,h2,h3,h4,h5,h6{
-	margin-bottom:25px
-}
+/*h1,h2,h3,h4,h5,h6{*/
+	/*margin-bottom:25px*/
+/*}*/
 
-.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
-	font-weight:400;
-	color:#555
-}
+/*.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{*/
+	/*font-weight:400;*/
+	/*color:#555*/
+/*}*/
 
-.h1,h1{
-	font-size:36px;
-	line-height:1.5em
-}
+/*.h1,h1{*/
+	/*font-size:36px;*/
+	/*line-height:1.5em*/
+/*}*/
 
-.h2,h2{
-	font-size: 30px;
-	line-height:1.5em
-}
+/*.h2,h2{*/
+	/*font-size: 30px;*/
+	/*line-height:1.5em*/
+/*}*/
 
-.h3,h3{
-	font-size: 24px;
-	line-height:1.5em
-}
+/*.h3,h3{*/
+	/*font-size: 24px;*/
+	/*line-height:1.5em*/
+/*}*/
 
-.h4,h4{
-	font-size: 16px;
-	line-height:30px
-}
+/*.h4,h4{*/
+	/*font-size: 16px;*/
+	/*line-height:30px*/
+/*}*/
 
-.h5,h5{
-	font-size:16px;
-	line-height:25px
-}
+/*.h5,h5{*/
+	/*font-size:16px;*/
+	/*line-height:25px*/
+/*}*/
 
-.h6,h6{
-	font-size:13px;
-	line-height:25px
-}
+/*.h6,h6{*/
+	/*font-size:13px;*/
+	/*line-height:25px*/
+/*}*/
 
 .bigtext h1,.bigtext h2,.bigtext h3,.bigtext h4,.bigtext h5,.bigtext h6,h1.bigtext,h2.bigtext,h3.bigtext,h4.bigtext,h5.bigtext,h6.bigtext{
 	margin-bottom:10px
@@ -132,7 +123,7 @@ span.bigtexttips{
 }
 /*.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}*/
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
 	.bigtext h1,h1.bigtext{
 		font-size:60px
 	}
@@ -154,12 +145,14 @@ span.bigtexttips{
 	}
 
 	.bigtext h6,h6.bigtext{
-		font-size:18px
+		font-size:18px;
+		margin-bottom: 50px;
+
 	}
 
 }
 
-@media only screen and (max-width:479px){
+@media only screen and (max-width:475px){
 	.bigtext h1,h1.bigtext{
 		font-size:36px
 	}
@@ -173,7 +166,7 @@ span.bigtexttips{
 	}
 
 	.bigtext h4,h4.bigtext{
-		font-size:18px
+		font-size:18px;
 	}
 
 	.bigtext h5,h5.bigtext{
@@ -834,7 +827,8 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .tb-logo{
-	margin-left:20px
+	font-size: 0;
+	margin: 0;
 }
 
 .tb-logo h1{
@@ -914,7 +908,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 .menu ul li a{
 	display:inline-block;
-	padding:3px 20px;
+	padding:3px 16px;
 	color:#333;
 	text-decoration:none;
 	font-size: 16px;
@@ -925,13 +919,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .en-menu.menu ul li a{
 	font-size: 14px;
 }
-@media only screen and (max-width:1024px){
-	.menu ul li a{
-		padding: 3px 10px;
-		font-size: 14px;
-	}
 
-}
 
 .menu ul ul{
 	position:absolute;
@@ -962,13 +950,16 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	left:100%
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:990px){
 	.headerbox {
 		padding: 0 !important;
 	}
 	.top-bar{
 		padding-top:0;
-		height: 50px;
+		height: 45px;
+	}
+	.headerbox {
+		height: 45px !important;
 	}
 	.background-one {
 		margin-top: 50px !important;
@@ -1023,7 +1014,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		display:none;
 		/*filter:alpha(opacity=0);*/
 		opacity:1;
-		top:50px;
+		top:45px;
 		width:100%;
 		position:absolute;
 		right:0;
@@ -1034,7 +1025,10 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		/*background: rgba(249,249,249,.95);*/
 		/*padding-bottom:10px;*/
 	}
-
+	.menu ul{
+		margin: 0 10px;
+		 padding: 0;
+	}
 	.menu ul li{
 		display:block;
 		width:100%;
@@ -1049,7 +1043,8 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		/*padding:0*/
 	}
 	.sl-language {
-	text-align: center;
+		text-align: center;
+		margin: 5px 0 !important;
 }
 	.menu ul li.sl-language *{
 		font-size:14px;
@@ -1081,6 +1076,32 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	}
 
 }
+
+@media only screen and (min-width: 765px) and (max-width: 992px) {
+
+	.top-bar .container {
+		width: 960px;
+	}
+	.sl-language {
+
+		/*margin-left: 0px !important;*/
+	}
+	.metaverse-slg{
+		width: 400px;
+	}
+	.header.large {
+		height: 500px;
+	}
+	h6.bigtext {
+		margin-bottom: 50px;
+		font-size: 20px;
+		line-height: 1.5em;
+	}
+	.social {
+		padding: 12px 0 !important;
+	}
+}
+
 
 
 /*.menu-trigger{*/
@@ -1157,14 +1178,17 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 
 .headerbox{
-	padding: 10px 0;
+	/* padding: 10px 0; */
+	height: 70px;
 }
+/*.dis-tablecell{*/
+	/*display: table-cell;*/
+	/*vertical-align: middle;*/
+/*}*/
 .menu ul li a.test-area{
 	color:#347ded ;
    }
-.mr-50{
-	margin: 0 0 0 50px;
-}
+
 .menu ul li a.blockchain-exploer:hover{
 	color: #fff;
 }
@@ -1232,8 +1256,8 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .tb-small.tb-transp{
-	background:#f9f9f9;
-	/*background:rgba(7,7,7,.9)*/
+	/*background:#f9f9f9;*/
+	background:rgba(249,249,249,.9)
 
 }
 
@@ -1920,13 +1944,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	font-size: 20px;
 	/*margin-top: 45px;*/
 	color: #fff;
-	margin: 0;
+	margin: 15px 10px;
 	line-height: 1.5;
 }
 
-.jijinhui-logo{
-	margin-top: 4rem;
-}
+
 .dis-tablecell{
 
 	display: table-cell;
@@ -1938,6 +1960,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	height: 500px;
 	/*padding: 70px 0;*/
 }
+.jijinhuibox h3{
+	margin: 0;
+}
 .jijinhuibox .col{
 	height: 500px;
 }
@@ -1945,7 +1970,13 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	text-align: center;
 	margin-top: 30px;
 }
+.container .six {
+	width: 48%;
+	/*height: 380px;*/
+	max-width: 500px;
+}
 .product-box{
+	/*max-width: 520px;*/
 	background: #fff;
 	-moz-box-shadow:0px 15px 100px rgba(52,125,237,.2);
 	-webkit-box-shadow:0px 15px 100px rgba(52,125,237,.2);
@@ -2072,6 +2103,8 @@ a:hover{
 	height: 48px;
 	padding: 0 6px;
 	color: #347ded;
+	border: none;
+	outline: none;
 }
 
 
@@ -2325,10 +2358,24 @@ a:hover{
 }
 
 /*media special*/
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+	.send-email .sdinput {
+		width: 200px !important;
+	}
+	.send-email {
+		width: 285px !important;
+	}
+	.copyright{
+		font-size: 12px;
+	}
+}
 @media only screen and (min-width: 300px) and (max-width: 475px) {
+	.tb-logo img {
+		width: 80px;
+		margin-top: 5px;
+	}
 	.jijinhui-logo {
-		margin-top: 2rem;
-		width: 200px;
+		width: 150px;
 	}
 	.fd-screen {
 		height: 380px !important;
@@ -2345,17 +2392,17 @@ a:hover{
 	h6.bigtext {
 		margin-bottom: 20px;
 	}
-	.row .six {
+	.container .six {
 	width: 92%;
-	height: 410px;
+	/*height: 410px;*/
 	/* max-width: 480px; */
 	margin: 10px 15px;
 	}
 	.send-email{
-		width: 375px
+		width: 345px
 	}
 	.send-email .sdinput {
-		width: 292px;
+		width: 252px;
 	}
 	.social-footer .ftips {
 		font-size: 14px;
@@ -2372,7 +2419,42 @@ a:hover{
 		margin: 30px 0 20px;
 	}
 	.cf-content {
-		font-size: 14px;
+		font-size: 12px;
+		margin:  15px 5px;
+	}
+	.btn.outline.light {
+		font-size: 12px;
+		padding:4px 25px;
+	}
+
+	.jijinhuibox, .jijinhuibox .col {
+		height: 350px;
+	}
+	.featuresbox {
+		height: 280px;
+	}
+	.service-item i{
+		width: 40px;
+		height: 40px;
+		display: inline;
+	}
+	.footer .social li {
+		height: 35px;
+		width: 35px;
+		line-height: 38px;
+
+	}
+	.footer .social i {
+		font-size: 18px;
+	}
+	.fa-ji, .fa-blog, .fa-bbs{
+		zoom: .8;
+	}
+	.fa-bbs{
+		top: 14px;
+	}
+	.social {
+		padding: 12px 0;
 	}
 }
 @media only screen and (min-width: 476px) and (max-width: 880px) {
@@ -2380,7 +2462,7 @@ a:hover{
 		margin: 10px 10px 0 !important;
 	}
 	.metaverse-slg{
-		width: 450px;
+		width: 400px;
 	}
 	.fd-screen {
 		height: 450px !important;
@@ -2393,9 +2475,10 @@ a:hover{
 	}
 
 
-	.row .six {
+
+	.container .six {
 		width: 44%;
-		height: 490px;
+		/*height: 490px;*/
 		/* max-width: 480px; */
 		margin: 0 15px;
 	}
@@ -2403,15 +2486,31 @@ a:hover{
 		margin: 30px 0 20px;
 	}
 	.cf-content {
-		font-size: 18px;
+		font-size: 16px;
 	}
+	.jijinhui-logo{
+		width:220px ;
+	}
+	.service-item i{
+		width: 50px;
+		height: 50px;
+		display: inline;
+	}
+
 }
+
+@media (min-width: 768px){
+
+	.about .col-sm-6 {
+		height: 228px;
+	}
+	}
 @media only screen and (min-width: 880px) and (max-width: 1024px) {
-	.row .six {
-		width: 46%;
-		height: 490px;
+	.container .six {
+		/*width: 46%;*/
+		/*height: 490px;*/
 		/* max-width: 480px; */
-		margin: 0 15px;
+		/*margin: 0 15px;*/
 	}
 	.hh-title {
 		margin: 50px 0 30px;
@@ -2425,14 +2524,33 @@ a:hover{
 
 @media only screen and (min-width: 890px) and (max-width: 1140px) {
 	.blockchain-exploerbox {
+		/*margin-left: 50px;*/
+	}
+
+}
+@media only screen and (max-width: 762px) and (max-width: 880px) {
+	/*.blockchain-exploerbox {*/
+		/*margin-left: 0;*/
+	/*}*/
+	/*.menu ul li a {*/
+		/*padding: 3px 9px !important;*/
+	/*}*/
+}
+
+
+@media only screen and (min-width: 1200px){
+	.sl-language{
 		margin-left: 50px;
 	}
-}
-@media only screen and (min-width: 762px) and (max-width: 880px) {
-	.blockchain-exploerbox {
-		margin-left: 0;
+	.mr-50{
+		margin: 0 0 0 50px;
 	}
+
 }
+
+
+
+
 
 .downloadwrap{
 
@@ -2441,12 +2559,16 @@ a:hover{
 .overhide{
 	overflow: hidden;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 995px){
 	.menu-trigger {
 		display: none;
 	}
 }
-
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.menu ul li a {
+		padding: 3px 8px;
+	}
+}
 
 /*nav*/
 .menu.is-active{
@@ -2466,10 +2588,11 @@ a:hover{
 .foundation-headerbox.tb-small{
 	background: rgba(249,249,249,.9);
 }
+
 .sl-language{
 	/*position: absolute;*/
 	/*right: 0;*/
-	margin-left: 50px;
+	margin-left: 30px;
 }
 
 .foundation-header{
@@ -2519,3 +2642,4 @@ font-size: 36px;
 .menu ul li.sl-language a.active{
 	font-weight: 700;
 }
+

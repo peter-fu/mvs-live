@@ -33,12 +33,12 @@
 	<!--header-->
 	<header  id="header" class="foundation-headerbox top-bar tb-transp tb-small">
 		<div class="row ">
-		<div class="foundation-header ">
-			<a href="./">Return home</a>
-			<span class="sl-language fr">
+		<div class="foundation-header">
+			<a href="./" class="r-home dis-tablecell">Return home</a>
+			<span class="sl-language dis-tablecell">
 				<a href="./foundation.html">CN</a>
 				<span class="line-lg">/</span>
-				<a href="javascript:;">EN</a>
+				<a href="javascript:;" class="active">EN</a>
 			</span>
 		</div>
 		</div>
@@ -47,7 +47,7 @@
 
 	<section id="home" class="home">
 		<div class="fd-screen large bg-img fixed">
-			<div class="header-inner">
+			<div class="banner-box">
 				<h2 class="bigtext text-white mb0 fadeInUp animated">
 					<span class="bigtexttips">Metaverse foundatiion</span>
 					<img src="images/new/mvs-foundatiion.png" alt="metaverse" class="metaverse-slg">
@@ -66,7 +66,7 @@
 					</p>
 					<div class="foundation-mdbox">
 						<h3 class="hh-title fadeInUp animated">Metaverse Foundation's Purpose</h3>
-						<ul class="text-left foundation-md">
+						<ul class="text-left foundation-md slideInLeft animated">
 							<li>1. Support community members who engage in the middle and long-term research and development of code on the Metaverse Blockchain.</li>
 							<li>2. Support the promotion of community products, projects and theory, including environmental friendly and charitable theme activities such as the Global Blockchain Tech Summit and Blockchain Hacker Marathon.
 							</li>
@@ -77,39 +77,31 @@
 			</div>
 		</section>
 
-
-		<div class="back-top-wrap">
-			<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>
-		</div>
-		<footer class="social-footer">
-			<div class="row">
-				<div class="">
-					<div class="twelve_list">
-						<form class="form-list" id="newsletter_form" role="form">
-							<input type="hidden" name="language" value="zh">
-							<div class="send-email">
-								<input type="text" name="email" placeholder="email address" class="sdinput"><button class="creatAssetBtn sendbtn">Send</button>
-							</div>
-							<p class="ftips">Register to our newsletter and get some free Metaverse coins for testing.</p>
-
-							<!--<ul>-->
-								<!--<li><input type="text" name="firstname" placeholder="名">-->
-								<!--</li>-->
-								<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
-								<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
-								<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
-								<!--<li><button class="creatAssetBtn">注册</button></li>-->
-								<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
-								<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
-								<!--<div class="error_message" id="email_error">您的邮箱地址无效</div>-->
-								<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
-							<!--</ul>-->
-					</form>
+		<section class="social-footer bg-coverfixed ">
+			<div class="twelve_list">
+				<form class="form-list" id="newsletter_form" role="form">
+					<input type="hidden" name="language" value="zh">
+					<div class="send-email">
+						<input type="text" name="email" placeholder="E-mail address" class="sdinput"><button class="creatAssetBtn sendbtn">Send</button>
 					</div>
-				</div>
-				</div>
-			</footer>
-			<footer class="footer">
+					<p class="ftips">Register to our newsletter and get some free Metaverse coins for testing.</p>
+
+					<!--<ul>-->
+					<!--<li><input type="text" name="firstname" placeholder="名">-->
+					<!--</li>-->
+					<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
+					<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
+					<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
+					<!--<li><button class="creatAssetBtn">注册</button></li>-->
+					<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
+					<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
+					<!--<div class="error_message" id="email_error">您的邮箱地址无效</div>-->
+					<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
+					<!--</ul>-->
+				</form>
+			</div>
+		</section>
+		<footer class="footer">
 				<div class="row">
 					<div class="twelve col">
 						<ul class="social margin-bottom-medium">
@@ -132,29 +124,34 @@
 				</div>
 			</footer>
 
-			<!-- =========================
-			  Back to top button
-		   ============================== -->
-			<a class="back-to-top go-top" href="#header">
-				<i class="icon-up"></i>
-			</a>
+		<!-- =========================
+		  Back to top button
+	   ============================== -->
+		<!--<a class="back-to-top go-top" href="#header">-->
+			<!--<i class="icon-up"></i>-->
+		<!--</a>-->
 
-			<!--<div class="go-top showed-up">-->
-				<!--<a href="#top">-->
-					<!--<i class="hc-angle-up"></i>-->
-				<!--</a>-->
-			<!--</div>-->
 
-			<script src="js/lib/jquery.min.js"></script>
-			<!--<script src="js/lib/retina.min.js"></script>-->
-			<script src="js/lib/jquery.magnific-popup.min.js"></script>
-			<script src="js/lib/jquery.bxslider.min.js"></script>
-			<script src="js/lib/owl.carousel.min.js"></script>
-			<script src="js/lib/jquery.fitvids.js"></script>
-			<script src="js/lib/jquery.equal.js"></script>
-			<script src="js/main.js"></script>
-			<!--<script src="js/main-spe.js"></script>-->
-			<script src="js/signup.js"></script>
+		<div class="back-top-wrap">
+			<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>
+		</div>
+
+		<!--<div class="go-top showed-up">-->
+			<!--<a href="#top">-->
+				<!--<i class="hc-angle-up"></i>-->
+			<!--</a>-->
+		<!--</div>-->
+
+		<script src="js/lib/jquery.min.js"></script>
+		<!--<script src="js/lib/retina.min.js"></script>-->
+		<script src="js/lib/jquery.magnific-popup.min.js"></script>
+		<script src="js/lib/jquery.bxslider.min.js"></script>
+		<script src="js/lib/owl.carousel.min.js"></script>
+		<script src="js/lib/jquery.fitvids.js"></script>
+		<script src="js/lib/jquery.equal.js"></script>
+		<script src="js/main.js"></script>
+		<!--<script src="js/main-spe.js"></script>-->
+		<script src="js/signup.js"></script>
 
 	</body>
 </html>

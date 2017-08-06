@@ -829,19 +829,18 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .tb-logo{
 	font-size: 0;
 	margin: 0;
+	height: 70px;
 }
 
+
 .tb-logo h1{
-	float:left;
-	text-align:left;
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
-	font-weight:normal;
-	letter-spacing:.08em;
-	text-transform:uppercase;
-	line-height:25px;
-	color:#fff;
-	margin-top:10px;
-	margin-bottom:0
+	/*letter-spacing:.08em;*/
+	/*text-transform:uppercase;*/
+	line-height:0;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	height: 70px;
 }
 
 .tb-logo h1 a{
@@ -862,7 +861,6 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	display:block;
 	/*height:67px;*/
 	width: 100px;
-    margin-top: 5px;
 }
 
 #toggle,.menu ul ul,.toggle{
@@ -883,8 +881,12 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	text-transform:uppercase;
 	line-height:25px
 }
-
+.cn-menu.menu{
+	/*margin-left: 210px;*/
+	/*height: 70px;*/
+}
 .menu ul{
+	height: 70px;
 	margin: 10px 0;
 	position:relative;
 	/*display:table-cell;*/
@@ -958,12 +960,13 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		padding-top:0;
 		height: 45px;
 	}
-	.headerbox {
+	.headerbox, .tb-logo h1  {
 		height: 45px !important;
 	}
 	.background-one {
 		margin-top: 50px !important;
 	}
+
 	.toggle{
 		display:block;
 		position:relative;
@@ -1028,6 +1031,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	.menu ul{
 		margin: 0 10px;
 		 padding: 0;
+		 display: block;
 	}
 	.menu ul li{
 		display:block;
@@ -1042,9 +1046,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		padding: 10px 0;
 		/*padding:0*/
 	}
+
 	.sl-language {
 		text-align: center;
-		margin: 5px 0 !important;
 }
 	.menu ul li.sl-language *{
 		font-size:14px;
@@ -2115,6 +2119,7 @@ a:hover{
 	border-radius: 22px;
 	background-color: #347ded;
 	text-transform: none;
+	border: none;
 }
 .send-email button:hover{
 	background-color: #225BB3;
@@ -2360,14 +2365,18 @@ a:hover{
 /*media special*/
 @media only screen and (min-width: 300px) and (max-width: 375px) {
 	.send-email .sdinput {
-		width: 200px !important;
+		width: 195px !important;
 	}
 	.send-email {
 		width: 285px !important;
 	}
+	.send-email {
+		margin: 0 auto 30px;
+	}
 	.copyright{
 		font-size: 12px;
 	}
+
 }
 @media only screen and (min-width: 300px) and (max-width: 475px) {
 	.tb-logo img {
@@ -2378,11 +2387,9 @@ a:hover{
 		width: 150px;
 	}
 	.fd-screen {
-		height: 380px !important;
+		height: 300px !important;
 	}
-	.foundation-header {
-		margin: 10px 10px 0 !important;
-	}
+
 	.metaverse-slg{
 		width: 200px;
 	}
@@ -2439,10 +2446,10 @@ a:hover{
 		display: inline;
 	}
 	.footer .social li {
-		height: 35px;
-		width: 35px;
-		line-height: 38px;
-
+		height: 30px;
+		width: 30px;
+		line-height: 32px;
+		margin: 0 1px;
 	}
 	.footer .social i {
 		font-size: 18px;
@@ -2456,11 +2463,16 @@ a:hover{
 	.social {
 		padding: 12px 0;
 	}
+
+	.foundationbox .hh-title {
+		font-size: 18px !important;
+	}
+	.foundation-md {
+		font-size: 13px !important;
+	}
 }
 @media only screen and (min-width: 476px) and (max-width: 880px) {
-	.foundation-header {
-		margin: 10px 10px 0 !important;
-	}
+
 	.metaverse-slg{
 		width: 400px;
 	}
@@ -2584,9 +2596,17 @@ a:hover{
 /*foundation*/
 .foundation-headerbox.top-bar{
 	background: transparent;
+	height: 45px;
 }
 .foundation-headerbox.tb-small{
 	background: rgba(249,249,249,.9);
+
+}
+.foundation-headerbox .sl-language {
+	position: fixed;
+	right: 12px;
+	margin-left: 30px;
+	top: 10px;
 }
 
 .sl-language{
@@ -2601,8 +2621,13 @@ a:hover{
 	color: #0099ff;
 	font-size: 16px;
 	/*top: 0;*/
-	margin: 22px 10px 0;
+	/*margin: 22px 10px 0;*/
 }
+.r-home{
+	height: 45px;
+	padding-left: 12px;
+}
+
 .line-lg{
 	margin: 0 10px;
 }
@@ -2612,7 +2637,7 @@ a:hover{
 	height: 500px;
 }
 .fd-screen .header-inner{
-	top: 25%;
+	top: 30%;
 }
 .foundationbox *{
 	color: #000;
@@ -2639,7 +2664,16 @@ font-size: 36px;
 	padding: 0;
 	font-size: 14px;
 }
-.menu ul li.sl-language a.active{
+.sl-language a.active{
 	font-weight: 700;
+}
+
+
+.dis_flex, .social-footer, .fd-screen{
+	display: flex;
+	justify-content: center;
+	justify-content: center;
+	align-items: center;
+
 }
 

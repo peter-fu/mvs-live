@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a36618fc-5998-4954-91c2-3a8ee6235440" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/statistics.js" afterPath="$PROJECT_DIR$/js/statistics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_cn.html" afterPath="$PROJECT_DIR$/index_cn.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,18 +22,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="132">
+              <caret line="166" column="105" lean-forward="false" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statistics.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="statistics.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/statistics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -52,8 +54,8 @@
       <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4860">
-              <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="244" column="57" lean-forward="false" selection-start-line="244" selection-start-column="57" selection-end-line="244" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -69,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="2698" column="0" lean-forward="false" selection-start-line="2698" selection-start-column="0" selection-end-line="2698" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="1956" column="1" lean-forward="false" selection-start-line="1956" selection-start-column="1" selection-end-line="1956" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -125,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>downloadwrap overhide</find>
       <find>.services</find>
       <find>.foundation-headerbox .sl-language</find>
       <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom  slideInLeft animated</find>
@@ -137,7 +138,6 @@
       <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large</find>
       <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp hvr-pulse</find>
       <find>.menu-trigger, .mvs-blog</find>
-      <find>.jijinhui-logo</find>
       <find>.tb-logo</find>
       <find>.headerbox</find>
       <find>.top-bar</find>
@@ -153,8 +153,10 @@
       <find>spe</find>
       <find>main</find>
       <find>favicon.png</find>
-      <find>blockchain-exploer</find>
       <find>menu</find>
+      <find>service-item hvr-pulse</find>
+      <find>blockchain-exploer</find>
+      <find>.jijinhui-logo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,15 +166,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/animate.min.css" />
         <option value="$PROJECT_DIR$/js/tongji.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index_cn.html" />
         <option value="$PROJECT_DIR$/foundation.html" />
         <option value="$PROJECT_DIR$/foundation-en.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/statistics.js" />
+        <option value="$PROJECT_DIR$/index_cn.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -313,12 +315,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502078206295</updated>
-      <workItem from="1502078216375" duration="16246000" />
+      <workItem from="1502078216375" duration="17147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16246000" />
+    <option name="totallyTimeSpent" value="17147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="209" y="248" width="1646" height="805" extended-state="0" />
@@ -357,14 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="2698" column="0" lean-forward="false" selection-start-line="2698" selection-start-column="0" selection-end-line="2698" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -417,22 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_cn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4860">
-          <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3810">
@@ -445,11 +423,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/statistics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="244" column="57" lean-forward="false" selection-start-line="244" selection-start-column="57" selection-end-line="244" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="166" column="105" lean-forward="false" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1956" column="1" lean-forward="false" selection-start-line="1956" selection-start-column="1" selection-end-line="1956" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1948,11 +1948,13 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	font-size: 16px;
 	/* margin-top: 45px; */
 	color: #f3f3f3;
-	margin: 30px 10px;
+	margin: 50px 10px;
 	line-height: 2;
 	letter-spacing: 1px;
 }
-
+.jijinhui-logo {
+	width: 240px;
+}
 
 .dis-tablecell{
 
@@ -2511,7 +2513,7 @@ a:hover{
 		font-size: 16px;
 	}
 	.jijinhui-logo{
-		width:240px ;
+		width:180px ;
 	}
 	.service-item i{
 		width: 50px;
@@ -2690,9 +2692,7 @@ font-size: 36px;
 
 }
 
-.jijinhui-logo {
-	width: 180px;
-}
+
 .foundationbox .hh-title {
 	margin: 30px 0;
 }

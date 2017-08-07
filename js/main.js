@@ -252,7 +252,7 @@ $(".menu-trigger, .mobilenav").click(function () {
 });
 
 
-var screenwidth=document.body.clientWidth;
+var screenwidth=$(window).width();
 
 if(screenwidth<990){
 

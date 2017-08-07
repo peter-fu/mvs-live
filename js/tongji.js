@@ -1,5 +1,5 @@
 /*
-  baidu
+ Growing IO统计代码
  tongji.js
 
  */

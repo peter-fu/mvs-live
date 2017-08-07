@@ -2364,16 +2364,21 @@ a:hover{
 	}
 
 }
-@media only screen and (min-width: 300px) and (max-width: 600px) {
+@media only screen and (min-width: 321px) and (max-width: 600px) {
 	.container .six {
 		width: 92% !important;
-		height: 380px!important;
+		height: 390px!important;
 		/* max-width: 480px; */
 		margin: 10px 15px !important;
 		float: none;
 	}
 	.product-box img {
-width: 180px;
+		width: 180px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.container .six {
+		height: 440px!important;
 	}
 }
 @media only screen and (min-width: 300px) and (max-width: 475px) {
@@ -2382,7 +2387,10 @@ width: 180px;
 		margin-top: 5px;
 	}
 	.jijinhui-logo {
-		width: 150px;
+		width: 130px !important;
+	}
+	.cf-content {
+		line-height: 1.5;
 	}
 	.fd-screen {
 		height: 300px !important;
@@ -2397,12 +2405,7 @@ width: 180px;
 	h6.bigtext {
 		margin-bottom: 20px;
 	}
-	/*.container .six {*/
-		/*width: 92%;*/
-		/*height: 410px;*/
-		/*!* max-width: 480px; *!*/
-		/*margin: 10px 15px;*/
-	/*}*/
+
 	.send-email{
 		width: 345px
 	}
@@ -2686,4 +2689,7 @@ font-size: 36px;
 
 .jijinhui-logo {
 	width: 180px;
+}
+.foundationbox .hh-title {
+	margin: 30px 0;
 }

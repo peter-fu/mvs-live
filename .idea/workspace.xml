@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a36618fc-5998-4954-91c2-3a8ee6235440" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/new/jjh-bg.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-en.html" afterPath="$PROJECT_DIR$/foundation-en.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation.html" afterPath="$PROJECT_DIR$/foundation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_cn.html" afterPath="$PROJECT_DIR$/index_cn.html" />
     </list>
@@ -22,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="166" column="105" lean-forward="false" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
+            <state relative-caret-position="307">
+              <caret line="134" column="63" lean-forward="false" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -51,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="244" column="57" lean-forward="false" selection-start-line="244" selection-start-column="57" selection-end-line="244" selection-end-column="57" />
+            <state relative-caret-position="322">
+              <caret line="133" column="98" lean-forward="false" selection-start-line="133" selection-start-column="98" selection-end-line="133" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -71,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="1956" column="1" lean-forward="false" selection-start-line="1956" selection-start-column="1" selection-end-line="1956" selection-end-column="1" />
+            <state relative-caret-position="232">
+              <caret line="2664" column="20" lean-forward="false" selection-start-line="2664" selection-start-column="20" selection-end-line="2664" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -84,8 +87,8 @@
       <file leaf-file-name="foundation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foundation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="226">
+              <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -94,8 +97,8 @@
       <file leaf-file-name="foundation-en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foundation-en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="226">
+              <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -127,13 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.services</find>
-      <find>.foundation-headerbox .sl-language</find>
-      <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom  slideInLeft animated</find>
-      <find>.top-bar .container</find>
-      <find>.jijinhuibox</find>
-      <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated  hvr-pulse</find>
-      <find>iicon3</find>
       <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated</find>
       <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large</find>
       <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp hvr-pulse</find>
@@ -154,9 +150,16 @@
       <find>main</find>
       <find>favicon.png</find>
       <find>menu</find>
-      <find>service-item hvr-pulse</find>
       <find>blockchain-exploer</find>
       <find>.jijinhui-logo</find>
+      <find>bg-coverfixed</find>
+      <find>.bg-coverfixed</find>
+      <find>foundationbox bg-coverfixed</find>
+      <find>.foundation-md</find>
+      <find>service-item hvr-pulse</find>
+      <find>Windows 64bit</find>
+      <find>col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom  slideInLeft animated</find>
+      <find>product-box fl col-md-6 six spe-xh slideInLeft animated</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,13 +171,13 @@
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/animate.min.css" />
         <option value="$PROJECT_DIR$/js/tongji.js" />
-        <option value="$PROJECT_DIR$/foundation.html" />
-        <option value="$PROJECT_DIR$/foundation-en.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/statistics.js" />
-        <option value="$PROJECT_DIR$/index_cn.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/foundation-en.html" />
+        <option value="$PROJECT_DIR$/foundation.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index_cn.html" />
       </list>
     </option>
   </component>
@@ -185,8 +188,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="209" />
-    <option name="y" value="248" />
+    <option name="x" value="325" />
+    <option name="y" value="322" />
     <option name="width" value="1646" />
     <option name="height" value="805" />
   </component>
@@ -315,15 +318,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502078206295</updated>
-      <workItem from="1502078216375" duration="17147000" />
+      <workItem from="1502078216375" duration="18646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17147000" />
+    <option name="totallyTimeSpent" value="18646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="209" y="248" width="1646" height="805" extended-state="0" />
+    <frame x="325" y="322" width="1646" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -395,22 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foundation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation-en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3810">
@@ -431,26 +418,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_cn.html">
+    <entry file="file://$PROJECT_DIR$/foundation-en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="244" column="57" lean-forward="false" selection-start-line="244" selection-start-column="57" selection-end-line="244" selection-end-column="57" />
+        <state relative-caret-position="226">
+          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/foundation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="166" column="105" lean-forward="false" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
+        <state relative-caret-position="226">
+          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="1956" column="1" lean-forward="false" selection-start-line="1956" selection-start-column="1" selection-end-line="1956" selection-end-column="1" />
+        <state relative-caret-position="232">
+          <caret line="2664" column="20" lean-forward="false" selection-start-line="2664" selection-start-column="20" selection-end-line="2664" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="134" column="63" lean-forward="false" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="133" column="98" lean-forward="false" selection-start-line="133" selection-start-column="98" selection-end-line="133" selection-end-column="98" />
           <folding />
         </state>
       </provider>

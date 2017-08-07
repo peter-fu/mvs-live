@@ -1914,7 +1914,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .bg-coverfixed{
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -2648,7 +2648,7 @@ a:hover{
 }
 
 .fd-screen{
-	background-image: url('../images/new/jjh-bg.png');
+	background-image: url('../images/new/bannerbg.jpg');
 	height: 500px;
 }
 .fd-screen .header-inner{
@@ -2661,7 +2661,7 @@ a:hover{
 	color: #fd0000;
 }
 .foundation-md{
-	padding:0 10%;
+	/*padding:0 10%;*/
 	font-size: 18px;
 }
 .foundation-md li{

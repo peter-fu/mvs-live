@@ -409,14 +409,14 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover{
 }
 
 .btn.outline.light{
-	color:#fff;
-	background:0 0;
-	/*border:2px solid #ccc;*/
-	/*border:2px solid rgba(255,255,255,.3)*/
-	border: 2px solid #fff;
+	color: #fff;
+	background: 0 0;
+	/* border: 2px solid #ccc; */
+	/* border: 2px solid rgba(255,255,255,.3); */
+	border: 1px solid #fff;
 	border-radius: 25px;
-	font-size: 16px;
-	padding: 10px 50px;
+	font-size: 12px;
+	padding: 2px 40px;
 	text-transform: none;
 }
 
@@ -1084,7 +1084,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 @media only screen and (min-width: 765px) and (max-width: 992px) {
 
 	.top-bar .container {
-		width: 960px;
+		/*width: 960px;*/
 	}
 	.sl-language {
 
@@ -1169,15 +1169,15 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	position: absolute;
 }
 .menu-trigger, .mvs-blog {
-	z-index: 999;
-	position: fixed;
 	display: block;
 	padding: 9px;
 	height: 32px;
 	width: 32px;
 	margin: 0px;
-	top: 2px;
-	right: 15px;
+	/*z-index: 999;*/
+	/*position: fixed;*/
+	/*top: 2px;*/
+	/*right: 15px;*/
 }
 
 
@@ -1382,7 +1382,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	padding-bottom:100px
 }
 
-.services{
+.services, .ptb80{
 	background:#fff;
 	padding-top:80px;
 	padding-bottom:80px
@@ -1942,14 +1942,18 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 }
 .hh-title{
-	margin: 60px 0 50px;
+	margin: 0 0 50px;
+}
+.col_feature{
+	height: 342px;
 }
 .cf-content{
-	font-size: 20px;
-	/*margin-top: 45px;*/
-	color: #fff;
-	margin: 15px 10px;
+	font-size: 16px;
+	/* margin-top: 45px; */
+	color: #f3f3f3;
+	margin: 30px 10px;
 	line-height: 1.5;
+	letter-spacing: 1px;
 }
 
 
@@ -1960,7 +1964,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .jijinhuibox{
-	background-image:url('../images/new/jijinhui.png');
+	background-image:url('../images/new/jijinhuibg.jpg');
 	height: 500px;
 	/*padding: 70px 0;*/
 }
@@ -1976,7 +1980,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 .container .six {
 	width: 48%;
-	/*height: 380px;*/
+	height: 380px;
 	max-width: 500px;
 }
 .product-box{
@@ -1988,24 +1992,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 .background-one{
 	margin-top: 70px;
-	background-image:url('../images/new/banner-1.png')
+	background-image:url('../images/new/bannerbg.jpg')
 }
 
-.background-two{
-	background-image:url('../images/bg-2.jpg')
-}
-
-.background-three{
-	background-image:url('../images/bg-3.jpg')
-}
-
-.background-four{
-	background-image:url('../images/bg-4.jpg')
-}
-
-.background-five{
-	background-image:url('../images/bg-5.jpg')
-}
 
 .loader{
 	margin-left:10px
@@ -2103,7 +2092,7 @@ a:hover{
 .send-email .sdinput{
 	/*background: #fff;*/
 	/*border-radius: 30px;*/
-	width: 362px;
+	width: 364px;
 	height: 48px;
 	padding: 0 6px;
 	color: #347ded;
@@ -2365,7 +2354,7 @@ a:hover{
 /*media special*/
 @media only screen and (min-width: 300px) and (max-width: 375px) {
 	.send-email .sdinput {
-		width: 195px !important;
+		width: 202px !important;
 	}
 	.send-email {
 		width: 285px !important;
@@ -2377,6 +2366,15 @@ a:hover{
 		font-size: 12px;
 	}
 
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+	.container .six {
+		width: 92% !important;
+		height: 380px!important;
+		/* max-width: 480px; */
+		margin: 10px 15px !important;
+		float: none;
+	}
 }
 @media only screen and (min-width: 300px) and (max-width: 475px) {
 	.tb-logo img {
@@ -2399,12 +2397,12 @@ a:hover{
 	h6.bigtext {
 		margin-bottom: 20px;
 	}
-	.container .six {
-	width: 92%;
-	/*height: 410px;*/
-	/* max-width: 480px; */
-	margin: 10px 15px;
-	}
+	/*.container .six {*/
+		/*width: 92%;*/
+		/*height: 410px;*/
+		/*!* max-width: 480px; *!*/
+		/*margin: 10px 15px;*/
+	/*}*/
 	.send-email{
 		width: 345px
 	}
@@ -2423,7 +2421,10 @@ a:hover{
 
 
 	.hh-title {
-		margin: 30px 0 20px;
+		margin:0 0 25px;
+	}
+	.col_feature {
+		height: 278px;
 	}
 	.cf-content {
 		font-size: 12px;
@@ -2466,12 +2467,13 @@ a:hover{
 
 	.foundationbox .hh-title {
 		font-size: 18px !important;
+		margin: 25px 0;
 	}
 	.foundation-md {
 		font-size: 13px !important;
 	}
 }
-@media only screen and (min-width: 476px) and (max-width: 880px) {
+@media only screen and (min-width: 476px) and (max-width: 900px) {
 
 	.metaverse-slg{
 		width: 400px;
@@ -2486,11 +2488,13 @@ a:hover{
 		font-size: 14px !important;
 	}
 
-
+	.social-footer .ftips {
+		font-size: 14px;
+	}
 
 	.container .six {
 		width: 44%;
-		/*height: 490px;*/
+		height: 440px;
 		/* max-width: 480px; */
 		margin: 0 15px;
 	}
@@ -2528,7 +2532,7 @@ a:hover{
 		margin: 50px 0 30px;
 	}
 	.cf-content {
-		font-size: 20px;
+		/*font-size: 20px;*/
 	}
 }
 
@@ -2603,10 +2607,10 @@ a:hover{
 
 }
 .foundation-headerbox .sl-language {
-	position: fixed;
-	right: 12px;
-	margin-left: 30px;
-	top: 10px;
+	/*position: fixed;*/
+	/*right: 12px;*/
+	/*margin-left: 30px;*/
+	/*top: 10px;*/
 }
 
 .sl-language{
@@ -2620,6 +2624,7 @@ a:hover{
 	/*position: absolute;*/
 	color: #0099ff;
 	font-size: 16px;
+	padding: 10px 0;
 	/*top: 0;*/
 	/*margin: 22px 10px 0;*/
 }
@@ -2677,3 +2682,6 @@ font-size: 36px;
 
 }
 
+.jijinhui-logo {
+	width: 180px;
+}

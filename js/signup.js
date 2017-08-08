@@ -11,6 +11,7 @@ $("#newsletter_form").submit(function(e) {
                clear_messages();
 							 if(data.success){
 							 	$('#confirmation_request').css('display','block');
+                                 $('.success_message').css('display','block');
 							 }
 							 else{
 								 switch(data.message){

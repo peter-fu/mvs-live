@@ -2060,7 +2060,10 @@ img {
 }
 .success_message{
 	display: none;
-	color: green;
+	color: #ED230D;
+	position: relative;
+	top: -30px;
+	font-size: 14px;
 }
 
 .icon-nav b{

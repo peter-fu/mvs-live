@@ -2061,11 +2061,17 @@ img {
 .success_message{
 	display: none;
 	color: #ED230D;
+	/*position: relative;*/
+	/*top: -30px;*/
+	/*font-size: 14px;*/
+}
+.success_message, .error_message{
 	position: relative;
 	top: -30px;
 	font-size: 14px;
+	margin: 0;
+	text-align: center;
 }
-
 .icon-nav b{
 	margin: 20px 0 10px ;
 }
@@ -2111,6 +2117,7 @@ a:hover{
 	background-color: #347ded;
 	text-transform: none;
 	border: none;
+	outline: none;
 }
 .send-email button:hover{
 	background-color: #225BB3;

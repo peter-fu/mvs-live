@@ -22,18 +22,14 @@
 /* ==================== 01. Basics ==================== */
 body {
 
-	font-family: "Open Sans","Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Open Sans","Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	/*font-family: "Open Sans", Arial, sans-serif;*/
-
+	font-family: 'Source Sans Pro',Arial,sans-serif,Tahoma,Arial,sans-serif;
 	font-size: 13px;
-
 	font-weight: 400;
-
 	line-height: 25px;
-
 	color: #777;
-
 }
 
 
@@ -489,7 +485,9 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover{
 	text-align:center;
 	z-index:60
 }
-
+.metaverse-slg{
+	margin: 0 0 20px 30px;
+}
 .bg-img{
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -1887,7 +1885,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 	.section-slider{
 		padding-top:50px;
-		padding-bottom:100px
+		padding-bottom:50px
 	}
 
 	.error-circle{
@@ -2413,6 +2411,9 @@ a:hover{
 
 	.metaverse-slg{
 		width: 200px;
+	}
+	.mvs-slg2{
+		width: 150px;
 	}
 	.icon-nav img {
 		width: 50px;

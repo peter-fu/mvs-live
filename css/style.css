@@ -1331,7 +1331,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	border-radius:10%;
 }
 
-.icon-nav b{
+.icon-nav strong{
 	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
 	font-style:normal;
 	font-size:14px;
@@ -1340,8 +1340,10 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	/*text-transform:uppercase;*/
 	line-height:20px;
 	color:#7b7b7b;
+	margin: 20px 0 10px;
 	display:block
 }
+
 
 .icon-nav em{
 	font-style:normal;
@@ -1995,9 +1997,6 @@ img {
 	margin: 0;
 	text-align: center;
 }
-.icon-nav b{
-	margin: 20px 0 10px ;
-}
 
 
 
@@ -2073,17 +2072,19 @@ a:hover{
 	font-size: 22px;
 	transition: all .4s;
 }
-.footer .facebook:hover {
+/*.footer .facebook:hover {*/
 	/*border-color: #3b5998;*/
-}
-.footer .facebook:hover > a i {
-	color: #3b5998;
-}
+/*}*/
+/*.footer .facebook:hover > a i {*/
+	/*color: #3b5998;*/
+/*}*/
 
 .social{
 	padding: 30px 0;
 }
-
+.footer .social li:hover > a i {
+	color: #225BB3;
+}
 .fa-ji{
 	width: 27px;
 	height: 28px;

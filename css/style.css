@@ -1197,7 +1197,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 }
 
-@media only screen and (min-width: 980px) and (max-width: 1200px) {
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
 	/*nav menu*/
 	.menu {
 		font-size: 14px;
@@ -1463,7 +1463,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	top: 0;
 	overflow: hidden;
 	height: 100%;
-	min-height: calc(100vh - 64px - 42px);
+	min-height: calc(100vh - 40px - 42px);
 	/*background-color: #000;*/
 	/*top: 0;*/
 	/*overflow: hidden;*/
@@ -1489,10 +1489,15 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	transform: translate3d(-50%,-65%,0);
 }
 
-@media only screen and (min-width: 300px) and (max-width: 991px){
-
+@media only screen and (min-width: 476px) and (max-width: 991px){
+	.desinfo{
+		top: -600px!important;
+	}
+	.video, .play-video {
+		display: none !important;
+	}
 }
-@media only screen and (min-width: 300px) and (max-width: 991px){
+@media only screen and (min-width: 300px) and (max-width: 475px){
 	/*@media  (min-width: 768px) and (max-width: 991px){*/
 	.video, .play-video {
 		display: none !important;
@@ -1501,7 +1506,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		/*height: 500px !important;*/
 	}
 	.desinfo{
-		/*top: -800px!important;*/
+		top: -700px!important;
 	}
 	.mvs-des {
 		font-size:14px;
@@ -1532,10 +1537,10 @@ audio, canvas, progress, video {
 }
 
 .desinfo{
-	/*position: relative;*/
-	/*top: -550px;*/
-	position: absolute;
-	top: 25%;
+	position: relative;
+	top: -550px;
+	/*position: absolute;*/
+	/*top: 25%;*/
 	color: #fff;
 	font-size: 18px;
 	left: 0;
@@ -2346,7 +2351,6 @@ img {
 .social-footer {
 	background: url('../images/newimgs/blue-bg.png') repeat;
 	height: 540px;
-	margin-bottom: 10px;
 	position: relative;
 }
 .social-footer .ftips{
@@ -2367,7 +2371,7 @@ img {
 }
 .success_message, .error_message{
 	position: relative;
-	top: -30px;
+	top: -10px;
 	font-size: 14px;
 	margin: 0;
 	text-align: center;
@@ -2405,7 +2409,7 @@ a:hover{
 	max-width: 730px;
 	height: 60px;
 	overflow: hidden;
-	margin: 100px auto 60px;
+	margin: 100px auto 30px;
 }
 .send-email .sdinput{
 	/*background: #fff;*/
@@ -3126,7 +3130,7 @@ a:hover{
 		display: none;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1300px) {
 	.menu ul li a {
 		padding: 3px 8px;
 	}
@@ -3370,11 +3374,15 @@ h2.text-normal{
 
 
 /*news*/
+.box .items{
+	height: 80px;
+}
 .gray-bbb{
 	color: #bbb;
 }
 .text-blbl{
 	width: 390px;
+
 	line-height: 1.4;
 	font-family: PingFangSC;
 	font-size: 18px;

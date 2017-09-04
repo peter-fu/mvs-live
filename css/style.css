@@ -3258,16 +3258,16 @@ ul, li{
 }
 
 
-.sld01{
-	background-image: url(../images/newimgs/foundationbg.png);
-}
+/*.sld01{*/
+	/*background-image: url(../images/newimgs/foundationbg.png);*/
+/*}*/
 .sld02{
-	background-image: url(../images/newimgs/zengoldbg.png);
+	background-image: url(../images/newimgs/zengoldbg.jpg);
 
 
 }
 .sld03{
-	background-image: url(../images/newimgs/zendaobg.png);
+	background-image: url(../images/newimgs/zendaobg.jpg);
 
 }
 .s-panel1{

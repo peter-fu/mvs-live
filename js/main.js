@@ -38,14 +38,28 @@
     });
 
     /* Minified js in demo only */
+
     $(window).bind(
         "scroll",
+
         function() {
+            // var yhfooter= $('.footer').offset().top;
+            // var yhfooternew= yhfooter-100;
+
+
             if($(this).scrollTop() > 100) {
                 $(".top-bar").removeClass("tb-large").addClass("tb-small")
             } else {
                 $(".top-bar").removeClass("tb-small").addClass("tb-large")
             }
+
+            if($(this).scrollTop() > 300) {
+                $('.footer-fixed-content').hide()
+            } else {
+                $('.footer-fixed-content').show()
+            }
+
+
         }
     );
     $(".home-c-slider").bxSlider({

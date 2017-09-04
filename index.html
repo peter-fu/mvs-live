@@ -12,6 +12,7 @@
     <meta name="keywords" content="metaverse,etp,元界,元界官网,元界metaverse,元界基金会,MetaverseFoundation,去中心化,数字身份,智能资产,区块链">
     <meta name="description" content="元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。">
 	<title>Metaverse元界 - The New Reality Blockchain Project</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/lib/font-awesome.min.css">
 	<link rel="stylesheet" href="css/lib/magnific-popup.css">
 	<link rel="stylesheet" href="css/lib/bxslider.css">
@@ -19,8 +20,11 @@
 	<link rel="stylesheet" href="css/lib/owl.theme.css">
 	<!--<link rel="stylesheet" href="css/lib/base.css">-->
 	<link rel="stylesheet" href="css/bootstrap.css">
+
 	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/animate-colorcicle.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="js/lib/modernizr.js"></script>
 	<!--<script src="js/statistics.js"></script>-->
 	<script>
@@ -55,298 +59,543 @@
 	</script>
 </head>
 <body>
-	<div id="top"></div>
-	<header id="header" class="top-bar tb-large tb-transp" >
-		<div class="container">
-
-				<div  class="headerbox">
-					<div class="tb-logo fl">
-						<h1 class="dis-tablecell">
-							<img src="images/new/logo.png" alt="metaverse" title="metaverse">
-						</h1>
-					</div>
-					<input type="checkbox" id="toggle" />
-
-					<a href="javascript:void(0)" class="menu-trigger fr">
-						<div class="hamburger">
-							<div class="menui top-menu"></div>
-							<div class="menui mid-menu"></div>
-							<div class="menui bottom-menu"></div>
-						</div>
-						<!--<label for="toggle" class="toggle"></label>-->
-					</a>
-
-					<nav class="menu en-menu">
-						<ul class="dis-tablecell">
-							<li><a href="#home" class="scrollto">Home</a></li>
-							<li><a href="#features" class="scrollto">Features</a></li>
-							<li><a href="#industy" class="scrollto">Industry</a>
-							<li><a href="#documents" class="scrollto">Documents</a></li>
-							<li><a href="#download" class="scrollto">Wallet Download</a></li>
-							<li class="mr-50"><a href="http://test1.metaverse.live:8820/" target="_blank" class="test-area">Testnet</a></li>
-							<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank" class="blockchain-exploer"><span>Blockchain Explorer</span> <i class="fa fa fa-search"></i></a></li>
-							<li class="sl-language">
-								<a href="./index_cn.html">中文</a>
-								<span class="line-lg">/</span>
-								<a href="javascript:;" class="active">EN</a>
-							</li>
-						</ul>
-					</nav>
+<div id="top"></div>
+<!--header-->
+<header id="header" class="top-bar tb-large tb-transp" >
+	<div class="headercontainer">
+		<div class="headerbox">
+			<div class="">
+				<div class="tb-logo fl">
+					<h1 class="dis-tablecell height50">
+						<img src="images/newimgs/metaverselogo.png" alt="metaverse" title="metaverse">
+						<!--<img src="images/newimgs/metaverse.png" alt="metaverse" title="metaverse">-->
+					</h1>
 				</div>
+
+				<nav class="menu cn-menu fl">
+					<ul class="dis-tablecell height50">
+						<!--<li><a href="#home" class="scrollto">首页</a></li>-->
+						<li><a href="#features" class="scrollto cool-line">Features</a></li>
+						<li><a href="#industy" class="scrollto cool-line">Industry</a>
+						<li><a href="#documents" class="scrollto cool-line">Documents</a></li>
+						<li><a href="#download" class="scrollto cool-line">Wallet</a></li>
+						<li><a href="./news_cn.html" class="cool-line">News</a></li>
+						<li><a class="cool-line" href="./foundation-en.html">Metaverse Foundation</a></li>
+						<li><a href="http://test1.metaverse.live:8820/" target="_blank"  class="test-area cool-line">Testnet</a></li>
+						<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="cool-line"><span>Blockchain Explorer</span><!-- <i class="fa fa fa-search"></i>--></a></li>
+						<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
+					</ul>
+					<div class="sl-language">
+						<a href="./index_cn.html"  class="active cool-line">CN</a>
+						<span class="line-lg">/</span>
+						<a href="./index.html" class="cool-line">EN</a>
+					</div>
+				</nav>
 
 			</div>
-		</header>
-		<section id="home" class="home">
-			<div class="header large bg-img fixed background-one">
-				<div class="header-inner">
-					<h2 class="bigtext text-white mb0 fadeInUp animated"><span class="bigtexttips">Metaverse</span><img src="images/new/mvs-words.png" alt="metaverse" class="metaverse-slg"></h2>
-					<h6 class="bigtext text-white fadeInUp animated"><span class="bigtexttips">The New Reality</span><img src="images/new/reality.png" alt="The New Reality" class="mvs-slg2"></h6>
-					<a class="btn cc-cbtn fadeInUp animated" href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-EN.pdf" target="_blank">
-						<span>White Paper</span>
-					</a>
+			<input type="checkbox" id="toggle" />
+
+
+			<a href="javascript:void(0)" class="menu-trigger fr">
+				<div class="hamburger">
+					<div class="menui top-menu"></div>
+					<div class="menui mid-menu"></div>
+					<div class="menui bottom-menu"></div>
+				</div>
+				<!--<label for="toggle" class="toggle"></label>-->
+			</a>
+
+
+		</div>
+	</div>
+</header>
+<!--header end-->
+
+
+<!--video-->
+<section class="video-box">
+	<!--video start-->
+	<div class="video-wrapper video-background">
+		<video src="http://newmetaverse.org/video/mvs-video.mp4" autoplay loop="loop" class="video hidden-sm">
+			your browser does not support the video tag
+		</video>
+
+		<!--<video autoplay="" class="video hidden-xs hidden-sm" loop="" muted="" poster="./video/yj.mp4">-->
+		<!--&lt;!&ndash;<source src="./video/yj.mp4" type="./video/mp4"></video>&ndash;&gt;-->
+		<!--<source src="./video/good2.mp4" type="./good2/mp4" class="videosorce">-->
+		<!--</video>-->
+		<div class="video-placeholder img-cover hidden-md hidden-lg" style=""></div>
+	</div>
+	<!--video end-->
+
+	<!--im des-->
+	<div class="desinfo container text-center">
+		<h2 class="mvs-slbox"><img src="./images/newimgs/mvs-sl.png" alt="The New Reality" class="mvs-sl"></h2>
+		<p class="mvs-des">Metaverse is a decentralised platform based on blockchain technology. <br>Metaverse is building a web of Smart Properties and establishing an open ecosystem <br>in which digital value can be circulated freely.</p>
+		<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video"><img src="images/newimgs/play-btn.png" class="plvideo">Full screen view video</a>
+	</div>
+	<!--im des-->
+
+</section>
+<!--video end-->
+
+<!--<section id="home" class="home">-->
+<!--<div class="header large bg-img fixed background-one">-->
+<!--<div class="header-inner">-->
+<!--<h2 class="bigtext text-white mb0 fadeInUp animated"><span class="bigtexttips">Metaverse</span><img src="images/new/mvs-words.png" alt="metaverse" class="metaverse-slg"></h2>-->
+<!--<h6 class="bigtext text-white fadeInUp animated"><span class="bigtexttips">The New Reality</span><img src="images/new/reality.png" alt="The New Reality" class="mvs-slg2"></h6>-->
+<!--<a class="btn cc-cbtn fadeInUp animated" href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf" target="_blank">-->
+<!--<span>白皮书</span>-->
+<!--</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+
+
+<section id="features" class="about position-relative">
+
+	<div class="container">
+		<h2 class="h2-title text-center fadeInUp animated">Metaverse's Features</h2>
+		<div class="ww-wrap">
+			<div class="col-sm-6 col-lg-3 slideInLeft animated">
+				<div class="icon-nav">
+					<img src="images/newimgs/icon1.png" alt="Digital Asset Registration" class="hvr-pulse">
+					<strong>Digital Asset Registration</strong>
+					<em>Digital assets are a new type of asset with ever growing importance. With only a few clicks you can own your assets onchain today!</em>
 				</div>
 			</div>
-		</section>
-
-
-		<section id="features" class="about">
-
-			<div class="container">
-				<div class="col-sm-6 col-lg-3 slideInLeft animated">
-					<div class="icon-nav">
-							<img src="images/new/icon1.png" alt="Digital Asset Registration" class="hvr-pulse">
-							<strong>Digital Asset Registration</strong>
-							<em>Digital assets are a new type of asset with ever growing importance. With only a few clicks you can own your assets onchain today!</em>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3  slideInLeft animated">
-					<div class="icon-nav">
-							<img src="images/new/icon2.png" alt="Digital Identity Design" class="hvr-pulse">
-							<strong>Digital Identity Design</strong>
-							<em>In Metaverse, records will last for forever. Digital identity is yours and yours to eternity.</em>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3  slideInRight animated">
-					<div class="icon-nav">
-							<img src="images/new/icon3.png" alt="Oracle Intermediary" class="hvr-pulse">
-							<strong>Oracle Intermediary</strong>
-							<em>Intermediary services(Oracles) are built upon a decentralised reputation system and act as a link between Metaverse and the real world.</em>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 slideInRight animated">
-					<div class="icon-nav">
-							<img src="images/new/icon4.png" alt="Decentralized Exchange" class="hvr-pulse">
-							<strong>Decentralized Exchange</strong>
-							<em>The Metaverse allows us to exchange value freely and easily. Imagine being able to do so with any other good.</em>
-					</div>
+			<div class="col-sm-6 col-lg-3 slideInLeft animated">
+				<div class="icon-nav">
+					<img src="images/newimgs/icon2.png"  alt="Digital Identity Design" class="hvr-pulse">
+					<strong>Digital Identity Design</strong>
+					<em>In Metaverse, records will last for forever. <br>Digital identity is yours and yours to eternity.</em>
 				</div>
 			</div>
-		</section>
-
-		<section id="featuress" class="featuresbox bg-coverfixed">
-			<div class="container ">
-				<div class="col_feature dis-tablecell">
-					<h3 class="hh-title text-center fadeInUp animated">Features</h3>
-					<p class="cf-content slideInLeft animated">Metaverse is a decentralised open platform of smart properties and digital identities, based on public blockchain technology. Aimed to establish the Internet of Value infrastructure, we combine Digital Assets, Digital Identities and Oracles to build a web of Smart Properties.</p>
+			<div class="col-sm-6 col-lg-3 slideInRight animated">
+				<div class="icon-nav">
+					<img src="images/newimgs/icon3.png" alt="Oracle Intermediary" class="hvr-pulse">
+					<strong>Oracle Intermediary</strong>
+					<em>Intermediary services(Oracles) are built upon a decentralised reputation system and act as a link between Metaverse and the real world.</em>
 				</div>
 			</div>
-		</section>
-
-		<section id="industy" class="work section-slider">
-			<div class="container">
-				<h3 class="h3-title text-center fadeInUp animated">Applications</h3>
-				<div class="product-box fl col-md-6 six spe-xh">
-					<div class="text-center"><img src="images/new/zengold.png" alt="zengold" title="zengold" class="responsive-img hvr-pulse"></div>
-					<div class="e-info">
-						<!--<h3>ZenGold</h3>-->
-						<p>ZenGold creates crypto assets that are backed by physical gold and can be bought and transfered instantly anywhere in the world while having pertinent asset information securely stored onto an unalterable Metaverse Blockchain.</p>
-					</div>
+			<div class="col-sm-6 col-lg-3  slideInRight animated">
+				<div class="icon-nav">
+					<img src="images/newimgs/icon4.png" alt="Decentralized Exchange" class="hvr-pulse">
+					<strong>Decentralized Exchange</strong>
+					<em>The Metaverse allows us to exchange value freely and easily. Imagine being able to do so with any other good.</em>
 				</div>
-				<div class="product-box  fr col-md-6 six spe-xh">
-					<div class="text-center"><img src="images/new/zendao.png" alt="ZenDao" title="ZenDao" class="responsive-img hvr-pulse"></div>
-					<div class="e-info">
-						<!--<h3>ZenDao</h3>-->
-						<p>ZenDao creates a digital representation of the real-world collectibles on Blockchain and establishes an unalterable digital provenance and ownership transfer channel.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section id="" class="jijinhuibox bg-coverfixed">
-			<div class="container">
-				<div class="col text-center dis-tablecell">
-					<h3><img src="images/new/jinjihuilogo.png" alt="元界基金会" title="元界基金会MetaverseFoundation" class="jijinhui-logo fadeInUp animated"></h3>
-					<p class="cf-content fadeInUp animated">Metaverse Foundation aims to maintain the normal operation of Metaverse Blockchain and build a complete and affluent Metaverse Blockchain Ecosystem. The Foundation’s investment and guidance is based on the development of all industrial links derived from the Metaverse Blockchain. </p>
-					<a class="btn cc-cbtn fadeInUp animated" href="./foundation-en.html" target="_blank">
-						<span>More Information</span>
-					</a>
-				</div>
-			</div>
-		</section>
-
-
-		<section id="documents" class="services section-slider overhide">
-
-			<div class="container col5-warp text-center relative">
-					<h3 class="h3-title text-center fadeInUp animated">Documents</h3>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large  fadeInUp animated">
-						<a href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-EN.pdf" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-book"></i>-->
-								<i class="iicon"><img src="images/new/iicon1.png" alt="" class="hvr-pulse"></i>
-								<p>White Paper</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="https://github.com/mvs-org" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-smile-o"></i>-->
-								<i class="iicon2"><img src="images/new/iicon2.png" alt="" class="hvr-pulse"></i>
-								<p>Code</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="https://github.com/mvs-org/metaverse/wiki/Metaverse-API-Call-List"  target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-wordpress"></i>-->
-								<i class="iicon3"><img src="images/new/iicon3.png" alt="" class="hvr-pulse"></i>
-								<p>Development Guide</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="https://blog.mvs.live/mvs-user-guide-en/" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-leaf"></i>-->
-								<i class="iicon4"><img src="images/new/iicon4.png" alt="" class="hvr-pulse"></i>
-								<p>User Guide</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="https://github.com/mvs-org/metaverse/wiki"  target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-leaf"></i>-->
-								<i class="iicon5"><img src="images/new/iicon5.png" alt="" class="hvr-pulse"></i>
-								<p>Metaverse Wiki</p>
-							</div>
-						</a>
-					</div>
-			</div>
-		</section>
-
-		<section class="social-footer bg-coverfixed">
-			<div class="row">
-				<div class="twelve_list">
-					<form class="form-list" id="newsletter_form" role="form">
-						<input type="hidden" name="language" value="zh">
-						<div class="send-email">
-							<input type="email" name="email" placeholder="E-mail address" class="sdinput" required="required"><button class="creatAssetBtn sendbtn">send</button>
-						</div>
-						<div class="success_message" id="confirmation_request">Please confirm your email address, we have sent it to your email address. Please consult and confirm the link.</div>
-						<div class="error_message" id="duplicate_error">Your mailbox message already exists.</div>
-						<p class="ftips">Register to our newsletter and get some free Metaverse coins for testing.</p>
-						<!--<ul>-->
-						<!--<li><input type="text" name="firstname" placeholder="名">-->
-						<!--</li>-->
-						<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
-						<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
-						<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
-						<!--<li><button class="creatAssetBtn">注册</button></li>-->
-						<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
-						<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
-						<!--<div class="error_message" id="email_error">您的邮箱地址无效</div>-->
-						<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
-						<!--</ul>-->
-					</form>
-				</div>
-			</div>
-		</section>
-
-		<section id="download" class="downloadwrap overhide ptb80">
-			<div class="container">
-				<h3 class="h3-title text-center fadeInUp animated">Wallet Download</h3>
-
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
-					<a href="http://newmetaverse.org/mvs-download/mvs-win64-v0.6.10.msi">
-						<div class="service-item">
-							<i class="fa fa-windows hvr-pulse"></i>
-							<!--<i class="iicon"><img src="images/new/iicon1.png" alt="" class=""></i>-->
-							<p>Windows 64bit</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
-					<a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-v0.6.10.zip">
-						<div class="service-item">
-							<i class="fa fa-apple hvr-pulse"></i>
-							<!--<i class="iicon2"><img src="images/new/iicon2.png" alt="" class=""></i>-->
-							<p>OS X</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
-					<a href="http://newmetaverse.org/mvs-download/mvs-linux-x86_64-v0.6.10.zip">
-						<div class="service-item">
-							<i class="fa fa-linux hvr-pulse"></i>
-							<!--<i class="iicon3"><img src="images/new/iicon3.png" alt="" class=""></i>-->
-							<p>Linux 64bit</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
-					<a href="http://github.com/mvs-org/metaverse" target="_blank">
-						<div class="service-item">
-							<i class="fa fa-code hvr-pulse"></i>
-							<!--<i class="iicon4"><img src="images/new/iicon4.png" alt="" class=""></i>-->
-							<p>Source Code</p>
-						</div>
-					</a>
-				</div>
-			</div>
-	</section>
-
-	<footer class="footer">
-		<div class="row">
-			<div class="twelve col">
-				<ul class="social margin-bottom-medium">
-					<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>
-					<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
-					<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-					<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-					<li class="bbs hvr-pulse"><a href="https://metaversetalk.org/forum.php" target="_blank"><i class="fa fa-bbs"></i></a></li>
-					<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
-					<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-					<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-					<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-				</ul>
-
-				<p class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Fundation. All Rights Reserved.<a href="" target="_blank" title=""></a></p>
 			</div>
 		</div>
-	</footer>
-
-	<!-- =========================
-	  Back to top button
-   ============================== -->
-
-	<div class="back-top-wrap">
-		<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>
 	</div>
+	<div class="white-paperbox container text-center">
+		<a class="blue-ctn btn cc-cbtn fadeInUp animated" href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-EN.pdf" target="_blank">
+			<span>White Paper</span>
+			<i class="fa fa-arrow-circle-right animated" aria-hidden="true"></i>
+		</a>
+	</div>
+	<div class="balloon-container balloon-container-top-left hidden-xs hidden-sm">
+		<div class="balloon-wrapper-sm" layout-index="2"><div class="balloon balloon-sm01 feature-balloon-0 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1000" scroll-parallax-tween="{ y: -250, x: -150, skewX: '10deg', rotation: 20 }" style="transform: matrix3d(0.959, 0.283406, 0, 0, -0.143178, 0.989697, 0, 0, 0, 0, 1, 0, -123.477, -205.795, 0, 1);"></div>
+		</div>
+		<div class="balloon-wrapper-lg" layout-index="3"><div class="balloon balloon-lg feature-balloon-1 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1500" scroll-parallax-tween="{ y: -150, x: -100, skewX: '20deg', rotation: 90 }" style="transform: matrix3d(0.557641, 0.830082, 0, 0, -0.690111, 0.723703, 0, 0, 0, 0, 1, 0, -62.3413, -93.512, 0, 1);"></div>
+		</div>
+		<div class="balloon-wrapper-xl" layout-index="1"><div class="balloon balloon-xl feature-balloon-2 ng-scope" scroll-parallax="#features" scroll-parallax-duration="2000" scroll-parallax-tween="{ y: -250, x: -250, skewX: '30deg', rotation: 0 }" style="transform: matrix3d(1, 0, 0, 0, 0.256565, 0.966527, 0, 0, 0, 0, 1, 0, -123.886, -123.886, 0, 1);"></div></div>
+	</div>
+	<div class="balloon-container balloon-container-bottom-right hidden-xs hidden-sm">
+		<div class="balloon-wrapper-sm" layout-index="3"><div class="balloon balloon-sm feature-balloon-3 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1500" scroll-parallax-tween="{ y: -220, x: -350, skewX: '30deg', rotation: 20 }" style="transform: matrix3d(0.3, 0.990661, 0, 0, -0.930221, 0.366999, 0, 0, 0, 0, 1, 0, -182.585, -36.517, 0, 1);"></div></div>
+		<div class="balloon-wrapper-md" layout-index="2"><div class="balloon balloon-md feature-balloon-4 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1500" scroll-parallax-tween="{ y: -80, x: -50, skewX: '20deg', rotation: 90 }" style="transform: matrix3d(0.14028, 0.990112, 0, 0, -0.896703, 0.442634, 0, 0, 0, 0, 1, 0, -45.52, -72.832, 0, 1);"></div></div>
+		<div class="balloon-wrapper-lg" layout-index="1"><div class="balloon balloon-lg feature-balloon-5 ng-scope" scroll-parallax="#features" scroll-parallax-duration="4000" scroll-parallax-tween="{ y: -80, x: -400, skewX: '30deg', rotation: 180 }" style="transform: matrix3d(0.3, 0.990661, 0, 0, -0.930221, 0.366999, 0, 0, 0, 0, 1, 0, -182.585, -36.517, 0, 1);"></div></div></div>
 
-	<script src="js/lib/jquery.min.js"></script>
-	<!--<script src="js/lib/retina.min.js"></script>-->
-	<script src="js/lib/jquery.magnific-popup.min.js"></script>
-	<script src="js/lib/jquery.bxslider.min.js"></script>
-	<script src="js/lib/owl.carousel.min.js"></script>
-	<script src="js/lib/jquery.fitvids.js"></script>
-	<script src="js/lib/jquery.equal.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/signup.js"></script>
-	</body>
+</section>
+
+<!--<section id="featuress" class="featuresbox bg-coverfixed">-->
+<!--<div class="container">-->
+<!--<div class="col_feature dis-tablecell">-->
+<!--<h3 class="hh-title text-center fadeInUp animated">特征</h3>-->
+<!--<p class="cf-content slideInLeft animated">元界是基于区块链技术开发的去中心化项目，我们将在元界上建立一个智能资产网络系统（Digital Asset Web），区块链上集成了数字身份认证（Digital Identity Verification）和价值 中介（Oracle）的服务框架，元界区块链将成为一个开放的数字价值流转的生态。作为中国第一个基于POW共识机制的公有区块链，元界将致力于提供基于资产登记、数字资产交换、数字身份、价值中介的去中心化服务。</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+
+<!--<section id="industy" class="work section-slider">-->
+<!--<div class="container">-->
+<!--<h3 class="h3-title text-center fadeInUp animated">应用</h3>-->
+<!--<div class="fl product-box col-md-6 six col medium-six col small-twelve col spe-xh">-->
+<!--<div class="text-center"><img src="images/new/zengold.png" alt="zengold" title="zengold" class="responsive-img  hvr-pulse"></div>-->
+<!--<div class="e-info">-->
+<!--&lt;!&ndash;<h3>ZenGold</h3>&ndash;&gt;-->
+<!--<p>ZenGold通过元界区块链使实体黄金价值转移到去中心化的网络上，使黄金价值可以像数字货币一样在全世界自由转移。</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="fr product-box col-md-6 six col medium-six col small-twelve col spe-xh">-->
+<!--<div class="text-center"><img src="images/new/zendao.png" alt="zendao" title="zendao" class="responsive-img  hvr-pulse"></div>-->
+<!--<div class="e-info">-->
+<!--&lt;!&ndash;<h3>ZenDao</h3>&ndash;&gt;-->
+<!--<p>ZenDao建立了实体物品的确权体系，使收藏品的所有权及其扭转历史通过区块链进行记录，并衍生了一系列工具实现了实体资产价值数字化应用。</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+
+
+<!--<section id="" class="jijinhuibox bg-coverfixed">-->
+<!--<div class="container">-->
+<!--<div class="col text-center dis-tablecell">-->
+<!--<h3><img src="images/new/jinjihuilogo.png" alt="MetaverseFoundation" title="MetaverseFoundation" class="jijinhui-logo fadeInUp animated"></h3>-->
+<!--<p class="cf-content fadeInUp animated">元界基金会成立的宗旨是维护元界区块链的正常运营，投资和引导基于元界区块链衍生的产业链各环节发展，最终打造一个完整、丰富的元界区块链生态</p>-->
+<!--<a class="btn cc-cbtn fadeInUp animated" href="./foundation.html" target="_blank">-->
+<!--<span>基金会详情</span>-->
+<!--</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+
+<!-- Slide banner Swiper -->
+<section class="swiper-container" id="industy">
+	<div class="swiper-wrapper en-box">
+		<!--sld01 begin-->
+		<!--<div class="swiper-slide">-->
+			<!--<div class="sld01">-->
+				<!--&lt;!&ndash;left&ndash;&gt;-->
+				<!--<div class="testimonial-panel testimonial-panel-bitcoin s-panel1" >-->
+					<!--<div class="left-fdbox text-left">-->
+						<!--<img class="img-retina mvs-fd" src="./images/newimgs/foundation.png">-->
+						<!--<h2 class="text-light text-normal">Metaverse Foundation</h2>-->
+						<!--<h4 class="text-light text-desfd">Metaverse Foundation aims to maintain the normal operation of Metaverse Blockchain and build a complete and affluent Metaverse Blockchain Ecosystem. The Foundation’s investment and guidance is based on the development of all industrial links derived from the Metaverse Blockchain. </h4>-->
+						<!--<a class="btn cc-cbtn2 ng-scope" href="./foundation-en.html">More Information</a>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--&lt;!&ndash;left content end&ndash;&gt;-->
+				<!--&lt;!&ndash;right&ndash;&gt;-->
+				<!--<div class="rightimgcbox">-->
+					<!--<img src="./images/newimgs/slidepr01.png">-->
+				<!--</div>-->
+				<!--&lt;!&ndash;right end&ndash;&gt;-->
+			<!--</div>-->
+		<!--</div>-->
+		<!--sld01 end-->
+		<!--sld02 begin-->
+		<div class="swiper-slide">
+			<div class="sld02">
+				<!--left-->
+				<div class="testimonial-panel s-panel2" >
+					<div class="left-fdbox text-left">
+						<img class="img-retina" src="./images/newimgs/zengoldlogo.png">
+						<h2 class="text-light text-normal">ZenGold</h2>
+						<h4 class="text-light text-desfd">ZenGold creates crypto assets that are backed by physical gold and can be bought and transfered instantly anywhere in the world while having pertinent asset information securely stored onto an unalterable Metaverse Blockchain.</h4>
+						<span class="btn cc-cbtn2 ng-scope">More Information</span>
+					</div>
+				</div>
+				<!--left content end-->
+				<!--right-->
+				<div class="rightimgcbox">
+					<img src="./images/newimgs/zendao.png">
+				</div>
+				<!--right end-->
+			</div>
+		</div>
+		<!--sld02 end-->
+		<!--sld03 begin-->
+		<div class="swiper-slide">
+			<div class="sld03">
+				<!--left-->
+				<div class="testimonial-panel s-panel3" >
+					<div class="left-fdbox text-left">
+						<img class="img-retina" src="./images/newimgs/ZenDao-logo.png">
+						<h2 class="text-light text-normal">Zen DAO</h2>
+						<h4 class="text-light text-desfd">ZenDao creates a digital representation of the real-world collectibles on Blockchain and establishes an unalterable digital provenance and ownership transfer channel.</h4>
+						<span class="btn cc-cbtn2 ng-scope">More Information</span>
+					</div>
+				</div>
+				<!--left content end-->
+				<!--right-->
+				<div class="rightimgcbox">
+					<img src="./images/newimgs/zengold.png">
+				</div>
+				<!--right end-->
+			</div>
+		</div>
+		<!--sld03 begin-->
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+</section>
+<!-- Slide banner Swiper  end-->
+
+
+<section id="documents" class="services section-slider overhide">
+	<div class="container col5-warp relative text-center">
+		<h3 class="h3-title text-center fadeInUp animated">Documents</h3>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+			<a href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-EN.pdf" target="_blank">
+				<div class="service-item">
+					<!--<i class="fa fa-book"></i>-->
+					<i class="iicon"><img src="images/newimgs/iicon1.png" alt="White Paper" class="hvr-pulse"></i>
+					<p>White Paper</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+			<a href="https://github.com/mvs-org" target="_blank">
+				<div class="service-item">
+					<!--<i class="fa fa-smile-o"></i>-->
+					<i class="iicon2"><img src="images/newimgs/iicon2.png" alt="Code" class="hvr-pulse"></i>
+					<p>Code</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+			<a href="https://github.com/mvs-org/metaverse/wiki/Metaverse-API-Call-List" target="_blank">
+				<div class="service-item">
+					<!--<i class="fa fa-wordpress"></i>-->
+					<i class="iicon3"><img src="images/newimgs/iicon3.png" alt="Development Guide" class="hvr-pulse"></i>
+					<p>Development Guide</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+			<a href="http://blog.mvs.live/mvs-user-guide-zh/" target="_blank">
+				<div class="service-item">
+					<!--<i class="fa fa-leaf"></i>-->
+					<i class="iicon4"><img src="images/newimgs/iicon4.png" alt="User Guide" class="hvr-pulse"></i>
+					<p>User Guide</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+			<a href="https://github.com/mvs-org/metaverse/wiki" target="_blank">
+				<div class="service-item">
+					<!--<i class="fa fa-leaf"></i>-->
+					<i class="iicon5"><img src="images/newimgs/iicon5.png" alt="Metaverse Wiki" class="hvr-pulse"></i>
+					<p>Metaverse Wiki</p>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="social-footer position-relative">
+	<div class="container">
+		<div class="twelve_list">
+			<form class="form-list" id="newsletter_form" role="form">
+				<input type="hidden" name="language" value="zh">
+				<div class="send-email">
+					<input type="email" name="email" placeholder="email" class="sdinput" required="required"><button class="creatAssetBtn sendbtn">Send</button>
+				</div>
+				<div class="error_message" id="duplicate_error">Your mailbox message already exists.</div>
+				<div class="success_message" id="confirmation_request">Please confirm your email address, we have sent it to your email address. Please consult and confirm the link.</div>
+				<!--<ul>-->
+				<!--<li><input type="text" name="firstname" placeholder="名">-->
+				<!--</li>-->
+				<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
+				<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
+				<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
+				<!--<li><button class="creatAssetBtn">注册</button></li>-->
+				<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
+				<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
+				<!--<div class="error_message" id="email_error">您的邮箱地址无效</div>-->
+				<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
+				<!--</ul>-->
+			</form>
+			<p class="ftips">Register to our newsletter and get some free Metaverse coins for testing.</p>
+
+		</div>
+		<img src="images/newimgs/hand-pc.png" class="hand-pc">
+
+	</div>
+</section>
+
+<section id="download" class="downloadwrap overhide ptb80">
+	<div class="container relative">
+		<h3 class="text-white h3-title text-center fadeInUp animated">Wallet</h3>
+
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom  fadeInUp animated">
+			<a href="http://newmetaverse.org/mvs-download/mvs-win64-v0.6.10.msi">
+				<div class="service-item">
+					<i class="fa fa-windows hvr-pulse"></i>
+					<!--<i class="iicon"><img src="images/new/iicon1.png" alt="" class=""></i>-->
+					<span>Windows 64bit</span>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
+			<a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-v0.6.10.zip">
+				<div class="service-item">
+					<i class="fa fa-apple hvr-pulse"></i>
+					<!--<i class="iicon2"><img src="images/new/iicon2.png" alt="" class=""></i>-->
+					<span>OS X</span>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
+			<a href="http://newmetaverse.org/mvs-download/mvs-linux-x86_64-v0.6.10.zip">
+				<div class="service-item">
+					<i class="fa fa-linux hvr-pulse"></i>
+					<!--<i class="iicon3"><img src="images/new/iicon3.png" alt="" class=""></i>-->
+					<span>Linux 64bit</span>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
+			<a href="http://github.com/mvs-org/metaverse" target="_blank">
+				<div class="service-item">
+					<i class="fa fa-code hvr-pulse"></i>
+					<!--<i class="iicon4"><img src="images/new/iicon4.png" alt="" class=""></i>-->
+					<span>Source Code</span>
+				</div>
+			</a>
+		</div>
+
+	</div>
+</section>
+
+
+
+<footer class="footer">
+	<div class="row">
+		<div class="twelve col">
+			<ul class="social margin-bottom-medium">
+				<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
+				<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>
+				<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
+				<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>
+				<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
+				<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+				<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+				<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+				<symbol id="icon-xiaotestblog-iconicon-xiaott" viewBox="0 0 46 32">
+					<title>blog-icon</title>
+					<path d="M13.123 15.051c0.045 0.226 0.045 0.497 0.045 0.723 0 1.356-0.588 2.802-1.717 4.384-0.949 1.265-2.079 2.395-3.435 3.39-1.22 0.904-2.079 1.311-2.531 1.265-0.497-0.045-1.356-0.407-2.576-1.085s-1.898-1.13-1.989-1.356c-0.045-0.045-0.045-0.136-0.045-0.226s0.045-0.226 0.090-0.362c0.045-0.136 0.090-0.271 0.090-0.362v-15.818c0-0.271 0.362-0.407 1.085-0.407 0.316 0 0.633 0.045 0.859 0.090 0.768-0.497 1.717-0.904 2.893-1.311 1.175-0.362 2.169-0.588 2.983-0.588 0.497 0 0.859 0.090 1.13 0.226s0.497 0.362 0.723 0.723c0.271 0.452 0.497 0.768 0.633 0.859 0.045 0.045 0.316 0.271 0.814 0.678 0.271 0.226 0.497 0.497 0.542 0.768 0.045 0.181 0.090 0.407 0.090 0.633 0 1.265-0.859 2.667-2.576 4.203 1.763 1.311 2.712 2.486 2.893 3.57zM8.875 7.142c-0.045-0.045-0.136-0.090-0.271-0.090-0.362 0-0.949 0.181-1.763 0.588s-1.356 0.768-1.627 1.13v2.531c1.040-0.814 1.943-1.672 2.712-2.531 0.768-0.904 1.085-1.446 0.949-1.627zM9.733 14.328c-0.407 0-1.13 0.226-2.169 0.633-1.085 0.452-1.898 0.859-2.35 1.311v4.52c1.040-0.271 2.079-1.175 3.119-2.667 1.040-1.537 1.491-2.757 1.401-3.796z"></path>
+					<path d="M19.586 5.017c0 0.136-0.045 0.271-0.090 0.452-0.090 0.181-0.136 0.316-0.136 0.362-0.090 0.316-0.181 0.814-0.271 1.491v15.005c0 0.181 0.045 0.362 0.136 0.542 0.090 0.136 0.136 0.271 0.136 0.362 0 1.040-0.181 1.582-0.588 1.672-0.136 0.045-0.678-0.090-1.537-0.316-0.904-0.271-1.401-0.452-1.582-0.588-0.362-0.316-0.542-0.588-0.542-0.859 0-0.045 0.045-0.136 0.090-0.226s0.090-0.226 0.090-0.407v-17.174c0-0.090-0.045-0.181-0.090-0.316-0.045-0.090-0.090-0.226-0.090-0.316 0.045-0.407 0.316-0.633 0.904-0.768 0.181-0.045 0.497-0.045 1.040 0 0.588 0.045 1.13 0.136 1.582 0.271 0.633 0.181 0.949 0.452 0.949 0.814z"></path>
+					<path d="M29.62 10.034c0.904 0.407 1.582 1.265 2.079 2.576 0.452 1.175 0.678 2.576 0.678 4.158 0 2.215-0.362 4.113-1.13 5.695-0.814 1.717-1.853 2.486-3.119 2.35-0.452-0.136-1.13-0.271-2.034-0.407-0.678-0.090-1.265-0.226-1.808-0.362-0.949-0.226-1.672-1.040-2.215-2.35-0.497-1.22-0.768-2.667-0.768-4.339s0.271-3.209 0.768-4.565c0.588-1.491 1.401-2.531 2.486-3.164 0.181-0.090 0.407-0.136 0.723-0.136s0.949 0.090 1.943 0.316c0.633-0.045 1.401 0.045 2.395 0.226zM26.908 12.204c-0.452 0-0.859 0.542-1.22 1.582-0.362 1.085-0.542 2.079-0.542 3.073 0 1.175 0.136 2.305 0.407 3.48 0.316 1.22 0.678 1.898 1.085 1.989 0.542 0.136 0.994-0.452 1.401-1.763 0.407-1.22 0.588-2.621 0.588-4.113 0-0.814-0.090-1.672-0.316-2.486-0.316-1.13-0.768-1.763-1.401-1.763z"></path>
+					<path d="M44.941 11.119c0 0-0.090 0.181-0.271 0.497-0.136 0.226-0.181 0.407-0.181 0.542v10.711c0 2.712-0.994 4.429-2.983 5.198-0.949 0.362-1.763 0.542-2.531 0.542-1.085 0-2.079-0.362-2.893-1.13-0.226-0.181-0.633-0.633-1.175-1.265-0.045-0.045-0.181-0.181-0.452-0.452-0.181-0.181-0.271-0.362-0.271-0.542 0-0.226 0.226-0.452 0.723-0.588 0.045 0 0.181-0.045 0.271-0.045 0.362 0 0.768 0.090 1.265 0.226s0.859 0.316 1.039 0.542c0.271 0.316 0.542 0.678 0.814 0.994 0.271 0.362 0.588 0.542 0.994 0.542 0.678 0.045 1.085-0.407 1.311-1.356 0.090-0.452 0.136-1.311 0.136-2.531-0.045 0.045-0.226 0.271-0.452 0.633-0.181 0.271-0.362 0.452-0.497 0.542-0.181 0.181-0.362 0.226-0.542 0.226-0.859 0-1.582-0.226-2.169-0.723-1.763-1.446-2.621-3.616-2.621-6.463 0-1.808 0.362-3.435 1.13-4.836 0.814-1.537 1.853-2.486 3.118-2.893 0.090-0.045 0.181-0.045 0.271-0.045 0.271 0 0.542 0.136 0.859 0.362 0.271 0.226 0.542 0.452 0.814 0.678 0.090-0.271 0.181-0.542 0.316-0.814 0.090-0.271 0.271-0.407 0.497-0.452 0.362-0.045 0.949 0.045 1.808 0.316s1.356 0.497 1.491 0.678c0.226 0.316 0.271 0.633 0.181 0.904zM40.602 17.085c0.136-1.13 0.181-2.034 0.181-2.757 0-1.311-0.226-2.079-0.633-2.215-0.362-0.136-0.768 0.452-1.265 1.717s-0.723 2.441-0.723 3.525c0 1.898 0.226 3.435 0.678 4.565 0.994-1.491 1.582-3.119 1.763-4.836z"></path>
+				</symbol>
+			</ul>
+
+			<strong class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></strong>
+		</div>
+	</div>
+</footer>
+
+<!-- =========================
+  Back to top button
+============================== -->
+
+<!--<div class="back-top-wrap" id="goTop">-->
+<!--<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>-->
+<!--</div>-->
+<!-- =========================
+  Back to top button end
+============================== -->
+
+<div class="footer footer-fixed-content position-fixed">
+	<ul class="social margin-bottom-medium">
+		<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
+		<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>
+		<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
+		<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+		<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>
+		<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
+		<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+		<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+		<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+		<symbol id="icon-xiaotestblog-iconicon-xiaott" viewBox="0 0 46 32">
+			<title>blog-icon</title>
+			<path d="M13.123 15.051c0.045 0.226 0.045 0.497 0.045 0.723 0 1.356-0.588 2.802-1.717 4.384-0.949 1.265-2.079 2.395-3.435 3.39-1.22 0.904-2.079 1.311-2.531 1.265-0.497-0.045-1.356-0.407-2.576-1.085s-1.898-1.13-1.989-1.356c-0.045-0.045-0.045-0.136-0.045-0.226s0.045-0.226 0.090-0.362c0.045-0.136 0.090-0.271 0.090-0.362v-15.818c0-0.271 0.362-0.407 1.085-0.407 0.316 0 0.633 0.045 0.859 0.090 0.768-0.497 1.717-0.904 2.893-1.311 1.175-0.362 2.169-0.588 2.983-0.588 0.497 0 0.859 0.090 1.13 0.226s0.497 0.362 0.723 0.723c0.271 0.452 0.497 0.768 0.633 0.859 0.045 0.045 0.316 0.271 0.814 0.678 0.271 0.226 0.497 0.497 0.542 0.768 0.045 0.181 0.090 0.407 0.090 0.633 0 1.265-0.859 2.667-2.576 4.203 1.763 1.311 2.712 2.486 2.893 3.57zM8.875 7.142c-0.045-0.045-0.136-0.090-0.271-0.090-0.362 0-0.949 0.181-1.763 0.588s-1.356 0.768-1.627 1.13v2.531c1.040-0.814 1.943-1.672 2.712-2.531 0.768-0.904 1.085-1.446 0.949-1.627zM9.733 14.328c-0.407 0-1.13 0.226-2.169 0.633-1.085 0.452-1.898 0.859-2.35 1.311v4.52c1.040-0.271 2.079-1.175 3.119-2.667 1.040-1.537 1.491-2.757 1.401-3.796z"></path>
+			<path d="M19.586 5.017c0 0.136-0.045 0.271-0.090 0.452-0.090 0.181-0.136 0.316-0.136 0.362-0.090 0.316-0.181 0.814-0.271 1.491v15.005c0 0.181 0.045 0.362 0.136 0.542 0.090 0.136 0.136 0.271 0.136 0.362 0 1.040-0.181 1.582-0.588 1.672-0.136 0.045-0.678-0.090-1.537-0.316-0.904-0.271-1.401-0.452-1.582-0.588-0.362-0.316-0.542-0.588-0.542-0.859 0-0.045 0.045-0.136 0.090-0.226s0.090-0.226 0.090-0.407v-17.174c0-0.090-0.045-0.181-0.090-0.316-0.045-0.090-0.090-0.226-0.090-0.316 0.045-0.407 0.316-0.633 0.904-0.768 0.181-0.045 0.497-0.045 1.040 0 0.588 0.045 1.13 0.136 1.582 0.271 0.633 0.181 0.949 0.452 0.949 0.814z"></path>
+			<path d="M29.62 10.034c0.904 0.407 1.582 1.265 2.079 2.576 0.452 1.175 0.678 2.576 0.678 4.158 0 2.215-0.362 4.113-1.13 5.695-0.814 1.717-1.853 2.486-3.119 2.35-0.452-0.136-1.13-0.271-2.034-0.407-0.678-0.090-1.265-0.226-1.808-0.362-0.949-0.226-1.672-1.040-2.215-2.35-0.497-1.22-0.768-2.667-0.768-4.339s0.271-3.209 0.768-4.565c0.588-1.491 1.401-2.531 2.486-3.164 0.181-0.090 0.407-0.136 0.723-0.136s0.949 0.090 1.943 0.316c0.633-0.045 1.401 0.045 2.395 0.226zM26.908 12.204c-0.452 0-0.859 0.542-1.22 1.582-0.362 1.085-0.542 2.079-0.542 3.073 0 1.175 0.136 2.305 0.407 3.48 0.316 1.22 0.678 1.898 1.085 1.989 0.542 0.136 0.994-0.452 1.401-1.763 0.407-1.22 0.588-2.621 0.588-4.113 0-0.814-0.090-1.672-0.316-2.486-0.316-1.13-0.768-1.763-1.401-1.763z"></path>
+			<path d="M44.941 11.119c0 0-0.090 0.181-0.271 0.497-0.136 0.226-0.181 0.407-0.181 0.542v10.711c0 2.712-0.994 4.429-2.983 5.198-0.949 0.362-1.763 0.542-2.531 0.542-1.085 0-2.079-0.362-2.893-1.13-0.226-0.181-0.633-0.633-1.175-1.265-0.045-0.045-0.181-0.181-0.452-0.452-0.181-0.181-0.271-0.362-0.271-0.542 0-0.226 0.226-0.452 0.723-0.588 0.045 0 0.181-0.045 0.271-0.045 0.362 0 0.768 0.090 1.265 0.226s0.859 0.316 1.039 0.542c0.271 0.316 0.542 0.678 0.814 0.994 0.271 0.362 0.588 0.542 0.994 0.542 0.678 0.045 1.085-0.407 1.311-1.356 0.090-0.452 0.136-1.311 0.136-2.531-0.045 0.045-0.226 0.271-0.452 0.633-0.181 0.271-0.362 0.452-0.497 0.542-0.181 0.181-0.362 0.226-0.542 0.226-0.859 0-1.582-0.226-2.169-0.723-1.763-1.446-2.621-3.616-2.621-6.463 0-1.808 0.362-3.435 1.13-4.836 0.814-1.537 1.853-2.486 3.118-2.893 0.090-0.045 0.181-0.045 0.271-0.045 0.271 0 0.542 0.136 0.859 0.362 0.271 0.226 0.542 0.452 0.814 0.678 0.090-0.271 0.181-0.542 0.316-0.814 0.090-0.271 0.271-0.407 0.497-0.452 0.362-0.045 0.949 0.045 1.808 0.316s1.356 0.497 1.491 0.678c0.226 0.316 0.271 0.633 0.181 0.904zM40.602 17.085c0.136-1.13 0.181-2.034 0.181-2.757 0-1.311-0.226-2.079-0.633-2.215-0.362-0.136-0.768 0.452-1.265 1.717s-0.723 2.441-0.723 3.525c0 1.898 0.226 3.435 0.678 4.565 0.994-1.491 1.582-3.119 1.763-4.836z"></path>
+		</symbol>
+	</ul>
+
+
+</div>
+
+
+
+
+
+<script src="js/lib/jquery.min.js"></script>
+<!--<script src="js/lib/retina.min.js"></script>-->
+<script src="js/lib/jquery.magnific-popup.min.js"></script>
+<script src="js/lib/jquery.bxslider.min.js"></script>
+<script src="js/lib/owl.carousel.min.js"></script>
+<script src="js/lib/jquery.fitvids.js"></script>
+<script src="js/lib/jquery.equal.js"></script>
+<script src="js/main.js"></script>
+<script src="js/signup.js"></script>
+<script>
+    //gotop
+    function goTop(){
+        var _btn = document.getElementById("goTop");
+        if (document.documentElement && document.documentElement.scrollTop) {
+            var _con = document.documentElement;
+        } else if (document.body) {
+            var _con = document.body;
+        }
+        window.onscroll = set;
+        _btn.style.left = document.documentElement.scrollWidth/2 + 500 + "px";
+        _btn.onclick = function (){
+            _btn.style.display = "none";
+            window.onscroll = null;
+            this.timer = setInterval(function() {
+                _con.scrollTop -= Math.ceil(_con.scrollTop * 0.3);
+                if (_con.scrollTop == 0) clearInterval(_btn.timer, window.onscroll = set);
+            },30);
+        };
+        function set() {
+            _btn.style.display = _con.scrollTop ? 'block': "none";
+        }
+    };
+    document.write("<div id=\"goTop\" style=\" background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:9999; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\"><a href='##' class='scrollto'><i class='back-top fa fa-chevron-up'></i></a></div>");
+    //document.write("<div id=\"goTop\" style=\"font-size:12px; width:20px; height:55px; background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:1; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\">返<br />回<br />顶<br />部</div>");
+    window.onscroll = goTop;
+
+</script>
+
+<!-- Swiper JS -->
+<script src="./js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2000,
+        autoplayDisableOnInteraction: false
+        //direction: 'vertical',
+        //mousewheelControl: true,
+    });
+
+
+
+
+    $(window).bind(
+        "scroll",
+
+        function() {
+            // var yhfooter= $('.footer').offset().top;
+            // var yhfooternew= yhfooter-100;
+
+            if($(this).scrollTop() > 3000) {
+                $('.footer-fixed-content').hide()
+            } else {
+                $('.footer-fixed-content').show()
+            }
+
+
+        }
+    );
+</script>
+<!-- Swiper JS end -->
+</body>
 </html>

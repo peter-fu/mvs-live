@@ -2745,7 +2745,7 @@ a:hover{
 		font-size: 12px;
 	}
 	.desinfo{
-		/*top: -500px !important;*/
+		top: -500px !important;
 	}
 
 }
@@ -3519,7 +3519,7 @@ h2.text-normal{
 	color: #35444E;
 }
 .spe-xh, .spe-xhh {
-	height: 185px;
+	height: 255px;
 }
 
 .spe-xh.active {
@@ -3532,18 +3532,28 @@ h2.text-normal{
 .spe-xh.active *, .spe-xh.active .icon-circle:hover>i{
 	color: #000;
 }
-.spe-xh.active .icon-circle i, .spe-xh.active  .service-item *
+.spe-xh.active .icon-circle i, .dldata-title, .spe-xh.active  .service-item *
 /*, .spe-xh.active .hover-show li a*/
 {
-	color: #3983c7;
+	color: #3983c7 ;
+}
+.spe-xh.active  .dldata-title{
+	color: #3983c7 !important;
 }
 .spe-xh.active .hover-show li a:hover{
 	color: #3983c7;
 	cursor: pointer;
 }
-
+.md5-data{
+	margin-bottom: 0;
+}
+/*.md5title{*/
+	/*text-align: left;*/
+	/*display: inline;*/
+	/*float: left;*/
+/*}*/
 .hover-show ul li{
-	display: inline-block;
+	/*display: inline-block;*/
 	margin: 0 15px;
 	position: relative;
 }

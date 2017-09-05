@@ -21,6 +21,43 @@
 
  */
 
+/**
+ * Created by liuxiaohuan
+ * download block
+ */
+
+$('.spe-xh').mouseenter(function(){
+
+    if($(this).hasClass('active')){
+        $(this).removeClass('active');
+    }else{
+        $('.spe-xh').removeClass('active');
+        $(this).addClass('active');
+    }
+
+});
+
+$('.spe-xh').mouseleave(function(){
+    $('.spe-xh').removeClass('active');
+});
+
+
+$('.menu ul li').mouseenter(function(){
+
+    if($(this).hasClass('active')){
+        $(this).removeClass('active');
+    }else{
+        $('.menu ul li').removeClass('active');
+        $(this).addClass('active');
+    }
+
+});
+
+$('.spe-xh').mouseleave(function(){
+    $('.spe-xh').removeClass('active');
+});
+
+
 
 (function(){
     "use strict";
@@ -272,6 +309,7 @@ if(screenwidth<990){
 
     $('.menu ul li a').click(function () {
         $('.menu').css('display','none');
+        $('.menu').addClass('mbmenu-hide');
         $('.menu').removeClass('is-active');
         $(".top-menu").removeClass("top-animate");
         $(".mid-menu").removeClass("mid-animate");

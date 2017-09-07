@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/newimgs/foundationbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/newimgs/mvs-sl01.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_cn.html" afterPath="$PROJECT_DIR$/index_cn.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="86" column="135" lean-forward="false" selection-start-line="86" selection-start-column="135" selection-end-line="86" selection-end-column="135" />
+            <state relative-caret-position="199">
+              <caret line="200" column="150" lean-forward="false" selection-start-line="200" selection-start-column="150" selection-end-line="200" selection-end-column="150" />
               <folding>
                 <marker date="1504757790000" expanded="true" signature="36462:36892" ph="..." />
               </folding>
@@ -40,18 +41,6 @@
             <state relative-caret-position="90">
               <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_cn.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="199" column="158" lean-forward="false" selection-start-line="199" selection-start-column="158" selection-end-line="199" selection-end-column="158" />
-              <folding>
-                <marker date="1504756863000" expanded="true" signature="35861:36291" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +100,7 @@
       <file leaf-file-name="news_cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="1305">
               <caret line="87" column="110" lean-forward="false" selection-start-line="87" selection-start-column="110" selection-end-line="87" selection-end-column="110" />
               <folding>
                 <marker date="1504629276000" expanded="true" signature="22549:22979" ph="..." />
@@ -123,9 +112,21 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53085">
-              <caret line="3539" column="14" lean-forward="false" selection-start-line="3539" selection-start-column="14" selection-end-line="3539" selection-end-column="14" />
+            <state relative-caret-position="133">
+              <caret line="3301" column="7" lean-forward="false" selection-start-line="3301" selection-start-column="7" selection-end-line="3301" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_cn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3797">
+              <caret line="432" column="95" lean-forward="false" selection-start-line="432" selection-start-column="95" selection-end-line="432" selection-end-column="95" />
+              <folding>
+                <marker date="1504777342000" expanded="true" signature="35861:36291" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.text-blbl</find>
-      <find>text-normal text-blbl cool-line</find>
       <find>images/newimgs/metaverselogo.png</find>
       <find>.menu ul li</find>
       <find>.social-footer</find>
@@ -164,6 +163,8 @@
       <find>fa fa-linux hvr-pulse</find>
       <find>fa fa-windows hvr-pulse</find>
       <find>Digital</find>
+      <find>foundationbg</find>
+      <find>fa fa-apple hvr-pulse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,8 +196,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="295" />
-    <option name="y" value="205" />
+    <option name="x" value="271" />
+    <option name="y" value="256" />
     <option name="width" value="1646" />
     <option name="height" value="825" />
   </component>
@@ -216,6 +217,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scratches" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,21 +270,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scratches" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -385,26 +386,27 @@
       <workItem from="1504010705691" duration="54000" />
       <workItem from="1504504614491" duration="3612000" />
       <workItem from="1504602707123" duration="19701000" />
-      <workItem from="1504756243186" duration="1399000" />
+      <workItem from="1504756243186" duration="2428000" />
+      <workItem from="1504776991420" duration="526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71750000" />
+    <option name="totallyTimeSpent" value="73305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="295" y="205" width="1646" height="825" extended-state="0" />
+    <frame x="271" y="256" width="1646" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -725,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53085">
-          <caret line="3539" column="14" lean-forward="false" selection-start-line="3539" selection-start-column="14" selection-end-line="3539" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
@@ -745,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news_cn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="1305">
           <caret line="87" column="110" lean-forward="false" selection-start-line="87" selection-start-column="110" selection-end-line="87" selection-end-column="110" />
           <folding>
             <marker date="1504629276000" expanded="true" signature="22549:22979" ph="..." />
@@ -753,20 +747,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="3301" column="7" lean-forward="false" selection-start-line="3301" selection-start-column="7" selection-end-line="3301" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index_cn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="199" column="158" lean-forward="false" selection-start-line="199" selection-start-column="158" selection-end-line="199" selection-end-column="158" />
+        <state relative-caret-position="3797">
+          <caret line="432" column="95" lean-forward="false" selection-start-line="432" selection-start-column="95" selection-end-line="432" selection-end-column="95" />
           <folding>
-            <marker date="1504756863000" expanded="true" signature="35861:36291" ph="..." />
+            <marker date="1504777342000" expanded="true" signature="35861:36291" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="86" column="135" lean-forward="false" selection-start-line="86" selection-start-column="135" selection-end-line="86" selection-end-column="135" />
+        <state relative-caret-position="199">
+          <caret line="200" column="150" lean-forward="false" selection-start-line="200" selection-start-column="150" selection-end-line="200" selection-end-column="150" />
           <folding>
             <marker date="1504757790000" expanded="true" signature="36462:36892" ph="..." />
           </folding>

@@ -497,6 +497,7 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 	background: #57C0F5;
 	border-color: #57C0F5;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 

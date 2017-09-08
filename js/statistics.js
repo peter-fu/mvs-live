@@ -1,7 +1,6 @@
 /*
  Growing IO
  statistics.js
-
  */
 var _hmt = _hmt || [];
 (function() {

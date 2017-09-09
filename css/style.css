@@ -1499,9 +1499,6 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 @media only screen and (min-width: 476px) and (max-width: 991px){
-	.desinfo{
-		/*top: -400px!important;*/
-	}
 	.video, .play-video {
 		display: none !important;
 	}
@@ -1510,12 +1507,6 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	/*@media  (min-width: 768px) and (max-width: 991px){*/
 	.video, .play-video {
 		display: none !important;
-	}
-	.video-placeholder, .video-box {
-		/*height: 500px !important;*/
-	}
-	.desinfo{
-		top: -700px!important;
 	}
 	.mvs-des {
 		font-size:14px;
@@ -1544,16 +1535,14 @@ audio, canvas, progress, video {
 .video-placeholder{
 	background-image: url('../images/videobg.jpg')
 }
-
+.desinfobox{
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	width: 100%;
+}
 .desinfo{
-	position: relative;
-	top: -550px;
-	/*position: absolute;*/
-	/*top: 25%;*/
-	color: #fff;
-	font-size: 18px;
-	left: 0;
-	right: 0;
 	color: #fff;
 	font-size:18px;
 }
@@ -1580,8 +1569,6 @@ audio, canvas, progress, video {
 }
 
 
-
-
 .home{
 	z-index:1
 }
@@ -1599,12 +1586,11 @@ audio, canvas, progress, video {
 }
 
 .about{
-	background:#fff;
 	/*padding-top:60px;*/
 	/*padding-bottom:100px;*/
+	background:#fff;
 	padding: 200px 0;
 	overflow: hidden;
-	margin-top: -245px;
 }
 .ww-wrap{
 	margin: 130px 0;
@@ -2076,7 +2062,7 @@ audio, canvas, progress, video {
 .footer{
 	background:#35444e;
 	/* padding-top:25px; */
-	padding-bottom:0;
+	padding-bottom:10px;
 	text-align:center;
 }
 
@@ -2751,11 +2737,8 @@ a:hover{
 	}
 	.copyright{
 		font-size: 12px;
+		font-weight: 400;
 	}
-	.desinfo{
-		top: -500px !important;
-	}
-
 }
 
 @media only screen and (min-width: 300px) and (max-width: 640px) {
@@ -2934,7 +2917,7 @@ a:hover{
 	}
 
 	.video-box {
-		height: 600px !important;
+		height: 350px !important;
 	}
 	.video-placeholder {
 		height: 450px !important;

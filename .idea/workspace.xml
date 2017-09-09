@@ -132,10 +132,10 @@
       <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="75" column="96" selection-start-line="75" selection-start-column="96" selection-end-line="75" selection-end-column="96" />
+            <state relative-caret-position="1185">
+              <caret line="79" column="75" selection-start-line="79" selection-start-column="75" selection-end-line="79" selection-end-column="75" />
               <folding>
-                <marker date="1504962522000" expanded="true" signature="23419:23849" ph="..." />
+                <marker date="1504965132000" expanded="true" signature="23416:23846" ph="..." />
               </folding>
             </state>
           </provider>
@@ -162,19 +162,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news_cn.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="news_cn.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+            <state relative-caret-position="210">
+              <caret line="79" column="83" selection-start-line="79" selection-start-column="83" selection-end-line="79" selection-end-column="83" />
               <folding>
-                <marker date="1504931211000" expanded="true" signature="22232:22662" ph="..." />
+                <marker date="1504965176000" expanded="true" signature="22235:22665" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -248,14 +248,14 @@
         <option value="$PROJECT_DIR$/js/swiper.min.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/statistics.js" />
-        <option value="$PROJECT_DIR$/news_cn.html" />
         <option value="$PROJECT_DIR$/foundation-en.html" />
         <option value="$PROJECT_DIR$/foundation-cn.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/index_cn.html" />
         <option value="$PROJECT_DIR$/foundation.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/news_cn.html" />
       </list>
     </option>
   </component>
@@ -426,12 +426,12 @@
       <workItem from="1504756243186" duration="2428000" />
       <workItem from="1504776991420" duration="7924000" />
       <workItem from="1504853778691" duration="5218000" />
-      <workItem from="1504931391695" duration="5738000" />
+      <workItem from="1504931391695" duration="6040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91659000" />
+    <option name="totallyTimeSpent" value="91961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-216" y="23" width="1454" height="733" extended-state="0" />
@@ -752,26 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="75" column="96" selection-start-line="75" selection-start-column="96" selection-end-line="75" selection-end-column="96" />
-          <folding>
-            <marker date="1504962522000" expanded="true" signature="23419:23849" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news_cn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
-          <folding>
-            <marker date="1504931211000" expanded="true" signature="22232:22662" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_cn.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2035">
@@ -820,6 +800,26 @@
         <state relative-caret-position="400">
           <caret line="2719" column="0" selection-start-line="2719" selection-start-column="0" selection-end-line="2719" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="75" selection-start-line="79" selection-start-column="75" selection-end-line="79" selection-end-column="75" />
+          <folding>
+            <marker date="1504965132000" expanded="true" signature="23416:23846" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="79" column="83" selection-start-line="79" selection-start-column="83" selection-end-line="79" selection-end-column="83" />
+          <folding>
+            <marker date="1504965176000" expanded="true" signature="22235:22665" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2718,6 +2718,9 @@ a:hover{
 	/*left: 200px;*/
 	width: 100%;
 }
+.cool-line:hover {
+	cursor: pointer;
+}
 /* line active end */
 
 
@@ -3542,14 +3545,8 @@ h2.text-normal{
 .md5-data{
 	margin-bottom: 0;
 }
-/*.md5title{*/
-	/*text-align: left;*/
-	/*display: inline;*/
-	/*float: left;*/
-/*}*/
+
 .hover-show ul li{
-	/*display: inline-block;*/
-	margin: 0 15px;
 	position: relative;
 }
 

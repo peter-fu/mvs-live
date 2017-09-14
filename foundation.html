@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--[if IE 7]><html lang="zh" class="ie7"><![endif]-->
-<!--[if IE 8]><html lang="zh" class="ie8"><![endif]-->
-<!--[if IE 9]><html lang="zh" class="ie9"><![endif]-->
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
-<!--[if !IE]><html lang="zh"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -17,6 +17,10 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/lib/modernizr.js"></script>
+	<!--[if lt IE 9]>
+	<script src="/js/h5/respond.js"></script>
+	<script src="/js/h5/html5shiv.min.js"></script>
+	<![endif]-->
 	<!--<script src="js/statistics.js"></script>-->
 	<script>
 		/*
@@ -139,6 +143,8 @@
 							<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
 							<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 							<li class="bbs hvr-pulse"><a href="https://metaversetalk.org/forum.php" target="_blank"><i class="fa fa-bbs"></i></a></li>
+							<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
+							<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
 							<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
 							<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
 							<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
@@ -153,8 +159,6 @@
 		<!-- =========================
 		  Back to top button
 	   ============================== -->
-
-
 
 		<div class="back-top-wrap">
 			<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>

@@ -36,6 +36,7 @@ body {
 	line-height: 25px;
 	color: #777;
 	min-width: 300px;
+	overflow-x: hidden;
 }
 
 .a, a:visited, a:active, a:-webkit-any-link{
@@ -487,7 +488,7 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 	/*width: 140px;*/
 	height: 40px;
 	line-height: 34px;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .btn.cc-cbtn2:hover {

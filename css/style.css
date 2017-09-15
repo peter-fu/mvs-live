@@ -3538,7 +3538,9 @@ h2.text-normal{
 .spe-hover, .spe-hoverh {
 	height: 255px;
 }
-
+.spe-wbox.spe-hover, .spe-wbox.spe-hoverh {
+	height: 280px;
+}
 .spe-hover.active {
 	background: #f3f3f3;
 	/*z-index: 1000;*/

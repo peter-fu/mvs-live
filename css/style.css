@@ -3315,24 +3315,19 @@ ul, li{
 /*.sld01{*/
 	/*background-image: url(../images/foundationbg.png);*/
 /*}*/
+.sld01{
+	background-image: url(../images/etpbg.jpg);
+}
 .sld02{
 	background-image: url(../images/zengoldbg.jpg);
-
-
 }
-.sld03{
-	background-image: url(../images/etpbg.jpg);
 
+.sld03{
+	background-image:url(../images/zendaobg.jpg);
 }
 .s-panel1{
 	/*background: #57C0F5;*/
 	/*background-image: linear-gradient(40deg,#57C0F5,#4EA8EA);*/
-}
-.s-panel2{
-	background: #FFDE48;
-}
-.s-panel3{
-	/*background: #6FD9D9;*/
 	background: linear-gradient(145deg,#57C0F5,#4EA8EA);
 	background:-moz-linear-gradient(left,#ace,#f96);/*Mozilla*/
 	/*background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!*/
@@ -3340,6 +3335,13 @@ ul, li{
 	background:-o-linear-gradient(145deg,#57C0F5,#4EA8EA); /*Opera11*/
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA);/*IE<9>*/
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA)";/*IE8+*/
+}
+.s-panel2{
+	background: #FFDE48;
+}
+.s-panel3{
+	background: #6FD9D9;
+
 }
 
 

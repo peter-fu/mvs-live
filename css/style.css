@@ -2746,7 +2746,9 @@ a:hover{
 }
 
 @media only screen and (min-width: 300px) and (max-width: 640px) {
-
+	.headercontainer {
+		margin: 0px 12px;
+	}
 	.product-box img {
 		width: 180px;
 	}
@@ -2761,7 +2763,10 @@ a:hover{
 	}
 	.img-retina {
 		margin: 10px 0 30px !important;
-		width: 200px;
+		width: 150px !important;
+	}
+	.img-etplogo {
+		/*height: 60px !important;*/
 	}
 	.text-desfd{
 		font-size: 14px !important;
@@ -3316,18 +3321,28 @@ ul, li{
 
 }
 .sld03{
-	background-image: url(../images/zendaobg.jpg);
+	background-image: url(../images/etpbg.jpg);
 
 }
 .s-panel1{
-	background: #57C0F5;
+	/*background: #57C0F5;*/
+	/*background-image: linear-gradient(40deg,#57C0F5,#4EA8EA);*/
 }
 .s-panel2{
 	background: #FFDE48;
 }
 .s-panel3{
-	background: #6FD9D9;
+	/*background: #6FD9D9;*/
+	background: linear-gradient(145deg,#57C0F5,#4EA8EA);
+	background:-moz-linear-gradient(left,#ace,#f96);/*Mozilla*/
+	/*background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!*/
+	background:-webkit-linear-gradient(145deg,#57C0F5,#4EA8EA);/*new gradient for Webkit*/
+	background:-o-linear-gradient(145deg,#57C0F5,#4EA8EA); /*Opera11*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA);/*IE<9>*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA)";/*IE8+*/
 }
+
+
 .testimonial-panel{
 	width: 40%;
 	height: 605px;
@@ -3336,12 +3351,15 @@ ul, li{
 	margin: 44px;
 }
 .img-retina{
-	/*width: 397px;*/
 	/*height: 68px;*/
 	margin: 40px 0 130px;
 }
 .img-retina.mvs-fd{
 	margin: 40px 0 100px;
+}
+.img-etplogo {
+	/*height: 80px;*/
+	width: 200px;
 }
 .rightimgcbox{
 	width: 40%;
@@ -3354,7 +3372,9 @@ ul, li{
 	max-width: 580px;
 	margin-top: 40px;
 }
-
+.mvs-logoimg{
+	max-width: 450px !important;
+}
 @media only screen and (max-width: 1112px) {
 	.rightimgcbox img{
 		max-width: 300px !important;

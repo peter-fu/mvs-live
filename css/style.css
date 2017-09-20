@@ -3329,9 +3329,9 @@ ul, li{
 	/*background: #57C0F5;*/
 	/*background-image: linear-gradient(40deg,#57C0F5,#4EA8EA);*/
 	background: linear-gradient(145deg,#57C0F5,#4EA8EA);
-	background:-moz-linear-gradient(left,#ace,#f96);/*Mozilla*/
+	background:-moz-linear-gradient(left,#57C0F5,#4EA8EA);/*Mozilla*/
 	/*background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!*/
-	background:-webkit-linear-gradient(145deg,#57C0F5,#4EA8EA);/*new gradient for Webkit*/
+	/*background:-webkit-linear-gradient(145deg,#57C0F5,#4EA8EA);new gradient for Webkit*/
 	background:-o-linear-gradient(145deg,#57C0F5,#4EA8EA); /*Opera11*/
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA);/*IE<9>*/
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA)";/*IE8+*/
@@ -3375,7 +3375,7 @@ ul, li{
 	margin-top: 40px;
 }
 .mvs-logoimg{
-	max-width: 450px !important;
+	max-width: 420px !important;
 }
 @media only screen and (max-width: 1112px) {
 	.rightimgcbox img{

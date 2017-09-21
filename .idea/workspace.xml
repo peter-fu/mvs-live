@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sitemap-mvslive.xml" afterPath="$PROJECT_DIR$/sitemap-live.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="$PROJECT_DIR$/sitemap.xml" />
-    </list>
+    <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -409,12 +405,12 @@
       <workItem from="1505878163447" duration="3631000" />
       <workItem from="1505887375044" duration="5045000" />
       <workItem from="1505970864653" duration="1790000" />
-      <workItem from="1505974443442" duration="137000" />
+      <workItem from="1505974443442" duration="379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123928000" />
+    <option name="totallyTimeSpent" value="124170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="258" y="309" width="1646" height="701" extended-state="0" />

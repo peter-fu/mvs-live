@@ -8,37 +8,49 @@
 
 <url>
   <loc>http://mvs.live/</loc>
-  <lastmod>2017-08-14T09:54:39+00:00</lastmod>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://mvs.live/news.html</loc>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mvs.live/foundation.html</loc>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://mvs.live/index_cn.html</loc>
-  <lastmod>2017-08-14T09:54:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://mvs.live/attachment/Metaverse-Whitepaper-english-draft.pdf</loc>
-  <lastmod>2017-08-14T09:54:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://mvs.live/foundation-en.html</loc>
-  <lastmod>2017-08-14T09:54:39+00:00</lastmod>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://mvs.live/index.html</loc>
-  <lastmod>2017-08-14T09:54:39+00:00</lastmod>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mvs.live/news_cn.html</loc>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://mvs.live/foundation.html</loc>
-  <lastmod>2017-08-14T09:54:39+00:00</lastmod>
+  <loc>http://mvs.live/foundation-cn.html</loc>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mvs.live/attachment/Metaverse-wallet-manual070.pdf</loc>
+  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>

@@ -2040,7 +2040,7 @@ audio, canvas, progress, video {
 	/*border-radius: 50%;*/
 	height: 35px;
 	width:35px;
-	line-height: 35px;
+	line-height: 38px;
 	border:1px solid #8a9297;
 	color: #35444e;
 	background-color: transparent;
@@ -2362,7 +2362,7 @@ img {
 }
 .success_message{
 	display: none;
-	color: #ED230D;
+	color: #ffdf60;
 	/*position: relative;*/
 	/*top: -30px;*/
 	/*font-size: 14px;*/
@@ -2495,7 +2495,7 @@ a:hover{
 }
 .fa-bbs{
 	background: url('../images/bbs.png');
-	top: 15px;
+	top: 12px;
 }
 
 .fa-ji, .fa-blog, .fa-bbs{
@@ -2503,7 +2503,7 @@ a:hover{
 	height: 28px;
 	background-repeat:no-repeat;
 	position: relative;
-	top: 5px;
+	top: 2px;
 }
 
 .fa-ji, .fa-bbs{

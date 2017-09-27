@@ -2492,12 +2492,16 @@ a:hover{
 }
 .fa-blog{
 	background: url('../images/blogi.png');
+	/*top: 5px !important;*/
+	zoom: .8;
 }
 .fa-bbs{
 	background: url('../images/bbs.png');
 	top: 12px;
 }
-
+.footerbox .fa-blog{
+	top: 5px !important;
+}
 .fa-ji, .fa-blog, .fa-bbs{
 	width: 20px;
 	height: 28px;
@@ -3028,6 +3032,7 @@ a:hover{
 	}
 	.fa-ji, .fa-blog, .fa-bbs{
 		zoom: .8;
+		/*background-size: cover;*/
 	}
 	.fa-bbs{
 		top: 14px;

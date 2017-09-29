@@ -1717,13 +1717,14 @@ audio, canvas, progress, video {
 	/*margin-bottom:0*/
 }
 
-#documents .service-item p{
+#documents .service-item p, .etp-about .des, .etp-about .service-item:hover .des{
 	color: #434F63;
 	font-weight: 400;
 }
-#documents .service-item:hover p{
+#documents .service-item:hover p/*, .etp-about .service-item:hover .des*/{
 	color: #02ceff;
 }
+
 .service-item .serif{
 	color:#aaa
 }
@@ -2818,6 +2819,28 @@ a:hover{
 	.back-top{
 		right: 8px;
 	}
+
+	/*zenairbox*/
+	.zenairbox .img-retina {
+		width: 120px !important;
+	}
+	.zenairbox .testimonial-panel {
+		padding: 20px !important;
+		margin: 20px !important;
+	}
+	.zenairbox h2.text-normal, .za-sl {
+		font-size: 16px;
+	}
+	.zenairbox .text-desfd {
+		font-size: 12px !important;
+		margin: 20px 0 25px;
+	}
+	.btn.cc-cbtn2 {
+		height: 35px;
+		line-height: 30px;
+		font-size: 14px !important;
+		padding: 2px 15px !important;
+	}
 }
 @media only screen and (max-width: 450px) and (min-width: 300px){
 	.rightimgcbox{
@@ -3031,7 +3054,7 @@ a:hover{
 		font-size: 18px;
 	}
 	.fa-ji, .fa-blog, .fa-bbs{
-		zoom: .8;
+		zoom: .6;
 		/*background-size: cover;*/
 	}
 	.fa-bbs{
@@ -3124,6 +3147,7 @@ a:hover{
 		/*font-size: 20px;*/
 	}
 }
+
 
 
 
@@ -3328,7 +3352,7 @@ ul, li{
 }
 
 .sld03{
-	background-image:url(../images/zendaobg.jpg);
+	background-image:url(../images/zenair-bg.jpg);
 }
 .s-panel1{
 	/*background: #57C0F5;*/
@@ -3345,8 +3369,14 @@ ul, li{
 	background: #FFDE48;
 }
 .s-panel3{
-	background: #6FD9D9;
-
+	/*background: #6FD9D9;*/
+	background: linear-gradient(75deg,rgba(93,154,231,0),rgba(93,154,231,100));
+	background:-moz-linear-gradient(left,rgba(93,154,231,0),rgba(93,154,231,100));/*Mozilla*/
+	/*background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!*/
+	/*background:-webkit-linear-gradient(145deg,#57C0F5,#4EA8EA);new gradient for Webkit*/
+	background:-o-linear-gradient(75deg,rgba(93,154,231,0),rgba(93,154,231,100)); /*Opera11*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=rgba(93,154,231,0), endColorstr=rgba(93,154,231,100));/*IE<9>*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=rgba(93,154,231,0), endColorstr=rgba(93,154,231,100))";/*IE8+*/
 }
 
 
@@ -3379,9 +3409,20 @@ ul, li{
 	max-width: 580px;
 	margin-top: 40px;
 }
-.mvs-logoimg{
-	max-width: 600px !important;
+.ri-plane{
+	position: absolute;
+	right: 0;
+	top: 60px;
 }
+.za-sl{
+	font-size: 24px;
+	margin-left: 15px;
+}
+.mvs-logoimg{
+	max-width: 600px;
+}
+
+
 @media only screen and (max-width: 1112px) {
 	.rightimgcbox img{
 		max-width: 300px !important;
@@ -3391,7 +3432,36 @@ ul, li{
 		margin: 40px 0 100px;
 		width: 200px;
 	}
+
+
+	.etp-box .mvs-logoimg {
+		max-width: 300px !important;
+	}
+
+	/*zenair*/
+	.zenairbox h2.text-normal, .za-sl {
+		font-size: 20px;
+	}
+	.zenairbox .text-desfd {
+		font-size: 14px;
+		margin: 20px 0 25px;
+	}
+	.zenairbox .img-retina {
+		/* height: 68px; */
+		margin: 10px 0 20px !important;
+	}
+	.en .zenairbox .text-desfd {
+		font-size: 14px !important;
+	}
+	.en .testimonial-panel {
+		padding: 25px !important;
+	}
+	.en  .etp-box .mvs-logoimg {
+		max-width: 220px !important;
+	}
 }
+
+
 @media only screen and (min-width: 575px) and (max-width:768px){
 	.rightimgcbox img{
 		max-width: 300px !important;
@@ -3419,6 +3489,12 @@ ul, li{
 		width: 100px;
 		font-size: 14px !important;
 	}
+
+	.zenairbox .text-desfd {
+		font-size: 13px !important;
+		margin: 20px 0 25px;
+	}
+
 }
 .testimonial-container .testimonial-panel-bitwage {
 	background-color: rgba(1,126,210,.8);
@@ -3435,7 +3511,7 @@ h2.text-normal{
 }
 .text-desfd{
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 18px;
 	color: #FFFFFF;
 	margin: 20px 0 40px;
 	text-align: left;
@@ -3567,7 +3643,7 @@ h2.text-normal{
 	height: 255px;
 }
 .spe-wbox.spe-hover, .spe-wbox.spe-hoverh {
-	height: 280px;
+	height: 285px;
 }
 .spe-hover.active {
 	background: #f3f3f3;
@@ -3621,3 +3697,111 @@ h2.text-normal{
 }
 /*download list end*/
 
+
+
+/*ETP*/
+.etp-box{
+	/*background: #6FD9D9;*/
+	background: linear-gradient(45deg,#009FE1,#00CBF9);
+	background:-moz-linear-gradient(left,#009FE1,#00CBF9);/*Mozilla*/
+	/*background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!*/
+	/*background:-webkit-linear-gradient(145deg,#57C0F5,#4EA8EA);new gradient for Webkit*/
+	background:-o-linear-gradient(45deg,#009FE1,#00CBF9); /*Opera11*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#009FE1, endColorstr=#00CBF9);/*IE<9>*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#009FE1, endColorstr=#00CBF9)";/*IE8+*/
+}
+
+
+.etp-box .testimonial-panel {
+	width: 50%;
+	height: 470px;
+	float: left;
+	padding: 50px 0;
+	margin: 44px 0;
+}
+.etp-box .rightimgcbox {
+	width: 50%;
+	margin-left: 55%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 470px;
+}
+
+.etp-box .mvs-logoimg {
+	max-width: 500px;
+}
+.etp-box .img-etplogo {
+	/* height: 80px; */
+	width: 110px;
+	margin: 0 0 50px;
+}
+.etp-box  h2.text-normal {
+	font-size: 36px;
+}
+@media only screen and (max-width:640px){
+	.etp-box .rightimgcbox, .ri-plane{
+		display: none;
+	}
+	.etp-box .img-etplogo {
+		width: 80px;
+	}
+
+	.swiper-slide, .sld01, .sld02, .sld03 {
+		height: 480px !important;
+	}
+	.zenairbox .testimonial-panel {
+		width: 88% !important;
+		height: 430px !important;
+		float: left;
+		padding: 20px !important;
+		margin: 30px !important;
+	}
+}
+
+
+.etp-desinfo{
+	color: #475367;
+	margin: 100px 0;
+}
+
+.etp-about .des{
+	margin-top: 40px;
+}
+
+
+/*ETP end*/
+
+/*zenair*/
+
+.zenairbox .za-des{
+	margin:20px 0 0px;
+}
+
+.zenairbox .img-retina {
+	/* height: 68px; */
+	margin: 10px 0 40px;
+}
+
+
+.en .testimonial-panel {
+	font-size: 14px;
+	/*width: 52%;*/
+	height: 605px;
+	float: left;
+	padding: 50px;
+	margin: 44px;
+}
+.en .text-desfd {
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin: 20px 0 30px;
+	text-align: left;
+	line-height: 1.5;
+}
+.en .zenairbox .text-desfd, .zenairbox .text-desfd {
+	font-size: 16px;
+}
+
+
+/*zenair end*/

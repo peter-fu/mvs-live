@@ -3855,6 +3855,7 @@ h2.text-normal{
 }
 .noticebox p{
 	margin-bottom:15px;
+	line-height: 2;
 }
 .author-mvs p{
 	margin-bottom:0;

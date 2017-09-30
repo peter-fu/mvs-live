@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="" />
+    <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -81,13 +83,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="207" column="69" lean-forward="false" selection-start-line="207" selection-start-column="69" selection-end-line="207" selection-end-column="69" />
+            <state relative-caret-position="191">
+              <caret line="207" column="22" lean-forward="false" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
               <folding>
-                <marker date="1506683103000" expanded="true" signature="29867:30297" ph="..." />
+                <marker date="1506747924000" expanded="true" signature="30590:31020" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,22 +109,20 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="214" column="54" lean-forward="false" selection-start-line="214" selection-start-column="54" selection-end-line="214" selection-end-column="54" />
+              <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
               <folding>
-                <marker date="1506682870000" expanded="true" signature="30476:30906" ph="..." />
+                <marker date="1506747924000" expanded="true" signature="31171:31601" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="3801" column="50" lean-forward="false" selection-start-line="3801" selection-start-column="50" selection-end-line="3801" selection-end-column="50" />
-              <folding>
-                <marker date="1506683032000" expanded="true" signature="51746:51750" ph="{...}" />
-              </folding>
+            <state relative-caret-position="319">
+              <caret line="3857" column="18" lean-forward="false" selection-start-line="3857" selection-start-column="18" selection-end-line="3857" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Linux 64bit</find>
       <find>Metaverse Launches the World's Leading Avatar and BaaS Service, Building the Blockchain Infrastructure of China</find>
       <find>.fa-bbs</find>
       <find>.success_message</find>
@@ -161,6 +160,7 @@
       <find>img-etplogo</find>
       <find>Application</find>
       <find>.zenairbox .za-des</find>
+      <find>.noticebox p</find>
     </findStrings>
     <replaceStrings>
       <replace>spe-xh</replace>
@@ -193,8 +193,8 @@
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/ror.xml" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index_cn.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -408,11 +408,12 @@
       <workItem from="1506500736680" duration="3664000" />
       <workItem from="1506589623567" duration="768000" />
       <workItem from="1506666898727" duration="12646000" />
+      <workItem from="1506748966685" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144177000" />
+    <option name="totallyTimeSpent" value="144246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="288" y="156" width="1646" height="849" extended-state="0" />
@@ -473,9 +474,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31785">
           <caret line="2119" column="18" lean-forward="false" selection-start-line="2119" selection-start-column="18" selection-end-line="2119" selection-end-column="18" />
-          <folding>
-            <marker date="1506683032000" expanded="true" signature="51746:51750" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +505,7 @@
         <state relative-caret-position="2010">
           <caret line="134" column="63" lean-forward="false" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
           <folding>
-            <marker date="1506682870000" expanded="true" signature="30476:30906" ph="..." />
+            <marker date="1506747924000" expanded="true" signature="31171:31601" ph="..." />
           </folding>
         </state>
       </provider>
@@ -536,9 +535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39960">
           <caret line="2664" column="20" lean-forward="false" selection-start-line="2664" selection-start-column="20" selection-end-line="2664" selection-end-column="20" />
-          <folding>
-            <marker date="1506683032000" expanded="true" signature="51746:51750" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,33 +738,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index_cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="207" column="22" lean-forward="false" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
+          <folding>
+            <marker date="1506747924000" expanded="true" signature="30590:31020" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="214" column="54" lean-forward="false" selection-start-line="214" selection-start-column="54" selection-end-line="214" selection-end-column="54" />
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
           <folding>
-            <marker date="1506682870000" expanded="true" signature="30476:30906" ph="..." />
+            <marker date="1506747924000" expanded="true" signature="31171:31601" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="3801" column="50" lean-forward="false" selection-start-line="3801" selection-start-column="50" selection-end-line="3801" selection-end-column="50" />
-          <folding>
-            <marker date="1506683032000" expanded="true" signature="51746:51750" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_cn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="207" column="69" lean-forward="false" selection-start-line="207" selection-start-column="69" selection-end-line="207" selection-end-column="69" />
-          <folding>
-            <marker date="1506683103000" expanded="true" signature="29867:30297" ph="..." />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="3857" column="18" lean-forward="false" selection-start-line="3857" selection-start-column="18" selection-end-line="3857" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

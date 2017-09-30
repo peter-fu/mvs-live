@@ -1553,6 +1553,7 @@ audio, canvas, progress, video {
 	opacity: .8;
 	max-width: 735px;
 	margin:0 auto 24px;
+	color: rgba(255,255,255,.6);
 }
 .play-video .plvideo{
 	margin-right: 20px;
@@ -2820,6 +2821,11 @@ a:hover{
 		right: 8px;
 	}
 
+	/*ETP*/
+	.etp-box .testimonial-panel {
+		height: 450px !important;
+	}
+
 	/*zenairbox*/
 	.zenairbox .img-retina {
 		width: 120px !important;
@@ -2899,6 +2905,11 @@ a:hover{
 		/*width: 300px !important;*/
 		/*margin-left: -145px !important;*/
 	/*}*/
+
+	.video-box {
+		/*height: 350px !important;*/
+		height: 1100px !important;
+	}
 }
 @media only screen and (max-width: 320px) {
 	.container .six {
@@ -2971,7 +2982,8 @@ a:hover{
 	}
 
 	.video-box {
-		height: 350px !important;
+		/*height: 350px !important;*/
+		height: 1100px !important;
 	}
 	.video-placeholder {
 		height: 450px !important;
@@ -3157,6 +3169,7 @@ a:hover{
 	}
 
 }
+
 @media only screen and (max-width: 762px) and (max-width: 880px) {
 	/*.blockchain-exploerbox {*/
 	/*margin-left: 0;*/
@@ -3203,6 +3216,13 @@ a:hover{
 	}
 	.cn-menu.menu{
 		margin-left: 50px !important;
+	}
+	/*ETP*/
+	.etp-box .mvs-logoimg {
+		max-width: 400px !important;
+	}
+	.zenairbox .ri-plane {
+		max-width: 450px !important;
 	}
 
 }
@@ -3413,6 +3433,7 @@ ul, li{
 	position: absolute;
 	right: 0;
 	top: 60px;
+	max-width: 750px;
 }
 .za-sl{
 	font-size: 24px;
@@ -3701,6 +3722,7 @@ h2.text-normal{
 
 /*ETP*/
 .etp-box{
+	height: 550px !important;
 	/*background: #6FD9D9;*/
 	background: linear-gradient(45deg,#009FE1,#00CBF9);
 	background:-moz-linear-gradient(left,#009FE1,#00CBF9);/*Mozilla*/
@@ -3714,17 +3736,18 @@ h2.text-normal{
 
 .etp-box .testimonial-panel {
 	width: 50%;
-	height: 470px;
+	height: 550px;
 	float: left;
-	padding: 50px 0;
-	margin: 44px 0;
+	padding: 0 50px;
+	margin: 0;
+}
+.etp-box .testimonial-panel  .left-fdbox{
+	height: 550px;
 }
 .etp-box .rightimgcbox {
 	width: 50%;
 	margin-left: 55%;
-	display: table-cell;
-	vertical-align: middle;
-	height: 470px;
+	height: 550px;
 }
 
 .etp-box .mvs-logoimg {
@@ -3744,6 +3767,14 @@ h2.text-normal{
 	}
 	.etp-box .img-etplogo {
 		width: 80px;
+	}
+	.etp-box .testimonial-panel .left-fdbox {
+		height: 450px;
+	}
+	.etp-box .testimonial-panel {
+		width: auto !important;
+		height: 450px !important;
+		padding: 0 !important;
 	}
 
 	.swiper-slide, .sld01, .sld02, .sld03 {
@@ -3805,3 +3836,41 @@ h2.text-normal{
 
 
 /*zenair end*/
+
+
+/*notice*/
+.noticebox{
+	max-width: 830px;
+	padding:40px 80px;
+	background: rgba(44,43,44,.9);
+	margin: 0 auto;
+	/*height: 460px;*/
+	border-radius: 30px;
+	color: #E5E5E5;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+.noticebox .h2{
+	font-size: 24px;
+}
+.noticebox p{
+	margin-bottom:15px;
+}
+.author-mvs p{
+	margin-bottom:0;
+	line-height: 1;
+}
+.author-mvs p.mvs-team{
+	margin-bottom: 15px;
+
+}
+
+
+@media only screen and (max-width: 762px) and (max-width: 1000px) {
+	.noticebox{
+		max-width: 600px !important;
+		width: 80% !important;
+		padding:20px 30px;
+	}
+	}
+/*notice end*/

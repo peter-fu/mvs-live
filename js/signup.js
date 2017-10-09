@@ -1,6 +1,6 @@
 $("#newsletter_form").submit(function(e) {
 
-    var url = "http://signup.newmetaverse.org/signup";
+    var url = "http://signup.newmetaverse.org:3000/signup";
 
     $.ajax({
            type: "GET",

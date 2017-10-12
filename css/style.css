@@ -1409,6 +1409,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 /*common btn*/
 
 .blue-ctn.btn.cc-cbtn{
+	letter-spacing: 0.5px;
 	color: #0099FF;
 	border: 2px solid #0099FF;
 	font-size: 18px;

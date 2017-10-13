@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_cn.html" afterPath="$PROJECT_DIR$/index_cn.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_cn.html" afterPath="$PROJECT_DIR$/news_cn.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +36,7 @@
       <file leaf-file-name="index_cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="1275">
               <caret line="85" column="57" lean-forward="false" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
               <folding>
                 <marker date="1507798246000" expanded="true" signature="30590:31020" ph="..." />
@@ -53,7 +48,7 @@
       <file leaf-file-name="foundation-cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foundation-cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-863">
+            <state relative-caret-position="15">
               <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
@@ -63,7 +58,7 @@
       <file leaf-file-name="foundation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foundation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1731">
+            <state relative-caret-position="2400">
               <caret line="160" column="41" lean-forward="false" selection-start-line="160" selection-start-column="41" selection-end-line="160" selection-end-column="41" />
               <folding />
             </state>
@@ -83,7 +78,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="1230">
               <caret line="82" column="49" lean-forward="false" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
               <folding>
                 <marker date="1507798246000" expanded="true" signature="31308:31738" ph="..." />
@@ -92,13 +87,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+            <state relative-caret-position="226">
+              <caret line="158" column="117" lean-forward="false" selection-start-line="158" selection-start-column="117" selection-end-line="158" selection-end-column="117" />
               <folding>
-                <marker date="1507798289000" expanded="true" signature="15093:15523" ph="..." />
+                <marker date="1507868198000" expanded="true" signature="15746:16176" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,7 +102,7 @@
       <file leaf-file-name="news_cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="93">
               <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
               <folding>
                 <marker date="1507798289000" expanded="true" signature="13885:14315" ph="..." />
@@ -116,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
@@ -140,7 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Metaverse Launches the World's Leading Avatar and BaaS Service, Building the Blockchain Infrastructure of China</find>
       <find>.fa-bbs</find>
       <find>.success_message</find>
       <find>duplicate_error</find>
@@ -170,6 +164,7 @@
       <find>Application</find>
       <find>.zenairbox .za-des</find>
       <find>.noticebox p</find>
+      <find>September 20,2017</find>
     </findStrings>
     <replaceStrings>
       <replace>spe-xh</replace>
@@ -193,17 +188,17 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/foundation-cn.html" />
         <option value="$PROJECT_DIR$/foundation.html" />
-        <option value="$PROJECT_DIR$/../../../重要-整理im/bomai2.0/page/goods_management_status.html" />
-        <option value="$PROJECT_DIR$/../../../重要-整理im/bomai2.0/page/reddit-style" />
+        <option value="$USER_HOME$/重要-整理im/bomai2.0/page/goods_management_status.html" />
+        <option value="$USER_HOME$/重要-整理im/bomai2.0/page/reddit-style" />
         <option value="$PROJECT_DIR$/urllist.txt" />
         <option value="$PROJECT_DIR$/sitemap-live.xml" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/ror.xml" />
         <option value="$PROJECT_DIR$/index_cn.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/news_cn.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/news.html" />
       </list>
     </option>
   </component>
@@ -235,21 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scratches" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,6 +268,21 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scratches" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -420,11 +415,12 @@
       <workItem from="1506748966685" duration="69000" />
       <workItem from="1507606745609" duration="1547000" />
       <workItem from="1507789165436" duration="907000" />
+      <workItem from="1507867905742" duration="387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146700000" />
+    <option name="totallyTimeSpent" value="147087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="220" y="225" width="1646" height="849" extended-state="0" />
@@ -622,13 +618,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation-en.html" />
-    <entry file="file://$PROJECT_DIR$/../../../重要-整理im/bomai2.0/page/reddit-style">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="284" column="77" lean-forward="false" selection-start-line="284" selection-start-column="77" selection-end-line="284" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/重要-整理im/bomai2.0/page/reddit-style" />
     <entry file="file://$PROJECT_DIR$/js/swiper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
@@ -658,18 +648,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sitemap-mvslive.xml" />
-    <entry file="file://$PROJECT_DIR$/../../../重要-整理im/bomai2.0/page/goods_management_status.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="186" column="1" lean-forward="false" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/重要-整理im/bomai2.0/page/goods_management_status.html" />
     <entry file="file://$PROJECT_DIR$/sitemap-live.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" column="76" lean-forward="false" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,17 +693,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="1230">
           <caret line="82" column="49" lean-forward="false" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
           <folding>
             <marker date="1507798246000" expanded="true" signature="31308:31738" ph="..." />
@@ -731,29 +703,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-          <folding>
-            <marker date="1507798289000" expanded="true" signature="15093:15523" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news_cn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-          <folding>
-            <marker date="1507798289000" expanded="true" signature="13885:14315" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_cn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="1275">
           <caret line="85" column="57" lean-forward="false" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
           <folding>
             <marker date="1507798246000" expanded="true" signature="30590:31020" ph="..." />
@@ -763,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation-cn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863">
+        <state relative-caret-position="15">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
@@ -771,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1731">
+        <state relative-caret-position="2400">
           <caret line="160" column="41" lean-forward="false" selection-start-line="160" selection-start-column="41" selection-end-line="160" selection-end-column="41" />
           <folding />
         </state>
@@ -782,6 +734,34 @@
         <state relative-caret-position="241">
           <caret line="1411" column="26" lean-forward="false" selection-start-line="1411" selection-start-column="26" selection-end-line="1411" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+          <folding>
+            <marker date="1507798289000" expanded="true" signature="13885:14315" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="158" column="117" lean-forward="false" selection-start-line="158" selection-start-column="117" selection-end-line="158" selection-end-column="117" />
+          <folding>
+            <marker date="1507868198000" expanded="true" signature="15746:16176" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

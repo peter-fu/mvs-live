@@ -3357,8 +3357,12 @@ ul, li{
 
 .swiper-slide, .sld01, .sld02, .sld03{
 	width: 100% !important;
+	/*height: 740px;*/
 	height: 695px;
 	background-size: cover;
+}
+.en .swiper-slide, .en .sld01, .en .sld02, .en .sld03{
+	height: 740px;
 }
 
 
@@ -3481,6 +3485,12 @@ ul, li{
 	.en  .etp-box .mvs-logoimg {
 		max-width: 220px !important;
 	}
+	.en .testimonial-panel.s-panel3 {
+		height: 630px !important;
+	}
+	.en .swiper-slide, .sld01, .sld02, .sld03 {
+		/*height: 695px !important;*/
+	}
 }
 
 
@@ -3515,6 +3525,12 @@ ul, li{
 	.zenairbox .text-desfd {
 		font-size: 13px !important;
 		margin: 20px 0 25px;
+	}
+	.en .testimonial-panel.s-panel3 {
+		height: 690px !important;
+	}
+	.en .applicationbox .swiper-slide, .applicationbox .sld01, .applicationbox .sld02, .applicationbox .sld03 {
+		height: 750px !important;
 	}
 
 }
@@ -3553,7 +3569,6 @@ h2.text-normal{
 }
 .text-blbl{
 	width: 390px;
-
 	line-height: 1.4;
 	font-family: PingFangSC;
 	font-size: 18px;
@@ -3665,7 +3680,7 @@ h2.text-normal{
 	height: 255px;
 }
 .spe-wbox.spe-hover, .spe-wbox.spe-hoverh {
-	height: 285px;
+	height: 290px;
 }
 .spe-hover.active {
 	background: #f3f3f3;
@@ -3833,46 +3848,49 @@ h2.text-normal{
 }
 .en .zenairbox .text-desfd, .zenairbox .text-desfd {
 	font-size: 16px;
+	line-height: 1.5;
 }
-
+.en .testimonial-panel.s-panel3 {
+	height: 670px;
+}
 
 /*zenair end*/
 
 
 /*notice*/
-.noticebox{
-	max-width: 830px;
-	padding:40px 80px;
-	background: rgba(44,43,44,.9);
-	margin: 0 auto;
-	/*height: 460px;*/
-	border-radius: 30px;
-	color: #E5E5E5;
-	font-size: 14px;
-	margin-bottom: 50px;
-}
-.noticebox .h2{
-	font-size: 24px;
-}
-.noticebox p{
-	margin-bottom:15px;
-	line-height: 2;
-}
-.author-mvs p{
-	margin-bottom:0;
-	line-height: 1;
-}
-.author-mvs p.mvs-team{
-	margin-bottom: 15px;
+/*.noticebox{*/
+	/*max-width: 830px;*/
+	/*padding:40px 80px;*/
+	/*background: rgba(44,43,44,.9);*/
+	/*margin: 0 auto;*/
+	/*!*height: 460px;*!*/
+	/*border-radius: 30px;*/
+	/*color: #E5E5E5;*/
+	/*font-size: 14px;*/
+	/*margin-bottom: 50px;*/
+/*}*/
+/*.noticebox .h2{*/
+	/*font-size: 24px;*/
+/*}*/
+/*.noticebox p{*/
+	/*margin-bottom:15px;*/
+	/*line-height: 2;*/
+/*}*/
+/*.author-mvs p{*/
+	/*margin-bottom:0;*/
+	/*line-height: 1;*/
+/*}*/
+/*.author-mvs p.mvs-team{*/
+	/*margin-bottom: 15px;*/
 
-}
+/*}*/
 
 
-@media only screen and (max-width: 762px) and (max-width: 1000px) {
-	.noticebox{
-		max-width: 600px !important;
-		width: 80% !important;
-		padding:20px 30px;
-	}
-	}
+/*@media only screen and (max-width: 762px) and (max-width: 1000px) {*/
+	/*.noticebox{*/
+		/*max-width: 600px !important;*/
+		/*width: 80% !important;*/
+		/*padding:20px 30px;*/
+	/*}*/
+	/*}*/
 /*notice end*/

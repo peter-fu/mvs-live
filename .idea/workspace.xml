@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_cn.html" afterPath="$PROJECT_DIR$/index_cn.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,10 +64,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1055">
-              <caret line="431" column="70" lean-forward="false" selection-start-line="431" selection-start-column="70" selection-end-line="431" selection-end-column="70" />
+            <state relative-caret-position="306">
+              <caret line="404" column="48" lean-forward="false" selection-start-line="404" selection-start-column="48" selection-end-line="404" selection-end-column="48" />
               <folding>
-                <marker date="1508318422000" expanded="true" signature="34197:34627" ph="..." />
+                <marker date="1508318659000" expanded="true" signature="34199:34629" ph="..." />
               </folding>
             </state>
           </provider>
@@ -415,7 +414,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156872000" />
+    <option name="totallyTimeSpent" value="157142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="125" width="1646" height="849" extended-state="0" />
@@ -516,7 +515,7 @@
         <state relative-caret-position="2010">
           <caret line="134" column="63" lean-forward="false" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
           <folding>
-            <marker date="1508318422000" expanded="true" signature="34197:34627" ph="..." />
+            <marker date="1508318659000" expanded="true" signature="34199:34629" ph="..." />
           </folding>
         </state>
       </provider>
@@ -769,10 +768,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1055">
-          <caret line="431" column="70" lean-forward="false" selection-start-line="431" selection-start-column="70" selection-end-line="431" selection-end-column="70" />
+        <state relative-caret-position="306">
+          <caret line="404" column="48" lean-forward="false" selection-start-line="404" selection-start-column="48" selection-end-line="404" selection-end-column="48" />
           <folding>
-            <marker date="1508318422000" expanded="true" signature="34197:34627" ph="..." />
+            <marker date="1508318659000" expanded="true" signature="34199:34629" ph="..." />
           </folding>
         </state>
       </provider>

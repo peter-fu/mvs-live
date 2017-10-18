@@ -2869,7 +2869,11 @@ a:hover{
 		font-size: 24px;
 	}
 
-
+	.team-wrap .col-sm-6 {
+		width:100% !important;
+		/*float: left;*/
+		/*margin-bottom: 15px;*/
+	}
 
 }
 @media only screen and (min-width: 321px) and (max-width: 600px) {
@@ -2908,8 +2912,8 @@ a:hover{
 	/*}*/
 
 	.video-box {
-		/*height: 350px !important;*/
-		height: 1100px !important;
+		height: 350px !important;
+		/*height: 1100px !important;*/
 	}
 }
 @media only screen and (max-width: 320px) {
@@ -2984,7 +2988,7 @@ a:hover{
 
 	.video-box {
 		/*height: 350px !important;*/
-		height: 1100px !important;
+		/*height: 1100px !important;*/
 	}
 	.video-placeholder {
 		height: 450px !important;
@@ -3855,3 +3859,86 @@ h2.text-normal{
 }
 
 /*zenair end*/
+
+/*Team begin*/
+.team-wrap .text-desfd{
+	text-align: center;
+}
+.Our-team{
+	font-size: 30px;
+}
+.team-h1 img.photo{
+	width: 220px;
+}
+.team-h2 img.photo{
+	width: 180px;
+}
+.team-wrap  .text-desfd {
+	font-size: 24px;
+}
+
+.team-wrap{
+	color: #434F63;
+}
+.t-name{
+	font-size: 20px;
+	/*color: #434F63;*/
+}
+
+.team-wrap .text-desinfo{
+	color: #434F63;
+	margin: 0 0 100px 0;
+	font-size: 24px;
+}
+
+.team-h2 .col-sm-6{
+	margin-bottom: 30px !important;
+}
+.personal-info{
+	margin: 15px 0;
+}
+.personal-info *{
+	display: block;
+}
+.positionbox{
+	font-style: normal;
+	font-size: 14px;
+}
+@media (min-width: 1200px){
+	.team-wrap .col-lg-3 {
+		width: 33.33%;
+	}
+
+}
+
+@media (min-width: 768px){
+	.team-wrap .col-sm-6 {
+		width:33.33%;
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.team-wrap .col-sm-6 {
+		width:50%;
+		float: left;
+		/*margin-bottom: 15px;*/
+	}
+	.personal-info {
+		margin: 15px 0;
+		min-height: 75px;
+	}
+	.team-h2 .col-sm-6 {
+		margin-bottom: 10px !important;
+	}
+	.team-wrap .text-desinfo{
+		color: #434F63;
+		margin: 0 0 50px 0;
+		font-size: 22px;
+	}
+	.etp-desinfo {
+		color: #475367;
+		margin: 50px 0;
+	}
+}
+/*Team end*/

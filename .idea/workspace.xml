@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_cn.html" afterPath="$PROJECT_DIR$/index_cn.html" />
-    </list>
+    <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -64,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="358" column="36" lean-forward="false" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="36" />
+            <state relative-caret-position="217">
+              <caret line="404" column="42" lean-forward="false" selection-start-line="404" selection-start-column="38" selection-end-line="404" selection-end-column="42" />
               <folding>
                 <marker date="1508316785000" expanded="true" signature="34183:34613" ph="..." />
               </folding>
@@ -91,7 +86,7 @@
       <file leaf-file-name="news_cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
+            <state relative-caret-position="93">
               <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
               <folding>
                 <marker date="1507798289000" expanded="true" signature="13885:14315" ph="..." />
@@ -100,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -417,7 +412,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156132000" />
+    <option name="totallyTimeSpent" value="156260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="125" width="1646" height="849" extended-state="0" />
@@ -685,16 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_cn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-          <folding>
-            <marker date="1507798289000" expanded="true" signature="13885:14315" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -761,21 +746,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="358" column="36" lean-forward="false" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="36" />
-          <folding>
-            <marker date="1508316785000" expanded="true" signature="34183:34613" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="2915" column="33" lean-forward="true" selection-start-line="2915" selection-start-column="33" selection-end-line="2915" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+          <folding>
+            <marker date="1507798289000" expanded="true" signature="13885:14315" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="404" column="42" lean-forward="false" selection-start-line="404" selection-start-column="38" selection-end-line="404" selection-end-column="42" />
+          <folding>
+            <marker date="1508316785000" expanded="true" signature="34183:34613" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

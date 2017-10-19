@@ -3438,6 +3438,9 @@ ul, li{
 	max-width: 580px;
 	margin-top: 40px;
 }
+.en .rightimgcbox img {
+	margin-top: 120px;
+}
 .ri-plane{
 	position: absolute;
 	right: 0;
@@ -3889,6 +3892,7 @@ h2.text-normal{
 	color: #434F63;
 	margin: 50px 0 100px 0;
 	font-size: 24px;
+	line-height: 1.5;
 }
 
 .team-h2 .col-sm-6{

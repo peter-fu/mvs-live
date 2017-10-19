@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/Eric1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/Janice.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/Chenhao.png" afterPath="$PROJECT_DIR$/images/team/Chenhao.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/Eric.jpg" afterPath="$PROJECT_DIR$/images/team/Eric.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/Jianglianghe.png" afterPath="$PROJECT_DIR$/images/team/Jianglianghe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/Lanjian.png" afterPath="$PROJECT_DIR$/images/team/Lanjian.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/Sunqianwen.png" afterPath="$PROJECT_DIR$/images/team/Sunqianwen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/Wangdaoqun.png" afterPath="$PROJECT_DIR$/images/team/Wangdaoqun.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/Wangdongyun.png" afterPath="$PROJECT_DIR$/images/team/Wangdongyun.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/zengold.png" afterPath="$PROJECT_DIR$/images/zengold.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_cn.html" afterPath="$PROJECT_DIR$/index_cn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="300" column="46" lean-forward="false" selection-start-line="300" selection-start-column="46" selection-end-line="300" selection-end-column="46" />
+            <state relative-caret-position="226">
+              <caret line="215" column="86" lean-forward="false" selection-start-line="215" selection-start-column="86" selection-end-line="215" selection-end-column="86" />
               <folding>
                 <marker date="1508402937000" expanded="true" signature="34199:34629" ph="..." />
               </folding>
@@ -108,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="3397" column="23" lean-forward="false" selection-start-line="3397" selection-start-column="23" selection-end-line="3397" selection-end-column="23" />
+            <state relative-caret-position="292">
+              <caret line="3441" column="18" lean-forward="false" selection-start-line="3441" selection-start-column="18" selection-end-line="3441" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -152,8 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.zenairbox .testimonial-panel</find>
-      <find>rightimgcbox</find>
       <find>.en .zenairbox .text-desfd</find>
       <find>.fa-ji, .fa-blog, .fa-bbs</find>
       <find>img-etplogo</find>
@@ -179,9 +166,11 @@
       <find>Eric</find>
       <find>Chen</find>
       <find>Chen Hao</find>
-      <find>zengold</find>
       <find>.s-panel2</find>
+      <find>zengold</find>
+      <find>.rightimgcbox img</find>
       <find>Janice</find>
+      <find>./images/ETP-adimg.png</find>
     </findStrings>
     <replaceStrings>
       <replace>spe-xh</replace>
@@ -214,8 +203,8 @@
         <option value="$PROJECT_DIR$/news_cn.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/index_cn.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -421,12 +410,12 @@
       <workItem from="1507789165436" duration="907000" />
       <workItem from="1507867905742" duration="387000" />
       <workItem from="1507955689102" duration="2640000" />
-      <workItem from="1508391790613" duration="2677000" />
+      <workItem from="1508391790613" duration="3294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160645000" />
+    <option name="totallyTimeSpent" value="161262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="231" width="1646" height="849" extended-state="0" />
@@ -736,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="3397" column="23" lean-forward="false" selection-start-line="3397" selection-start-column="23" selection-end-line="3397" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -770,11 +751,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="300" column="46" lean-forward="false" selection-start-line="300" selection-start-column="46" selection-end-line="300" selection-end-column="46" />
+        <state relative-caret-position="226">
+          <caret line="215" column="86" lean-forward="false" selection-start-line="215" selection-start-column="86" selection-end-line="215" selection-end-column="86" />
           <folding>
             <marker date="1508402937000" expanded="true" signature="34199:34629" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="3441" column="18" lean-forward="false" selection-start-line="3441" selection-start-column="18" selection-end-line="3441" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

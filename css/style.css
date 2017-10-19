@@ -3875,6 +3875,7 @@ h2.text-normal{
 }
 .team-h2 img.photo{
 	width: 180px;
+	border-radius: 100%;
 }
 .team-wrap  .text-desfd {
 	font-size: 24px;

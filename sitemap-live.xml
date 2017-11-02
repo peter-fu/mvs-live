@@ -1,57 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
+f<?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>http://mvs.live/</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://mvs.live/news.html</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://mvs.live/foundation.html</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://mvs.live/index_cn.html</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://mvs.live/index.html</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://mvs.live/news_cn.html</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://mvs.live/foundation-cn.html</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf</loc>
-  <lastmod>2017-09-21T05:36:16+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
+  <url>
+    <loc>http://mvs.live/</loc>
+    <lastmod>2017-11-02T08:12:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>http://mvs.live/news.html</loc>
+    <lastmod>2017-11-02T08:12:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://mvs.live/foundation.html</loc>
+    <lastmod>2017-11-02T08:12:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://mvs.live/index_cn.html</loc>
+    <lastmod>2017-11-02T08:12:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://mvs.live/index.html</loc>
+    <lastmod>2017-11-02T08:12:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://mvs.live/news_cn.html</loc>
+    <lastmod>2017-11-02T08:12:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>http://mvs.live/foundation-cn.html</loc>
+    <lastmod>2017-11-02T08:12:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
 </urlset>

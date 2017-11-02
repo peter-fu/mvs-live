@@ -3415,6 +3415,8 @@ ul, li{
 	float: left;
 	padding: 50px;
 	margin: 44px;
+	/*padding: 0;*/
+	/*margin: 0;*/
 }
 .img-retina{
 	/*height: 68px;*/
@@ -3439,7 +3441,7 @@ ul, li{
 	margin-top: 40px;
 }
 .en .rightimgcbox img {
-	margin-top: 120px;
+	margin-top: 90px;
 }
 .ri-plane{
 	position: absolute;
@@ -3761,7 +3763,7 @@ h2.text-normal{
 	width: 50%;
 	height: 550px;
 	float: left;
-	padding: 0 50px;
+	padding:0;
 	margin: 0;
 }
 .etp-box .testimonial-panel  .left-fdbox{
@@ -3783,6 +3785,7 @@ h2.text-normal{
 }
 .etp-box  h2.text-normal {
 	font-size: 36px;
+	margin-top: 50px;
 }
 @media only screen and (max-width:640px){
 	.etp-box .rightimgcbox, .ri-plane{
@@ -3842,14 +3845,14 @@ h2.text-normal{
 	/*width: 52%;*/
 	height: 605px;
 	float: left;
-	padding: 50px;
-	margin: 44px;
+	/*padding: 50px;*/
+	/*margin: 44px;*/
 }
 .en .text-desfd {
 	font-weight: 400;
 	font-size: 18px;
-	color: #FFFFFF;
-	margin: 20px 0 30px;
+	/*color: #FFFFFF;*/
+	/*margin: 20px 0 30px;*/
 	text-align: left;
 	line-height: 1.5;
 }

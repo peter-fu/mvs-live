@@ -1242,7 +1242,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	}
 	/*news*/
 	.text-blbl {
-		width: 350px;
+		max-width: 350px !important;
 	}
 
 }
@@ -3577,7 +3577,7 @@ h2.text-normal{
 	color: #bbb;
 }
 .text-blbl{
-	width: 390px;
+	max-width: 390px;
 	line-height: 1.4;
 	font-family: PingFangSC;
 	font-size: 18px;
@@ -3611,7 +3611,25 @@ h2.text-normal{
 	object-fit: contain;
 }
 
-
+@media only screen and (min-width:991px){
+	.box .items {
+		padding: 0 95px;
+	}
+}
+@media only screen and (min-width: 780px) and (max-width: 990px){
+	.box .items {
+		padding: 0 50px;
+	}
+}
+@media only screen and (max-width: 760px){
+	.box .items {
+		padding: 0 12%;
+		height: auto;
+	}
+	.text-blbl {
+		max-width: 450px;
+	}
+}
 .box{overflow: hidden;}
 .items{
 	display: none;

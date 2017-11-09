@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2f2ae6-c653-48cc-9954-eb609486194f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_cn.html" afterPath="$PROJECT_DIR$/news_cn.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,7 +50,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10230">
+            <state relative-caret-position="556">
               <caret line="682" column="33" lean-forward="false" selection-start-line="682" selection-start-column="33" selection-end-line="682" selection-end-column="33" />
               <folding>
                 <marker date="1509608486000" expanded="true" signature="32761:33191" ph="..." />
@@ -60,10 +62,10 @@
       <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="174" column="64" lean-forward="false" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
+            <state relative-caret-position="296">
+              <caret line="160" column="144" lean-forward="false" selection-start-line="160" selection-start-column="144" selection-end-line="160" selection-end-column="144" />
               <folding>
-                <marker date="1510114477000" expanded="true" signature="17862:18292" ph="..." />
+                <marker date="1510223308000" expanded="true" signature="18568:18998" ph="..." />
               </folding>
             </state>
           </provider>
@@ -72,11 +74,21 @@
       <file leaf-file-name="news_cn.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news_cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="137" column="118" lean-forward="false" selection-start-line="137" selection-start-column="118" selection-end-line="137" selection-end-column="118" />
+            <state relative-caret-position="262">
+              <caret line="135" column="101" lean-forward="false" selection-start-line="135" selection-start-column="101" selection-end-line="135" selection-end-column="101" />
               <folding>
-                <marker date="1510118491000" expanded="true" signature="16314:16744" ph="..." />
+                <marker date="1510223409000" expanded="true" signature="16898:17328" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fenye.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fenye.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="257" column="9" lean-forward="true" selection-start-line="257" selection-start-column="9" selection-end-line="257" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +96,7 @@
       <file leaf-file-name="foundation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foundation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="2070">
               <caret line="138" column="83" lean-forward="false" selection-start-line="138" selection-start-column="83" selection-end-line="138" selection-end-column="83" />
               <folding />
             </state>
@@ -104,7 +116,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="54210">
               <caret line="3614" column="15" lean-forward="false" selection-start-line="3614" selection-start-column="4" selection-end-line="3614" selection-end-column="15" />
               <folding />
             </state>
@@ -121,21 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Chen Hao</find>
       <find>.s-panel2</find>
       <find>./images/ETP-adimg.png</find>
       <find>.rightimgcbox img</find>
@@ -165,6 +166,7 @@
       <find>bitfinex</find>
       <find>Metaverse ETP在 Bitfinex 上币</find>
       <find>.text-blbl</find>
+      <find>元界参加在美国拉斯维加举办的Money20/20大会</find>
     </findStrings>
     <replaceStrings>
       <replace>spe-xh</replace>
@@ -198,8 +200,8 @@
         <option value="$PROJECT_DIR$/index_cn.html" />
         <option value="$USER_HOME$/Downloads/sitemap.xml" />
         <option value="$PROJECT_DIR$/sitemap-live.xml" />
-        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/news_cn.html" />
       </list>
     </option>
@@ -211,8 +213,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="465" />
-    <option name="y" value="233" />
+    <option name="x" value="463" />
+    <option name="y" value="319" />
     <option name="width" value="1356" />
     <option name="height" value="730" />
   </component>
@@ -246,7 +248,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,6 +290,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,15 +415,16 @@
       <workItem from="1508926946825" duration="1349000" />
       <workItem from="1509607452926" duration="2536000" />
       <workItem from="1510039047038" duration="268000" />
-      <workItem from="1510110658165" duration="2936000" />
+      <workItem from="1510110658165" duration="3872000" />
+      <workItem from="1510223137658" duration="252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175609000" />
+    <option name="totallyTimeSpent" value="176797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="465" y="233" width="1356" height="730" extended-state="0" />
+    <frame x="463" y="319" width="1356" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19550562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -601,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/fenye.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foundation-en.html" />
     <entry file="file://$USER_HOME$/重要-整理im/bomai2.0/page/reddit-style" />
     <entry file="file://$PROJECT_DIR$/js/swiper.min.js">
@@ -674,17 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10230">
-          <caret line="682" column="33" lean-forward="false" selection-start-line="682" selection-start-column="33" selection-end-line="682" selection-end-column="33" />
-          <folding>
-            <marker date="1509608486000" expanded="true" signature="32761:33191" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,36 +716,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="2070">
           <caret line="138" column="83" lean-forward="false" selection-start-line="138" selection-start-column="83" selection-end-line="138" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="174" column="64" lean-forward="false" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
-          <folding>
-            <marker date="1510114477000" expanded="true" signature="17862:18292" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="54210">
           <caret line="3614" column="15" lean-forward="false" selection-start-line="3614" selection-start-column="4" selection-end-line="3614" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/fenye.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="257" column="9" lean-forward="true" selection-start-line="257" selection-start-column="9" selection-end-line="257" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="682" column="33" lean-forward="false" selection-start-line="682" selection-start-column="33" selection-end-line="682" selection-end-column="33" />
+          <folding>
+            <marker date="1509608486000" expanded="true" signature="32761:33191" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="160" column="144" lean-forward="false" selection-start-line="160" selection-start-column="144" selection-end-line="160" selection-end-column="144" />
+          <folding>
+            <marker date="1510223308000" expanded="true" signature="18568:18998" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/news_cn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="137" column="118" lean-forward="false" selection-start-line="137" selection-start-column="118" selection-end-line="137" selection-end-column="118" />
+        <state relative-caret-position="262">
+          <caret line="135" column="101" lean-forward="false" selection-start-line="135" selection-start-column="101" selection-end-line="135" selection-end-column="101" />
           <folding>
-            <marker date="1510118491000" expanded="true" signature="16314:16744" ph="..." />
+            <marker date="1510223409000" expanded="true" signature="16898:17328" ph="..." />
           </folding>
         </state>
       </provider>

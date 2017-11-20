@@ -943,11 +943,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	-moz-box-shadow: 0px 1px 8px rgba(0,0,0,.15);
 	-webkit-box-shadow: 0px 1px 8px rgba(0,0,0,.15);
 	box-shadow: 0px 1px 8px rgba(0,0,0,.15);
-	-webkit-transition:all .2s;
-	-moz-transition:all .2s;
-	-ms-transition:all .2s;
-	-o-transition:all .2s;
-	transition:all .2s;
+	-webkit-transition:top .2s;
+	-moz-transition:top .2s;
+	-ms-transition:top .2s;
+	-o-transition:top .2s;
+	transition:top .2s;
 }
 
 .tb-logo{
@@ -999,10 +999,10 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 .menu{
 	/*float:right;*/
-	text-align:left;
 	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	/*font-size: 16px;*/
 	/*font-weight:700;*/
+	text-align:left;
 	letter-spacing:.08em;
 	text-transform:uppercase;
 	/*line-height:25px*/
@@ -3060,7 +3060,7 @@ a:hover{
 	}
 	.icon-nav img {
 		/*width: 50px;*/
-		height: 60px;
+		height: 100px;
 	}
 	.service-item {
 		padding: 30px 0;
@@ -3617,6 +3617,10 @@ ul, li{
 		font-size: 16px !important;
 		margin: 10px 0 10px;
 		line-height: 1;
+	}
+	.spe-desza.text-desfd{
+		font-size: 13px !important;
+
 	}
 	.img-retina {
 		margin: 40px 0 50px;

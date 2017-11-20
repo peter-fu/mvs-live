@@ -1187,7 +1187,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		/*display: none !important;*/
 	}
 	.menu ul{
-		margin: 0 10px;
+		margin: 0;
 		padding: 0;
 		display: inline-block;
 		height: auto;
@@ -3602,6 +3602,11 @@ ul, li{
 	}
 	.en .swiper-slide, .sld01, .sld02, .sld03 {
 		/*height: 695px !important;*/
+	}
+
+	.etp-about .service-item {
+		text-align: center !important;
+		height: 185px;
 	}
 }
 

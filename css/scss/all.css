@@ -977,7 +977,7 @@ body {
     .dev-docwrap .item .dldata-title {
       position: relative; }
     .dev-docwrap .item .cool-line:after {
-      background-color: #ffff !important; }
+      background-color: #fff !important; }
   .dev-docwrap .l-des {
     margin: 20px 0;
     color: #999;
@@ -1049,7 +1049,8 @@ body {
   .swiper-container .swiper-wrapper, .swiper-container .swiper-slide {
     height: 515px; }
   .swiper-container .img-retina {
-    /* height: 68px; */ }
+    /* height: 68px; */
+    width: 240px; }
   .swiper-container .btn-dt {
     font-size: 14px; }
     .swiper-container .btn-dt:hover {

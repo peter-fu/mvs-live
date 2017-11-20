@@ -136,7 +136,7 @@ p {
   background-position: center;
   background-size: cover; }
 
-.zdy-font, .btn-onn, .btn.cc-cbtn, .cc-cbtn, .en .menu, .h2-title, .h2-htitle, .en .h2-tl, .team-h1 .name-info, .sendbtn, .en .team-wrap .text-spett, .en .position-info, .t-name {
+.zdy-font, .btn-onn, .btn.cc-cbtn, .cc-cbtn, .en .menu, .h2-title, .h2-htitle, .en .h2-tl, .team-h1 .name-info, .sendbtn, .en .dev-docwrap .wallet-base, .en .team-wrap .text-spett, .en .position-info, .t-name {
   font-family: 'Conv_HelveticaNeue-BoldCond' !important; }
 
 body {
@@ -451,7 +451,7 @@ body {
 .wallet-base {
   color: #1E1E1E;
   font-size: 22px;
-  margin: 20px 12px; }
+  margin: 5px 12px 20px; }
 
 .up-date {
   color: #999;
@@ -973,17 +973,16 @@ body {
       background-color: #ffffff !important; }
   .dev-docwrap .l-des {
     margin: 20px 0;
-    color: #333;
-    font-size: 12px;
+    color: #999;
+    font-size: 14px;
     height: 75px;
-    line-height: 2; }
+    line-height: 1.5; }
 
-.en .dev-docwrap .wallet-base {
-  margin: 20px 5px; }
 .en .dev-docwrap .l-des {
   height: 90px; }
 .en .dev-docwrap .item {
-  height: 420px; }
+  height: 420px;
+  padding: 40px 18px; }
 
 /*.c-iconbox span:hover,*/
 .media-twitter:hover:before, .soc-wechat:hover:before, .media-qq:hover:before, .media-facebook:hover:before, .media-instagram:hover:before {
@@ -1087,6 +1086,8 @@ body {
   margin: 50px  0; }
   .etp-about .service-item .iicon img {
     height: 60px; }
+    .etp-about .service-item .iicon img.spe-ial {
+      height: 55px; }
 
 .icon-nav {
   font-family: 'Microsoft YaHei, MicrosoftJhengHei, STHeiti, MingLiu,Source Sans Pro,Arial,sans-serif ' !important; }

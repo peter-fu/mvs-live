@@ -193,10 +193,14 @@ body {
     margin: 50px 0; }
 
   .bk-ctn {
-    margin: 0 0 25px; }
+    margin: 0 0 25px;
+    padding: 0 20px; }
 
   .cc-ct {
     font-size: 18px; }
+
+  .btn.cc-cbtn, .cc-cbtn {
+    padding: 0 20px; }
 
   /* ETP  */
   .etp-infobox p {
@@ -487,9 +491,6 @@ body {
       border-radius: 10px; }
       .downloadwrap .col-md-3:nth-child(2) {
         margin: 25px 15%; }
-
-  .social li {
-    margin: 15px 8px !important; }
 
   .footerbox .slg-mvs {
     height: 80px !important; } }

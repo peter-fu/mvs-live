@@ -920,10 +920,13 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	margin-bottom: 0;
 	font-size: 14px;
 }
-.index .top-bar{
-	top:inherit;
-	bottom: 0;
+@media only screen and (min-width: 990px)  {
+	.index .top-bar{
+		top:inherit;
+		bottom: 0;
+	}
 }
+
 .top-bar{
 	/* margin-bottom: 50px; */
 	/* color: #d20000; */
@@ -1002,7 +1005,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	/*font-weight:700;*/
 	letter-spacing:.08em;
 	text-transform:uppercase;
-	line-height:25px
+	/*line-height:25px*/
 }
 .cn-menu.menu{
 	margin-right: 90px;
@@ -1013,9 +1016,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 .height50{
 	height: 50px;
+	/*line-height: 52px;*/
 }
 .menu ul{
-
 	margin: 0;
 	position:relative;
 	/*display:table-cell;*/
@@ -1032,6 +1035,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	float:left;
 	position: relative;
 	margin-right: 40px;
+	/*line-height: 48px;*/
+	/*padding-top: 2px;*/
+	line-height: 52px;
+	/* padding-top: 3px; */
+	height: 50px;
 }
 
 .menu ul li:hover a{
@@ -1047,6 +1055,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	font-weight:600;
 	text-align: center;
 	text-transform: none;
+	padding: 0 8px;
 	/* margin-right: 40px; */
 }
  .menu ul li a.active{
@@ -1091,6 +1100,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	left:100%
 }
 
+@media only screen and (min-width:300px) and (max-width:1100px){
+	.menu{
+		display:none;
+	}
+}
 @media only screen and (max-width:1100px){
 	.headerbox {
 		padding: 0 !important;
@@ -1153,7 +1167,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	}
 
 	.menu{
-		/*display:none; */
+		/*display:none;*/
 		/*filter:alpha(opacity=0);*/
 		opacity:1;
 		top:45px;
@@ -1170,12 +1184,14 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	.cn-menu.menu {
 		margin-right: 0;
 		/* height: 70px; */
+		/*display: none !important;*/
 	}
 	.menu ul{
 		margin: 0 10px;
 		padding: 0;
-		display: block;
+		display: inline-block;
 		height: auto;
+		width: 100%;
 	}
 	.menu ul li{
 		display:block;
@@ -1355,7 +1371,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	color: #999;
 	position: absolute;
 	right: 20px;
-	top: 12px;
+	top: 3px;
 	/*top: 22px;*/
 }
 .menu ul li a.test-area{
@@ -2104,8 +2120,8 @@ audio, canvas, progress, video {
 	bottom: 0;
 	left: 0;
 	z-index: 1000;
-	height: 56px;
-	line-height: 56px;
+	height: 50px;
+	line-height: 50px;
 	box-shadow: 0 -1px 2px rgba(0,0,0,.05);
 	display: none;
 }
@@ -3225,7 +3241,7 @@ a:hover{
 @media (min-width: 768px){
 	.menu ul li {
 
-		margin-right: 10px;
+		margin-right: 20px;
 	}
 	.about .col-sm-6 {
 		/*height: 232px;*/
@@ -3301,7 +3317,7 @@ a:hover{
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 	.menu ul li a {
-		padding: 3px 6px;
+		padding: 0 8px;
 	}
 	.cn-menu.menu{
 		margin-left: 50px !important;
@@ -3317,7 +3333,7 @@ a:hover{
 }
 @media screen and (min-width: 1201px) and (max-width: 1300px) {
 	.menu ul li a {
-		padding: 3px 8px;
+		padding: 0 8px;
 	}
 	.cn-menu.menu{
 		margin-left: 30px !important;
@@ -3327,7 +3343,7 @@ a:hover{
 
 /*nav*/
 .menu.is-active{
-	display: block;
+	display: block !important;
 	opacity: 1;
 }
 
@@ -4259,7 +4275,7 @@ h2.text-normal{
 
 /*}*/
 
-@media (max-width: 1200px){
+@media only screen and (min-width: 780px) and(max-width: 1200px){
 	.zgimg{
 		background: url('../images/newimgs/zengold-new.png') no-repeat center bottom;
 		background-size: 40%;

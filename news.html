@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
-<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
-<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<html lang="zh">
+<!--[if IE 7]><html lang="zh" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="zh" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="zh" class="ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
-<!--[if !IE]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="zh"><![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="baidu-site-verification" content="7FuaOcTX16"/>
-    <meta name="keywords" content="metaverse,etp,元界,元界官网,元界metaverse,元界基金会,MetaverseFoundation,Decentralized,Digital Asset Registration,blockchain">
-    <meta name="description" content="元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。">
+	<meta name="baidu-site-verification" content="7FuaOcTX16"/>
+	<meta name="keywords" content="metaverse,etp,元界,元界官网,元界metaverse,元界基金会,MetaverseFoundation,Decentralized,Digital Asset Registration,blockchain">
+	<meta name="description" content="元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。">
 	<title>Metaverse元界 - News</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/lib/font-awesome.min.css">
@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/animate-colorcicle.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/scss/all.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="js/lib/modernizr.js"></script>
 	<!--[if lt IE 9]>
@@ -57,330 +58,518 @@
 
 	</script>
 </head>
-<body>
-	<div id="top"></div>
-	<!--header-->
-	<header id="header" class="top-bar tb-large tb-transp" >
-		<div class="headercontainer">
-				<div class="headerbox">
-					<div class="">
-						<div class="tb-logo fl">
-							<a href="./">
-								<h1 class="dis-tablecell height50">
-									<img src="images/metaverselogo.png" alt="metaverse" title="metaverse">
-									<!--<img src="images/metaverse.png" alt="metaverse" title="metaverse">-->
-								</h1>
-							</a>
-						</div>
+<body class="en">
+<div id="top"></div>
 
-						<nav class="menu cn-menu fl">
-							<ul class="dis-tablecell height50">
-								<!--<li><a href="#home" class="scrollto">首页</a></li>-->
-								<li><a href="./index.html#features" class="cool-line">Features</a></li>
-								<li><a href="./index.html#industy" class="cool-line">Application</a>
-								<li><a href="./index.html#documents" class="cool-line">Documents</a></li>
-								<li><a href="./index.html#download" class="cool-line">Wallet</a></li>
-								<li class="active"><a href="./news_cn.html" class="cool-line">News</a></li>
-								<li><a class="cool-line" href="./foundation.html">Metaverse Foundation</a></li>
-								<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">Testnet</a></li>
-								<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="cool-line"><span>Explorer</span><!-- <i class="fa fa fa-search"></i>--></a></li>
-								<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
-							</ul>
-							<div class="sl-language">
-								<a href="./news_cn.html"  class="cool-line">CN</a>
-								<span class="line-lg">/</span>
-								<a href="./news.html" class="active cool-line">EN</a>
-							</div>
-						</nav>
-
-					</div>
-					<input type="checkbox" id="toggle" />
-
-
-					<a href="javascript:void(0)" class="menu-trigger fr">
-						<div class="hamburger">
-							<div class="menui top-menu"></div>
-							<div class="menui mid-menu"></div>
-							<div class="menui bottom-menu"></div>
-						</div>
-						<!--<label for="toggle" class="toggle"></label>-->
+<!--header-->
+<!--<div w3-include-html="./common/header-en.html"></div>-->
+<!--header-->
+<header id="header" class="top-bar tb-large tb-transp" >
+	<div class="headercontainer">
+		<div class="headerbox">
+			<div class="">
+				<div class="tb-logo fl">
+					<a href="./">
+						<h1 class="dis-tablecell height50">
+							<img src="images/metaverselogo.png" alt="metaverse" title="metaverse">
+						</h1>
 					</a>
+				</div>
+
+				<nav class="menu cn-menu fr">
+					<ul class="dis-tablecell height50 nav">
+						<!--<li><a href="#features" class="scrollto cool-line">Features</a></li>-->
+						<li><a href="./" class="cool-line" data-scroll>Home</a></li>
+						<li><a href="./#Bass" class="cool-line" data-scroll>Bass</a></li>
+						<li><a href="./news.html" class="active cool-line">News</a></li>
+						<li><a href="./#Team" class="cool-line" data-scroll>Team</a></li>
+						<li><a href="./#download" class="cool-line" data-scroll>Wallet</a></li>
+						<li><a href="./#Application" class="cool-line" data-scroll>Application</a>
+						<li><a href="./dev.html" class="cool-line" >Developers</a></li>
+						<li><a class="cool-line" href="./foundation.html">Metaverse Foundation</a></li>
+						<!--<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">Testnet</a></li>-->
+						<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>Explorer</span><!-- <i class="fa fa fa-search"></i>--></a></li>
+						<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
+					</ul>
+					<div class="sl-language">
+						<a href="./news_cn.html"  class="cool-line">CN</a>
+						<span class="line-lg">/</span>
+						<a href="./news.html" class="active cool-line">EN</a>
+					</div>
+				</nav>
+
+			</div>
+			<input type="checkbox" id="toggle" />
+
+			<span class="menu-trigger fr">
+				<div class="hamburger">
+					<div class="menui top-menu"></div>
+					<div class="menui mid-menu"></div>
+					<div class="menui bottom-menu"></div>
+				</div>
+				<!--<label for="toggle" class="toggle"></label>-->
+			</span>
+		</div>
+	</div>
+</header>
+<!--header end-->
 
 
+
+<!--ANNOUNCEMENT begin-->
+<section class="ccom-wbox ant-wbox">
+	<div class="container" layout-position="relative" layout-index="10">
+		<h2 class="new-title text-center fadeInUp animated"><span class="h2-title">NEWS</span></h2>
+
+		<div class="title-box spe-tbox">
+			<div class="line-h4"></div>
+			<h4 class="h4-title text-center fadeInUp animated">ANNOUNCEMENT</h4>
+		</div>
+
+		<div class="">
+			<ul class="annt-wrap">
+				<li class="li-item">
+					<p class="fl-t">Metaverse Roadmap</p>
+					<div class="ant-title clearfix">
+						<h5 class="title-h5 fl">Moving forward, the Metaverse team will be working on the following areas</h5>
+						<a class="detail-more fr" href="http://blog.mvs.org/2017/11/13/metaverse-roadmap/" target="_blank">more ></a>
+					</div>
+					<div class="news-date">2017/11/13</div>
+				</li>
+				<li class="li-item">
+					<p class="fl-t">metaverse foundation bounty program</p>
+					<div class="clearfix">
+						<h5 class="title-h5 fl">metaverse foundation bounty program</h5>
+						<a class="detail-more fr" href="http://blog.mvs.org/2017/11/14/metaverse-foundation-bounty-program/" target="_blank">more ></a>
+					</div>
+					<div class="news-date">2017/11/14</div>
+				</li>
+				<!--<li class="li-item">-->
+				<!--<p class="fl-t">Metaverse Roadmap</p>-->
+				<!--<div class="clearfix">-->
+				<!--<h5 class="title-h5 fl">Moving forward, the Metaverse team will be working on the following areas</h5>-->
+				<!--<a class="detail-more fr" href="" target="_blank">详情 ></a>-->
+				<!--</div>-->
+				<!--<div class="news-date">2017/10/22</div>-->
+				<!--</li>-->
+			</ul>
+		</div>
+	</div>
+</section>
+<!--ANNOUNCEMENT end-->
+
+
+<!--news-->
+<!--news banner-->
+<!--<section class="newsadwrapper bg-img position-relative">-->
+<!--<div class="container">-->
+<!--<h2 class="text-nwrapormal text-it999">-->
+<!--Metaverse News-->
+<!--</h2>-->
+<!--</div>-->
+<!--</section>-->
+<!--news banner end-->
+
+<!--news content-->
+
+<section class="news-wbox ccom-wbox">
+	<div class="container" layout-position="relative" layout-index="10">
+		<!--<h2 class="new-title text-center" layout-margin-bottom-xs="6">新闻资讯</h2>-->
+		<!--<h2 class="new-title text-center fadeInUp animated"><span class="h2-title">NEWS</span></h2>-->
+
+		<div class="title-box">
+			<div class="line-h4"></div>
+			<h4 class="h4-title text-center fadeInUp animated">NEWS</h4>
+		</div>
+
+		<!--news content begin-->
+		<div class="box">
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items" layout-margin-bottom-xs="8">
+					<a target="_blank" href="https://medium.com/@mvs_org/aion-and-metaverse-partner-on-cross-chain-digital-assets-and-oracles-10552cd4c00c"  rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Aion and Metaverse partner on cross-chain digital assets and oracles</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">8, November</span>
+						<span class="source-web">medium</span>
+					</div>
+					<p class="news-sdes">Aion and Metaverse partner on cross-chain digital assets and oracles
+					</p>
+					<a target="_blank"  rel="nofollow" href="https://www.bitfinex.com/posts/220">
+						<small class="read-more">Read More ></small>
+					</a>
 				</div>
 			</div>
-		</header>
-	<!--header end-->
-
-
-	<!--news-->
-	<!--news banner-->
-	<section class="newsadwrapper bg-img position-relative">
-		<div class="container">
-			<h2 class="text-nwrapormal text-it999">
-				Metaverse News
-			</h2>
-		</div>
-	</section>
-	<!--news banner end-->
-
-	<!--news content-->
-
-	<section class="news-wbox">
-		<div class="container" layout-position="relative" layout-index="10">
-			<h2 class="new-title text-center" layout-margin-bottom-xs="6">News</h2>
-			<!--news content begin-->
-			<div class="box">
-					<!--news ex-->
-					<!--<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">-->
-						<!--<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">March 1,2017</div>-->
-						<!--<a target="_blank" href="http://finance.caijing.com.cn/20170301/4240700.shtml" rel="nofollow">-->
-							<!--<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse, the First Public Blockchain in China, Announces Its Official Launch</h3>-->
-						<!--</a>-->
-						<!--<small class="text-normal gray-bbb">-->
-							<!--&lt;!&ndash;<span class="author-name">Stan Higgins</span>&ndash;&gt; <span class="source-web">Caijing</span>-->
-						<!--</small>-->
-					<!--</div>-->
-					<!--news ex end-->
-
-					<!--news ex-->
-					<!--<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">-->
-						<!--<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">March 1,2017</div>-->
-						<!--<a target="_blank" href="http://sh.qq.com/a/20170301/039384.htm" rel="nofollow">-->
-							<!--<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse, the First Public Blockchain in China, Announces Its Official Launch</h3>-->
-						<!--</a>-->
-						<!--<small class="text-normal gray-bbb">-->
-							<!--&lt;!&ndash;<span class="author-name">Stan Higgins</span>&ndash;&gt;<span class="source-web">Tencent</span>-->
-						<!--</small>-->
-					<!--</div>-->
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">November 8 2017 </div>
-						<a target="_blank" href="https://medium.com/@mvs_org/aion-and-metaverse-partner-on-cross-chain-digital-assets-and-oracles-10552cd4c00c" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Aion and Metaverse partner on cross-chain digital assets and oracles</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">medium</span>--><span class="source-web">medium</span>
-						</small>
+			<!--news ex end-->
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items" rel="nofollow" layout-margin-bottom-xs="8">
+					<a target="_blank" href="https://www.bitfinex.com/posts/220"  rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse ETP is listed on HitBTC</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">1, November</span>
+						<span class="source-web">medium</span>
 					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">November 1 2017 </div>
-						<a target="_blank" href="https://medium.com/@mvs_org/metaverse-etp-is-listed-on-hitbtc-354819a6de59" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse ETP is listed on HitBTC</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">medium</span>--><span class="source-web">medium</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">October 26 2017 </div>
-						<a target="_blank" href="https://medium.com/@mvs_org/metaverse-foundation-partners-with-draper-dragon-to-establish-a-special-investment-fund-for-digital-523cbea14af5" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse Foundation Partners with Draper Dragon to Establish a Special Investment Fund for Digital Assets</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">medium</span>--><span class="source-web">medium</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">October 24 - October 25 2017 </div>
-						<a target="_blank" href="https://medium.com/@mvs_org/metaverse-the-retrospect-of-world-blockchain-summit-in-dubai-b2b457097693" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse to participate in World Blockchain Summit
-							</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">medium</span>--><span class="source-web">medium</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">October 22 - October 25 2017</div>
-						<a target="_blank" href="https://us.money2020.com/companies/metaverse" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Announcement: Metaverse to participate in Money 2020 Conference</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">money2020</span>--><span class="source-web">money2020</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">September 20,2017</div>
-						<a target="_blank" href="https://www.bitfinex.com/posts/220" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse ETP is listed on Bitfinex</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">bitfinex</span>--><span class="source-web">bitfinex</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">September 5,2017</div>
-						<a target="_blank" href="https://www.caixinglobal.com/2017-09-05/101140932.html?from=groupmessage&isappinstalled=0" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse Launches the World's Leading Avatar and BaaS Service, Building the Blockchain Infrastructure of China</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">Stan Higgins</span>--><span class="source-web">caixing</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">August 18,2017</div>
-						<a target="_blank" href="http://8btc.com/thread-68771-1-1.html" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse Foundation Founder Eric Gu Holds Talks with Kevin Cha, CEO of S.Korea-based Bitcoin Exchange Coinone</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">Stan Higgins</span>--><span class="source-web">8btc</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">August 18,2017</div>
-						<a target="_blank" href="http://www.sohu.com/a/167788865_356261" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse Is the First Public Blockchain in China</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">Stan Higgins</span>--><span class="source-web">Sohu</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">July 3,2017</div>
-						<a target="_blank" href="http://www.jinse.com/news/blockchain/39699.html" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">ViewFin Makes Strategic Investment in European Blockchain Company Agrello to Jointly Develop Digital Identities</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">Stan Higgins</span>--><span class="source-web">Jinse Caijing</span>
-						</small>
-					</div>
-					<!--news ex end-->
-					<!--news ex-->
-					<div class="items g-db col-xs-12 col-sm-6" layout-margin-bottom-xs="8">
-						<div class="news-date text-normal gray-bbb" layout-margin-bottom-xs="0">March 1,2017</div>
-						<a target="_blank" href="http://money.163.com/17/0301/10/CEEFB114002580S6.html" rel="nofollow">
-							<h3 class="text-normal text-blbl cool-line" layout-margin-bottom-xs="2">Metaverse, the First Public Blockchain in China, Announces Its Official Launch</h3>
-						</a>
-						<small class="text-normal gray-bbb">
-							<!--<span class="author-name">Stan Higgins</span>--><span class="source-web">Netease</span>
-						</small>
-					</div>
-					<!--news ex end-->
-
+					<p class="news-sdes">Metaverse ETP is listed on HitBTC</p>
+					<a target="_blank"  rel="nofollow" href="https://www.bitfinex.com/posts/220">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
 			</div>
-			<!--分页-->
-			<!--<div class="page page-box text-center">-->
-				<!--<a href="javascript:;" class="pre defau  fa fa-angle-left"></a>-->
-				<!--<ol class="page-number"></ol>-->
-				<!--<a href="javascript:;" class="next fa fa-angle-right"></a>-->
-				<!--&lt;!&ndash;<p class="all-page">供<span>3</span>页 到<input type="text" class="text" /> 页 </p>&ndash;&gt;-->
-				<!--&lt;!&ndash;<input type="button" class="page-btn" value="确认" />&ndash;&gt;-->
-			<!--</div>-->
-			<!--分页 end-->
-			<!--news content end-->
+			<!--news ex end-->
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items"  layout-margin-bottom-xs="8">
+					<a target="_blank" href="https://medium.com/@mvs_org/metaverse-foundation-partners-with-draper-dragon-to-establish-a-special-investment-fund-for-digital-523cbea14af5"  rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse Foundation Partners with Draper Dragon to Establish a Special Investment Fund for Digital Assets</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">26, October</span>
+						<span class="source-web">medium</span>
+					</div>
+					<p class="news-sdes">Metaverse Foundation Partners with Draper Dragon to Establish a Special Investment Fund for Digital Assets</p>
+					<a target="_blank"  rel="nofollow" href="https://medium.com/@mvs_org/metaverse-foundation-partners-with-draper-dragon-to-establish-a-special-investment-fund-for-digital-523cbea14af5">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items"  layout-margin-bottom-xs="8">
+					<a target="_blank" href="https://medium.com/@mvs_org/metaverse-the-retrospect-of-world-blockchain-summit-in-dubai-b2b457097693"  rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse to participate in World Blockchain Summit</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">24-25, October</span>
+						<span class="source-web">medium</span>
+					</div>
+					<p class="news-sdes">n October 24–25, Eric Gu, the founder of Metaverse Foundation, was invited to attend the World Blockchain Summit held in Dubai.</p>
+					<a target="_blank"  rel="nofollow" href="https://www.bitfinex.com/posts/220">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items"  layout-margin-bottom-xs="8">
+					<a target="_blank" href="https://us.money2020.com/companies/metaverse" rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Announcement: Metaverse to participate in Money 2020 Conference</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">22-25, October</span>
+						<span class="source-web">money2020</span>
+					</div>
+					<p class="news-sdes">Announcement: Metaverse to participate in Money 2020 Conference</p>
+					<a target="_blank"  rel="nofollow" href="http://www.jinse.com/news/blockchain/89666.html">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items" layout-margin-bottom-xs="8">
+					<a target="_blank" href="https://www.bitfinex.com/posts/220" rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse ETP is listed on Bitfinex</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">20, September</span>
+						<span class="source-web">bitfinex</span>
+					</div>
+					<p class="news-sdes">Metaverse (ETP) trading has now begun on Bitfinex and is available on trading pairs ETP/USD, ETP/BTC & ETP/ETH.</p>
+					<a target="_blank"  rel="nofollow" href="https://www.bitfinex.com/posts/220">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items"  layout-margin-bottom-xs="8">
+					<a target="_blank" href="http://8btc.com/thread-68771-1-1.html" rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse Launches the World's Leading Avatar and BaaS Service, Building the Blockchain Infrastructure of China</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">5, September</span>
+						<span class="source-web">caixing</span>
+					</div>
+					<p class="news-sdes">Metaverse Launches the World's Leading Avatar and BaaS Service, Building the Blockchain Infrastructure of China</p>
+					<a target="_blank"  rel="nofollow" href="http://8btc.com/thread-68771-1-1.html">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items"  layout-margin-bottom-xs="8">
+					<a target="_blank" href="http://8btc.com/thread-68771-1-1.html" rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse Foundation Founder Eric Gu Holds Talks with Kevin Cha, CEO of S.Korea-based Bitcoin Exchange Coinone</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">18, August</span>
+						<span class="source-web">8btc</span>
+					</div>
+					<p class="news-sdes">Metaverse Foundation Founder Eric Gu Holds Talks with Kevin Cha, CEO of S.Korea-based Bitcoin Exchange Coinone</p>
+					<a target="_blank"  rel="nofollow" href="http://8btc.com/thread-68771-1-1.html">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items"  layout-margin-bottom-xs="8">
+					<a target="_blank" href="http://money.163.com/17/0301/10/CEEFB114002580S6.html" rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse Is the First Public Blockchain in China</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">14,AUG</span>
+						<span class="source-web">Sohu</span>
+					</div>
+					<p class="news-sdes">Metaverse Is the First Public Blockchain in China</p>
+					<a target="_blank"  rel="nofollow" href="http://money.163.com/17/0301/10/CEEFB114002580S6.html">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items"  layout-margin-bottom-xs="8">
+					<a target="_blank" href="http://www.jinse.com/news/blockchain/39699.html" rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">ViewFin Makes Strategic Investment in European Blockchain Company Agrello to Jointly Develop Digital Identities</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">14,AUG</span>
+						<span class="source-web">Jinse Caijing</span>
+					</div>
+					<p class="news-sdes">ViewFin Makes Strategic Investment in European Blockchain Company Agrello to Jointly Develop Digital Identities</p>
+					<a target="_blank"  rel="nofollow" href="http://8btc.com/thread-68771-1-1.html">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+
+			<!--news ex-->
+			<div class="col-sm-4 col-xs-6 col-xs-12">
+				<div class="items" layout-margin-bottom-xs="8">
+					<a target="_blank" href="http://money.163.com/17/0301/10/CEEFB114002580S6.html" rel="nofollow">
+						<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">Metaverse, the First Public Blockchain in China, Announces Its Official Launch</h3>
+					</a>
+					<div class="info-news text-normal" layout-margin-bottom-xs="0">
+						<span class="date-news">14,AUG</span>
+						<span class="source-web">Netease</span>
+					</div>
+					<p class="news-sdes">Metaverse, the First Public Blockchain in China, Announces Its Official Launch</p>
+					<a target="_blank"  rel="nofollow" href="http://money.163.com/17/0301/10/CEEFB114002580S6.html">
+						<small class="read-more">Read More ></small>
+					</a>
+				</div>
+			</div>
+			<!--news ex end-->
+
+
 		</div>
-	</section>
-	<!--news content end-->
-	<!--news end-->
+		<!--分页-->
+		<!--<div class="page page-box text-center">-->
+		<!--<a href="javascript:;" class="pre defau  fa fa-angle-left"></a>-->
+		<!--<ol class="page-number"></ol>-->
+		<!--<a href="javascript:;" class="next fa fa-angle-right"></a>-->
+		<!--&lt;!&ndash;<p class="all-page">供<span>3</span>页 到<input type="text" class="text" /> 页 </p>&ndash;&gt;-->
+		<!--&lt;!&ndash;<input type="button" class="page-btn" value="确认" />&ndash;&gt;-->
+		<!--</div>-->
+		<!--分页 end-->
+		<!--news content end-->
+	</div>
+</section>
+<!--news content end-->
+<!--news end-->
 
 
 
-	<footer class="news-footer footer">
+
+
+<!--contact us begin-->
+<section id="contact" class="contact-warp services section-slider overhide">
+	<div class="container col5-warp relative text-center">
+		<!--<h3 class="h3-title text-center fadeInUp animated">关注我们</h3>-->
 		<div class="row">
+			<div class="col-md-6">
+				<div class="title-box">
+					<div class="line-h4"></div>
+					<h4 class="h4-title text-center fadeInUp animated">Social Media</h4>
+				</div>
+				<ul class="social margin-bottom-medium">
+					<li class="twitter"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li class="facebook"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li class="youtube"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					<li class="medium"><a href="https://medium.com/@mvs_org" target="_blank"><i class="fa icon-medium"></i></a></li>
+					<li class="telegram"><a href="https://t.me/Metaverse_Blockchain" target="_blank"><i class="fa icon-telegram" aria-hidden="true"></i></a></li>
+					<li class="sinaweibo"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<div class="title-box">
+					<div class="line-h4"></div>
+					<h4 class="h4-title text-center fadeInUp animated">Community</h4>
+				</div>
 
 				<ul class="social margin-bottom-medium">
-					<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
-					<li class="blog hvr-pulse"><a href="http://blog.mvs.org/" target="_blank"><i class="fa fa-blog"></i></a></li>
-					<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
-					<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-					<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-					<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>
-					<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
-					<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
-					<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
-					<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-					<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-					<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+					<li class="reddit"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
+					<li class="slack"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
+					<li class="instagram"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li class="github zdy-io">
+						<a href="https://github.com/mvs-org/metaverse" target="_blank">
+							<span class="icon-github2"></span>
+						</a>
+					</li>
+					<li class="sinaweibo"><a href="http://blog.mvs.live/" target="_blank"><span class="icon-Blogger zdy-io"></span></a></li>
+					<li class="bbs">
+						<a href="http://bbs.viewfin.com/" target="_blank">
+							  <span class="icon-bbs  zdy-io">
+								 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+							  </span>
+						</a>
+					</li>
 				</ul>
-
-				<strong class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></strong>
-
+			</div>
 		</div>
-	</footer>
+	</div>
+</section>
+<!--contact us end-->
 
-	<!-- =========================
-	  Back to top button
-   ============================== -->
 
-	<!--<div class="back-top-wrap" id="goTop">-->
-		<!--<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>-->
+
+<!--common footer-->
+<footer class="footer footerbox">
+	<img src="./images/newimgs/mvs-wh.png" alt="metaverse" title="metaverse" class="slg-mvs">
+	<p><small class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 Metaverse Foundation. All Rights Reserved.</small></p>
+	<!--<div class="row">-->
+	<!--<div class="twelve col">-->
+	<!--<ul class="social margin-bottom-medium">-->
+	<!--<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>-->
+	<!--<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>-->
+	<!--<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>-->
+	<!--<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
+	<!--<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
+	<!--<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>-->
+	<!--<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>-->
+	<!--<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>-->
+	<!--<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>-->
+	<!--<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>-->
+	<!--&lt;!&ndash;<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>&ndash;&gt;-->
+	<!--&lt;!&ndash;<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>&ndash;&gt;-->
+	<!--&lt;!&ndash;<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>&ndash;&gt;-->
+	<!--&lt;!&ndash;<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>&ndash;&gt;-->
+	<!--</ul>-->
+
+	<!--<strong class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></strong>-->
 	<!--</div>-->
-	<!-- =========================
-	  Back to top button end
-   ============================== -->
+	<!--</div>-->
+</footer>
+<!--common footer end-->
 
 
-	<script src="js/lib/jquery.min.js"></script>
-	<!--<script src="js/lib/retina.min.js"></script>-->
-	<script src="js/lib/jquery.magnific-popup.min.js"></script>
-	<script src="js/lib/jquery.bxslider.min.js"></script>
-	<script src="js/lib/owl.carousel.min.js"></script>
-	<script src="js/lib/jquery.fitvids.js"></script>
-	<script src="js/lib/jquery.equal.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/signup.js"></script>
-	<script src="js/fenye.js"></script>
-	<script>
-		//gotop
-        function goTop(){
-            var _btn = document.getElementById("goTop");
-            if (document.documentElement && document.documentElement.scrollTop) {
-                var _con = document.documentElement;
-            } else if (document.body) {
-                var _con = document.body;
-            }
-            window.onscroll = set;
-            _btn.style.left = document.documentElement.scrollWidth/2 + 500 + "px";
-            _btn.onclick = function (){
-                _btn.style.display = "none";
-                window.onscroll = null;
-                this.timer = setInterval(function() {
-                    _con.scrollTop -= Math.ceil(_con.scrollTop * 0.3);
-                    if (_con.scrollTop == 0) clearInterval(_btn.timer, window.onscroll = set);
-                },30);
-            };
-            function set() {
-                _btn.style.display = _con.scrollTop ? 'block': "none";
-            }
+
+<!--<footer class="news-footer footer">-->
+<!--<div class="row">-->
+<!--<ul class="social margin-bottom-medium">-->
+<!--<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>-->
+<!--<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>-->
+<!--<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>-->
+<!--<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
+<!--<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
+<!--<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>-->
+<!--<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>-->
+<!--<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>-->
+<!--<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>-->
+<!--<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>-->
+<!--&lt;!&ndash;<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>&ndash;&gt;-->
+<!--</ul>-->
+
+<!--<strong class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></strong>-->
+<!--</div>-->
+<!--</footer>-->
+
+<!-- =========================
+  Back to top button
+============================== -->
+
+<!--<div class="back-top-wrap" id="goTop">-->
+<!--<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>-->
+<!--</div>-->
+<!-- =========================
+  Back to top button end
+============================== -->
+
+
+
+<script src="js/lib/jquery.min.js"></script>
+<!--<script src="js/lib/retina.min.js"></script>-->
+<script src="js/lib/jquery.magnific-popup.min.js"></script>
+<script src="js/lib/jquery.bxslider.min.js"></script>
+<script src="js/lib/owl.carousel.min.js"></script>
+<script src="js/lib/jquery.fitvids.js"></script>
+<script src="js/lib/jquery.equal.js"></script>
+<script src="js/main.js"></script>
+<script src="js/signup.js"></script>
+<script src="js/fenye.js"></script>
+
+<script src="js/w3/w3.js"></script>
+<script>
+    //    footer
+    w3.includeHTML();
+</script>
+
+<script>
+    //gotop
+    function goTop(){
+        var _btn = document.getElementById("goTop");
+        if (document.documentElement && document.documentElement.scrollTop) {
+            var _con = document.documentElement;
+        } else if (document.body) {
+            var _con = document.body;
+        }
+        window.onscroll = set;
+        _btn.style.left = document.documentElement.scrollWidth/2 + 500 + "px";
+        _btn.onclick = function (){
+            _btn.style.display = "none";
+            window.onscroll = null;
+            this.timer = setInterval(function() {
+                _con.scrollTop -= Math.ceil(_con.scrollTop * 0.3);
+                if (_con.scrollTop == 0) clearInterval(_btn.timer, window.onscroll = set);
+            },30);
         };
-        document.write("<div id=\"goTop\" style=\" background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:9999; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\"><a href='##' class='scrollto'><i class='back-top fa fa-chevron-up'></i></a></div>");
-        //document.write("<div id=\"goTop\" style=\"font-size:12px; width:20px; height:55px; background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:1; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\">返<br />回<br />顶<br />部</div>");
-        window.onscroll = goTop;
+        function set() {
+            _btn.style.display = _con.scrollTop ? 'block': "none";
+        }
+    };
+    document.write("<div id=\"goTop\" style=\" background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:9999; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\"><a href='##' class='scrollto'><i class='back-top fa fa-chevron-up'></i></a></div>");
+    //document.write("<div id=\"goTop\" style=\"font-size:12px; width:20px; height:55px; background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:1; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\">返<br />回<br />顶<br />部</div>");
+    window.onscroll = goTop;
 
-	</script>
+</script>
 
 
 
+<script>
+    //		news 分页
+    $(function() {
+        $(".box").Page();
+    })
 
-
-	<script>
-//		news 分页
-        $(function() {
-            $(".box").Page();
-        })
-
-	</script>
-	</body>
+</script>
+</body>
 </html>

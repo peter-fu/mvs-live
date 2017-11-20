@@ -20,12 +20,18 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/animate-colorcicle.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/scss/all.css">
+	<!--<link rel="stylesheet" href="css/swiper.min.css">-->
+	<link rel="stylesheet" href="css/swiper.css">
 	<script src="js/lib/modernizr.js"></script>
 	<!--[if lt IE 9]>
 	<script src="/js/h5/respond.js"></script>
 	<script src="/js/h5/html5shiv.min.js"></script>
 	<![endif]-->
+
+	<script src="./js/swiper.min.js"></script>
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/w3/jquery-1.12.4.min.js"></script>
 	<!--<script src="js/statistics.js"></script>-->
 	<script>
 		/*
@@ -58,297 +64,403 @@
 
 	</script>
 </head>
-<body>
+<body class="index">
 	<div id="top"></div>
-		<!--header-->
-		<header id="header" class="top-bar tb-large tb-transp" >
-		<div class="headercontainer">
-				<div class="headerbox">
-					<div class="">
-						<div class="tb-logo fl">
-							<a href="./">
-								<h1 class="dis-tablecell height50">
-									<img src="images/metaverselogo.png" alt="metaverse" title="metaverse">
-									<!--<img src="images/metaverse.png" alt="metaverse" title="metaverse">-->
-								</h1>
-							</a>
-						</div>
+<div class="box-01">
+	<!--video-->
+	<section class="video-box top-01">
+		<!--video start-->
+		<div class="video-wrapper video-background">
+			<video src="http://newmetaverse.org/video/mvs-video.mp4" autoplay loop="loop" class="video hidden-sm">
+				your browser does not support the video tag
+			</video>
+			<div class="video-placeholder img-cover hidden-md hidden-lg" style=""></div>
+		</div>
+		<!--video end-->
 
-						<nav class="menu cn-menu fl">
-							<ul class="dis-tablecell height50">
-								<!--<li><a href="#home" class="scrollto">首页</a></li>-->
-								<li><a href="#features" class="scrollto cool-line">特征</a></li>
-								<li><a href="#Application" class="scrollto cool-line">应用</a>
-								<li><a href="#documents" class="scrollto cool-line">文档</a></li>
-								<li><a href="#download" class="scrollto cool-line">钱包</a></li>
-								<li><a href="./news_cn.html" class="cool-line">新闻</a></li>
-								<li><a class="cool-line" href="./foundation-cn.html">元界基金会</a></li>
-								<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">试用测试节点</a></li>
-								<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>区块浏览器</span><!-- <i class="fa fa fa-search"></i>--></a></li>
-								<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
-							</ul>
-							<div class="sl-language">
-								<a href="javascript:;"  class="active cool-line">CN</a>
-								<span class="line-lg">/</span>
-								<a href="./index.html" class="cool-line">EN</a>
-							</div>
-						</nav>
-
-					</div>
-					<input type="checkbox" id="toggle" />
-
-					<a href="javascript:void(0)" class="menu-trigger fr">
-						<div class="hamburger">
-							<div class="menui top-menu"></div>
-							<div class="menui mid-menu"></div>
-							<div class="menui bottom-menu"></div>
-						</div>
-						<!--<label for="toggle" class="toggle"></label>-->
-					</a>
+		<!--im des-->
+		<div class="desinfobox">
+			<div class="spe-blockbox bg3">
+				<div class="desinfo container text-center fadeInUp animated">
+					<h2 class="mvs-slbox"><img src="./images/newimgs/mvs-sl.png" alt="The New Reality" class="mvs-sl"></h2>
+					<p class="mvs-des">元界是基于区块链技术开发的去中心化项目，我们将在元界上建立一个智能资产网络系统，元界将成为一个开放的数字价值流转的生态。</p>
+					<!--<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">-->
+					<!--<img src="images/newimgs/play-btn.png" class="plvideo">-->
+					<!--&lt;!&ndash;Full screen view video&ndash;&gt;-->
+					<!--</a>-->
 				</div>
 			</div>
-		</header>
+
+			<div class="container text-center">
+				<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">
+					<img src="images/newimgs/play-btn.png" class="plvideo">
+					<!--Full screen view video-->
+				</a>
+			</div>
+		</div>
+		<!--im des-->
+	</section>
+	<!--video end-->
+
+	<!--header-->
+	<!--<div w3-include-html="./common/header-cn.html"></div>-->
+
+	<header id="header" class="top-bar tb-large tb-transp" >
+		<div class="headercontainer">
+			<div class="headerbox">
+				<div class="">
+					<div class="tb-logo fl">
+						<a href="./">
+							<h1 class="dis-tablecell height50">
+								<img src="images/metaverselogo.png" alt="metaverse" title="metaverse">
+							</h1>
+						</a>
+					</div>
+
+					<nav class="menu cn-menu fr">
+						<ul class="dis-tablecell height50 nav">
+							<!--<li><a href="#features" class="scrollto cool-line">Features</a></li>-->
+							<li class="active cool-line"><a href="#menu" data-scroll>首页</a></li>
+							<li><a href="#Bass" class="cool-line" data-scroll>BaaS</a></li>
+							<li><a href="./news.html" class="cool-line" data-scroll>新闻</a></li>
+							<li><a href="#Team"  class="cool-line" data-scroll>团队</a></li>
+							<li><a href="#download" class="cool-line" data-scroll>钱包</a></li>
+							<!--<li><a href="#Application" class="cool-line" data-scroll>应用</a>-->
+							<li><a href="./dev_cn.html" class="cool-line" target="_blank"  data-scroll>开发者</a></li>
+							<li><a class="cool-line" href="./foundation-cn.html" target="_blank">元界基金会</a></li>
+							<!--<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area">测试节点</a></li>-->
+							<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>区块浏览器</span><!-- <i class="fa fa fa-search"></i>--></a></li>
+							<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
+						</ul>
+						<div class="sl-language">
+							<a href="./index_cn.html"  class="active cool-line">CN</a>
+							<span class="line-lg">/</span>
+							<a href="./index.html" class="cool-line">EN</a>
+						</div>
+					</nav>
+
+				</div>
+				<input type="checkbox" id="toggle" />
+
+				<span class="menu-trigger fr">
+				<div class="hamburger">
+					<div class="menui top-menu"></div>
+					<div class="menui mid-menu"></div>
+					<div class="menui bottom-menu"></div>
+				</div>
+					<!--<label for="toggle" class="toggle"></label>-->
+			</span>
+			</div>
+		</div>
+	</header>
+	<!--header end-->
+
+
+		<!--header-->
+		<!--<header id="header" class="top-bar tb-large tb-transp" >-->
+		<!--<div class="headercontainer">-->
+				<!--<div class="headerbox">-->
+					<!--<div class="">-->
+						<!--<div class="tb-logo fl">-->
+							<!--<a href="./">-->
+								<!--<h1 class="dis-tablecell height50">-->
+									<!--<img src="images/metaverselogo.png" alt="metaverse" title="metaverse">-->
+									<!--&lt;!&ndash;<img src="images/metaverse.png" alt="metaverse" title="metaverse">&ndash;&gt;-->
+								<!--</h1>-->
+							<!--</a>-->
+						<!--</div>-->
+
+						<!--<nav class="menu cn-menu fl">-->
+							<!--<ul class="dis-tablecell height50">-->
+								<!--&lt;!&ndash;<li><a href="#home" class="scrollto">首页</a></li>&ndash;&gt;-->
+								<!--<li><a href="#features" class="scrollto cool-line">特征</a></li>-->
+								<!--<li><a href="#Application" class="scrollto cool-line">应用</a>-->
+								<!--<li><a href="#documents" class="scrollto cool-line">文档</a></li>-->
+								<!--<li><a href="#download" class="scrollto cool-line">钱包</a></li>-->
+								<!--<li><a href="./news_cn.html" class="cool-line">新闻</a></li>-->
+								<!--<li><a class="cool-line" href="./foundation-cn.html">元界基金会</a></li>-->
+								<!--<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">试用测试节点</a></li>-->
+								<!--<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>区块浏览器</span>&lt;!&ndash; <i class="fa fa fa-search"></i>&ndash;&gt;</a></li>-->
+								<!--&lt;!&ndash;<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>&ndash;&gt;-->
+							<!--</ul>-->
+							<!--<div class="sl-language">-->
+								<!--<a href="javascript:;"  class="active cool-line">CN</a>-->
+								<!--<span class="line-lg">/</span>-->
+								<!--<a href="./index.html" class="cool-line">EN</a>-->
+							<!--</div>-->
+						<!--</nav>-->
+
+					<!--</div>-->
+					<!--<input type="checkbox" id="toggle" />-->
+
+					<!--<a href="javascript:void(0)" class="menu-trigger fr">-->
+						<!--<div class="hamburger">-->
+							<!--<div class="menui top-menu"></div>-->
+							<!--<div class="menui mid-menu"></div>-->
+							<!--<div class="menui bottom-menu"></div>-->
+						<!--</div>-->
+						<!--&lt;!&ndash;<label for="toggle" class="toggle"></label>&ndash;&gt;-->
+					<!--</a>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</header>-->
 		<!--header end-->
 
 		<!--video-->
-		<section class="video-box">
-			<!--video start-->
-			<div class="video-wrapper video-background">
-				<video src="http://newmetaverse.org/video/mvs-video.mp4" autoplay loop="loop" class="video hidden-sm">
-					your browser does not support the video tag
-				</video>
-				<div class="video-placeholder img-cover hidden-md hidden-lg" style=""></div>
-			</div>
-			<!--video end-->
+		<!--<section class="video-box">-->
+			<!--&lt;!&ndash;video start&ndash;&gt;-->
+			<!--<div class="video-wrapper video-background">-->
+				<!--<video src="http://newmetaverse.org/video/mvs-video.mp4" autoplay loop="loop" class="video hidden-sm">-->
+					<!--your browser does not support the video tag-->
+				<!--</video>-->
+				<!--<div class="video-placeholder img-cover hidden-md hidden-lg" style=""></div>-->
+			<!--</div>-->
+			<!--&lt;!&ndash;video end&ndash;&gt;-->
 
-			<!--im des-->
-			<div class="desinfobox">
-				<div class="desinfo container text-center fadeInUp animated">
-					<h2 class="mvs-slbox"><img src="./images/mvs-sl.png" alt="The New Reality" class="mvs-sl"></h2>
-					<p class="mvs-des">元界是基于区块链技术开发的去中心化项目，我们将在元界上建立一个智能资产网络系统，元界将成为一个开放的数字价值流转的生态。</p>
-					<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video"><img src="images/play-btn.png" class="plvideo">全屏查看视频</a>
-				</div>
-			</div>
-			<!--im des-->
-
-		</section>
+			<!--&lt;!&ndash;im des&ndash;&gt;-->
+			<!--<div class="desinfobox">-->
+				<!--<div class="desinfo container text-center fadeInUp animated">-->
+					<!--<h2 class="mvs-slbox"><img src="./images/newimgs/mvs-sl.png" alt="The New Reality" class="mvs-sl"></h2>-->
+					<!--<p class="mvs-des">元界是基于区块链技术开发的去中心化项目，我们将在元界上建立一个智能资产网络系统，元界将成为一个开放的数字价值流转的生态。</p>-->
+					<!--<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video"><img src="images/newimgs/play-btn.png" class="plvideo"></a>-->
+				<!--</div>-->
+			<!--</div>-->
+			<!--&lt;!&ndash;im des&ndash;&gt;-->
+		<!--</section>-->
 		<!--video end-->
+
+		<!--about mvs-->
+		<section id="etp" class="about-mvs position-relative">
+			<div class="container">
+				<h2 class="Our-team  etp-desinfo fadeInUp animated text-center"><span class="h2-title">关于元界</span></h2>
+				<p class="text-desinfo fadeInUp animated cc-ct">元界是中国<span class="gl-color">领先的区块链</span>。元界旨在实现高效、便捷化的数字化个人数据和资产转移，使得交易的安全性和个人隐私得以保障。元界致力于彻底改变<span class="gl-color">金融服务和交易</span>的方式，并通过数字资产、数字身份和价值中介网络来改进原有的身份验证服务。</p>
+				<!--White Paper Download-->
+				<div class="white-paperbox container text-center">
+					<a class="blue-ctn cc-cbtn fadeInUp animated bk-ctn" href="http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-CN.pdf" target="_blank">元界数字身份白皮书<!--<i class="fa fa-arrow-circle-right animated" aria-hidden="true"></i>--></a>
+					<a class="btn-off cc-cbtn fadeInUp animated organgebg" href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf" target="_blank">元界白皮书<!--<i class="fa fa-arrow-circle-right animated" aria-hidden="true"></i>-->
+					</a>
+				</div>
+				<!--<div class="white-paperbox container text-center">-->
+					<!---->
+				<!--</div>-->
+				<!--White Paper Download end-->
+			</div>
+		</section>
+		<!--about mvs end-->
 
 		<section id="features" class="about position-relative">
 
 			<div class="container">
-				<h2 class="h2-title text-center fadeInUp animated">元界区块链的特点</h2>
+				<h2 class="h2-htitle text-center fadeInUp animated">元界区块链的特点</h2>
 				<div class="ww-wrap">
 					<div class="col-sm-6 col-lg-3 slideInLeft animated">
 						<div class="icon-nav">
-								<img src="images/icon1.png" alt="智能资产" class="hvr-pulse">
+								<img src="images/newimgs/icon1.png" alt="智能资产" class="">
 								<strong>智能资产</strong>
 								<em>资产数字化能够提高市场效率,增加市场价值,体现价值互联网</em>
 						</div>
 					</div>
 					<div class="col-sm-6 col-lg-3 slideInLeft animated">
 						<div class="icon-nav">
-								<img src="images/icon2.png"  alt="数字身份" class="hvr-pulse">
+								<img src="images/newimgs/icon2.png"  alt="数字身份" class="">
 								<strong>数字身份</strong>
 								<em>能够连接任何身份主体，不同身份之间可以交换信息和资产</em>
 						</div>
 					</div>
 					<div class="col-sm-6 col-lg-3 slideInRight animated">
 						<div class="icon-nav">
-								<img src="images/icon3.png" alt="价值中介" class="hvr-pulse">
+								<img src="images/newimgs/icon3.png" alt="价值中介" class="">
 								<strong>价值中介</strong>
 								<em>连接现实世界和虚拟世界，同时作为第三方来监督在元界上的交易</em>
 						</div>
 					</div>
 					<div class="col-sm-6 col-lg-3  slideInRight animated">
 						<div class="icon-nav">
-								<img src="images/icon4.png" alt="去中心化交易" class="hvr-pulse">
+								<img src="images/newimgs/icon4.png" alt="去中心化交易" class="">
 								<strong>去中心化交易</strong>
 								<em>价值自由交换，方便安全，能够完全掌控自己的资产使其不被盗取</em>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--White Paper Download-->
-			<div class="white-paperbox container text-center">
-				<a class="blue-ctn btn cc-cbtn fadeInUp animated" href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf" target="_blank">
-					<span>元界白皮书</span>
-					<i class="fa fa-arrow-circle-right animated" aria-hidden="true"></i>
-				</a>
-			</div>
-			<div class="white-paperbox container text-center">
-				<a class="blue-ctn btn cc-cbtn fadeInUp animated" href="http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-CN.pdf" target="_blank">
-					<span>元界数字身份白皮书</span>
-					<i class="fa fa-arrow-circle-right animated" aria-hidden="true"></i>
-				</a>
-			</div>
-			<!--White Paper Download end-->
-
-			<div class="balloon-container balloon-container-top-left hidden-xs hidden-sm">
-				<div class="balloon-wrapper-sm" layout-index="2"><div class="balloon balloon-sm01 feature-balloon-0 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1000" scroll-parallax-tween="{ y: -250, x: -150, skewX: '10deg', rotation: 20 }" style="transform: matrix3d(0.959, 0.283406, 0, 0, -0.143178, 0.989697, 0, 0, 0, 0, 1, 0, -123.477, -205.795, 0, 1);"></div>
-				</div>
-				<div class="balloon-wrapper-lg" layout-index="3"><div class="balloon balloon-lg feature-balloon-1 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1500" scroll-parallax-tween="{ y: -150, x: -100, skewX: '20deg', rotation: 90 }" style="transform: matrix3d(0.557641, 0.830082, 0, 0, -0.690111, 0.723703, 0, 0, 0, 0, 1, 0, -62.3413, -93.512, 0, 1);"></div>
-				</div>
-				<div class="balloon-wrapper-xl" layout-index="1"><div class="balloon balloon-xl feature-balloon-2 ng-scope" scroll-parallax="#features" scroll-parallax-duration="2000" scroll-parallax-tween="{ y: -250, x: -250, skewX: '30deg', rotation: 0 }" style="transform: matrix3d(1, 0, 0, 0, 0.256565, 0.966527, 0, 0, 0, 0, 1, 0, -123.886, -123.886, 0, 1);"></div></div>
-				</div>
-			<div class="balloon-container balloon-container-bottom-right hidden-xs hidden-sm">
-				<div class="balloon-wrapper-sm" layout-index="3"><div class="balloon balloon-sm feature-balloon-3 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1500" scroll-parallax-tween="{ y: -220, x: -350, skewX: '30deg', rotation: 20 }" style="transform: matrix3d(0.3, 0.990661, 0, 0, -0.930221, 0.366999, 0, 0, 0, 0, 1, 0, -182.585, -36.517, 0, 1);"></div></div>
-				<div class="balloon-wrapper-md" layout-index="2"><div class="balloon balloon-md feature-balloon-4 ng-scope" scroll-parallax="#features" scroll-parallax-duration="1500" scroll-parallax-tween="{ y: -80, x: -50, skewX: '20deg', rotation: 90 }" style="transform: matrix3d(0.14028, 0.990112, 0, 0, -0.896703, 0.442634, 0, 0, 0, 0, 1, 0, -45.52, -72.832, 0, 1);"></div></div>
-				<div class="balloon-wrapper-lg" layout-index="1"><div class="balloon balloon-lg feature-balloon-5 ng-scope" scroll-parallax="#features" scroll-parallax-duration="4000" scroll-parallax-tween="{ y: -80, x: -400, skewX: '30deg', rotation: 180 }" style="transform: matrix3d(0.3, 0.990661, 0, 0, -0.930221, 0.366999, 0, 0, 0, 0, 1, 0, -182.585, -36.517, 0, 1);"></div></div>
-			</div>
 		</section>
 
-		<!--ETP-->
-		<div class="swiper-slide etp-box">
-			<div class="container">
-				<div class="">
-					<!--left-->
-					<div class="testimonial-panel" >
-						<div class="left-fdbox text-left dis-tablecell">
-							<img class="img-etplogo fadeInUp animated" src="./images/mvs-logoico.png">
-							<h2 class="text-light text-normal fadeInUp animated">Metaverse ETP</h2>
-							<h4 class="text-light text-desfd fadeInUp animated">ETP 是元界的基础代币，ETP 将被用来衡量 Metaverse上的智能资产的价值，或者作为金融交易中的一般担保物。同时ETP可用来支付元界上的交易费等费用。</h4>
-						</div>
-					</div>
-					<!--left content end-->
-					<!--right-->
-					<div class="rightimgcbox fadeInUp animated dis-tablecell">
-						<img src="./images/ETP-adimg.png" class="mvs-logoimg fadeInUp animated" alt="ETP">
-					</div>
-					<!--right end-->
-				</div>
-			</div>
-		</div>
 
+
+	<!--ETP-->
+	<div class="etp-box cc-ct">
 		<div class="container">
-			<p class="text-desfd etp-desinfo fadeInUp animated">ETP的安全性由椭圆曲线数字签名算法保障(ECDSA)，ETP代表 Metaverse 的权益，且ETP的价格不会锚定任何法定货币或者加密货币，例如比特币，而是取决于Metaverse的生态发展以及ETP的市场需求。 </p>
-		</div>
-		<!--ETP end-->
-
-		<!-- Slide banner Swiper -->
-		<section class="applicationbox swiper-container" id="Application">
-			<div class="swiper-wrapper">
-				<!--sld01 begin-->
-				<!--<div class="swiper-slide">-->
-					<!--<div class="sld01">-->
-						<!--&lt;!&ndash;left&ndash;&gt;-->
-						<!--<div class="testimonial-panel s-panel1" >-->
-							<!--<div class="left-fdbox text-left">-->
-								<!--<img class="img-retina img-etplogo" src="./images/mvslogo.png" alt="etp" title="etp">-->
-								<!--<h2 class="text-light text-normal">ETP</h2>-->
-								<!--<h4 class="text-light text-desfd">熵(ETP)是元界发行的代币，可用于转让和交易，同时ETP可用来支付元界上交易的手续费/服务费等费用。</h4>-->
-							<!--</div>-->
-						<!--</div>-->
-						<!--&lt;!&ndash;left content end&ndash;&gt;-->
-						<!--&lt;!&ndash;right&ndash;&gt;-->
-						<!--<div class="rightimgcbox">-->
-							<!--<img src="./images/metaverse-logo.png">-->
-						<!--</div>-->
-						<!--&lt;!&ndash;right end&ndash;&gt;-->
-					<!--</div>-->
-				<!--</div>-->
-				<!--sld01 end-->
-				<!--sld02 begin-->
-				<div class="swiper-slide">
-					<div class="sld02">
-						<!--left-->
-						<div class="testimonial-panel s-panel2" >
-							<div class="left-fdbox text-left">
-								<img class="img-retina" src="./images/zengoldlogo.png" alt="zengold" title="zengold">
-								<h2 class="text-light text-normal">Zen Gold</h2>
-								<h4 class="text-light text-desfd">Zen Gold通过元界区块链使实体黄金价值转移到去中心化的网络上，使黄金价值可以像数字货币一样在全世界自由转移</h4>
-								<a class="btn cc-cbtn2 ng-scope" href="http://zengold.org/" target="_blank">了解详情</a>
-							</div>
-						</div>
-						<!--left content end-->
-						<!--right-->
-						<div class="rightimgcbox">
-							<img src="./images/zengold-new.png">
-						</div>
-						<!--right end-->
+			<h2 class="h2-tl fadeInUp animated text-center">ETP 是元界的基础代币</h2>
+			<p class="etp-infodes first-child fadeInUp animated">作为元界的基础代币，ETP代表Metaverse的权益，可以在Metaverse上转移和交易。ETP 的发行总量是1亿枚，最小单位为<span>10<sup>-8</sup></span>，ETP的安全性由椭圆曲线数字签名算法保障（ECDSA）。</p>
+			<p class="etp-infodes fadeInUp animated">ETP将被用来衡量Metaverse上的智能资产的价值，或者作为金融交易中的一般担保物。与此同时，当使用Metaverse系统的过程中需要收费的时候，将是以ETP的形式进行收费，例如创建一种新的智能资产，注册一个Avatar，将自己标记成为一名Oracle等。</p>
+			<div class="etp-about col5-warp">
+				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+					<div class="service-item">
+						<i class="iicon"><img src="images/newimgs/m01.png" alt="Digital Identity White Paper" class="hvr-pulse"></i>
+						<p class="des">Total amount</p>
 					</div>
 				</div>
-				<!--sld02 end-->
-				<!--sld03 begin-->
-				<div class="swiper-slide zenairbox">
-					<div class="sld03">
-						<!--left-->
-						<div class="testimonial-panel s-panel3" >
-							<div class="left-fdbox text-left">
-								<img class="img-retina" src="./images/zenair.png" alt="ZenAir承云" title="ZenAir承云">
-								<h2 class="text-light text-normal">ZenAir承云 <span class="za-sl">商旅领域的区块链应用</span>  </h2>
-								<p class="za-des text-desfd">ZenAir是基于元界区块链并由实体商旅背书的智能商旅科技体系。</p>
-								<h4 class="text-light text-desfd">
-									在元界公有链上，应用元界的数字身份体系，结合区块链技术对商旅中的优质航线价值和酒店价值进行实名确权。致力于打造一个去中心化的商旅资源综合体。通过实时数据，差旅管理公司服务与动态分销渠道，明确优质商旅资源标的，颠覆现有的依靠资源投入的全球商旅行业现状，把商旅和区块链数字身份 相结合，打造全球商旅资源整合新模式，重塑商旅出行的新格局。
-								</h4>
-								<a class="btn cc-cbtn2 ng-scope"  href="http://gozenair.org" target="_blank">了解详情</a>
-							</div>
-						</div>
-						<!--left content end-->
-						<!--right-->
-						<div class="rightimgcbox">
-							<img src="./images/plane.png" class="ri-plane">
-						</div>
-						<!--right end-->
+				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+					<div class="service-item">
+						<i class="iicon"><img src="images/newimgs/m02.png" alt="Digital Identity White Paper" class="hvr-pulse"></i>
+						<p class="des">Algorithm</p>
 					</div>
 				</div>
-				<!--sld03 begin-->
-				<!--sld03 begin-->
-				<!--<div class="swiper-slide">-->
-					<!--<div class="sld03">-->
-						<!--&lt;!&ndash;left&ndash;&gt;-->
-						<!--<div class="testimonial-panel s-panel3" >-->
-							<!--<div class="left-fdbox text-left">-->
-								<!--<img class="img-retina" src="./images/ZenDao-logo.png" alt="zendao承道" title="zendao承道">-->
-								<!--<h2 class="text-light text-normal">Zen Dao</h2>-->
-								<!--<h4 class="text-light text-desfd">ZenDao建立了实体物品的确权体系，使收藏品的所有权及其扭转历史通过区块链进行记录，并衍生了一系列工具实现了实体资产价值数字化应用。</h4>-->
-								<!--<a class="btn cc-cbtn2 ng-scope"  href="http://zendao.org/" target="_blank">More Information</a>-->
-							<!--</div>-->
-						<!--</div>-->
-						<!--&lt;!&ndash;left content end&ndash;&gt;-->
-						<!--&lt;!&ndash;right&ndash;&gt;-->
-						<!--<div class="rightimgcbox">-->
-							<!--<img src="./images/zendao.png">-->
-						<!--</div>-->
-						<!--&lt;!&ndash;right end&ndash;&gt;-->
-					<!--</div>-->
-				<!--</div>-->
-				<!--sld03 begin-->
+				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+					<div class="service-item">
+						<i class="iicon"><img src="images/newimgs/m03.png" alt="Digital Identity White Paper" class="hvr-pulse"></i>
+						<p class="des">ICO investors</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+					<div class="service-item">
+						<i class="iicon"><img src="images/newimgs/m03.png" alt="Digital Identity White Paper" class="hvr-pulse"></i>
+						<p class="des">Metaverse Foundation</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
+					<div class="service-item">
+						<i class="iicon"><img src="images/newimgs/m05.png" alt="Digital Identity White Paper" class="hvr-pulse"></i>
+						<p class="des">Consensus</p>
+					</div>
+				</div>
 			</div>
-			<!-- Add Pagination -->
-			<div class="swiper-pagination"></div>
-		</section>
-		<!-- Slide banner Swiper  end-->
+		</div>
 
+	</div>
+
+		<!--ETP end-->
+		<div class="etp-infobox xxe">
+			<div class="container">
+				<p class="text-center">在 ETP 的经济模型设计中，我们加入了系统级别的有偿锁币功能，这对区块链的经济系统来说是新的设计。</p>
+			</div>
+
+		</div>
+	</div>
+
+	<!--Bass begin-->
+	<div class="box-02">
+		<div class="bass-infobox top-02" id="Bass">
+			<div class="container">
+				<h2 class="Our-team  etp-desinfo fadeInUp animated text-center"><span class="h2-title">BaaS</span></h2>
+				<p class="text-desinfo fadeInUp animated text-center cc-ct">元界首次提出了基于公链的BaaS（区块链即服务）的概念，即企业或个人可以根据自己的实际需求，向区块链解决方案供应商定制区块链服务。元界的BaaS框架主要面向商业用户，例如有交易管理需求、资产管理需求的个人或企业。元界现在已经在着手基于区块链技术的实际应用。</p>
+			</div>
+		</div>
+	</div>
+	<!--Bass end-->
+
+	<!-- Slide banner Swiper -->
+	<div class="box-03">
+		<section class="applicationbox top-05" id="Application">
+				<!-- Swiper begin -->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<!--slide01 content begin-->
+						<div class="swiper-slide">
+							<div class="left-panel zgimg">
+								<div class="left-fdbox text-left">
+									<img class="img-retina" src="./images/newimgs/zengoldlogo.png" alt="zengold" title="zengold">
+									<h2 class="text-light text-normal">ZenGold 臻金</h2>
+									<h4 class="text-light text-desfd">ZenGold通过元界区块链使实体黄金价值转移到去中心化的网络上，使黄金价值可以像数字货币一样在全世界自由转移。</h4>
+									<a class="btn-dt" href="http://zengold.org/" target="_blank">了解详情 ></a>
+								</div>
+							</div>
+							<!--<div class="r-imgcbox">-->
+							<!--<img src="./images/zengold-new.png">-->
+							<!--</div>-->
+						</div>
+						<!--slide01 content begin end-->
+
+
+						<!--slide02 content begin-->
+						<div class="swiper-slide">
+							<div class="left-panel plimg">
+								<div class="left-fdbox text-left">
+									<img class="img-retina" src="./images/newimgs/zenair.png" alt="ZenAir承云" title="ZenAir承云">
+									<h2 class="text-light text-normal">ZenAir承云 <span class="za-sl">商旅领域的区块链应用</span>  </h2>
+									<p class="za-des text-desfd">ZenAir是基于元界区块链并由实体商旅背书的智能商旅科技体系。</p>
+									<h4 class="spe-desza text-light text-desfd">
+										在元界公有链上，应用元界的数字身份体系，结合区块链技术对商旅中的优质航线价值和酒店价值进行实名确权。致力于打造一个去中心化的商旅资源综合体。通过实时数据，差旅管理公司服务与动态分销渠道，明确优质商旅资源标的，颠覆现有的依靠资源投入的全球商旅行业现状，把商旅和区块链数字身份 相结合，打造全球商旅资源整合新模式，重塑商旅出行的新格局。
+									</h4>
+									<a class="btn-dt" href="http://gozenair.org" target="_blank">了解详情 ></a>
+								</div>
+							</div>
+						</div>
+						<!--slide02 content begin end-->
+
+						<!--slide03 content begin-->
+						<div class="swiper-slide">
+							<div class="left-panel zdimg">
+								<div class="left-fdbox text-left">
+									<img class="img-retina zdbox" src="./images/newimgs/zendaologo.png" alt="zendao" title="zendao">
+									<h2 class="text-light text-normal">ZenDao 承道</h2>
+									<h4 class="text-light text-desfd">承道，一个基于元界开发的平台，它利用区块链技术的解决方案来为区块链上的实体收藏品提供数字化呈现，并且建立不可篡改的数字来源和所有权转移渠道。</h4>
+									<a class="btn-dt" href="http://zendao.org" target="_blank">了解详情 ></a>
+								</div>
+							</div>
+							<!--<div class="r-imgcbox">-->
+							<!--<img src="./images/zengold-new.png">-->
+							<!--</div>-->
+						</div>
+						<!--slide03 content begin end-->
+
+					</div>
+					<!-- Add Pagination -->
+					<!--<div class="swiper-pagination"></div>-->
+					<!-- Add Arrows -->
+					<div class="swiper-btnbox container">
+						<div class="swiper-button-prev fl"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+						<div class="swiper-button-next fr" ><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+					</div>
+				</div>
+				<!-- Swiper begin end -->
+			</section>
+	</div>
+	<!-- Slide banner Swiper  end-->
+
+
+	<div class="box-04">
 		<!--Team begin-->
-		<section class="team-wrap container">
-			<h2 class="Our-team  etp-desinfo fadeInUp animated text-center">我们的团队</h2>
-			<p class="text-desinfo fadeInUp animated text-center">元界是一个专业的有活力的国际化团队, 拥有追求卓越的管理层和经验丰富的技术团队。</p>
+		<section class="team-wrap container top-03" id="Team">
+			<h2 class="Our-team  etp-desinfo fadeInUp animated text-center"><span class="h2-title">我们的团队</span></h2>
+			<p class="text-desinfo fadeInUp animated text-center">元界是一个专业的<span class="gl-color">有活力</span>的国际化团队, 拥有追求卓越的管理层和<span class="gl-color">经验丰富</span>的技术团队。</p>
 			<div class="team-h1 clearfix">
 				<div class="col-sm-6 col-lg-3 fadeInUp animated">
 					<div class="text-center">
-						<img src="images/team/Eric.jpg" alt="Eric Gu" title="Eric Gu" class="photo">
+						<div class="photo-box">
+							<img src="images/team/Eric.jpg" alt="Eric Gu" title="Eric Gu" class="photo">
+							<div class="positionbox">
+								<em class="name-info">Founder and CEO</em>
+							</div>
+						</div>
 						<div class="personal-info">
 							<strong class="t-name">Eric Gu</strong>
-							<em class="positionbox">Founder and CEO</em>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3 fadeInUp animated">
 					<div class="text-center">
-						<img src="images/team/Chenhao.jpg" alt="Hao Chen" title="Hao Chen" class="photo">
+						<div class="photo-box spe-pb">
+							<img src="images/team/Chenhao.jpg" alt="Hao Chen" title="Hao Chen" class="photo">
+							<div class="positionbox">
+								<em class="name-info">CTO</em>
+							</div>
+						</div>
 						<div class="personal-info">
 							<strong class="t-name">Hao Chen</strong>
-							<em class="positionbox">CTO</em>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3 fadeInUp animated">
 					<div class="text-center">
-						<img src="images/team/Janice.jpg" alt="Janice Shi" title="Janice Shi" class="photo">
+						<div class="photo-box">
+							<img src="images/team/Janice.jpg" alt="Janice Shi" title="Janice Shi" class="photo">
+							<div class="positionbox">
+								<em class="name-info">The Head Of Global Development</em>
+							</div>
+						</div>
 						<div class="personal-info">
 							<strong class="t-name">Janice Shi</strong>
-							<em class="positionbox">The Head Of Global Development</em>
 						</div>
 					</div>
 				</div>
@@ -362,7 +474,7 @@
 						<img src="images/team/Wangdongyun.jpg" alt="Dongyun Wang" title="Dongyun Wang" class="photo">
 						<div class="personal-info">
 							<strong class="t-name">Dongyun Wang</strong>
-							<em class="positionbox">Database, C++，Developer </em>
+							<em class="positionbox position-info ">Database, C++，Developer </em>
 						</div>
 					</div>
 				</div>
@@ -371,7 +483,7 @@
 						<img src="images/team/Sven01.jpg" alt="Sven" title="Sven" class="photo">
 						<div class="personal-info">
 							<strong class="t-name">Sven</strong>
-							<em class="positionbox">Full-stack Engineer</em>
+							<em class="positionbox position-info">Full-stack Engineer</em>
 						</div>
 					</div>
 				</div>
@@ -380,7 +492,7 @@
 						<img src="images/team/Wangdaoqun.jpg" alt="Daoqun Wang" title="Daoqun Wang" class="photo">
 						<div class="personal-info">
 							<strong class="t-name">Daoqun Wang</strong>
-							<em class="positionbox">Java Developer </em>
+							<em class="positionbox position-info">Java Developer </em>
 						</div>
 					</div>
 				</div>
@@ -389,7 +501,7 @@
 						<img src="images/team/Lanjian.jpg" alt="Jian Lan" title="Jian Lan" class="photo">
 						<div class="personal-info">
 							<strong class="t-name">Jian Lan</strong>
-							<em class="positionbox">C++，Developer</em>
+							<em class="positionbox position-info">C++，Developer</em>
 						</div>
 					</div>
 				</div>
@@ -398,7 +510,7 @@
 						<img src="images/team/Sunqianwen.jpg" alt="Qianwen Sun" title="Qianwen Sun" class="photo">
 						<div class="personal-info">
 							<strong class="t-name">Qianwen Sun</strong>
-							<em class="positionbox">Mining, C++，Developer</em>
+							<em class="positionbox position-info">Mining, C++，Developer</em>
 						</div>
 					</div>
 				</div>
@@ -407,7 +519,7 @@
 						<img src="images/team/Jianglianghe.jpg" alt="Lianghe Jiang" title="Lianghe Jiang" class="photo">
 						<div class="personal-info">
 							<strong class="t-name">Lianghe Jiang</strong>
-							<em class="positionbox">Network, C++，Developer</em>
+							<em class="positionbox position-info">Network, C++，Developer</em>
 						</div>
 					</div>
 				</div>
@@ -415,228 +527,442 @@
 		</section>
 		<!--Team end-->
 
-		<!--documents-->
-		<section id="documents" class="services section-slider overhide">
-			<div class="container col5-warp relative text-center">
-					<h3 class="h3-title text-center fadeInUp animated">文档</h3>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-CN.pdf" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-book"></i>-->
-								<i class="iicon"><img src="images/iicon1.png" alt="元界数字身份白皮书" class="hvr-pulse"></i>
-								<p>元界数字身份白皮书</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-book"></i>-->
-								<i class="iicon"><img src="images/iicon1.png" alt="白皮书" class="hvr-pulse"></i>
-								<p>白皮书</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="https://github.com/mvs-org" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-smile-o"></i>-->
-								<i class="iicon2"><img src="images/iicon2.png" alt="源代码" class="hvr-pulse"></i>
-								<p>源代码</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="https://github.com/mvs-org/metaverse/wiki/Metaverse-API-Call-List" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-wordpress"></i>-->
-								<i class="iicon3"><img src="images/iicon3.png" alt="开发者指南" class="hvr-pulse"></i>
-								<p>开发者指南</p>
-							</div>
-						</a>
-					</div>
-					<!--<div class="col-md-2 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">-->
-						<!--<a href="http://blog.mvs.live/mvs-user-guide-zh/" target="_blank">-->
-							<!--<div class="service-item">-->
-								<!--&lt;!&ndash;<i class="fa fa-leaf"></i>&ndash;&gt;-->
-								<!--<i class="iicon4"><img src="images/iicon4.png" alt="用户指南" class="hvr-pulse"></i>-->
-								<!--<p>用户指南</p>-->
-							<!--</div>-->
-						<!--</a>-->
-					<!--</div>-->
-					<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">
-						<a href="https://github.com/mvs-org/metaverse/wiki" target="_blank">
-							<div class="service-item">
-								<!--<i class="fa fa-leaf"></i>-->
-								<i class="iicon5"><img src="images/iicon5.png" alt="元界百科" class="hvr-pulse"></i>
-								<p>元界百科</p>
-							</div>
-						</a>
-					</div>
+
+		<!-- recruit start-->
+		<div class="recruit-infobox top-08">
+			<div class="container text-center">
+				<p class="slg-our">WE WANT YOU</p>
+				<p class="zp-info">我们希望每个人都在做着自己挚爱的事情，充满斗志，充满激情甚至对于工作有点亢奋
+					在这里，没有一个职位是因为满足别人的需求而存在，我们所做的一切都是为了能够实现大家共同的理想</p>
+				<p class="send-hr">发送简历至：hr@viewfin.com</p>
 			</div>
-		</section>
-		<!--documents end-->
+		</div>
+		<!-- recruit end-->
+	</div>
 
-		<!--send email-->
-		<section class="social-footer position-relative">
-				<div class="container">
-					<div class="twelve_list">
-						<form class="form-list" id="newsletter_form" role="form">
-							<input type="hidden" name="language" value="zh">
-							<div class="send-email">
-								<input type="email" name="email" placeholder="邮箱地址" class="sdinput" required="required"><button class="creatAssetBtn sendbtn">发送</button>
-							</div>
-							<div class="error_message fadeInUp animated" id="duplicate_error">您的邮箱信息已存在。</div>
-							<div class="success_message fadeInUp animated" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>
-							<!--<ul>-->
-							<!--<li><input type="text" name="firstname" placeholder="名">-->
-							<!--</li>-->
-							<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
-							<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
-							<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
-							<!--<li><button class="creatAssetBtn">注册</button></li>-->
-							<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
-							<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
-							<!--<div class="error_message" id="email_error">您的邮箱地址无效</div>-->
-							<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
-							<!--</ul>-->
-						</form>
-						<p class="ftips">您可以通过注册来订阅我们的最新资讯，并且能够免费获取一些测试网络ETP</p>
+	<div class="box-5"  id="download">
+		<!--top-04 begin-->
+		<div class="top-04">
+			<!--wallet download begin-->
+			<section class="team-wrap container">
+				<h2 class="Our-team  etp-desinfo fadeInUp animated text-center"><span class="h2-title">钱包下载</span></h2>
+				<p class="text-desinfo fadeInUp animated text-center">元界钱包电脑客户端是目前<span class="gl-color">最完整、最安全、最早的</span>元界<span class="gl-color">资产客户端</span>，可完成转账等一系列常用操作。</p>
+			</section>
+			<!--wallet download-->
+			<section class="downloadwrap overhide ptb80">
+				<div class="container relative">
+
+					<!-- Light Wallet begin-->
+					<div class="col-sm-6 col-md-4 col-lg-3 margin-bottom-large border-from-bottom fadeInUp animated spe-wbox">
+						<div class="s-item">
+							<div class="c-iconbox comm-titlest"><span class="icon-wallet hvr-pulse"></span></div>
+						</div>
+						<p class="wallet-base">Light Wallet</p>
+						<p class="up-date">更新日期：2017.11.12</p>
+						<ul class="data-dw">
+							<li><a href="https://www.myetpwallet.com" target="_blank" class="dldata-title"><span class="dw-t cool-line">访问链接</span></a></li>
+							<li><p class="md5-data mvs-mywallet cool-line"><a href="https://www.myetpwallet.com" target="_blank">https://www.myetpwallet.com</a></p></li>
+							<li><p class="mw-des mvs-macOSX">提供安全、便捷、易用的钱包服务<br>无需等待区块同步<br>
+								支持私钥导入<br></p></li>
+						</ul>
 					</div>
-					<img src="images/hand-pc.png" class="hand-pc">
-				</div>
-		</section>
-		<!--send email end-->
+					<!--Light Wallet end-->
 
-		<!--wallet download-->
-		<section id="download" class="downloadwrap overhide ptb80">
-			<div class="container relative">
-				<h3 class="text-white h3-title text-center fadeInUp animated">钱包</h3>
-
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">
-					<div class="service-item">
-						<i class="fa fa-windows hvr-pulse"></i>
-						<!--<i class="iicon"><img src="images/new/iicon1.png" alt="" class=""></i>-->
-						<span>Windows 64bit</span>
-					</div>
-					<!-- begin-->
-					<div class="hover-show">
-						<ul>
-							<li><a href="http://newmetaverse.org/mvs-download/mvs-win64-v0.7.1.exe" class="cool-line dldata-title">标准版</a></li>
+					<!-- Windows begin-->
+					<div class="col-sm-6 col-md-4 col-lg-3 margin-bottom-large border-from-bottom fadeInUp animated spe-wbox">
+						<div class="s-item">
+							<div class="c-iconbox comm-titlest"><i class="fa fa-windows hvr-pulse"></i></div>
+						</div>
+						<p class="wallet-base">Windows 64bit</p>
+						<p class="up-date">更新日期：2017.10.27</p>
+						<ul class="data-dw">
+							<li><a href="http://newmetaverse.org/mvs-download/mvs-win64-v0.7.1.exe" class="dldata-title"><span class="dw-t cool-line">标准版下载</span></a></li>
 							<li><p class="md5-data mvs-macOSX">c92d0eff79729c18dbf09fafc7207f89</p></li>
-							<li><a href="http://newmetaverse.org/mvs-download/mvs-win64-database-v0.7.1.exe" class="cool-line dldata-title">数据包版</a></li>
+							<li><a href="http://newmetaverse.org/mvs-download/mvs-win64-database-v0.7.1.exe" class="dldata-title"><span class="dw-t cool-line">数据包版下载</span></a></li>
 							<li><p class="md5-data mvs-macOSX">7d20b2b6a14f5ada18f1127317bafb01</p></li>
-							<li><a class="wallet-manual dldata-title cool-line" href="http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf" target="_blank">【0.7.1版本】元界钱包使用手册</a></li>
 						</ul>
 					</div>
-					<!-- end-->
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">
-					<div class="service-item">
-						<i class="fa fa-apple hvr-pulse"></i>
-						<!--<i class="iicon2"><img src="images/new/iicon2.png" alt="" class=""></i>-->
-						<span>OS X</span>
-					</div>
-					<!-- begin-->
-					<div class="hover-show">
-						<ul>
-							<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-v0.7.1.pkg" class="cool-line dldata-title">标准版</a></li>
+					<!--Windows end-->
+
+					<!-- OS X begin-->
+					<div class="col-sm-6 col-md-4 col-lg-3 margin-bottom-large border-from-bottom fadeInUp animated spe-wbox">
+						<div class="s-item">
+							<div class="c-iconbox comm-titlest"><i class="fa fa-apple hvr-pulse"></i></div>
+						</div>
+						<p class="wallet-base">OS X</p>
+						<p class="up-date">更新日期：2017.10.27</p>
+						<ul class="data-dw">
+							<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-v0.7.1.pkg" class="dldata-title"><span class="dw-t cool-line">标准版下载</span></a></li>
 							<li><p class="md5-data mvs-macOSX">2bd7ec4ca319fed270ebdf19cc249b46</p></li>
-							<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-database-x86_64-v0.7.1.pkg" class="cool-line dldata-title">数据包版</a></li>
+							<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-database-v0.7.1.pkg" class="dldata-title"><span class="dw-t cool-line">数据包版下载</span></a></li>
 							<li><p class="md5-data mvs-macOSX">51c28fe82bb478840a50ccde2e5bff5e</p></li>
-							<li><a class="wallet-manual dldata-title cool-line" href="http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf" target="_blank">【0.7.1版本】元界钱包使用手册</a></li>
 						</ul>
 					</div>
-					<!-- end-->
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover cool-line">
-					<div class="service-item">
-						<i class="fa fa-linux hvr-pulse"></i>
-						<!--<i class="iicon3"><img src="images/new/iicon3.png" alt="" class=""></i>-->
-						<span>Linux 64bit</span>
-					</div>
-					<!-- begin-->
-					<div class="hover-show">
-						<ul>
-							<li><a href="http://newmetaverse.org/mvs-download/mvs-linux-x86_64-v0.7.1b.zip" class="cool-line dldata-title">标准版</a></li>
+					<!--OS X end-->
+
+					<!-- Linux 64bit begin-->
+					<div class="col-sm-6 col-md-4 col-lg-3 margin-bottom-large border-from-bottom fadeInUp animated spe-wbox">
+						<div class="s-item">
+							<div class="c-iconbox comm-titlest"><i class="fa fa-linux hvr-pulse"></i></div>
+						</div>
+						<p class="wallet-base">Linux 64bit</p>
+						<p class="up-date">更新日期：2017.10.27</p>
+						<ul class="data-dw">
+							<li><a href="http://newmetaverse.org/mvs-download/mvs-linux-x86_64-v0.7.1b.zip" class="dldata-title"><span class="dw-t cool-line">标准版下载</span></a></li>
 							<li><p class="md5-data mvs-macOSX">35683ede951ad0f9e972a9e2950609dc</p></li>
 						</ul>
 					</div>
-					<!-- end-->
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
-					<a href="http://github.com/mvs-org/metaverse" target="_blank">
-						<div class="service-item">
-							<i class="fa fa-code hvr-pulse"></i>
-							<!--<i class="iicon4"><img src="images/new/iicon4.png" alt="" class=""></i>-->
-							<span>Source Code</span>
-						</div>
-					</a>
-				</div>
+					<!--Linux 64bit end-->
 
+				</div>
+			</section>
+			<section class="walletpdf-wrap container">
+				<h2 class="fadeInUp animated text-center"><span class="h3-title">元界钱包使用手册</span></h2>
+				<div class="text-center">
+					<a href="http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf" target="_blank" class="btn-onn walletpdf-dw">下载</a>
+				</div>
+			</section>
+			<!--wallet download end-->
+		</div>
+		<!--top-09 end-->
+
+
+
+		<!--send email-->
+		<section class="social-footer position-relative hide">
+			<div class="container">
+				<div class="twelve_list">
+					<form class="form-list" id="newsletter_form" role="form">
+						<input type="hidden" name="language" value="zh">
+						<div class="send-email">
+							<input type="email" name="email" placeholder="邮箱地址" class="sdinput" required="required"><button class="creatAssetBtn sendbtn">发送</button>
+						</div>
+						<div class="error_message fadeInUp animated" id="duplicate_error">您的邮箱信息已存在。</div>
+						<div class="success_message fadeInUp animated" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>
+						<!--<ul>-->
+						<!--<li><input type="text" name="firstname" placeholder="名">-->
+						<!--</li>-->
+						<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
+						<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
+						<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
+						<!--<li><button class="creatAssetBtn">注册</button></li>-->
+						<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
+						<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
+						<div class="error_message" id="email_error">您的邮箱地址无效</div>
+						<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
+						<!--</ul>-->
+					</form>
+					<p class="ftips">您可以通过注册来订阅我们的最新资讯，并且能够免费获取一些测试网络ETP</p>
+				</div>
 			</div>
 		</section>
-		<!--wallet download end-->
+		<!--send email end-->
 
+		<!--contact us begin-->
+		<section id="contact" class="contact-warp services section-slider overhide">
+			<div class="container col5-warp relative text-center">
+				<!--<h3 class="h3-title text-center fadeInUp animated">关注我们</h3>-->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="title-box">
+							<div class="line-h4"></div>
+							<h4 class="h4-title text-center fadeInUp animated">Social Media</h4>
+						</div>
+						<ul class="social margin-bottom-medium">
+							<li class="twitter"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li class="facebook"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li class="youtube"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+							<li class="medium"><a href="https://medium.com/@mvs_org" target="_blank"><i class="fa icon-medium"></i></a></li>
+							<li class="telegram"><a href="https://t.me/Metaverse_Blockchain" target="_blank"><i class="fa icon-telegram" aria-hidden="true"></i></a></li>
+							<li class="sinaweibo"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<div class="title-box">
+							<div class="line-h4"></div>
+							<h4 class="h4-title text-center fadeInUp animated">Community</h4>
+						</div>
 
-
-	<footer class="footer footerbox">
-		<div class="row">
-			<div class="twelve col">
-				<ul class="social margin-bottom-medium">
-					<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
-					<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>
-					<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
-					<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-					<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-					<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>
-					<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
-					<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
-					<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
-					<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-					<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-					<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-				</ul>
-
-				<strong class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></strong>
+						<ul class="social margin-bottom-medium">
+							<li class="reddit"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
+							<li class="slack"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
+							<li class="instagram"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li class="github zdy-io">
+								<a href="https://github.com/mvs-org/metaverse" target="_blank">
+								  <span class="icon-github2"></span>
+								</a>
+							</li>
+							<li class="sinaweibo"><a href="http://blog.mvs.live/" target="_blank"><span class="icon-Blogger zdy-io"></span></a></li>
+							<li class="bbs">
+								<a href="http://bbs.viewfin.com/" target="_blank">
+								  <span class="icon-bbs  zdy-io">
+									 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+								  </span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
+		</section>
+		<!--contact us end-->
+
+
+			<!--documents-->
+			<!--<section id="documents" class="services section-slider overhide">-->
+				<!--<div class="container col5-warp relative text-center">-->
+						<!--<h3 class="h3-title text-center fadeInUp animated">文档</h3>-->
+						<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">-->
+							<!--<a href="http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-CN.pdf" target="_blank">-->
+								<!--<div class="service-item">-->
+									<!--&lt;!&ndash;<i class="fa fa-book"></i>&ndash;&gt;-->
+									<!--<i class="iicon"><img src="images/iicon1.png" alt="元界数字身份白皮书" class="hvr-pulse"></i>-->
+									<!--<p>元界数字身份白皮书</p>-->
+								<!--</div>-->
+							<!--</a>-->
+						<!--</div>-->
+						<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">-->
+							<!--<a href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf" target="_blank">-->
+								<!--<div class="service-item">-->
+									<!--&lt;!&ndash;<i class="fa fa-book"></i>&ndash;&gt;-->
+									<!--<i class="iicon"><img src="images/iicon1.png" alt="白皮书" class="hvr-pulse"></i>-->
+									<!--<p>白皮书</p>-->
+								<!--</div>-->
+							<!--</a>-->
+						<!--</div>-->
+						<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">-->
+							<!--<a href="https://github.com/mvs-org" target="_blank">-->
+								<!--<div class="service-item">-->
+									<!--&lt;!&ndash;<i class="fa fa-smile-o"></i>&ndash;&gt;-->
+									<!--<i class="iicon2"><img src="images/iicon2.png" alt="源代码" class="hvr-pulse"></i>-->
+									<!--<p>源代码</p>-->
+								<!--</div>-->
+							<!--</a>-->
+						<!--</div>-->
+						<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">-->
+							<!--<a href="https://github.com/mvs-org/metaverse/wiki/Metaverse-API-Call-List" target="_blank">-->
+								<!--<div class="service-item">-->
+									<!--&lt;!&ndash;<i class="fa fa-wordpress"></i>&ndash;&gt;-->
+									<!--<i class="iicon3"><img src="images/iicon3.png" alt="开发者指南" class="hvr-pulse"></i>-->
+									<!--<p>开发者指南</p>-->
+								<!--</div>-->
+							<!--</a>-->
+						<!--</div>-->
+						<!--&lt;!&ndash;<div class="col-md-2 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">&ndash;&gt;-->
+							<!--&lt;!&ndash;<a href="http://blog.mvs.live/mvs-user-guide-zh/" target="_blank">&ndash;&gt;-->
+								<!--&lt;!&ndash;<div class="service-item">&ndash;&gt;-->
+									<!--&lt;!&ndash;&lt;!&ndash;<i class="fa fa-leaf"></i>&ndash;&gt;&ndash;&gt;-->
+									<!--&lt;!&ndash;<i class="iicon4"><img src="images/iicon4.png" alt="用户指南" class="hvr-pulse"></i>&ndash;&gt;-->
+									<!--&lt;!&ndash;<p>用户指南</p>&ndash;&gt;-->
+								<!--&lt;!&ndash;</div>&ndash;&gt;-->
+							<!--&lt;!&ndash;</a>&ndash;&gt;-->
+						<!--&lt;!&ndash;</div>&ndash;&gt;-->
+						<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large fadeInUp animated">-->
+							<!--<a href="https://github.com/mvs-org/metaverse/wiki" target="_blank">-->
+								<!--<div class="service-item">-->
+									<!--&lt;!&ndash;<i class="fa fa-leaf"></i>&ndash;&gt;-->
+									<!--<i class="iicon5"><img src="images/iicon5.png" alt="元界百科" class="hvr-pulse"></i>-->
+									<!--<p>元界百科</p>-->
+								<!--</div>-->
+							<!--</a>-->
+						<!--</div>-->
+				<!--</div>-->
+			<!--</section>-->
+			<!--documents end-->
+
+
+
+			<!--wallet download-->
+			<!--<section id="download" class="downloadwrap overhide ptb80">-->
+				<!--<div class="container relative">-->
+					<!--<h3 class="text-white h3-title text-center fadeInUp animated">钱包</h3>-->
+
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">-->
+						<!--<div class="service-item">-->
+							<!--<i class="fa fa-windows hvr-pulse"></i>-->
+							<!--&lt;!&ndash;<i class="iicon"><img src="images/new/iicon1.png" alt="" class=""></i>&ndash;&gt;-->
+							<!--<span>Windows 64bit</span>-->
+						<!--</div>-->
+						<!--&lt;!&ndash; begin&ndash;&gt;-->
+						<!--<div class="hover-show">-->
+							<!--<ul>-->
+								<!--<li><a href="http://newmetaverse.org/mvs-download/mvs-win64-v0.7.1.exe" class="cool-line dldata-title">标准版</a></li>-->
+								<!--<li><p class="md5-data mvs-macOSX">c92d0eff79729c18dbf09fafc7207f89</p></li>-->
+								<!--<li><a href="http://newmetaverse.org/mvs-download/mvs-win64-database-v0.7.1.exe" class="cool-line dldata-title">数据包版</a></li>-->
+								<!--<li><p class="md5-data mvs-macOSX">7d20b2b6a14f5ada18f1127317bafb01</p></li>-->
+								<!--<li><a class="wallet-manual dldata-title cool-line" href="http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf" target="_blank">【0.7.1版本】元界钱包使用手册</a></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+						<!--&lt;!&ndash; end&ndash;&gt;-->
+					<!--</div>-->
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">-->
+						<!--<div class="service-item">-->
+							<!--<i class="fa fa-apple hvr-pulse"></i>-->
+							<!--&lt;!&ndash;<i class="iicon2"><img src="images/new/iicon2.png" alt="" class=""></i>&ndash;&gt;-->
+							<!--<span>OS X</span>-->
+						<!--</div>-->
+						<!--&lt;!&ndash; begin&ndash;&gt;-->
+						<!--<div class="hover-show">-->
+							<!--<ul>-->
+								<!--<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-v0.7.1.pkg" class="cool-line dldata-title">标准版</a></li>-->
+								<!--<li><p class="md5-data mvs-macOSX">2bd7ec4ca319fed270ebdf19cc249b46</p></li>-->
+								<!--<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-database-v0.7.1.pkg" class="cool-line dldata-title">数据包版</a></li>-->
+								<!--<li><p class="md5-data mvs-macOSX">51c28fe82bb478840a50ccde2e5bff5e</p></li>-->
+								<!--<li><a class="wallet-manual dldata-title cool-line" href="http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf" target="_blank">【0.7.1版本】元界钱包使用手册</a></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+						<!--&lt;!&ndash; end&ndash;&gt;-->
+					<!--</div>-->
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover cool-line">-->
+						<!--<div class="service-item">-->
+							<!--<i class="fa fa-linux hvr-pulse"></i>-->
+							<!--&lt;!&ndash;<i class="iicon3"><img src="images/new/iicon3.png" alt="" class=""></i>&ndash;&gt;-->
+							<!--<span>Linux 64bit</span>-->
+						<!--</div>-->
+						<!--&lt;!&ndash; begin&ndash;&gt;-->
+						<!--<div class="hover-show">-->
+							<!--<ul>-->
+								<!--<li><a href="http://newmetaverse.org/mvs-download/mvs-linux-x86_64-v0.7.1.zip" class="cool-line dldata-title">标准版</a></li>-->
+								<!--<li><p class="md5-data mvs-macOSX">35683ede951ad0f9e972a9e2950609dc</p></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+						<!--&lt;!&ndash; end&ndash;&gt;-->
+					<!--</div>-->
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">-->
+						<!--<a href="http://github.com/mvs-org/metaverse" target="_blank">-->
+							<!--<div class="service-item">-->
+								<!--<i class="fa fa-code hvr-pulse"></i>-->
+								<!--&lt;!&ndash;<i class="iicon4"><img src="images/new/iicon4.png" alt="" class=""></i>&ndash;&gt;-->
+								<!--<span>Source Code</span>-->
+							<!--</div>-->
+						<!--</a>-->
+					<!--</div>-->
+
+				<!--</div>-->
+			<!--</section>-->
+			<!--wallet download end-->
+
+
+
+		<!--footer begin-->
+		<!--<div w3-include-html="./common/footer-en.html"></div>-->
+
+		<!--common footer-->
+		<footer class="footer footerbox">
+			<img src="./images/newimgs/mvs-wh.png" alt="metaverse" title="metaverse" class="slg-mvs">
+			<p><small class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 Metaverse Foundation. All Rights Reserved.</small></p>
+		</footer>
+		<!--common footer end-->
+		<!--footer end-->
+
+
+
+
+
+		<!-- =========================
+		  Back to top button
+	   ============================== -->
+
+		<!--<div class="back-top-wrap" id="goTop">-->
+			<!--<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>-->
+		<!--</div>-->
+		<!-- =========================
+		  Back to top button end
+	   ============================== -->
+
+		<div class="footer footer-fixed-content position-fixed">
+			<ul class="social margin-bottom-medium">
+				<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
+				<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li class="medium hvr-pulse"><a href="https://medium.com/@mvs_org" target="_blank"><i class="fa icon-medium"></i></a></li>
+				<li class="telegram hvr-pulse"><a href="https://t.me/Metaverse_Blockchain" target="_blank"><i class="fa icon-telegram" aria-hidden="true"></i></a></li>
+				<li class="bbs hvr-pulse">
+					<a href="http://bbs.viewfin.com/" target="_blank">
+					  <span class="icon-bbs  zdy-io">
+							 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+					  </span>
+					</a>
+				</li>
+				<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
+				<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
+				<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
+				<!--<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>-->
+				<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><span class="icon-Blogger zdy-io"></span></a></li>
+			</ul>
 		</div>
-	</footer>
 
-	<!-- =========================
-	  Back to top button
-   ============================== -->
-
-	<!--<div class="back-top-wrap" id="goTop">-->
-		<!--<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>-->
-	<!--</div>-->
-	<!-- =========================
-	  Back to top button end
-   ============================== -->
-
-	<div class="footer footer-fixed-content position-fixed">
-		<ul class="social margin-bottom-medium">
-			<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
-			<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>
-			<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
-			<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-			<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>
-			<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
-			<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
-			<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
-			<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-			<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-			<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-		</ul>
 	</div>
+</body>
 
+	<!-- Initialize Swiper -->
+	<script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1.7,
+            centeredSlides: true,
+            spaceBetween: 120,
+            autoplay: true,
+//            loop: true,
+            autoplayDisableOnInteraction: false,
+//            autoplayDisableOnInteraction: true,
+//            pagination: {
+//                el: '.swiper-pagination',
+//                type: 'fraction',
+//            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+//            virtual: {
+//                slides: (function () {
+//                    var slides = [];
+//                    for (var i = 0; i < 600; i += 1) {
+//                        slides.push('Slide ' + (i + 1));
+//                    }
+//                    return slides;
+//                }()),
+//            },
+        });
+        var screenwd=$(window).width();
+        if (screenwd < 768){
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1.2,
+                centeredSlides: true,
+                spaceBetween: 20,
+                autoplay: true,
+//            loop: true,
+                autoplayDisableOnInteraction: false,
+//            autoplayDisableOnInteraction: true,
+//            pagination: {
+//                el: '.swiper-pagination',
+//                type: 'fraction',
+//            },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+//            virtual: {
+//                slides: (function () {
+//                    var slides = [];
+//                    for (var i = 0; i < 600; i += 1) {
+//                        slides.push('Slide ' + (i + 1));
+//                    }
+//                    return slides;
+//                }()),
+//            },
+            });
+		}
+	</script>
 	<script src="js/lib/jquery.min.js"></script>
 	<!--<script src="js/lib/retina.min.js"></script>-->
+
+	<!--<script src="/js/navjs/nav.js"></script>-->
+	<!--<script src="/js/navjs/compressed.js"></script>-->
+	<!--<script src="/js/navjs/main.js"></script>-->
+
+
 	<script src="js/lib/jquery.magnific-popup.min.js"></script>
 	<script src="js/lib/jquery.bxslider.min.js"></script>
 	<script src="js/lib/owl.carousel.min.js"></script>
@@ -644,6 +970,18 @@
 	<script src="js/lib/jquery.equal.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/signup.js"></script>
+	<!--<script src="js/load-number/load-num.js"></script> load num js-->
+	<script src="js/w3/nav.js"></script>
+	<script src="js/w3/compressed.js"></script>
+	<script src="js/w3/main.js"></script>
+	<script src="js/w3/w3.js"></script>
+
+
+
+	<script>
+        //    footer
+        w3.includeHTML();
+	</script>
 	<script>
 		//gotop
         function goTop(){
@@ -678,23 +1016,49 @@
 
 	<!-- Initialize Swiper -->
 	<script>
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.swiper-pagination',
-            slidesPerView: 1,
-            paginationClickable: true,
-            spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: 5000,
-            autoplayDisableOnInteraction: false
-            //direction: 'vertical',
-            //mousewheelControl: true,
-        });
+		/*
+		var mrwd= '100px !important';
+        $('.swiper-slide').css('margin-right','100px');
+		 */
 
+//		var screenwd=$(window).width();
+//		var slidewd=screenwd/10;
+//		var slidewd80=slidewd*8;
+//        $('.swiper-slide').css('width',slidewd80);
+////		$('.swiper-slide').width=screenwd*0.8%;
+//        var swiper = new Swiper('.swiper-container', {
+//            pagination: '.swiper-pagination',
+//            slidesPerView: 2,
+//            paginationClickable: true,
+////            spaceBetween: 30,
+//            centeredSlides: true,
+//            autoplay: 2000,
+//            autoplayDisableOnInteraction: false,
+//            //direction: 'vertical',
+//            //mousewheelControl: true,
+//		 navigation: {
+//		 nextEl: '.swiper-button-next',
+//		 prevEl: '.swiper-button-prev',
+//		 },
+//        });
 
         //监听滚动事件 media icons
         $(window).scroll(function(){
             var scrollhy= $(this).scrollTop();
-            var footerhy=$('.social-footer').offset().top;
+//            var footerhy=$('.social-footer').offset().top;
+            var footerhy=$('.walletpdf-wrap').offset().top;
+            var contacthy=$('.contact-warp').offset().top;
+            var abtmvsy=$('.about-mvs').offset().top;
+
+			//console.log(scrollhy);
+
+            if(scrollhy>5){
+                $('#header').addClass('fixedtop');
+                $('.footer-fixed-content').hide();
+            } else {
+                $('#header').removeClass('fixedtop');
+                $('.footer-fixed-content').show();
+            }
 
             if(scrollhy>footerhy){
                 $('.footer-fixed-content').hide()
@@ -702,7 +1066,24 @@
                 $('.footer-fixed-content').show()
             }
         });
+
+        //监听滚动事件 media icons
+//        $('.footer-fixed-content').hide();
+//        $(window).scroll(function(){
+//
+//            var scrollhy= $(this).scrollTop();
+//            var footerhy=$('.social-footer').offset().top;
+//
+//            if(scrollhy>footerhy){
+//                $('.footer-fixed-content').hide()
+//            } else {
+//                $('.footer-fixed-content').show()
+//            }
+//        });
 	</script>
 	<!-- Swiper JS end -->
-	</body>
+
+
+
+	<!--</body>-->
 </html>

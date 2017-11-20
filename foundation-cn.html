@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/scss/all.css">
 	<script src="js/lib/modernizr.js"></script>
 	<!--[if lt IE 9]>
 	<script src="/js/h5/respond.js"></script>
@@ -88,7 +89,7 @@
 			<div class="container">
 				<div class="text-center">
 					<h3 class="hh-title fadeInUp animated">元界基金会</h3>
-					<p class="text-left foundation-md slideInLeft animated">元界基金会成立的宗旨是维护元界区块链的正常运营，投资和引导基于元界区块链衍生的产业链各环节发展，最终打造一个完整、丰富的元界区。</p>
+					<p class="text-left foundation-md slideInLeft animated">元界基金会成立的宗旨是维护元界区块链的正常运营，投资和引导基于元界区块链衍生的产业链各环节发展，最终打造一个完整、丰富的元界社区。</p>
 					<div class="foundation-mdbox">
 						<h3 class="hh-title fadeInUp animated">元界基金会的目的</h3>
 						<ul class="text-left foundation-md slideInLeft animated">
@@ -105,61 +106,186 @@
 		<div class="back-top-wrap">
 			<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>
 		</div>
-		<section class="social-footer">
-			<div class="row">
-				<div class="">
+
+		<!--send email-->
+		<!--<section class="social-footer position-relative" id="E-mailus">-->
+			<!--<div class="container">-->
+				<!--<div class="twelve_list">-->
+					<!--<form class="form-list" id="newsletter_form" role="form">-->
+						<!--<input type="hidden" name="language" value="zh">-->
+						<!--<div class="send-email">-->
+							<!--<input type="email" name="email" placeholder="邮箱地址" class="sdinput" required="required"><button class="creatAssetBtn sendbtn">发送</button>-->
+						<!--</div>-->
+						<!--<div class="error_message fadeInUp animated" id="duplicate_error">您的邮箱信息已存在。</div>-->
+						<!--<div class="success_message fadeInUp animated" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
+						<!--&lt;!&ndash;<ul>&ndash;&gt;-->
+						<!--&lt;!&ndash;<li><input type="text" name="firstname" placeholder="名">&ndash;&gt;-->
+						<!--&lt;!&ndash;</li>&ndash;&gt;-->
+						<!--&lt;!&ndash;<li><input type="text" name="lastname" placeholder="姓"></li>&ndash;&gt;-->
+						<!--&lt;!&ndash;<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>&ndash;&gt;-->
+						<!--&lt;!&ndash;<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>&ndash;&gt;-->
+						<!--&lt;!&ndash;<li><button class="creatAssetBtn">注册</button></li>&ndash;&gt;-->
+						<!--&lt;!&ndash;<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>&ndash;&gt;-->
+						<!--&lt;!&ndash;<div class="error_message" id="connection_error">出错了。请稍后再试。</div>&ndash;&gt;-->
+						<!--&lt;!&ndash;<div class="error_message" id="email_error">您的邮箱地址无效</div>&ndash;&gt;-->
+						<!--&lt;!&ndash;<div class="error_message" id="duplicate_error">您的信息已存在</div>&ndash;&gt;-->
+						<!--&lt;!&ndash;</ul>&ndash;&gt;-->
+					<!--</form>-->
+					<!--<p class="ftips">您可以通过注册来订阅我们的最新资讯，并且能够免费获取一些测试网络ETP</p>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</section>-->
+		<!--send email end-->
+
+		<!--<section class="social-footer">-->
+			<!--<div class="row">-->
+				<!--<div class="">-->
+					<!--<div class="twelve_list">-->
+						<!--<form class="form-list" id="newsletter_form" role="form">-->
+							<!--<input type="hidden" name="language" value="zh">-->
+							<!--<div class="send-email">-->
+								<!--<input type="text" name="email" placeholder="邮箱地址" class="sdinput"><button class="creatAssetBtn sendbtn">发送</button>-->
+							<!--</div>-->
+							<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
+							<!--<div class="error_message" id="duplicate_error">您的邮箱信息已存在。</div>-->
+							<!--<p class="ftips">您可以通过注册来订阅我们的最新资讯，并且能够免费获取一些测试网络ETP</p>-->
+
+							<!--&lt;!&ndash;<ul>&ndash;&gt;-->
+								<!--&lt;!&ndash;<li><input type="text" name="firstname" placeholder="名">&ndash;&gt;-->
+								<!--&lt;!&ndash;</li>&ndash;&gt;-->
+								<!--&lt;!&ndash;<li><input type="text" name="lastname" placeholder="姓"></li>&ndash;&gt;-->
+								<!--&lt;!&ndash;<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>&ndash;&gt;-->
+								<!--&lt;!&ndash;<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>&ndash;&gt;-->
+								<!--&lt;!&ndash;<li><button class="creatAssetBtn">注册</button></li>&ndash;&gt;-->
+								<!--&lt;!&ndash;<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>&ndash;&gt;-->
+								<!--&lt;!&ndash;<div class="error_message" id="connection_error">出错了。请稍后再试。</div>&ndash;&gt;-->
+								<!--&lt;!&ndash;<div class="error_message" id="email_error">您的邮箱地址无效</div>&ndash;&gt;-->
+								<!--&lt;!&ndash;<div class="error_message" id="duplicate_error">您的信息已存在</div>&ndash;&gt;-->
+							<!--&lt;!&ndash;</ul>&ndash;&gt;-->
+						<!--</form>-->
+					<!--</div>-->
+					<!--<img src="images/hand-pc.png" class="hand-pc">-->
+				<!--</div>-->
+				<!--</div>-->
+			<!--</section>-->
+
+			<!--<footer class="footer">-->
+				<!--<div class="row">-->
+					<!--<div class="twelve col">-->
+						<!--<ul class="social margin-bottom-medium">-->
+							<!--<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>-->
+							<!--<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>-->
+							<!--<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>-->
+							<!--<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
+							<!--<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
+							<!--<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>-->
+							<!--<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>-->
+							<!--<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>-->
+							<!--<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>-->
+							<!--<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>-->
+							<!--&lt;!&ndash;<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>&ndash;&gt;-->
+							<!--&lt;!&ndash;<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>&ndash;&gt;-->
+							<!--&lt;!&ndash;<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>&ndash;&gt;-->
+							<!--&lt;!&ndash;<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>&ndash;&gt;-->
+						<!--</ul>-->
+
+						<!--<p>Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></p>-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</footer>-->
+
+
+
+			<!--send email-->
+			<section class="social-footer position-relative" id="E-mailus">
+				<div class="container">
 					<div class="twelve_list">
 						<form class="form-list" id="newsletter_form" role="form">
 							<input type="hidden" name="language" value="zh">
 							<div class="send-email">
-								<input type="text" name="email" placeholder="邮箱地址" class="sdinput"><button class="creatAssetBtn sendbtn">发送</button>
+								<input type="email" name="email" placeholder="邮箱地址" class="sdinput" required="required"><button class="creatAssetBtn sendbtn">发送</button>
 							</div>
-							<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>
-							<div class="error_message" id="duplicate_error">您的邮箱信息已存在。</div>
-							<p class="ftips">您可以通过注册来订阅我们的最新资讯，并且能够免费获取一些测试网络ETP</p>
-
+							<div class="error_message fadeInUp animated" id="duplicate_error">您的邮箱信息已存在。</div>
+							<div class="success_message fadeInUp animated" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>
 							<!--<ul>-->
-								<!--<li><input type="text" name="firstname" placeholder="名">-->
-								<!--</li>-->
-								<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
-								<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
-								<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
-								<!--<li><button class="creatAssetBtn">注册</button></li>-->
-								<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
-								<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
-								<!--<div class="error_message" id="email_error">您的邮箱地址无效</div>-->
-								<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
+							<!--<li><input type="text" name="firstname" placeholder="名">-->
+							<!--</li>-->
+							<!--<li><input type="text" name="lastname" placeholder="姓"></li>-->
+							<!--<li><input type="text" name="email" placeholder="邮箱地址"><button class="creatAssetBtn">注册</button></li>-->
+							<!--<li><input type="text"  name="etp_address" placeholder="您的元界地址（选填）"></li>-->
+							<!--<li><button class="creatAssetBtn">注册</button></li>-->
+							<!--<div class="success_message" id="confirmation_request">请确认您的邮箱地址，我们已经发送到了您的邮箱。请查阅并确认该链接。</div>-->
+							<!--<div class="error_message" id="connection_error">出错了。请稍后再试。</div>-->
+							<!--<div class="error_message" id="email_error">您的邮箱地址无效</div>-->
+							<!--<div class="error_message" id="duplicate_error">您的信息已存在</div>-->
 							<!--</ul>-->
 						</form>
+						<p class="ftips">您可以通过注册来订阅我们的最新资讯，并且能够免费获取一些测试网络ETP</p>
 					</div>
-					<img src="images/hand-pc.png" class="hand-pc">
-				</div>
 				</div>
 			</section>
-			<footer class="footer">
-				<div class="row">
-					<div class="twelve col">
-						<ul class="social margin-bottom-medium">
-							<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
-							<li class="blog hvr-pulse"><a href="http://blog.mvs.live/" target="_blank"><i class="fa fa-blog"></i></a></li>
-							<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
-							<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-							<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-							<li class="bbs hvr-pulse"><a href="http://bbs.viewfin.com/" target="_blank"><i class="fa fa-bbs"></i></a></li>
-							<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
-							<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
-							<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
-							<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-							<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-							<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-						</ul>
+			<!--send email end-->
 
-						<p>Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></p>
+			<!--social-->
+			<!--<div w3-include-html="./common/social.html"></div>-->
+			<!--social end-->
+
+			<!--contact us begin-->
+			<section id="contact" class="contact-warp services section-slider overhide">
+				<div class="container col5-warp relative text-center">
+					<!--<h3 class="h3-title text-center fadeInUp animated">关注我们</h3>-->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="title-box">
+								<div class="line-h4"></div>
+								<h4 class="h4-title text-center fadeInUp animated">Social Media</h4>
+							</div>
+							<ul class="social margin-bottom-medium">
+								<li class="twitter"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li class="facebook"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li class="youtube"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+								<li class="medium"><a href="https://medium.com/@mvs_org" target="_blank"><i class="fa icon-medium"></i></a></li>
+								<li class="telegram"><a href="https://t.me/Metaverse_Blockchain" target="_blank"><i class="fa icon-telegram" aria-hidden="true"></i></a></li>
+								<li class="sinaweibo"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<div class="title-box">
+								<div class="line-h4"></div>
+								<h4 class="h4-title text-center fadeInUp animated">Community</h4>
+							</div>
+
+							<ul class="social margin-bottom-medium">
+								<li class="reddit"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
+								<li class="slack"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
+								<li class="instagram"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<li class="github zdy-io">
+									<a href="https://github.com/mvs-org/metaverse" target="_blank">
+										<span class="icon-github2"></span>
+									</a>
+								</li>
+								<li class="sinaweibo"><a href="http://blog.mvs.live/" target="_blank"><span class="icon-Blogger zdy-io"></span></a></li>
+								<li class="bbs">
+									<a href="http://bbs.viewfin.com/" target="_blank">
+									  <span class="icon-bbs  zdy-io">
+										 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+									  </span>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
+			</section>
+			<!--contact us end-->
+
+			<!--common footer-->
+			<footer class="footer footerbox">
+				<img src="./images/newimgs/mvs-wh.png" alt="metaverse" title="metaverse" class="slg-mvs">
+				<p><small class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 Metaverse Foundation. All Rights Reserved.</small></p>
 			</footer>
+			<!--common footer end-->
+
 
 			<!-- =========================
 			  Back to top button
@@ -178,5 +304,6 @@
 			<script src="js/lib/jquery.equal.js"></script>
 			<script src="js/main.js"></script>
 			<script src="js/signup.js"></script>
+			<!--<script src="js/w3/w3.js"></script>-->
 	</body>
 </html>

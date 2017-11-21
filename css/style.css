@@ -3945,7 +3945,8 @@ h2.text-normal{
 
 .etp-about .des{
 	margin-top: 5px;
-	color: #949A9D;
+	letter-spacing: 0;
+	/*color: #949A9D;*/
 }
 
 

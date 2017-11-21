@@ -106,7 +106,7 @@ p {
   font-size: 18px;
   /* padding: 8px 100px; */
   font-weight: 600;
-  padding: 0 40px;
+  width: 265px;
   height: 34px;
   line-height: 32px;
   display: inline-block;
@@ -140,7 +140,7 @@ p {
   font-family: 'Conv_HelveticaNeue-BoldCond' !important; }
 
 body {
-  font-family: 'Microsoft YaHei, MicrosoftJhengHei, STHeiti, Conv_HelveticaNeue-BoldCond, MingLiu,Source Sans Pro,Arial,sans-serif' !important; }
+  font-family: 'Microsoft YaHei, Source Sans Pro,Arial,sans-serif,Tahoma,Arial,sans-serif' !important; }
 
 .en ul li a {
   letter-spacing: 0; }
@@ -241,7 +241,8 @@ body {
   display: block; }
 
 .h2-tl {
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  color: #434F63; }
 
 .en .h2-tl {
   margin-bottom: 60px;
@@ -859,6 +860,12 @@ body {
   -webkit-box-orient: vertical; }
 
 @media only screen and (min-width: 300px) and (max-width: 414px) {
+  .applicationbox .swiper-container {
+    padding: 100px 0 !important; }
+
+  .swiper-container .swiper-slide {
+    height: 550px !important; }
+
   .spe-desza.text-desfd {
     font-size: 12px !important; }
 
@@ -1042,29 +1049,29 @@ body {
   -ms-flex-negative: 0;
   flex-shrink: 0; }
 
-.swiper-container {
+.applicationbox .swiper-container {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   list-style: none;
-  padding: 120px 0 !important;
+  padding: 120px 0;
   z-index: 1;
   height: 755px; }
-  .swiper-container .swiper-slide {
+  .applicationbox .swiper-container .swiper-slide {
     background: rgba(255, 255, 255, 0.9);
     color: #646D74;
-    padding: 80px 0 80px 50px;
+    padding: 80px 50px 80px 50px;
     overflow: hidden; }
-  .swiper-container .swiper-wrapper, .swiper-container .swiper-slide {
+  .applicationbox .swiper-container .swiper-wrapper, .applicationbox .swiper-container .swiper-slide {
     height: 515px; }
-  .swiper-container .img-retina {
+  .applicationbox .swiper-container .img-retina {
     height: 55px;
     /* height: 68px;
     margin: 50px 0;
     width: 240px; */ }
-  .swiper-container .btn-dt {
+  .applicationbox .swiper-container .btn-dt {
     font-size: 14px; }
-    .swiper-container .btn-dt:hover {
+    .applicationbox .swiper-container .btn-dt:hover {
       color: #FF7A58; }
 
 .swiper-button-next, .swiper-button-prev {
@@ -1104,7 +1111,7 @@ body {
 
 @media (max-width: 1200px) {
   .swiper-container .swiper-slide {
-    padding: 30px !important; } }
+    padding: 40px !important; } }
 .etp-about {
   margin: 50px  0;
   text-align: center; }

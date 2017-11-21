@@ -1696,6 +1696,7 @@ audio, canvas, progress, video {
 	border-radius:0;
 }
 .icon-nav img{
+	height: 174px;
 	/*height:95px;*/
 	/*-moz-box-shadow: 0px 2px 15px rgba(0,0,0,.25);*/
 	/*-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,.25);*/
@@ -2867,7 +2868,7 @@ a:hover{
 	}
 	.img-retina {
 		margin: 10px 0 30px !important;
-		width: 150px !important;
+		/*width: 150px !important;*/
 	}
 	.img-etplogo {
 		/*height: 60px !important;*/
@@ -2944,6 +2945,10 @@ a:hover{
 		line-height: 30px;
 		font-size: 14px !important;
 		padding: 2px 15px !important;
+	}
+
+	.swiper-container .swiper-slide {
+		height: 515px !important;
 	}
 }
 @media only screen and (max-width: 450px) and (min-width: 300px){
@@ -3023,6 +3028,11 @@ a:hover{
 }
 
 @media only screen and (min-width: 300px) and (max-width: 475px) {
+
+	.swiper-container .img-retina {
+		height: 40px !important;
+	}
+
 	.tb-logo img {
 		width: 140px;
 		margin-top: 5px;
@@ -3652,7 +3662,7 @@ ul, li{
 		height: 690px !important;
 	}
 	.en .applicationbox .swiper-slide, .applicationbox .sld01, .applicationbox .sld02, .applicationbox .sld03 {
-		height: 750px !important;
+		/*height: 750px !important;*/
 	}
 
 }
@@ -3980,7 +3990,7 @@ h2.text-normal{
 .en .swiper-container .swiper-slide {
 	background: rgba(255, 255, 255, 0.9);
 	color: #646D74;
-	padding: 80px 0 80px 50px !important;
+	/*padding: 80px 0 80px 50px !important;*/
 	overflow: hidden;
 }
 .en .text-desfd.spe-desza {
@@ -3998,11 +4008,9 @@ h2.text-normal{
 	margin: 0 0 20px;
 }
 .en .swiper-container .swiper-slide.spe-enpl {
-	padding: 40px 0 50px 50px !important;
+	/*padding: 40px 0 50px 50px !important;*/
 }
-.en .swiper-container .swiper-slide.spe-enpl .left-fdbox {
-	width: 80%;
-}
+
 /*zenair end*/
 
 /*Team begin*/
@@ -4032,7 +4040,7 @@ h2.text-normal{
 }
 
 .team-wrap .text-desinfo{
-	color: #646D74;
+	color: #434F63;
 	margin: 40px 0 60px 0;
 	font-size: 24px;
 	/*line-height: 1.5;*/
@@ -4343,6 +4351,13 @@ h2.text-normal{
 		text-align: left;
 		line-height: 1.5;
 	}
+	.en .swiper-container .swiper-slide.spe-enpl .left-fdbox {
+		width: 80%;
+	}
 }
-
+@media only screen and (min-width: 300px) and (max-width: 780px){
+	.swiper-container .swiper-slide {
+		padding: 80px 50px 80px 50px !important;
+	}
+	}
 /* zdy swiper-banner style */

@@ -400,19 +400,19 @@ body {
   color: #3C3C3C; }
 
 @media only screen and (min-width: 575px) {
-  .ant-wbox.ccom-wbox .title-box {
+  .en .ant-wbox.ccom-wbox .title-box {
     width: 240px; }
-    .ant-wbox.ccom-wbox .title-box.spe-tbox {
+    .en .ant-wbox.ccom-wbox .title-box.spe-tbox {
       width: 500px  !important; }
-    .ant-wbox.ccom-wbox .title-box .h4-title {
+    .en .ant-wbox.ccom-wbox .title-box .h4-title {
       left: 18%; } }
 @media only screen and (min-width: 300px) and (max-width: 574px) {
-  .ant-wbox.ccom-wbox .title-box {
+  .en .ant-wbox.ccom-wbox .title-box {
     width: 240px; }
-    .ant-wbox.ccom-wbox .title-box.spe-tbox {
+    .en .ant-wbox.ccom-wbox .title-box.spe-tbox {
       width: 300px  !important; }
-    .ant-wbox.ccom-wbox .title-box .h4-title {
-      left: 5% !important;
+    .en .ant-wbox.ccom-wbox .title-box .h4-title {
+      left: 12% !important;
       font-size: 28px;
       padding: 0 20px; } }
 @media only screen and (min-width: 980px) and (max-width: 1625px) {
@@ -545,12 +545,15 @@ body {
   .h4-title {
     top: -15px !important; }
 
-  .ant-wbox.ccom-wbox .title-box {
+  .en .ant-wbox.ccom-wbox .title-box {
     width: inherit  !important; }
-    .ant-wbox.ccom-wbox .title-box .h4-title {
+    .en .ant-wbox.ccom-wbox .title-box .h4-title {
       left: 14% !important;
       top: -15px;
-      padding: 0 30px !important; } }
+      padding: 0 30px !important; }
+
+  .news-wbox .h4-title, .ant-wbox .h4-title {
+    left: 35% !important; } }
 @media only screen and (max-width: 470px) {
   .downloadwrap {
     padding: 40px 0; }
@@ -805,7 +808,7 @@ body {
   margin-top: 100px; }
   .ccom-wbox .title-box {
     position: relative;
-    width: 350px;
+    width: 335px;
     margin: 100px auto 40px; }
   .ccom-wbox .h4-title {
     color: #1A1A1A;
@@ -935,9 +938,9 @@ body {
     /* height: 45px !important; */
     /* font-size: 14px; */ } }
 /*ANNOUNCEMENT*/
-.ant-wbox.ccom-wbox .title-box {
+.en .ant-wbox.ccom-wbox .title-box {
   width: 240px; }
-  .ant-wbox.ccom-wbox .title-box .h4-title {
+  .en .ant-wbox.ccom-wbox .title-box .h4-title {
     left: 18%; }
 
 .annt-wrap .ant-title {

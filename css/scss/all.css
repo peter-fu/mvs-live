@@ -163,7 +163,7 @@ body {
   font-size: 48px; }
 
 .en .h3-title, .en .h2-title {
-  padding: 16px 35px 8px; }
+  padding: 16px 35px 10px; }
 
 .cc-ct {
   color: #646D72;
@@ -950,8 +950,14 @@ body {
   border-left: 4px solid #FF7A58;
   width: 80%;
   margin: 0 auto 20px; }
+  .annt-wrap .li-item:hover {
+    background: #FAFAFA;
+    border-left: 4px solid #F5B456; }
 .annt-wrap .news-date {
   font-size: 12px; }
+.annt-wrap .detail-more:hover {
+  color: #F5B456;
+  font-weight: 700; }
 
 .title-h5 {
   width: 80%;
@@ -1049,8 +1055,10 @@ body {
   .swiper-container .swiper-wrapper, .swiper-container .swiper-slide {
     height: 515px; }
   .swiper-container .img-retina {
-    /* height: 68px; */
-    width: 240px; }
+    height: 55px;
+    /* height: 68px;
+    margin: 50px 0;
+    width: 240px; */ }
   .swiper-container .btn-dt {
     font-size: 14px; }
     .swiper-container .btn-dt:hover {
@@ -1068,6 +1076,10 @@ body {
   color: #fff;
   background-image: none !important;
   text-align: center; }
+  .swiper-button-next:hover, .swiper-button-prev:hover {
+    background: #F5B456; }
+  .swiper-button-next:hover *, .swiper-button-prev:hover * {
+    cursor: pointer; }
 
 .swiper-button-next i {
   left: 1px;

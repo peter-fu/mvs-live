@@ -1371,7 +1371,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	color: #999;
 	position: absolute;
 	right: 20px;
-	top: 3px;
+	top: 2px;
 	/*top: 22px;*/
 }
 .menu ul li a.test-area{
@@ -1528,7 +1528,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	overflow: hidden;
 	height: 100%;
 	/*min-height: calc(100vh - 40px - 42px);*/
-	min-height: calc(100vh - 40px);
+	min-height: calc(100vh - 50px);
 	/*background-color: #000;*/
 	/*top: 0;*/
 	/*overflow: hidden;*/
@@ -3045,7 +3045,7 @@ a:hover{
 		width: 150px;
 	}
 	.position-fixed.footer-fixed-content{
-		display: none !important;
+		/*display: none !important;*/
 	}
 
 	.services, .ptb80 {
@@ -3074,7 +3074,7 @@ a:hover{
 
 	.h3-title, .h2-title {
 		font-size: 24px !important;
-		padding: 14px 35px 8px !important;
+		padding: 14px 35px 10px !important;
 	}
 	.blue-ctn.btn.cc-cbtn {
 		font-size: 14px;
@@ -3568,7 +3568,7 @@ ul, li{
 	}
 	.img-retina {
 		margin: 0 0 30px;
-		width: 200px;
+		/*width: 200px;*/
 	}
 
 
@@ -4331,7 +4331,7 @@ h2.text-normal{
 		background-size: 30%;
 	}
 	.img-retina{
-		height: 60px;
+		/*height: 60px;*/
 	}
 
 

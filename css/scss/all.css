@@ -210,7 +210,13 @@ body {
     line-height: 1.5;
     background-size: 6%; }
 
-  /* ETP end */ }
+  /* ETP end */
+  .img-retina {
+    margin: 10px 0 50px;
+    /* width: 150px; */ }
+
+  .spe-desza.text-desfd {
+    margin: 20px 0 20px; } }
 @media only screen and (max-width: 375px) {
   .bk-ctn {
     margin: 0 0 20px; }
@@ -1060,7 +1066,7 @@ body {
   .applicationbox .swiper-container .swiper-slide {
     background: rgba(255, 255, 255, 0.9);
     color: #646D74;
-    padding: 80px 50px 80px 50px;
+    padding: 60px 50px 80px 50px;
     overflow: hidden; }
   .applicationbox .swiper-container .swiper-wrapper, .applicationbox .swiper-container .swiper-slide {
     height: 515px; }

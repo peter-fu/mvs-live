@@ -694,18 +694,22 @@
             slidesPerView: 1.7,
             centeredSlides: true,
             spaceBetween: 120,
-            autoplay: true,
-//            loop: true,
-            autoplayDisableOnInteraction: false,
-//            autoplayDisableOnInteraction: true,
-//            pagination: {
-//                el: '.swiper-pagination',
-//                type: 'fraction',
-//            },
+            autoplay: {
+                delay: 5000,//5秒
+            },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+//            autoplay: true,
+//            autoplay: 5000,
+//            loop: true,
+            autoplayDisableOnInteraction: true,
+//            pagination: {
+//                el: '.swiper-pagination',
+//                type: 'fraction',
+//            },
+
 //            virtual: {
 //                slides: (function () {
 //                    var slides = [];
@@ -722,18 +726,23 @@
                 slidesPerView: 1.2,
                 centeredSlides: true,
                 spaceBetween: 20,
-                autoplay: true,
-//            loop: true,
-                autoplayDisableOnInteraction: false,
-//            autoplayDisableOnInteraction: true,
-//            pagination: {
-//                el: '.swiper-pagination',
-//                type: 'fraction',
-//            },
+                autoplay: {
+                    delay: 5000,//5秒
+                },
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+//				autoplay: 5000,
+//				autoplay: true,
+//				loop: true,
+				autoplayDisableOnInteraction: true,
+//				autoplayDisableOnInteraction: true,
+//            pagination: {
+//                el: '.swiper-pagination',
+//                type: 'fraction',
+//            },
+
 //            virtual: {
 //                slides: (function () {
 //                    var slides = [];

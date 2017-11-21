@@ -81,16 +81,15 @@
 					<nav class="menu cn-menu fr">
 						<ul class="dis-tablecell height50 nav">
 							<li><a href="./index_cn.html" class="cool-line" data-scroll>首页</a></li>
-							<li><a href="./#Bass" class="cool-line" data-scroll>Bass</a></li>
-							<li><a href="./news.html" class="active cool-line">新闻</a></li>
-							<li><a href="./#Team" class="cool-line" data-scroll>团队</a></li>
-							<li><a href="./#download" class="cool-line" data-scroll>钱包</a></li>
-							<li><a href="./#Application" class="cool-line" data-scroll>应用</a>
-
+							<li><a href="./index_cn.html#Bass" class="cool-line" data-scroll>Bass</a></li>
+							<li><a href="./news_cn.html" class="active cool-line">新闻</a></li>
+							<li><a href="./index_cn.html#Team" class="cool-line" data-scroll>团队</a></li>
+							<li><a href="./index_cn.html#download" class="cool-line" data-scroll>钱包</a></li>
 							<li><a href="./dev_cn.html" class="cool-line">开发者</a></li>
-							<li><a class="cool-line" href="./foundation.html">元界基金会</a></li>
-							<!--<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">测试节点</a></li>-->
+							<li><a class="cool-line" href="./foundation-cn.html">元界基金会</a></li>
 							<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>区块浏览器</span><!-- <i class="fa fa fa-search"></i>--></a></li>
+							<!--<li><a href="./#Application" class="cool-line" data-scroll>应用</a>-->
+								<!--<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">测试节点</a></li>-->
 							<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
 						</ul>
 						<div class="sl-language">
@@ -161,19 +160,7 @@
 	<!--ANNOUNCEMENT end-->
 
 
-	<!--news-->
-	<!--news banner-->
-	<!--<section class="newsadwrapper bg-img position-relative">-->
-		<!--<div class="container">-->
-			<!--<h2 class="text-nwrapormal text-it999">-->
-				<!--Metaverse News-->
-			<!--</h2>-->
-		<!--</div>-->
-	<!--</section>-->
-	<!--news banner end-->
-
 	<!--news content-->
-
 	<section class="news-wbox ccom-wbox">
 		<div class="container" layout-position="relative" layout-index="10">
 			<!--<h2 class="new-title text-center" layout-margin-bottom-xs="6">新闻资讯</h2>-->
@@ -377,10 +364,6 @@
 		</div>
 	</section>
 	<!--news content end-->
-	<!--news end-->
-
-
-
 
 
 	<!--contact us begin-->
@@ -470,46 +453,12 @@
 	<script>
         //    footer
         w3.includeHTML();
-	</script>
-
-	<script>
-		//gotop
-		/*
-        function goTop(){
-            var _btn = document.getElementById("goTop");
-            if (document.documentElement && document.documentElement.scrollTop) {
-                var _con = document.documentElement;
-            } else if (document.body) {
-                var _con = document.body;
-            }
-            window.onscroll = set;
-            _btn.style.left = document.documentElement.scrollWidth/2 + 500 + "px";
-            _btn.onclick = function (){
-                _btn.style.display = "none";
-                window.onscroll = null;
-                this.timer = setInterval(function() {
-                    _con.scrollTop -= Math.ceil(_con.scrollTop * 0.3);
-                    if (_con.scrollTop == 0) clearInterval(_btn.timer, window.onscroll = set);
-                },30);
-            };
-            function set() {
-                _btn.style.display = _con.scrollTop ? 'block': "none";
-            }
-        };
-        document.write("<div id=\"goTop\" style=\" background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:9999; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\"><a href='##' class='scrollto'><i class='back-top fa fa-chevron-up'></i></a></div>");
-        //document.write("<div id=\"goTop\" style=\"font-size:12px; width:20px; height:55px; background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:1; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\">返<br />回<br />顶<br />部</div>");
-        window.onscroll = goTop;
-		 */
-	</script>
 
 
-
-	<script>
-//		news 分页
+        //		news 分页
         $(function() {
             $(".box").Page();
         })
-
 	</script>
 	</body>
 </html>

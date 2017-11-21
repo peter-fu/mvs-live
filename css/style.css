@@ -1548,7 +1548,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	width: auto;
 	height: auto;
 	min-width: 100vw;
-	min-height: 100vh;
+	min-height: 105vh;
 	/*opacity: .2;*/
 	opacity: 1;
 	-webkit-transform: translate3d(-50%,-55%,0);

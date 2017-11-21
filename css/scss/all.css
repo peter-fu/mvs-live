@@ -312,8 +312,7 @@ body {
 
 @media (min-width: 1200px) {
   .spe-desza.text-desfd {
-    font-size: 14px;
-    margin: 0 0 10px; } }
+    font-size: 16px; } }
 @media (min-width: 1200px) {
   .recruit-infobox .container {
     width: 980px; }
@@ -872,7 +871,7 @@ body {
   .swiper-container .swiper-slide {
     height: 550px !important; }
 
-  .spe-desza.text-desfd {
+  .en .spe-desza.text-desfd {
     font-size: 12px !important; }
 
   .news-wbox .col-xs-6 {
@@ -1142,7 +1141,7 @@ body {
   font-size: 14px; }
 
 .spe-desza {
-  font-size: 14px; }
+  font-size: 16px; }
 
 .en .icon-nav strong {
   font-family: 'Conv_HelveticaNeue-BoldCond' !important; }

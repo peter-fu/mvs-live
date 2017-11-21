@@ -4342,7 +4342,10 @@ h2.text-normal{
 	.img-retina{
 		/*height: 60px;*/
 	}
-
+	.en .spe-enpl .img-retina {
+		/* height: 68px; */
+		margin: 0 0 50px;
+	}
 
 	.text-desfd {
 		font-weight: 400;

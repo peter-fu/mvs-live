@@ -30,7 +30,8 @@ body {
 	/*font-family: "Open Sans","Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	/*font-family: "Open Sans", Arial, sans-serif;*/
-	font-family: 'Source Sans Pro',Arial,sans-serif,Tahoma,Arial,sans-serif;
+	/*font-family: 'Source Sans Pro',Arial,sans-serif,Tahoma,Arial,sans-serif;*/
+	font-family: 'Microsoft YaHei, Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif';
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 25px;
@@ -310,7 +311,7 @@ a i{
 }
 
 .serif{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:italic;
 	font-weight:400;
 	letter-spacing:0;
@@ -318,7 +319,7 @@ a i{
 }
 
 .uber{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -351,7 +352,7 @@ a i{
 }
 
 blockquote{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:italic;
 	font-weight:400;
 	font-size:1.25em;
@@ -363,7 +364,7 @@ blockquote{
 
 blockquote small{
 	display:block;
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-size:.75em;
 	font-weight:400;
 	font-style:normal
@@ -407,7 +408,7 @@ input::-moz-focus-inner{
 
 .btn,button,input[type=submit]{
 	display:inline-block;
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-size:13px;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -622,7 +623,7 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 }
 
 .title h1,.title h2{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-size:16px;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -680,7 +681,7 @@ a.inverted.underline:hover{
 }
 
 a.arrow-link{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-weight:700;
 	letter-spacing:.08em;
 	text-transform:uppercase;
@@ -826,7 +827,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }*/
 
 .o-hover em{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-size:13px;
 	font-weight:400;
@@ -906,7 +907,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .e-info h3{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-size:13px;
 	font-weight:700;
@@ -1180,6 +1181,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		height:auto;
 		text-align:left;
 		background:#f8f8f8;
+		z-index: 9999;
 		/*background:rgba(7,7,7,.9);*/
 		/*background: rgba(249,249,249,.95);*/
 		/*padding-bottom:10px;*/
@@ -1593,7 +1595,8 @@ audio, canvas, progress, video {
 }
 
 .video-placeholder{
-	background-image: url('../images/videobg.jpg')
+	background-image: url('../images/videobg.jpg');
+	background-size: cover;
 }
 .desinfobox{
 	top: 50%;
@@ -1630,6 +1633,12 @@ audio, canvas, progress, video {
 }
 .play-video:hover{
 	color: #0099FF;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 990px){
+	.mvs-sl {
+		width: 70%;
+	}
 }
 /*header end*/
 
@@ -1979,7 +1988,7 @@ audio, canvas, progress, video {
 }
 
 .c-message h6{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -2907,14 +2916,20 @@ a:hover{
 	}
 
 	/*footer*/
+	.position-fixed.footer-fixed-content {
+		padding: 0 12px !important;
+	}
 	.footer .social li {
-		height: 35px;
-		line-height: 40px;
-		width: 35px;
+		height: 25px !important;
+		line-height: 25px !important;
+		width: 25px !important;
 		margin: 0 2px;
 	}
+	.footer .social li .icon-medium, .footer .social li .icon-telegram{
+		line-height: 23px !important;
+	}
 	.footer .social i {
-		font-size: 18px;
+		font-size: 14px !important;
 	}
 	.fa-ji, .fa-bbs {
 		zoom: .7;
@@ -3089,6 +3104,9 @@ a:hover{
 		font-size: 24px !important;
 		padding: 14px 35px 10px !important;
 	}
+	.walletpdf-wrap .h3-title{
+		padding: 14px 0 10px !important;
+	}
 	.blue-ctn.btn.cc-cbtn {
 		font-size: 14px;
 		font-weight: 400;
@@ -3258,7 +3276,7 @@ a:hover{
 	}
 	.about .col-sm-6 {
 		/*height: 232px;*/
-		height: 300px;
+		height: 320px;
 	}
 
 	.en .about .col-sm-6 {
@@ -4037,6 +4055,7 @@ h2.text-normal{
 
 .team-wrap{
 	color: #434F63;
+	overflow: hidden;
 }
 .t-name{
 	font-size: 20px;
@@ -4194,7 +4213,7 @@ h2.text-normal{
 	}
 	.etp-desinfo {
 		color: #475367;
-		margin: 80px 0;
+		margin: 80px 0 !important;
 	}
 }
 

@@ -141,7 +141,7 @@ p {
 
 body {
   position: relative;
-  font-family: 'Microsoft YaHei, Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif' !important; }
+  font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial; }
 
 .en ul li a {
   letter-spacing: 0; }

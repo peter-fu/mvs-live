@@ -431,7 +431,11 @@ body {
   .downloadwrap .col-lg-3 {
     margin: 2% 2%;
     width: 46%;
-    float: left; } }
+    float: left; }
+
+  .box .items {
+    height: 180px !important;
+    max-width: 320px; } }
 @media only screen and (min-width: 320px) and (max-width: 675px) {
   .downloadwrap .container {
     width: auto; }
@@ -859,6 +863,14 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical; }
 
+@media only screen and (max-width: 414px) {
+  .ccom-wbox .title-box {
+    position: relative;
+    width: 260px;
+    margin: 100px auto 40px; }
+
+  .news-wbox .h4-title {
+    left: 32% !important; } }
 @media only screen and (min-width: 300px) and (max-width: 414px) {
   .applicationbox .swiper-container {
     padding: 100px 0 !important; }
@@ -882,7 +894,7 @@ body {
   .news-wbox .col-xs-6 {
     width: 50%; }
   .news-wbox .box .items {
-    height: 160px;
+    height: 180px;
     max-width: 400px; }
 
   .etp-about .col-sm-6 {
@@ -909,17 +921,18 @@ body {
     height: 110px !important; }
   .en .dev-docwrap .item {
     height: 420px !important; } }
+@media only screen and (min-width: 320px) and (max-width: 525px) {
+  .news-wbox .col-xs-6 {
+    width: 100%; }
+  .news-wbox .box .items {
+    max-width: inherit;
+    height: auto;
+    margin-bottom: 30px !important; } }
 @media only screen and (min-width: 320px) and (max-width: 475px) {
   .downloadwrap .col-lg-3 {
     margin: 25px 2% !important;
     width: 96%;
     padding: 32px; }
-
-  .news-wbox .col-xs-6 {
-    width: 100%; }
-  .news-wbox .box .items {
-    height: 160px;
-    max-width: inherit; }
 
   .dev-docwrap .col-xs-12 {
     width: 100%; }
@@ -1121,7 +1134,7 @@ body {
       height: 55px; }
 
 .icon-nav {
-  font-family: 'Microsoft YaHei, MicrosoftJhengHei, STHeiti, MingLiu,Source Sans Pro,Arial,sans-serif ' !important; }
+  font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial !important; }
 
 #toTop {
   display: none  !important; }

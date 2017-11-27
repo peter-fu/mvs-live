@@ -844,7 +844,8 @@ body {
 /*news-wbox*/
 .box .items {
   height: 160px;
-  max-width: 320px; }
+  max-width: 320px;
+  margin-bottom: 60px; }
 
 .ccom-wbox {
   margin-top: 100px; }
@@ -870,7 +871,13 @@ body {
   text-align: left;
   color: #495060;
   margin: 10px 0 !important;
-  position: relative; }
+  position: relative;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; }
   .title-news:hover {
     color: #02CBFF; }
 

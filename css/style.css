@@ -1210,6 +1210,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	.menu ul li a{
 		display:block;
 		width:100%;
+		line-height: 50px;
 		padding: 10px 0;
 		/*padding:0*/
 	}
@@ -1431,6 +1432,10 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		padding-bottom:0
 	}
 
+
+	.menu ul li a{
+		line-height: 30px;
+	}
 }
 
 .top-bar.tb-transp{
@@ -4217,19 +4222,19 @@ h2.text-normal{
 @media (min-width: 1200px){
 	.zgimg{
 		background: url('../images/newimgs/zengold-new.png') no-repeat center right;
-		background-size: 35%;
+		background-size: 28%;
 
 	}
 	.plimg{
 		/*background: url('../images/newimgs/plane.png') no-repeat center right;*/
 		/*background-size: 60%;*/
 		background: url('../images/newimgs/plane.png') no-repeat rgba(255, 255, 255, 0.9) center right !important;
-		background-size: 45% !important;
+		background-size: 40% !important;
 
 	}
 	.zdimg{
 		background: url('../images/newimgs/zendao.png') no-repeat center right;
-		background-size: 30%;
+		background-size: 28%;
 	}
 	.img-retina{
 		/*height: 60px;*/

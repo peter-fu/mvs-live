@@ -2894,7 +2894,7 @@ a:hover{
 	}
 	.text-desfd{
 		font-size: 14px !important;
-		margin: 10px 0 20px !important;
+		margin: 10px 0 15px !important;
 	}
 	.hand-pc {
 		width: 300px !important;
@@ -2959,7 +2959,7 @@ a:hover{
 		margin: 20px !important;
 	}
 	.zenairbox h2.text-normal, .za-sl {
-		font-size: 16px;
+		font-size: 18px !important;
 	}
 	.zenairbox .text-desfd {
 		font-size: 12px !important;
@@ -2986,7 +2986,7 @@ a:hover{
 }
 @media only screen and (min-width: 300px) and (max-width: 320px) {
 	.img-retina {
-		width: 160px !important;
+		/*width: 160px !important;*/
 	}
 	.testimonial-panel {
 		padding: 30px !important;
@@ -3001,6 +3001,7 @@ a:hover{
 		/*float: left;*/
 		/*margin-bottom: 15px;*/
 	}
+
 
 }
 @media only screen and (min-width: 321px) and (max-width: 600px) {
@@ -3044,6 +3045,11 @@ a:hover{
 	}
 }
 @media only screen and (max-width: 320px) {
+	.swiper-container .img-retina {
+		height: 35px !important;
+	}
+
+
 	.container .six {
 		height: 440px!important;
 		width: 100% !important;
@@ -3087,7 +3093,7 @@ a:hover{
 @media only screen and (min-width: 300px) and (max-width: 475px) {
 
 	.swiper-container .img-retina {
-		height: 40px !important;
+		height: 45px !important;
 	}
 
 	.tb-logo img {
@@ -3610,7 +3616,7 @@ ul, li{
 	margin-top: 40px;
 }
 .rightimgcbox.plimg{
-	background: url('../images/newimgs/plane.png');
+	/*background: url('../images/newimgs/plane.png') no-repeat rgba(255, 255, 255, 0.9) !important;*/
 }
 
 .en .rightimgcbox img {
@@ -3623,7 +3629,7 @@ ul, li{
 	max-width: 750px;
 }
 .za-sl{
-	font-size: 24px;
+	font-size: 18px;
 	margin-left: 15px;
 }
 .mvs-logoimg{
@@ -4215,12 +4221,14 @@ h2.text-normal{
 
 	}
 	.plimg{
-		background: url('../images/newimgs/plane.png') no-repeat center right;
-		background-size: 60%;
+		/*background: url('../images/newimgs/plane.png') no-repeat center right;*/
+		/*background-size: 60%;*/
+		background: url('../images/newimgs/plane.png') no-repeat rgba(255, 255, 255, 0.9) center right !important;
+		background-size: 45% !important;
 
 	}
 	.zdimg{
-		background: url('../images/newimgs/zendao.png') no-repeat  95%;
+		background: url('../images/newimgs/zendao.png') no-repeat center right;
 		background-size: 30%;
 	}
 	.img-retina{

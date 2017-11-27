@@ -7,8 +7,8 @@
 <item>
      <link>https://mvs.org/</link>
      <title>Metaverse元界 - The New Reality Blockchain Project</title>
-     <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <description>Metaverse is a decentralised platform based on blockchain technology. Metaverse is building a web of Smart Properties and establishing an open ecosystem in which digital value can be circulated freely.</description>
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
@@ -16,7 +16,7 @@
      <link>https://mvs.org/news.html</link>
      <title>Metaverse元界 - News</title>
      <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
@@ -24,7 +24,7 @@
      <link>https://mvs.org/foundation.html</link>
      <title>Metaverse Foundation</title>
      <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
@@ -32,15 +32,15 @@
      <link>https://mvs.org/index_cn.html</link>
      <title>Metaverse元界 - The New Reality Blockchain Project</title>
      <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>https://mvs.org/index.html</link>
      <title>Metaverse元界 - The New Reality Blockchain Project</title>
-     <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <description>Metaverse is a decentralised platform based on blockchain technology. Metaverse is building a web of Smart Properties and establishing an open ecosystem in which digital value can be circulated freely.</description>
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
@@ -48,7 +48,7 @@
      <link>https://mvs.org/news_cn.html</link>
      <title>Metaverse元界 - News</title>
      <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
@@ -56,15 +56,7 @@
      <link>https://mvs.org/foundation-cn.html</link>
      <title>MetaverseFoundation元界基金会</title>
      <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf</link>
-     <title></title>
-     
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>

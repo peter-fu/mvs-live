@@ -3302,7 +3302,7 @@ a:hover{
 		width: 280px !important;
 	}
 	.mvs-sl.w-logo {
-		width: 240px !important;
+		width: 200px !important;
 		margin-bottom: 20px !important;
 	}
 	.mvs-des{
@@ -4395,3 +4395,37 @@ h2.text-normal{
 	}
 	}
 /* zdy swiper-banner style */
+
+.icon-discord{
+	width: 28px;
+	margin-top: -3px;
+}
+.icon-discordimg{
+	width: 22px;
+	margin-top: -3px;
+}
+ .icon-discordwh{
+/*display: none;*/
+}
+ .icon-discordimgbl{
+	display: inline-block;
+}
+.discord-mbox:hover .icon-discordwh{
+	/*display: inline-block;*/
+}
+.discord-mbox:hover .icon-discordimgbl{
+
+	/*display: none;*/
+}
+
+/*.icon {*/
+	/*display: inline-block;*/
+	/*width: 1em;*/
+	/*height: 1em;*/
+	/*stroke-width: 0;*/
+	/*stroke: currentColor;*/
+	/*fill: currentColor;*/
+/*}*/
+/*.icon-discord-icon {*/
+	/*width: 1.4375em;*/
+/*}*/

@@ -34,7 +34,7 @@
 	<!--<script src="js/w3/jquery-1.12.4.min.js"></script>-->
 	<!--<script src="js/statistics.js"></script>-->
 
-	<!-- Global site tag (gtag.js) - Google Analytics  跟踪代码 begin -->
+	<!-- Global site tag (gtag.js) - Google Analytics  Tracking code begin -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99097230-3"></script>
 	<script>
         //        媒体资源的全局网站代码 (gtag.js) 跟踪代码
@@ -44,7 +44,7 @@
 
         gtag('config', 'UA-99097230-3');
 	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics  跟踪代码 begin end-->
+	<!-- Global site tag (gtag.js) - Google Analytics Tracking code begin end-->
 	
 	<script>
 		/*
@@ -80,7 +80,6 @@
 <body class="en index">
 	<div id="top"></div>
 	<div class="box-01 top-01">
-
 			<!--header-->
 			<!--<div class="top-01">-->
 			<header id="header" class="top-bar tb-large tb-transp" >
@@ -97,24 +96,37 @@
 
 							<nav class="menu cn-menu fr">
 								<ul class="dis-tablecell height50 nav">
-									<!--<li><a href="#features" class="scrollto cool-line">Features</a></li>-->
 									<li><a href="#menu" class="cool-line" data-scroll>Home</a></li>
 									<li><a href="#Bass" class="cool-line" data-scroll>BaaS</a></li>
 									<li><a href="./news.html" class="cool-line">News</a></li>
 									<li><a href="#Team" class="cool-line" data-scroll>Team</a></li>
 									<li><a href="#download" class="cool-line" data-scroll>Wallet</a></li>
-									<!--<li><a href="#Application" class="cool-line" data-scroll>Application</a>-->
 									<li><a href="http://docs.mvs.org" target="_blank" class="cool-line" >Documents</a></li>
 									<li><a class="cool-line" href="./foundation.html">Metaverse Foundation</a></li>
 									<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>Explorer</span><!-- <i class="fa fa fa-search"></i>--></a></li>
 									<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">Testnet</a></li>
+									<!--<li><a href="#features" class="scrollto cool-line">Features</a></li>-->
+									<!--<li><a href="#Application" class="cool-line" data-scroll>Application</a>-->
 									<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
 								</ul>
-								<div class="sl-language">
-									<a href="./index_cn.html"  class="cool-line">CN</a>
-									<span class="line-lg">/</span>
-									<a href="./index.html" class="active cool-line">EN</a>
+								<!--<div class="sl-language">-->
+									<!--<a href="./index_cn.html"  class="cool-line">CN</a>-->
+									<!--<span class="line-lg">/</span>-->
+									<!--<a href="./index.html" class="active cool-line">EN</a>-->
+								<!--</div>-->
+
+								<!-- sl-language begin -->
+								<div class="sl-language btn-group">
+									<button class="sl-langbtn btn btn-default btn-sm dropdown-toggle" type="button">
+										<img src="./images/lang/en.png" class="lang-sl">English<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menubox">
+										<li><a href="./index_cn.html" class=""><img src="images/lang/cn.png" class="lang-sl">中文</a></li>
+										<!--<li><a href="./korean/index.html" class=""><img src="images/lang/kn.png" class="lang-sl">로그인</a></li>-->
+										<!--<li><a href=".／korean/index.html" class="cool-line">로그인</a></li>-->
+									</ul>
 								</div>
+								<!-- sl-language end -->
 							</nav>
 
 						</div>
@@ -138,7 +150,7 @@
 			<!--video-->
 			<section class="video-box">
 				<div class="video-wrapper video-background">
-					<video src="http://newmetaverse.org/video/mvs-video.mp4" autoplay  class="video hidden-sm">
+					<video src="./video/mvs-video.mp4" autoplay  class="video hidden-sm">
 					your browser does not support the video tag
 					</video>
 					<div class="video-placeholder img-cover hidden-md hidden-lg"></div>
@@ -147,10 +159,11 @@
 						<div class="spe-blockbox bg3">
 							<div class="desinfo container text-center fadeInUp animated">
 								<h2 class="mvs-slbox">
-									<img src="./images/newimgs/mvs-sl.png" alt="The New Reality" class="mvs-sl pc-sl">
+									<img src="../images/newimgs/mvs-sl.png" alt="The New Reality" class="mvs-sl pc-sl">
+									<img src="./images/newimgs/mvs-whitelogo.png" alt="The New Reality" class="mvs-sl wap-sl w-logo">
 									<img src="./images/newimgs/mvs-sl-wh.png" alt="The New Reality" class="mvs-sl wap-sl">
 								</h2>
-								<p class="mvs-des">Metaverse is a decentralised platform based on blockchain technology. <br>Metaverse is building a web of Smart Properties and establishing an open ecosystem <br>in which digital value can be circulated freely.</p>
+								<!--<p class="mvs-des">Metaverse is a decentralised platform based on blockchain technology. <br>Metaverse is building a web of Smart Properties and establishing an open ecosystem <br>in which digital value can be circulated freely.</p>-->
 								<!--<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">-->
 								<!--<img src="images/newimgs/play-btn.png" class="plvideo">-->
 								<!--&lt;!&ndash;Full screen view video&ndash;&gt;-->
@@ -158,12 +171,12 @@
 							</div>
 						</div>
 
-						<div class="container text-center">
-							<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">
+						<!--<div class="container text-center">-->
+							<!--<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">-->
 							<!--<img src="images/newimgs/play-btn.png" class="plvideo">-->
 							<!--Full screen view video-->
-							</a>
-						</div>
+							<!--</a>-->
+						<!--</div>-->
 					</div>
 				</div>
 			</section>
@@ -688,77 +701,6 @@
 	<!-- Swiper JS -->
 	<script src="./js/swiper.min.js"></script>
 
-	<!-- Initialize Swiper -->
-	<script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1.7,
-            centeredSlides: true,
-            spaceBetween: 120,
-            autoplay: {
-                delay: 5000,//5秒
-            },
-//            autoplayDisableOnInteraction: false,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-//            autoplay: true,
-//            loop: true,
-
-            autoplayDisableOnInteraction: true,
-//            pagination: {
-//                el: '.swiper-pagination',
-//                type: 'fraction',
-//            },
-
-	//            virtual: {
-	//                slides: (function () {
-	//                    var slides = [];
-	//                    for (var i = 0; i < 600; i += 1) {
-	//                        slides.push('Slide ' + (i + 1));
-	//                    }
-	//                    return slides;
-	//                }()),
-	//            },
-        });
-        var screenwd=$(window).width();
-        if (screenwd < 768){
-            var swiper = new Swiper('.swiper-container', {
-                slidesPerView: 1.2,
-                centeredSlides: true,
-                spaceBetween: 20,
-//                loop : true,
-                autoplay: {
-                    delay: 5000,//5秒
-                },
-                autoplayDisableOnInteraction: true,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-//            autoplay: true,
-//            loop: true,
-//            autoplayDisableOnInteraction: true,
-//            pagination: {
-//                el: '.swiper-pagination',
-//                type: 'fraction',
-//            },
-
-//            virtual: {
-//                slides: (function () {
-//                    var slides = [];
-//                    for (var i = 0; i < 600; i += 1) {
-//                        slides.push('Slide ' + (i + 1));
-//                    }
-//                    return slides;
-//                }()),
-//            },
-            });
-		}
-	</script>
-
-
-
 	<script src="js/main.js"></script>
 	<!--<script src="js/signup.js"></script>-->
 	<!--<script src="js/load-number/load-num.js"></script> load num js-->
@@ -801,6 +743,74 @@
 
 	</script>
 
+	<!-- Initialize Swiper -->
+	<script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1.7,
+            centeredSlides: true,
+            spaceBetween: 120,
+            autoplay: {
+                delay: 5000,//5秒
+            },
+//            autoplayDisableOnInteraction: false,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+//            autoplay: true,
+//            loop: true,
 
+            autoplayDisableOnInteraction: true,
+//            pagination: {
+//                el: '.swiper-pagination',
+//                type: 'fraction',
+//            },
+
+            //            virtual: {
+            //                slides: (function () {
+            //                    var slides = [];
+            //                    for (var i = 0; i < 600; i += 1) {
+            //                        slides.push('Slide ' + (i + 1));
+            //                    }
+            //                    return slides;
+            //                }()),
+            //            },
+        });
+        var screenwd=$(window).width();
+        if (screenwd < 768){
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1.2,
+                centeredSlides: true,
+                spaceBetween: 20,
+//                loop : true,
+                autoplay: {
+                    delay: 5000,//5秒
+                },
+                autoplayDisableOnInteraction: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+//            autoplay: true,
+//            loop: true,
+//            autoplayDisableOnInteraction: true,
+//            pagination: {
+//                el: '.swiper-pagination',
+//                type: 'fraction',
+//            },
+
+//            virtual: {
+//                slides: (function () {
+//                    var slides = [];
+//                    for (var i = 0; i < 600; i += 1) {
+//                        slides.push('Slide ' + (i + 1));
+//                    }
+//                    return slides;
+//                }()),
+//            },
+            });
+        }
+	</script>
+	<!-- Initialize Swiper End-->
 	</body>
 </html>

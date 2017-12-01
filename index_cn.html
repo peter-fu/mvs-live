@@ -30,12 +30,11 @@
 	<![endif]-->
 
 
-	<script src="js/w3/jquery-1.12.4.min.js"></script>
-	<script src="./js/swiper.min.js"></script>
+
 	<!--<script src="js/lib/jquery.min.js"></script>-->
 	<!--<script src="js/statistics.js"></script>-->
 
-	<!-- Global site tag (gtag.js) - Google Analytics  跟踪代码 begin -->
+	<!-- Global site tag (gtag.js) - Google Analytics Tracking code begin -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99097230-3"></script>
 	<script>
 //        媒体资源的全局网站代码 (gtag.js) 跟踪代码
@@ -45,7 +44,7 @@
 
         gtag('config', 'UA-99097230-3');
 	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics  跟踪代码 begin end-->
+	<!-- Global site tag (gtag.js) - Google Analytics Tracking code begin end-->
 
 	<script>
 		/*
@@ -98,24 +97,38 @@
 
 							<nav class="menu cn-menu fr">
 								<ul class="dis-tablecell height50 nav">
-									<!--<li><a href="#features" class="scrollto cool-line">Features</a></li>-->
 									<li class="cool-line"><a href="#menu" data-scroll>首页</a></li>
 									<li><a href="#Bass" class="d-menu cool-line" data-scroll>BaaS</a></li>
 									<li><a href="./news_cn.html" class="cool-line" data-scroll>新闻</a></li>
 									<li><a href="#Team"  class="d-menu cool-line" data-scroll>团队</a></li>
 									<li><a href="#download" class="d-menu cool-line" data-scroll>钱包</a></li>
-									<!--<li><a href="#Application" class="cool-line" data-scroll>应用</a>-->
 									<li><a href="http://docs.mvs.org" target="_blank" class="cool-line">文档</a></li>
 									<li><a class="cool-line" href="./foundation-cn.html">元界基金会</a></li>
 									<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>区块浏览器</span><!-- <i class="fa fa fa-search"></i>--></a></li>
 									<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">测试节点</a></li>
+									<!--<li><a href="#features" class="scrollto cool-line">Features</a></li>-->
+									<!--<li><a href="#Application" class="cool-line" data-scroll>应用</a>-->
 									<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
 								</ul>
-								<div class="sl-language">
-									<a href="./index_cn.html"  class="active cool-line">CN</a>
-									<span class="line-lg">/</span>
-									<a href="./index.html" class="cool-line">EN</a>
+								<!--<div class="sl-language">-->
+									<!--<a href="./index_cn.html"  class="active cool-line">CN</a>-->
+									<!--<span class="line-lg">/</span>-->
+									<!--<a href="./index.html" class="cool-line">EN</a>-->
+								<!--</div>-->
+
+								<!-- sl-language begin -->
+								<div class="sl-language btn-group">
+									<button class="sl-langbtn btn btn-default btn-sm dropdown-toggle" type="button">
+										<img src="./images/lang/cn.png" class="lang-sl">中文<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menubox">
+										<li><a href="./index.html" class=""><img src="images/lang/en.png" class="lang-sl">English</a></li>
+										<!--<li><a href="./korean/index.html" class=""><img src="images/lang/kn.png" class="lang-sl">로그인</a></li>-->
+										<!--<li><a href=".／korean/index.html" class="cool-line">로그인</a></li>-->
+									</ul>
 								</div>
+								<!-- sl-language end -->
+
 							</nav>
 
 						</div>
@@ -140,7 +153,7 @@
 			<section class="video-box top-01">
 				<!--video start-->
 				<div class="video-wrapper video-background">
-					<video src="http://newmetaverse.org/video/mvs-video.mp4" autoplay  class="video hidden-sm">
+					<video src="./video/mvs-video.mp4" autoplay  class="video hidden-sm">
 						your browser does not support the video tag
 					</video>
 					<div class="video-placeholder img-cover hidden-md hidden-lg" style=""></div>
@@ -151,9 +164,10 @@
 						<div class="desinfo container text-center">
 							<h2 class="mvs-slbox">
 								<img src="./images/newimgs/mvs-sl.png" alt="The New Reality" class="mvs-sl pc-sl">
+								<img src="./images/newimgs/mvs-whitelogo.png" alt="The New Reality" class="mvs-sl wap-sl w-logo">
 								<img src="./images/newimgs/mvs-sl-wh.png" alt="The New Reality" class="mvs-sl wap-sl">
 							</h2>
-							<p class="mvs-des">元界是基于区块链技术开发的去中心化项目，我们将在元界上建立一个智能资产网络系统，元界将成为一个开放的数字价值流转生态。</p>
+							<!--<p class="mvs-des">元界是基于区块链技术开发的去中心化项目，我们将在元界上建立一个智能资产网络系统，元界将成为一个开放的数字价值流转生态。</p>-->
 							<!--<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">-->
 							<!--<img src="images/newimgs/play-btn.png" class="plvideo">-->
 							<!--&lt;!&ndash;Full screen view video&ndash;&gt;-->
@@ -161,12 +175,12 @@
 						</div>
 					</div>
 
-					<div class="container text-center">
-						<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">
+					<!--<div class="container text-center">-->
+						<!--<a href="http://newmetaverse.org/video/mvs-video.mp4" target="_blank" alt="Metaverse Video" class="play-video">-->
 							<!--<img src="images/newimgs/play-btn.png" class="plvideo">-->
 							<!--Full screen view video-->
-						</a>
-					</div>
+						<!--</a>-->
+					<!--</div>-->
 				</div>
 			</section>
 			<!--video end-->
@@ -296,7 +310,7 @@
 							<div class="left-panel zgimg">
 								<div class="left-fdbox text-left">
 									<a href="http://zengold.org" target="_blank"><img class="img-retina" src="./images/newimgs/zengoldlogo.png" alt="zengold" title="zengold"></a>
-									<h2 class="text-light text-normal">ZenGold 臻金<span class="za-sl">实体黄金背书，实现黄金资产数字化</span></h2>
+									<h2 class="text-light text-normal">ZenGold 臻金<span class="za-sl">实物黄金背书，实现黄金资产数字化</span></h2>
 									<h4 class="text-light text-desfd">ZenGold通过元界区块链使实体黄金价值转移到去中心化的网络上，使黄金价值可以像数字货币一样在全世界自由转移。</h4>
 									<a class="btn-dt" href="http://zengold.org" target="_blank">了解详情 ></a>
 								</div>
@@ -702,6 +716,48 @@
 	</div>
 
 
+
+	<script src="js/w3/jquery-1.12.4.min.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="js/main.js"></script>
+	<!--<script src="js/signup.js"></script>-->
+	<!--<script src="js/load-number/load-num.js"></script> load num js-->
+	<script src="js/w3/nav.js"></script>
+	<script src="js/w3/compressed.js"></script>
+	<script src="js/w3/main.js"></script>
+	<!--<script src="js/w3/w3.js"></script>-->
+
+	<script>
+        //		footer
+        //		w3.includeHTML();
+
+        //监听滚动事件 media icons
+        $(window).scroll(function(){
+            var scrollhy= $(this).scrollTop();
+
+//            var footerhy=$('.social-footer').offset().top;
+            var footerhy=$('.walletpdf-wrap').offset().top;
+            var contacthy=$('.contact-warp').offset().top;
+            var abtmvsy=$('.about-mvs').offset().top;
+
+			//console.log(scrollhy);
+
+            if(scrollhy>5){
+                $('#header').addClass('fixedtop');
+                $('.footer-fixed-content').hide();
+            } else {
+                $('#header').removeClass('fixedtop');
+                $('.footer-fixed-content').show();
+            };
+
+            if(scrollhy>footerhy){
+                $('.footer-fixed-content').hide();
+            } else {
+                $('.footer-fixed-content').show();
+            }
+        });
+
+	</script>
 	<!-- Initialize Swiper -->
 	<script>
         var swiper = new Swiper('.swiper-container', {
@@ -767,67 +823,8 @@
 //                }()),
 //            },
             });
-		}
+        }
 	</script>
-	<!--<script src="js/lib/jquery.min.js"></script>-->
-	<!--<script src="js/lib/retina.min.js"></script>-->
-
-	<!--<script src="/js/navjs/nav.js"></script>-->
-	<!--<script src="/js/navjs/compressed.js"></script>-->
-	<!--<script src="/js/navjs/main.js"></script>-->
-
-
-	<!--<script src="js/lib/jquery.magnific-popup.min.js"></script>-->
-	<!--<script src="js/lib/jquery.bxslider.min.js"></script>-->
-	<!--<script src="js/lib/owl.carousel.min.js"></script>-->
-	<!--<script src="js/lib/jquery.fitvids.js"></script>-->
-	<!--<script src="js/lib/jquery.equal.js"></script>-->
-
-	<script src="js/main.js"></script>
-	<!--<script src="js/signup.js"></script>-->
-	<!--<script src="js/load-number/load-num.js"></script> load num js-->
-	<script src="js/w3/nav.js"></script>
-	<script src="js/w3/compressed.js"></script>
-	<script src="js/w3/main.js"></script>
-	<!--<script src="js/w3/w3.js"></script>-->
-
-
-
-
-	<!-- Swiper JS -->
-	<!--<script src="./js/swiper.min.js"></script>-->
-
-	<script>
-        //		footer
-        //		w3.includeHTML();
-
-        //监听滚动事件 media icons
-        $(window).scroll(function(){
-            var scrollhy= $(this).scrollTop();
-
-//            var footerhy=$('.social-footer').offset().top;
-            var footerhy=$('.walletpdf-wrap').offset().top;
-            var contacthy=$('.contact-warp').offset().top;
-            var abtmvsy=$('.about-mvs').offset().top;
-
-			//console.log(scrollhy);
-
-            if(scrollhy>5){
-                $('#header').addClass('fixedtop');
-                $('.footer-fixed-content').hide();
-            } else {
-                $('#header').removeClass('fixedtop');
-                $('.footer-fixed-content').show();
-            };
-
-            if(scrollhy>footerhy){
-                $('.footer-fixed-content').hide();
-            } else {
-                $('.footer-fixed-content').show();
-            }
-        });
-
-	</script>
-
+	<!-- Initialize Swiper End-->
 	</body>
 </html>

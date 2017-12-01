@@ -22,8 +22,7 @@
  */
 
 /**
- * Created by liuxiaohuan
- * download block
+ * Created by yct
  */
 
 $('.spe-hover').mouseenter(function(){
@@ -40,14 +39,6 @@ $('.spe-hover').mouseenter(function(){
 $('.spe-hover').mouseleave(function(){
     $('.spe-hover').removeClass('active');
 });
-
-
-
-
-
-
-
-
 
 
 
@@ -127,7 +118,25 @@ if(screenwidth<1100){
 }
 else{
     $('.cn-menu.menu').css('display','block');
+
+
+    /**  sl-language bebin **/
+
+    $('.sl-language').mouseenter(function () {
+        $('.dropdown-menubox').slideDown(300);
+    })
+
+    $('.sl-language').mouseleave(function () {
+        $('.dropdown-menubox').slideUp(200);
+    })
+
+//        $('.dropdown-toggle').dropdown();
+
+    /**  sl-language end **/
+
 }
 /* mini menu end*/
 
-/*＊ menu nav end＊*/
+
+
+

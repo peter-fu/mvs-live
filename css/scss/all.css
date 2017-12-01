@@ -747,7 +747,8 @@ body {
     height: 110px; }
   .footerbox .copyright {
     color: #fff;
-    font-weight: lighter; }
+    font-weight: lighter;
+    letter-spacing: 1px; }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -1273,18 +1274,6 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1210px; } }
-.mask {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 8000;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  display: none; }
-
 /*Team begin*/
 .team-wrap .text-desfd {
   text-align: center; }
@@ -1464,8 +1453,15 @@ body {
   .pc-sl {
     display: none; }
 
+  .mvs-slbox {
+    display: block; }
+
   .wap-sl {
     display: inline-block; }
+
+  .mvs-sl.w-logo {
+    width: 320px;
+    margin-bottom: 30px; }
 
   .desinfobox {
     top: 50%;

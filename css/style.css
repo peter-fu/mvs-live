@@ -450,7 +450,7 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 	border:1px solid #347DED;
 }
 .btn span{
-	display:block;
+	/*display:block;*/
 }
 
 .btn.color{
@@ -996,7 +996,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	display:none
 }
 
-.menu ul li:hover>ul{
+.menu ul.nav li:hover>ul{
 	display:block
 }
 
@@ -1011,7 +1011,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	/*line-height:25px*/
 }
 .cn-menu.menu{
-	margin-right: 90px;
+	margin-right: 120px;
 	/*height: 70px;*/
 }
 .mbmenu-hide{
@@ -1034,7 +1034,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	display:block
 }
 
-.menu ul li{
+.menu ul.nav li{
 	float:left;
 	position: relative;
 	margin-right: 40px;
@@ -1045,11 +1045,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	height: 50px;
 }
 
-.menu ul li:hover a{
+.menu ul.nav li:hover a{
 	color:#fff
 }
 
-.menu ul li a{
+.menu ul.nav li a{
 	display:inline-block;
 	/* padding:3px 16px; */
 	color: #434D53;
@@ -1062,11 +1062,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	height: 50px;
 	/* margin-right: 40px; */
 }
- .menu ul li a.active{
+ .menu ul.nav li a.active{
 	/*color: #FF7A58;*/
 	color: #02CBFF;
 }
-.menu ul li.active a{
+.menu ul.nav li.active a{
 	/*color: #0099FF;*/
 	/*color: #FF7A58;*/
 	color: #02CBFF;
@@ -1200,14 +1200,14 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		height: auto;
 		width: 100%;
 	}
-	.menu ul li{
+	.menu ul.nav li{
 		display:block;
 		width:100%;
 		line-height:30px;
 		margin:0
 	}
 
-	.menu ul li a{
+	.menu ul.nav li a{
 		display:block;
 		width:100%;
 		line-height: 50px;
@@ -1222,8 +1222,35 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		right: inherit !important;
 		top: 0 !important;
 		color: #999 !important;
+
+
 	}
-	.menu ul li.sl-language *{
+	.sl-language .sl-langbtn{
+		color:#02CBFF !important;
+	}
+	.sl-language, .sl-language .sl-langbtn{
+		display: inline-block;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.menu ul.dropdown-menubox{
+		display: block !important;
+		position: relative !important;
+		/* background: #fff !important; */
+		border: none !important;
+		top: inherit !important;
+		display: inline-block;
+		width: 100% !important;
+		float: none;
+		text-align: center;
+	}
+	.btn .caret {
+		display: none !important;
+	}
+
+
+	.menu ul.nav li.sl-language *{
 		font-size:14px;
 		padding: 0;
 	}
@@ -1256,6 +1283,18 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		font-size:16px;
 	}
 
+	.mask{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top:0;
+		bottom:0;
+		z-index: 8000;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.6);
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1300px) {
@@ -1264,7 +1303,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		font-size: 14px;
 		margin-left: 0 !important;
 	}
-	.menu ul li {
+	.menu ul.nav li {
 		margin-right: 10px !important;
 	}
 }
@@ -1273,10 +1312,15 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	.top-bar .container {
 		/*width: 960px;*/
 	}
-	.sl-language {
+	/*.sl-language {*/
+		/*top: -6px !important;*/
+		/*!*margin-left: 0px !important;*!*/
+	/*}*/
+	/*.dropdown-menubox {*/
+		/*top: 45px !important;*/
+		/*right: 0;*/
+	/*}*/
 
-		/*margin-left: 0px !important;*/
-	}
 	.metaverse-slg{
 		width: 400px;
 	}
@@ -1379,23 +1423,89 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	color: #999;
 	position: absolute;
 	right: 20px;
-	top: 3px;
+	top: 9px;
 	/*top: 22px;*/
+	text-transform: none;
 }
-.menu ul li a.test-area{
+.sl-language .btn{
+	color: #333;
+	line-height: 25px;
+	padding: 5px 15px;
+	border: none;
+	background: transparent;
+	text-transform: none;
+}
+.lang-sl{
+	width: 30px;
+	margin-right: 10px;
+}
+.menu ul.dropdown-menubox{
+	position: absolute;
+	display: none;
+}
+.dropdown-menubox
+/*, .menu ul.dropdown-menubox li*/
+{
+	width: 130px;
+	min-width: 130px;
+	/*padding-left: 15px;*/
+	margin-bottom: 0;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	position: absolute;
+	top: 36px;
+	display: none;
+}
+.dropdown-menubox li{
+	padding:0px 10px 0 18px;
+	text-transform: none;
+	line-height: 2;
+	margin: 10px 0;
+}
+.menu ul.dropdown-menubox li a:hover{
+	background: transparent;
+	color: #02CBFF;
+}
+.dropdown-menubox > li > a {
+	/*display: block;*/
+	padding: 0;
+}
+.btn .caret {
+	margin-left: 10px;
+}
+.foundation-header .btn .caret {
+	display: inline-block !important;
+}
+.btn-group.open .dropdown-toggle {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+	border-color: #adadad;
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	/* transition-property: top; */
+	/* -moz-transition-property: top; */
+	/* -webkit-transition-property: top; */
+	/* -o-transition-property: top; */
+}
+
+.menu ul.nav li a.test-area{
 	/*color:#347ded ;*/
 }
 
-.menu ul li a.blockchain-exploer:hover{
+.menu ul.nav li a.blockchain-exploer:hover{
 	color: #fff;
 }
-.menu ul li a.blockchain-exploer{
+.menu ul.nav li a.blockchain-exploer{
 	background: #347ded;
 	color: #fff;
 	border-radius: 30px;
 	/*font-size: 16px;*/
 }
-.menu ul li a.blockchain-exploer span{
+.menu ul.nav li a.blockchain-exploer span{
 	padding: 0 0 0 5px;
 	font-size: 14px;
 }
@@ -1433,7 +1543,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	}
 
 
-	.menu ul li a{
+	.menu ul.nav li a{
 		line-height: 30px;
 	}
 }
@@ -1444,11 +1554,11 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	/*background:rgba(7,7,7,.9);*/
 }
 
-.tb-transp .menu ul li a{
+.tb-transp .menu ul.nav li a{
 	/*color:#fff;*/
 }
 
-.tb-transp .menu ul li:hover a{
+.tb-transp .menu ul.nav li:hover a{
 	/*color: #3983c7;*/
 	/*color: #FF7A58;*/
 	color: #02CBFF;
@@ -1524,6 +1634,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	margin: 0 30px;
 }
 .video-box{
+	border-bottom: 1px solid #eee;
 	position: relative;
 	/*margin-top: 50px;*/
 	overflow: hidden;
@@ -1628,6 +1739,7 @@ audio, canvas, progress, video {
 }
 .mvs-slbox{
 	margin-bottom: 30px;
+	display: none;
 }
 .mvs-des{
 	/*opacity: .8;*/
@@ -1653,6 +1765,16 @@ audio, canvas, progress, video {
 }
 /*header end*/
 
+@media (max-width: 1200px){
+	.sl-language {
+		/*top: -6px !important;*/
+		/*margin-left: 0px !important;*/
+	}
+	.dropdown-menubox {
+		top: 45px !important;
+		right: 0;
+	}
+}
 @media (min-width: 1200px){
 	.container {
 		padding: 0;
@@ -3177,7 +3299,11 @@ a:hover{
 		margin-bottom: 20px;
 	}
 	.mvs-slbox img {
-		width: 280px!important;
+		width: 280px !important;
+	}
+	.mvs-sl.w-logo {
+		width: 240px !important;
+		margin-bottom: 20px !important;
 	}
 	.mvs-des{
 		font-size: 14px;
@@ -3320,7 +3446,7 @@ a:hover{
 }
 
 @media (min-width: 768px){
-	.menu ul li {
+	.menu ul.nav li {
 
 		margin-right: 20px;
 	}
@@ -3397,7 +3523,7 @@ a:hover{
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-	.menu ul li a {
+	.menu ul.nav li a {
 		padding: 0 8px;
 	}
 	.cn-menu.menu{
@@ -3413,7 +3539,7 @@ a:hover{
 
 }
 @media screen and (min-width: 1201px) and (max-width: 1300px) {
-	.menu ul li a {
+	.menu ul.nav li a {
 		padding: 0 8px;
 	}
 	.cn-menu.menu{
@@ -3428,7 +3554,7 @@ a:hover{
 	opacity: 1;
 }
 
-.menu ul li a.blockchain-exploer:hover{
+.menu ul.nav li a.blockchain-exploer:hover{
 	color: #fff;
 }
 /*nav end*/
@@ -3445,7 +3571,14 @@ a:hover{
 .foundation-header{
 	color: #0099ff;
 	font-size: 16px;
+	position: relative;
 	/*padding: 10px 0;*/
+}
+.foundation-headerbox.top-bar .sl-language {
+	top: 5px;
+	/*position: absolute;*/
+	/*right: 20px !important;*/
+
 }
 .r-home{
 	height: 45px;
@@ -3487,7 +3620,7 @@ a:hover{
 	margin: 120px 0 30px;
 }
 
-.menu ul li.sl-language a{
+.menu ul.nav li.sl-language a{
 	padding: 0;
 	font-size: 14px;
 }
@@ -4174,7 +4307,7 @@ h2.text-normal{
 
 /* zdy swiper-banner style */
 .swiper-container {
-	background: url(../images/newimgs/city-bg.jpg) no-repeat;
+	background: url(../images/newimgs/city-bg2.jpg) no-repeat;
 
 }
 /*.zgimg{*/

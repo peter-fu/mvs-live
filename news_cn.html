@@ -26,20 +26,19 @@
 	<script src="/js/h5/respond.js"></script>
 	<script src="/js/h5/html5shiv.min.js"></script>
 	<![endif]-->
-	<script src="js/w3/jquery-1.12.4.min.js"></script>
 	<!--<script src="js/statistics.js"></script>-->
 
-	<!-- Global site tag (gtag.js) - Google Analytics  跟踪代码 begin -->
+	<!-- Global site tag (gtag.js) - Google Analytics  Tracking code begin -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99097230-3"></script>
 	<script>
-        //        媒体资源的全局网站代码 (gtag.js) 跟踪代码
+        //        媒体资源的全局网站代码 (gtag.js) Tracking code
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-99097230-3');
 	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics  跟踪代码 begin end-->
+	<!-- Global site tag (gtag.js) - Google Analytics  Tracking code begin end-->
 
 	<script>
 		/*
@@ -106,11 +105,24 @@
 							<!--<li><a href="./#Application" class="cool-line" data-scroll>应用</a>-->
 							<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
 						</ul>
-						<div class="sl-language">
-							<a href="./news_cn.html"  class="active cool-line">CN</a>
-							<span class="line-lg">/</span>
-							<a href="./news.html" class="cool-line">EN</a>
+						<!--<div class="sl-language">-->
+							<!--<a href="./news_cn.html"  class="active cool-line">CN</a>-->
+							<!--<span class="line-lg">/</span>-->
+							<!--<a href="./news.html" class="cool-line">EN</a>-->
+						<!--</div>-->
+
+						<!-- sl-language begin -->
+						<div class="sl-language btn-group">
+							<button class="sl-langbtn btn btn-default btn-sm dropdown-toggle" type="button">
+								<img src="./images/lang/cn.png" class="lang-sl">中文<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menubox">
+								<li><a href="./news.html" class=""><img src="images/lang/en.png" class="lang-sl">English</a></li>
+								<!--<li><a href="./korean/news.html" class=""><img src="images/lang/kn.png" class="lang-sl">로그인</a></li>-->
+								<!--<li><a href=".／korean/index.html" class="cool-line">로그인</a></li>-->
+							</ul>
 						</div>
+						<!-- sl-language end -->
 					</nav>
 
 				</div>
@@ -188,6 +200,58 @@
 
 			<!--news content begin-->
 			<div class="box">
+				<!--news ex-->
+				<div class="col-sm-4 col-xs-6 col-xs-12 fadeInUp animated">
+					<div class="items" rel="nofollow" layout-margin-bottom-xs="8">
+						<a target="_blank" href="http://www.jinse.com/news/blockchain/99146.html">
+							<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">元界基金会正式宣布投资小牛链</h3>
+						</a>
+						<div class="info-news text-normal" layout-margin-bottom-xs="0">
+							<span class="date-news">2017/11/23</span>
+							<span class="source-web">金色财经</span>
+						</div>
+						<p class="news-sdes">元界基金会正式宣布投资小牛链</p>
+						<a target="_blank"  rel="nofollow" href="http://www.jinse.com/news/blockchain/99146.html">
+							<small class="read-more">Read More ></small>
+						</a>
+					</div>
+				</div>
+				<!--news ex end-->
+				<!--news ex-->
+				<div class="col-sm-4 col-xs-6 col-xs-12 fadeInUp animated">
+					<div class="items" rel="nofollow" layout-margin-bottom-xs="8">
+						<a target="_blank" href="http://www.jinse.com/news/blockchain/96990.html">
+							<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">元界区块链团队应邀出席第八届财新峰会</h3>
+						</a>
+						<div class="info-news text-normal" layout-margin-bottom-xs="0">
+							<span class="date-news">2017/11/20</span>
+							<span class="source-web">金色财经</span>
+						</div>
+						<p class="news-sdes">元界区块链团队应邀出席第八届财新峰会</p>
+						<a target="_blank"  rel="nofollow" href="http://www.jinse.com/news/blockchain/96990.html">
+							<small class="read-more">Read More ></small>
+						</a>
+					</div>
+				</div>
+				<!--news ex end-->
+				<!--news ex-->
+				<div class="col-sm-4 col-xs-6 col-xs-12 fadeInUp animated">
+					<div class="items" rel="nofollow" layout-margin-bottom-xs="8">
+						<a target="_blank" href="http://www.jinse.com/news/blockchain/93289.html">
+							<h3 class="text-normal title-news cool-line" layout-margin-bottom-xs="2">元界基金会奖励机制发布</h3>
+						</a>
+						<div class="info-news text-normal" layout-margin-bottom-xs="0">
+							<span class="date-news">2017/11/14</span>
+							<span class="source-web">金色财经</span>
+						</div>
+						<p class="news-sdes">元界基金会奖励机制发布</p>
+						<a target="_blank"  rel="nofollow" href="http://www.jinse.com/news/blockchain/93289.html">
+							<small class="read-more">Read More ></small>
+						</a>
+					</div>
+				</div>
+				<!--news ex end-->
+
 				<!--news ex-->
 				<div class="col-sm-4 col-xs-6 col-xs-12 fadeInUp animated">
 					<div class="items" rel="nofollow" layout-margin-bottom-xs="8">
@@ -439,7 +503,7 @@
 	</footer>
 	<!--common footer end-->
 
-
+	<script src="js/w3/jquery-1.12.4.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/fenye.js"></script>
 	<!--<script src="js/signup.js"></script>-->

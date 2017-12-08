@@ -60,6 +60,30 @@
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
+<item>
+     <link>https://mvs.org/korean/index.html</link>
+     <title>Metaverse-메타버스 재단</title>
+     <description>Metaverse is a decentralised platform based on blockchain technology. Metaverse is building a web of Smart Properties and establishing an open ecosystem in which digital value can be circulated freely.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mvs.org/korean/news.html</link>
+     <title>Metaverse-뉴스</title>
+     <description>Metaverse is a decentralised platform based on blockchain technology. Metaverse is building a web of Smart Properties and establishing an open ecosystem in which digital value can be circulated freely.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mvs.org/korean/foundation.html</link>
+     <title>MetaverseFoundation元界基金会-메타버스 재단</title>
+     <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
 </channel>
 </rss>
   

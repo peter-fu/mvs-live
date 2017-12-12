@@ -29,16 +29,16 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="images/touch-icons/apple-touch-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="images/touch-icons/apple-touch-icon-152x152.png">
 	<link rel="stylesheet" href="css/lib/font-awesome.min.css">
-	<!--<link rel="stylesheet" href="css/lib/base.css">-->
 	<link rel="stylesheet" href="css/bootstrap.css">
-
 	<link rel="stylesheet" href="css/animate.min.css">
-	<!--<link rel="stylesheet" href="css/animate-colorcicle.min.css">-->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/scss/all.css">
-	<!--<link rel="stylesheet" href="css/swiper.min.css">-->
 	<link rel="stylesheet" href="css/swiper.css">
+	<!--<link rel="stylesheet" href="css/lib/base.css">-->
+	<!--<link rel="stylesheet" href="css/animate-colorcicle.min.css">-->
+	<!--<link rel="stylesheet" href="css/swiper.min.css">-->
 	<!--<script src="js/lib/modernizr.js"></script>-->
+
 	<!--[if lt IE 9]>
 	<script src="/js/h5/respond.js"></script>
 	<script src="/js/h5/html5shiv.min.js"></script>
@@ -136,8 +136,8 @@
 										<img src="./images/lang/en.png" class="lang-sl">English<span class="caret"></span>
 									</button>
 									<ul class="dropdown-menubox">
-										<li><a href="./index_cn.html" class=""><img src="images/lang/cn.png" class="lang-sl">中文</a></li>
-										<li><a href="./korean/index.html" class=""><img src="images/lang/kn.png" class="lang-sl">한국어</a></li>
+										<li><a href="./index_cn.html"><img src="images/lang/cn.png" class="lang-sl">中文</a></li>
+										<li><a href="./korean/index.html" ><img src="images/lang/kn.png" class="lang-sl">한국어</a></li>
 										<!--<li><a href=".／korean/index.html" class="cool-line">로그인</a></li>-->
 									</ul>
 								</div>
@@ -210,7 +210,6 @@
 						<a class="blue-ctn cc-cbtn fadeInUp animated orangecf" href="http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-EN.pdf" target="_blank">Digital Identity White Paper<!--<i class="fa fa-arrow-circle-right animated" aria-hidden="true"></i>--></a>
 					</div>
 					<!--<div class="white-paperbox container text-center">-->
-					<!---->
 					<!--</div>-->
 					<!--White Paper Download end-->
 				</div>
@@ -519,7 +518,7 @@
 						<div class="c-iconbox comm-titlest"><span class="icon-wallet hvr-pulse"></span></div>
 					</div>
 					<p class="wallet-base">Light Wallet</p>
-					<p class="up-date">更新日期：2017.11.21</p>
+					<p class="up-date">Update date：2017.11.21</p>
 					<ul class="data-dw">
 						<li><a href="https://www.myetpwallet.com" target="_blank" class="dldata-title"><span class="dw-t cool-line">Visit light Wallet</span></a></li>
 						<li><p class="md5-data mvs-mywallet cool-line"><a href="https://www.myetpwallet.com" target="_blank">https://www.myetpwallet.com</a></p></li>
@@ -788,7 +787,6 @@
             autoplay: {
                 delay: 5000,//5秒
             },
-//            autoplayDisableOnInteraction: false,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -797,20 +795,6 @@
 //            loop: true,
 
             autoplayDisableOnInteraction: true,
-//            pagination: {
-//                el: '.swiper-pagination',
-//                type: 'fraction',
-//            },
-
-            //            virtual: {
-            //                slides: (function () {
-            //                    var slides = [];
-            //                    for (var i = 0; i < 600; i += 1) {
-            //                        slides.push('Slide ' + (i + 1));
-            //                    }
-            //                    return slides;
-            //                }()),
-            //            },
         });
         var screenwd=$(window).width();
         if (screenwd < 768){
@@ -818,7 +802,6 @@
                 slidesPerView: 1.2,
                 centeredSlides: true,
                 spaceBetween: 20,
-//                loop : true,
                 autoplay: {
                     delay: 5000,//5秒
                 },
@@ -827,23 +810,6 @@
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
-//            autoplay: true,
-//            loop: true,
-//            autoplayDisableOnInteraction: true,
-//            pagination: {
-//                el: '.swiper-pagination',
-//                type: 'fraction',
-//            },
-
-//            virtual: {
-//                slides: (function () {
-//                    var slides = [];
-//                    for (var i = 0; i < 600; i += 1) {
-//                        slides.push('Slide ' + (i + 1));
-//                    }
-//                    return slides;
-//                }()),
-//            },
             });
         }
 	</script>

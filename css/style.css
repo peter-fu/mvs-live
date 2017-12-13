@@ -926,7 +926,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 @media only screen and (min-width: 990px)  {
 	.index .top-bar{
 		top:inherit;
-		bottom: 0;
+		/*bottom: 0;*/
 	}
 }
 
@@ -2269,7 +2269,7 @@ audio, canvas, progress, video {
 	height: 50px;
 	line-height: 50px;
 	box-shadow: 0 -1px 2px rgba(0,0,0,.05);
-	display: none;
+	display: block;
 }
 .footer-fixed-content .social {
 	padding: 0;
@@ -3070,6 +3070,11 @@ a:hover{
 	}
 	.back-top{
 		right: 8px;
+	}
+	.footer .icon-discordimg {
+		width: 18px;
+		margin-top: -4px;
+		/*margin-left: 2px;*/
 	}
 
 	/*ETP*/
@@ -4429,3 +4434,82 @@ h2.text-normal{
 /*.icon-discord-icon {*/
 	/*width: 1.4375em;*/
 /*}*/
+
+
+
+/*Application*/
+.applicationbox{
+	background: url(../images/newimgs/zengold-bg.jpg) no-repeat;
+	height: 480px;
+}
+.ap-logo{
+	width: 220px;
+	margin: 50px 0;
+}
+.ap-box{
+	width: 900px;
+	margin: 0 auto;
+	/*position: relative;*/
+	/*right: 120px;*/
+	color: #DAB85E;
+}
+.ap-desinfo{
+	font-size: 16px;
+	margin: 20px 0 30px;
+}
+.read-m{
+	position: relative;
+
+}
+.read-m:hover {
+	color: #DAB85E;
+}
+.read-m.cool-line:after {
+	height: 1px;
+	 background-color: #DAB85E !important;
+ }
+@media (min-width: 1200px){
+	.ap-box{
+		position: relative;
+		right: 120px;
+	}
+}
+@media only screen and (min-width: 500px)and (max-width: 700px){
+	.ap-box{
+		width: 480px;
+		margin: 0 auto;
+		/*position: relative;*/
+		/*right: 120px;*/
+		color: #DAB85E;
+	}
+	.ap-logo{
+		width: 180px;
+		margin: 50px 0;
+	}
+}
+@media only screen and (min-width: 300px)and (max-width: 768px){
+	.zh .applicationbox {
+		height: 420px;
+	}
+}
+@media only screen and (min-width: 300px)and (max-width: 500px){
+	.ap-box{
+		width: 300px;
+		margin: 0 auto;
+		/*position: relative;*/
+		/*right: 120px;*/
+		color: #DAB85E;
+	}
+	.ap-logo{
+		width: 150px;
+		margin: 50px 0;
+	}
+	.ap-tl{
+		font-size: 18px;
+	}
+	.ap-desinfo {
+		font-size: 14px;
+		margin-top: 30px;
+	}
+}
+/*Application end*/

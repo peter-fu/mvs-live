@@ -122,13 +122,13 @@ else{
 
     /**  sl-language bebin **/
 
-    $('.sl-language').mouseenter(function () {
-        $('.dropdown-menubox').slideDown(300);
-    })
-
-    $('.sl-language').mouseleave(function () {
-        $('.dropdown-menubox').slideUp(200);
-    })
+    // $('.sl-language').mouseenter(function () {
+    //     $('.dropdown-menubox').slideDown(300);
+    // })
+    //
+    // $('.sl-language').mouseleave(function () {
+    //     $('.dropdown-menubox').slideUp(200);
+    // })
 
 //        $('.dropdown-toggle').dropdown();
 

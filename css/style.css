@@ -1245,6 +1245,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		float: none;
 		text-align: center;
 	}
+	.dropdown-menubox li {
+		text-align: center !important;
+	}
 	.btn .caret {
 		display: none !important;
 	}
@@ -1431,14 +1434,27 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	color: #333;
 	line-height: 25px;
 	padding: 5px 15px;
+	width: 130px;
 	border: none;
-	background: transparent;
+	background: #f9f9f9;
 	text-transform: none;
+	z-index: 9999;
+}
+.foundation-headerbox .sl-language .btn{
+
+	background:transparent;
+
 }
 .lang-sl{
 	width: 30px;
 	margin-right: 10px;
+
 }
+.sl-lang{
+	line-height: 40px;
+	/*font-size: 0;*/
+}
+
 .menu ul.dropdown-menubox{
 	position: absolute;
 	display: none;
@@ -1451,17 +1467,19 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	/*padding-left: 15px;*/
 	margin-bottom: 0;
 	background: #f9f9f9;
-	border: 1px solid #ddd;
+	/*border: 1px solid #ddd;*/
 	border-radius: 4px;
 	position: absolute;
-	top: 36px;
+	padding-top: 36px;
 	display: none;
+	top: 0;
 }
 .dropdown-menubox li{
 	padding:0px 10px 0 18px;
 	text-transform: none;
 	line-height: 2;
 	margin: 10px 0;
+	text-align: left;
 }
 .menu ul.dropdown-menubox li a:hover{
 	background: transparent;
@@ -1771,7 +1789,7 @@ audio, canvas, progress, video {
 		/*margin-left: 0px !important;*/
 	}
 	.dropdown-menubox {
-		top: 45px !important;
+		/*top: 45px !important;*/
 		right: 0;
 	}
 }

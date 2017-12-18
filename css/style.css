@@ -1448,7 +1448,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .lang-sl{
 	width: 30px;
 	margin-right: 10px;
-
+	border-radius: 3px;
 }
 .sl-lang{
 	line-height: 40px;
@@ -1462,7 +1462,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .dropdown-menubox
 /*, .menu ul.dropdown-menubox li*/
 {
-	width: 130px;
+	width: 140px;
 	min-width: 130px;
 	/*padding-left: 15px;*/
 	margin-bottom: 0;
@@ -4459,6 +4459,9 @@ h2.text-normal{
 .applicationbox{
 	background: url(../images/newimgs/zengold-bg.jpg) no-repeat;
 	height: 480px;
+}
+.it .applicationbox{
+	height: 550px;
 }
 .ap-logo{
 	width: 220px;

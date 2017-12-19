@@ -3631,6 +3631,10 @@ a:hover{
 }
 .foundation-md{
 	font-size: 18px;
+	/*text-align: justify;*/
+	/*text-justify: inter-ideograph;*/
+	/*word-break: break-all;*/
+	/*word-wrap: break-word;*/
 }
 .foundation-md li{
 	margin-bottom: 15px;
@@ -4489,12 +4493,12 @@ h2.text-normal{
 	height: 1px;
 	 background-color: #DAB85E !important;
  }
-@media (min-width: 1200px){
-	.ap-box{
-		position: relative;
-		right: 120px;
-	}
-}
+/*@media (min-width: 1200px){*/
+	/*.ap-box{*/
+		/*position: relative;*/
+		/*right: 120px;*/
+	/*}*/
+/*}*/
 @media only screen and (min-width: 500px)and (max-width: 700px){
 	.ap-box{
 		width: 480px;

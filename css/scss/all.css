@@ -96,6 +96,10 @@ p {
 .organgebg, .h2-title, .downloadwrap .s-item, .c-iconbox {
   background: #02CBFF; }
 
+.text-jty, .cc-ct, .etp-infodes, .recruit-infobox .zp-info {
+  text-align: justify;
+  text-justify: inter-ideograph; }
+
 /* btn */
 .btn.cc-cbtn, .cc-cbtn {
   /* color: #fff; */
@@ -332,7 +336,7 @@ body {
     display: block !important; } }
 @media (min-width: 1200px) {
   .recruit-infobox .container {
-    width: 980px; }
+    width: 950px; }
 
   .left-fdbox {
     width: 68%; } }
@@ -422,6 +426,9 @@ body {
 
 .mw-des {
   color: #3C3C3C; }
+
+.ko .mvs-macOSX {
+  line-height: 1.8; }
 
 @media only screen and (min-width: 575px) {
   .en .ant-wbox.ccom-wbox .title-box {
@@ -521,6 +528,9 @@ body {
   .md5-data.mvs-mywallet:hover a {
     color: #02CBFF;
     font-weight: 700; }
+
+.mvs-mywallet .cool-line {
+  position: relative; }
 
 .walletpdf-wrap {
   margin: 0 auto;
@@ -743,7 +753,7 @@ body {
   background: #312E2E;
   margin: 0; }
   .footerbox .slg-mvs {
-    margin: 50px 0 40px;
+    margin: 50px 0 25px;
     height: 110px; }
   .footerbox .copyright {
     color: #fff;
@@ -1573,5 +1583,8 @@ body {
       opacity: 1;
       display: block;
       bottom: 120px; } } }
+/* spe style Italian */
+.it .btn-onn {
+  width: 180px; }
 
 /*# sourceMappingURL=all.css.map */

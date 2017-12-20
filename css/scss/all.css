@@ -913,6 +913,9 @@ body {
 .read-more {
   color: #02CBFF;
   font-weight: lighter; }
+  .read-more.cool-line {
+    position: relative;
+    padding-bottom: 3px; }
 
 .news-sdes {
   line-height: 1.5;

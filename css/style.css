@@ -1119,7 +1119,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 		padding-top:0;
 		height: 45px;
 	}
-	.headerbox, .tb-logo h1  {
+	.headerbox, .tb-logo .logobox  {
 		height: 45px !important;
 	}
 	.background-one {
@@ -3299,6 +3299,9 @@ a:hover{
 		font-size: 24px !important;
 		padding: 14px 35px 10px !important;
 	}
+    .h2-title .hspe-seo {
+        font-size: 24px !important;
+    }
 	.walletpdf-wrap .h3-title{
 		padding: 14px 0 10px !important;
 	}
@@ -4472,11 +4475,14 @@ h2.text-normal{
 	margin: 50px 0;
 }
 .ap-box{
-	width: 900px;
+	/*width: 900px;*/
 	margin: 0 auto;
 	/*position: relative;*/
 	/*right: 120px;*/
 	color: #DAB85E;
+}
+.ap-tl{
+    font-size: 24px;
 }
 .ap-desinfo{
 	font-size: 16px;
@@ -4493,12 +4499,16 @@ h2.text-normal{
 	height: 1px;
 	 background-color: #DAB85E !important;
  }
-/*@media (min-width: 1200px){*/
-	/*.ap-box{*/
-		/*position: relative;*/
-		/*right: 120px;*/
-	/*}*/
-/*}*/
+@media (min-width: 1200px){
+	.ap-box{
+        width: 900px;
+	}
+}
+@media only screen and (min-width: 700px)and (max-width: 1200px){
+    .ap-box{
+        width: 600px;
+    }
+}
 @media only screen and (min-width: 500px)and (max-width: 700px){
 	.ap-box{
 		width: 480px;

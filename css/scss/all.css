@@ -166,6 +166,9 @@ body {
 .h3-title, .h2-title {
   color: #02CBFF; }
 
+.dis-inblk, .h2-title .hspe-seo {
+  display: inline-block; }
+
 .h2-title {
   color: #fff;
   padding: 16px 35px 8px;
@@ -174,6 +177,8 @@ body {
   letter-spacing: 1px;
   font-weight: 900;
   font-size: 48px; }
+  .h2-title .hspe-seo {
+    font-size: 48px; }
 
 .en .h3-title, .en .h2-title {
   padding: 16px 35px 10px; }
@@ -262,7 +267,8 @@ body {
 
 .h2-tl {
   margin-bottom: 60px;
-  color: #434F63; }
+  color: #434F63;
+  font-size: 30px; }
 
 .en .h2-tl {
   margin-bottom: 60px;

@@ -99,7 +99,11 @@ p {
 .text-jty, .cc-ct, .etp-infodes, .recruit-infobox .zp-info {
   text-align: justify;
   text-justify: inter-ideograph; }
-
+@media only screen and (min-width: 300px) and (max-width: 751px) {
+  .text-jty, .cc-ct, .etp-infodes, .recruit-infobox .zp-info {
+    text-align: left;
+    text-justify: auto; }
+}
 /* btn */
 .btn.cc-cbtn, .cc-cbtn {
   /* color: #fff; */
@@ -196,7 +200,8 @@ body {
   margin: 100px 0 60px; }
 
 .bk-ctn {
-  margin-right: 20px; }
+  margin-right: 20px;
+  display: inline-block;}
 
 .h2-htitle {
   color: #0099CB;

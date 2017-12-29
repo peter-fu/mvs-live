@@ -1,0 +1,17 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+<FilesMatch ".(gif|jpg|jpeg|png|ico)$">
+Header set Cache-Control "max-age=86400"
+</FilesMatch>
+ErrorDocument 404 /404.html
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.mvs\.org)(:80)? [NC]
+RewriteRule ^(.*) http://mvs.org/$1 [R=301,L]
+Redirect temp /index_cn.html https://mvs.org/zh/
+Redirect temp /foundation-cn.html https://mvs.org/zh/foundation.html
+Redirect temp /news_cn.html https://mvs.org/zh/news.html
+Redirect temp /korean/index.html https://mvs.org/ko/
+Redirect temp /korean/news.html https://mvs.org/ko/news.html
+Redirect temp /korean/foundation.html https://mvs.org/ko/foundation.html
+order deny,allow

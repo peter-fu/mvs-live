@@ -13,16 +13,15 @@
 	}
 
 	#top {
-
-		background-color: #b1d1e8;
+		margin-top: 90px;
+		/*background-color: #b1d1e8;*/
 		font-size: 16px;
 		padding-bottom: 40px;
 	}
 
 	nav {
 		font-size: 24px;
-
-		margin: 0px 30px 0px;
+		margin:0px 30px 30px !important;
 		border-bottom-left-radius: 6px;
 		border-bottom-right-radius: 6px;
 		background-color: #f3f3f3;
@@ -78,7 +77,7 @@
 	}
 
 	tr {
-		2background: #fff;
+		background: #fff;
 	}
 
 	th,
@@ -94,10 +93,176 @@
 	.lpage {
 		border-bottom: #ddd 1px solid;
 	}
+
+
+	.top-bar {
+		position: fixed;
+		top: 0;
+		display: block;
+		width: 100%;
+		height: 50px;
+		line-height: 48px;
+		background: #f9f9f9;
+		z-index: 9999;
+		-moz-box-shadow: 0px 1px 8px rgba(0,0,0,.15);
+		-webkit-box-shadow: 0px 1px 8px rgba(0,0,0,.15);
+		box-shadow: 0px 1px 8px rgba(0,0,0,.15);
+		-webkit-transition: top .2s;
+		-moz-transition: top .2s;
+		-ms-transition: top .2s;
+		-o-transition: top .2s;
+		transition: top .2s;
+	}
+	.tb-logo {
+		font-size: 0;
+		margin: 0;
+		width: 187px;
+	}
+	.tb-logo img {
+		float: left;
+		text-align: left;
+		display: block;
+		width: 187px;
+		margin-left: 12px;
+	}
+	.dis-tablecell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.height50 {
+		height: 50px;
+		font-size: 0;
+		/* line-height: 52px; */
+	}
+	nav {
+		font-size: 24px;
+		margin: 0px 30px 0px;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		background-color: transparent;
+		color: #666;
+		box-shadow: none;
+		padding: 0;
+		text-align: center;
+		z-index: 1;
+	}
+	.menu ul.nav li a {
+		display: inline-block;
+		/* padding: 3px 16px; */
+		color: #434D53;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: 600;
+		text-align: center;
+		text-transform: none;
+		padding: 0 8px;
+		height: 50px;
+		/* margin-right: 40px; */
+	}
+	.menu ul.nav li {
+		float: left;
+		position: relative;
+		margin-right: 15px;
+		/* line-height: 48px; */
+		/* padding-top: 2px; */
+		line-height: 52px;
+		/* padding-top: 3px; */
+		height: 50px;
+	}
+	.nav > li {
+		position: relative;
+		display: block;
+	}
+	.fl{float: left}
+	.fr{float: right}
+	#cont {
+		margin: -20px 30px 30px 30px !important;
+	}
+	.footerbox {
+		height: 200px;
+		background: #312E2E;
+		margin: 0;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	.footerbox .slg-mvs {
+		margin:50px 0 10px;
+		height: 80px;
+
+	}
+	.copyright{
+		color: #fff;
+	}
+
 	</style>
 </head>
 
 <body>
+<!--header-->
+<!--<div class="top-01">-->
+<header id="header" class="top-bar tb-large tb-transp" >
+	<div class="headercontainer">
+		<div class="headerbox">
+			<div class="">
+				<div class="tb-logo fl">
+					<a href="./">
+						<h1 class="dis-tablecell height50">
+							<img src="images/metaverselogo.png" alt="metaverse" title="metaverse">
+						</h1>
+					</a>
+				</div>
+
+				<nav class="menu cn-menu fr">
+					<ul class="dis-tablecell height50 nav">
+						<li><a href="#menu" class="cool-line" data-scroll>Home</a></li>
+						<li><a href="#Bass" class="cool-line" data-scroll>BaaS</a></li>
+						<li><a href="./news.html" class="cool-line">News</a></li>
+						<li><a href="#Team" class="cool-line" data-scroll>Team</a></li>
+						<li><a href="#download" class="cool-line" data-scroll>Wallet</a></li>
+						<li><a href="http://docs.mvs.org" target="_blank" class="cool-line" >Documents</a></li>
+						<li><a class="cool-line" href="./foundation.html">Metaverse Foundation</a></li>
+						<li class="blockchain-exploerbox"><a href="https://explorer.mvs.org"  target="_blank"  class="cool-line"><span>Explorer</span><!-- <i class="fa fa fa-search"></i>--></a></li>
+						<li><a href="http://test4.metaverse.live:8820/" target="_blank"  class="test-area cool-line">Testnet</a></li>
+						<!--<li><a href="#features" class="scrollto cool-line">Features</a></li>-->
+						<!--<li><a href="#Application" class="cool-line" data-scroll>Application</a>-->
+						<!--<li class="blockchain-exploerbox"><a href="http://explorer.mvs.live"  target="_blank"  class="blockchain-exploer cool-line"><span>区块浏览器</span> <i class="fa fa fa-search"></i></a></li>-->
+					</ul>
+					<!--<div class="sl-language">-->
+					<!--<a href="./index_cn.html"  class="cool-line">CN</a>-->
+					<!--<span class="line-lg">/</span>-->
+					<!--<a href="./index.html" class="active cool-line">EN</a>-->
+					<!--</div>-->
+
+					<!-- sl-language begin -->
+					<!--<div class="sl-language btn-group">-->
+						<!--<button class="sl-langbtn btn btn-default btn-sm dropdown-toggle" type="button">-->
+							<!--<img src="./images/lang/en.png" class="lang-sl">English<span class="caret"></span>-->
+						<!--</button>-->
+						<!--<ul class="dropdown-menubox">-->
+							<!--<li><a href="./index_cn.html"><img src="images/lang/cn.png" class="lang-sl">中文</a></li>-->
+							<!--<li><a href="./ko/index.html" ><img src="images/lang/kn.png" class="lang-sl">한국어</a></li>-->
+							<!--&lt;!&ndash;<li><a href=".／ko/index.html" class="cool-line">로그인</a></li>&ndash;&gt;-->
+						<!--</ul>-->
+					<!--</div>-->
+					<!-- sl-language end -->
+				</nav>
+
+			</div>
+			<!--<input type="checkbox" id="toggle" />-->
+
+			<!--<span class="menu-trigger fr">-->
+							<!--<div class="hamburger">-->
+								<!--<div class="menui top-menu"></div>-->
+								<!--<div class="menui mid-menu"></div>-->
+								<!--<div class="menui bottom-menu"></div>-->
+							<!--</div>-->
+				<!--&lt;!&ndash;<label for="toggle" class="toggle"></label>&ndash;&gt;-->
+					   <!--</span>-->
+		</div>
+	</div>
+</header>
+<!--header end-->
+
 	<div id="top">
 		<nav>HTML Site Map</nav>
 		<h3>
@@ -109,21 +274,22 @@
 			<table cellpadding="0" cellspacing="0" border="0" width="100%">
 
 				<tr valign="top">
-					<td class="lpart" colspan="100"><div class="lhead">/
-				<span class="lcount">10 pages</span></div>
-
-					<table cellpadding="0" cellspacing="0" border="0" width="100%">
-						<tr><td class="lpage"><a href="https://mvs.org/" title="Metaverse元界 - The New Reality Blockchain Project">Metaverse元界 - The New Reality Blockchain Project</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/news.html" title="Metaverse元界 - News">Metaverse元界 - News</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/foundation.html" title="Metaverse Foundation">Metaverse Foundation</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/index_cn.html" title="Metaverse元界 - The New Reality Blockchain Project">Metaverse元界 - The New Reality Blockchain Project</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/index.html" title="Metaverse元界 - The New Reality Blockchain Project">Metaverse元界 - The New Reality Blockchain Project</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/news_cn.html" title="Metaverse元界 - News">Metaverse元界 - News</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/foundation-cn.html" title="MetaverseFoundation元界基金会">MetaverseFoundation元界基金会</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/korean/index.html" title="Metaverse元界 - The New Reality Blockchain Project">메타버스 - 새로운 현실 블록체인 프로젝트</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/korean/news.html" title="Metaverse元界 - 뉴스">메타버스 - 뉴스</a></td></tr>
-						<tr><td class="lpage"><a href="https://mvs.org/korean/foundation.html" title="MetaverseFoundation-뉴스">메타버스 재단</a></td></tr>
-					</table>
+					<td class="lpart" colspan="100">
+							<div class="lhead">/
+								<span class="lcount">10 pages</span>
+							</div>
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tr><td class="lpage"><a href="https://mvs.org/" title="Metaverse元界 - The New Reality Blockchain Project">Metaverse元界 - The New Reality Blockchain Project</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/news.html" title="Metaverse元界 - News">Metaverse元界 - News</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/foundation.html" title="Metaverse Foundation">Metaverse Foundation</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/zh/index.html" title="Metaverse元界 - The New Reality Blockchain Project">Metaverse元界 - The New Reality Blockchain Project</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/index.html" title="Metaverse元界 - The New Reality Blockchain Project">Metaverse元界 - The New Reality Blockchain Project</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/zh/news.html" title="Metaverse元界 - News">Metaverse元界 - News</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/zh/foundation.html" title="MetaverseFoundation元界基金会">MetaverseFoundation元界基金会</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/ko/index.html" title="Metaverse元界 - The New Reality Blockchain Project">메타버스 - 새로운 현실 블록체인 프로젝트</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/ko/news.html" title="Metaverse元界 - 뉴스">메타버스 - 뉴스</a></td></tr>
+								<tr><td class="lpage"><a href="https://mvs.org/ko/foundation.html" title="MetaverseFoundation-뉴스">메타버스 재단</a></td></tr>
+							</table>
 					</td>
 				</tr>
 		</table>
@@ -131,6 +297,14 @@
 	<div id="footer" style="display: none">
 		Page created with <a target="_blank" href="https://www.xml-sitemaps.com">Google XML sitemap and html sitemaps generator</a> | Copyright &copy; 2005-2017 XML-Sitemaps.com
 	</div>
-</body>
+
+	<!--footer begin-->
+	<footer class="footer footerbox">
+		<img src="images/newimgs/mvs-wh.png" alt="metaverse" title="metaverse" class="slg-mvs">
+		<p><small class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 Metaverse Foundation. All Rights Reserved.</small></p>
+	</footer>
+
+	<!--footer end-->
+	</body>
 
 </html>

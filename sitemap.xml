@@ -8,52 +8,52 @@
 
 <url>
   <loc>https://mvs.org/</loc>
-  <lastmod>2017-11-24T15:00:11+00:00</lastmod>
-  <priority>1.00</priority>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+     <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mvs.org/news.html</loc>
-  <lastmod>2017-11-23T09:37:49+00:00</lastmod>
-  <priority>0.80</priority>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+     <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mvs.org/foundation.html</loc>
-  <lastmod>2017-11-24T15:00:11+00:00</lastmod>
-  <priority>0.80</priority>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+    <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mvs.org/index_cn.html</loc>
-  <lastmod>2017-11-24T15:00:11+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://mvs.org/zh/index.html</loc>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+    <priority>0.90</priority>
 </url>
 <url>
   <loc>https://mvs.org/index.html</loc>
-  <lastmod>2017-11-24T15:00:11+00:00</lastmod>
-  <priority>0.80</priority>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+    <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mvs.org/news_cn.html</loc>
-  <lastmod>2017-11-23T09:37:49+00:00</lastmod>
+  <loc>https://mvs.org/zh/news.html</loc>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mvs.org/foundation-cn.html</loc>
-  <lastmod>2017-11-23T09:37:49+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mvs.org/zh/foundation.html</loc>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+    <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mvs.org/korean/index.html</loc>
-  <lastmod>2017-12-8T09:37:49+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mvs.org/ko/index.html</loc>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+    <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://mvs.org/korean/news.html</loc>
-  <lastmod>2017-12-8T09:37:49+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mvs.org/ko/news.html</loc>
+    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+    <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mvs.org/korean/foundation.html</loc>
-  <lastmod>2017-12-8T09:37:49+00:00</lastmod>
+  <loc>https://mvs.org/ko/foundation.html</loc>
+  <lastmod>2017-12-29T14:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 </urlset>

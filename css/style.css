@@ -4505,6 +4505,9 @@ h2.text-normal{
 	}
 }
 @media only screen and (min-width: 700px)and (max-width: 1200px){
+    .applicationbox {
+        height: 540px;
+    }
     .ap-box{
         width: 600px;
     }

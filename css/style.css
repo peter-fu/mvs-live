@@ -596,6 +596,10 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 		width: 800px !important;
 		overflow: hidden;
 	}
+    /*.wbox-765 .container {*/
+        /*width: 765px !important;*/
+        /*overflow: hidden;*/
+    /*}*/
 }
 
 .bg-img{
@@ -3590,7 +3594,7 @@ a:hover{
 	background: transparent;
 	height: 45px;
 }
-.foundation-headerbox.tb-small{
+.foundation-headerbox.tb-small,  .fixed-headerbox{
 	background: rgba(249,249,249,.9);
 }
 
@@ -4511,6 +4515,9 @@ h2.text-normal{
     .ap-box{
         width: 600px;
     }
+    .recruit-infobox .ribg>.container{
+        width: 650px;
+    }
 }
 @media only screen and (min-width: 500px)and (max-width: 700px){
 	.ap-box{
@@ -4551,3 +4558,14 @@ h2.text-normal{
 	}
 }
 /*Application end*/
+
+.amp{
+    color: #708693;
+}
+
+.amp-homeinfo.fd-screen{
+    background-image: url(../images/amp/amp-bg.jpg);
+    overflow: hidden;
+    height: 100%;
+    min-height: calc(100vh);
+}

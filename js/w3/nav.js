@@ -8,10 +8,10 @@ $(function(){
             $(this).addClass('active');
             $(this).siblings().removeClass('active');
             if($(this).index()==0){
-                // console.log('00');
+                console.log('00');
                 $('html ,body').animate({scrollTop: 0}, 300);
             }else if($(this).index()==1){
-                // console.log('11');
+                console.log('11');
                 $('html ,body').animate({scrollTop: $('.box-01').height()}, 300);//2500
             }else if($(this).index()==2){
                 // console.log('22');

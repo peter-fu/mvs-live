@@ -1966,7 +1966,8 @@ body {
   font-weight: 700;
   margin: 40px 0; }
 .entrance-amp.Benefitsbox {
-  padding: 80px 0 40px; }
+  padding: 100px;
+  background: #FAFAFA; }
 
 .Ambassadorbox .col-sm-6 {
   width: 100%; }

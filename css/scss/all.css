@@ -15,6 +15,7 @@ section:before {
   content: " ";
   display: table; }
 
+/*url*/
 /*common en-font*/
 .new-enfont, .h4-title, .title-news, .read-more, .annt-wrap .li-item .fl-t, .amp-slgtl {
   font-family: 'Conv_HelveticaNeue-BoldCond',Sans-Serif; }
@@ -302,9 +303,9 @@ body {
   font-weight: 500;
   font-size: 22px; }
 
-@media only screen and (max-width: 768px) and (min-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 990px) {
   .text-jty, .cc-ct, .etp-infodes, .recruit-infobox .zp-info, .cc-ct, .etp-infodes, .recruit-infobox .zp-info {
-    text-align: left;
+    text-align: left !important;
     text-justify: auto; } }
 .text-desinfo {
   margin: 40px 0;
@@ -454,7 +455,7 @@ body {
 @media (min-width: 1200px) {
   .spe-desza.text-desfd {
     font-size: 16px; } }
-@media (min-width: 1098px) {
+@media (min-width: 1300px) {
   .cn-menu.menu {
     /* height: 70px; */
     display: block !important; } }
@@ -1946,7 +1947,7 @@ body {
 .entrance-amp .groups-ampbox {
   margin: 80px 0; }
   .entrance-amp .groups-ampbox .col-lg-4 {
-    width: 50%;
+    width: 100%;
     display: inline-block; }
 .entrance-amp .amp-ddes {
   font-weight: 400;
@@ -1958,5 +1959,12 @@ body {
 .entrance-amp.Benefitsbox {
   padding: 100px 0;
   background: #FAFAFA; }
+
+.Ambassadorbox .col-sm-6 {
+  width: 100%; }
+
+/** spanish **/
+.es .downloadwrap .col-lg-3 {
+  height: 525px; }
 
 /*# sourceMappingURL=all.css.map */

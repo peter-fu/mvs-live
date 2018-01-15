@@ -84,6 +84,38 @@
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
+<item>
+    <link>https://mvs.org/es/index.html</link>
+    <title>>Metaverse - The New Reality Blockchain Project</title>
+    <description>Metaverse es una plataforma descentralizada basada en tecnología blockchain. Metaverse está construyendo una red de Propiedades Inteligentes y está estableciendo un ecosistema abierto en el que el valor digital puede circular libremente.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>2</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+    <link>https://mvs.org/es/news.html</link>
+    <title>Metaverse - Anuncios</title>
+    <description>Metaverse is a decentralised platform based on blockchain technology. Metaverse is building a web of Smart Properties and establishing an open ecosystem in which digital value can be circulated freely.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>2</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+    <link>https://mvs.org/es/foundation.html</link>
+    <title>Metaverse Foundation</title>
+    <description>元界Metaverse是基于区块链技术开发的去中心化平台，涵盖了数字资产和数字身份，打造开放的数字价值生态。关注元界官网，提供最新最全的Metaverse（元界）和ETP（熵）资讯。</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>2</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+    <item>
+        <link>https://mvs.org/Ambassador-Program.html</link>
+        <title>Metaverse Foundation</title>
+        <description>Metaverse Ambassador Program</description>
+        <ror:updatePeriod></ror:updatePeriod>
+        <ror:sortOrder>2</ror:sortOrder>
+        <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
 </channel>
 </rss>
   

@@ -8,3 +8,7 @@ https://mvs.org/zh/foundation.html
 https://mvs.org/ko/index.html
 https://mvs.org/ko/news.html
 https://mvs.org/ko/foundation.html
+https://mvs.org/es/index.html
+https://mvs.org/es/news.html
+https://mvs.org/es/foundation.html
+https://mvs.org/Ambassador-Program.html

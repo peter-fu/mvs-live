@@ -70,7 +70,7 @@ $(window).resize(function () {          //当浏览器大小变化时
     $('.menu').hide();
 });
 
-if(screenwidth<1300){
+if(screenwidth<1250){
     $('.menu').hide();
     $('.menu-trigger').click(function () {
         // $('.menu').toggleClass('is-active');

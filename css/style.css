@@ -1110,12 +1110,12 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	left:100%
 }
 
-@media only screen and (min-width:300px) and (max-width:1300px){
+@media only screen and (min-width:300px) and (max-width:1250px){
 	.menu{
 		display:none;
 	}
 }
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1250px){
 	.headerbox {
 		padding: 0 !important;
 	}
@@ -1304,7 +1304,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	}
 }
 
-@media only screen and (min-width: 980px) and (max-width: 1300px) {
+@media only screen and (min-width: 980px) and (max-width: 1250px) {
 	/*nav menu*/
 	.menu {
 		font-size: 14px;
@@ -1313,6 +1313,9 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	.menu ul.nav li {
 		margin-right: 10px !important;
 	}
+    .be .menu ul.nav li a {
+        padding: 0 5px !important;
+    }
 }
 @media only screen and (min-width: 765px) and (max-width: 992px) {
 
@@ -3477,7 +3480,7 @@ a:hover{
 
 @media (min-width: 768px){
 	.menu ul.nav li {
-		margin-right: 20px;
+        margin-right:15px;
 	}
    .es .menu ul.nav li {
         margin-right: 5px;
@@ -3557,10 +3560,13 @@ a:hover{
 .overhide{
 	overflow: hidden;
 }
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1250px){
 	.menu-trigger {
 		display: none;
 	}
+    .menu{
+        display: block !important;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 	.menu ul.nav li a {
@@ -3578,15 +3584,14 @@ a:hover{
 	}
 
 }
-@media screen and (min-width: 1300px)  {
-    .menu{
-        display: block !important;
-}
-}
+
 @media screen and (min-width: 1201px) and (max-width: 1300px) {
 	.menu ul.nav li a {
 		padding: 0 8px;
 	}
+    .menu ul.nav li {
+        margin-right:10px;
+    }
 	.cn-menu.menu{
 		margin-left: 30px !important;
 	}
@@ -4553,6 +4558,9 @@ h2.text-normal{
 	.zh .applicationbox {
 		height: 420px;
 	}
+    .be .applicationbox {
+        height: 520px;
+    }
 }
 @media only screen and (min-width: 300px)and (max-width: 500px){
 	.ap-box{

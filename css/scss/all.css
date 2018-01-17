@@ -330,7 +330,7 @@ body {
     margin: 50px 0; }
 
   .bk-ctn {
-    margin: 0 20px 25px;
+    margin: 0 0 25px;
     padding: 0 20px; }
 
   .cc-ct {
@@ -458,13 +458,23 @@ body {
 @media (min-width: 1300px) {
   .cn-menu.menu {
     /* height: 70px; */
-    display: block !important; } }
+    display: block !important; }
+
+  .be .downloadwrap .col-lg-3 {
+    width: 375px; } }
 @media (min-width: 1200px) {
   .recruit-infobox .container {
     width: 950px; }
 
   .left-fdbox {
     width: 68%; } }
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .be .menu ul.nav li {
+    margin-right: 6px; }
+    .be .menu ul.nav li > a {
+      padding: 0 5px !important; }
+  .be .downloadwrap .col-lg-3 {
+    width: 375px; } }
 .left-panel {
   width: 100%; }
 
@@ -1966,5 +1976,14 @@ body {
 /** spanish **/
 .es .downloadwrap .col-lg-3 {
   height: 525px; }
+
+.be .white-paperbox .cc-cbtn {
+  width: 320px;
+  overflow: hidden; }
+.be .about .col-sm-6 {
+  /* height: 232px; */
+  height: 400px; }
+.be .applicationbox {
+  height: 515px; }
 
 /*# sourceMappingURL=all.css.map */

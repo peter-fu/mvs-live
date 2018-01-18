@@ -20,6 +20,9 @@ section:before {
 .new-enfont, .h4-title, .title-news, .read-more, .annt-wrap .li-item .fl-t, .amp-slgtl {
   font-family: 'Conv_HelveticaNeue-BoldCond',Sans-Serif; }
 
+.moren-font, .entrance-amp .amp-ctl, .partners-box .hh-title {
+  font-family: 'Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial !important'; }
+
 /******Font Sizes*******/
 .f-s-1 {
   font-size: 1px; }
@@ -461,7 +464,9 @@ body {
     display: block !important; }
 
   .be .downloadwrap .col-lg-3 {
-    width: 375px; } }
+    width: 22%;
+    margin: 0 1%;
+    height: 505px; } }
 @media (min-width: 1200px) {
   .recruit-infobox .container {
     width: 950px; }
@@ -472,7 +477,8 @@ body {
   .be .menu ul.nav li {
     margin-right: 6px; }
     .be .menu ul.nav li > a {
-      padding: 0 5px !important; }
+      padding: 0 5px !important;
+      font-size: 14px; }
   .be .downloadwrap .col-lg-3 {
     width: 375px; } }
 .left-panel {
@@ -603,6 +609,10 @@ body {
   .downloadwrap .container {
     width: 1000px; }
   .downloadwrap .col-lg-3 {
+    margin: 2% 2%;
+    width: 46%; }
+
+  .be .downloadwrap .col-lg-3 {
     margin: 2% 2%;
     width: 46%; } }
 @media only screen and (min-width: 675px) and (max-width: 980px) {
@@ -1942,8 +1952,6 @@ body {
   .blue-cctn:-webkit-any-link {
     color: #fff; }
 
-.entrance-amp .amp-ctl {
-  font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial !important; }
 .entrance-amp > * {
   color: #434F63; }
 .entrance-amp .bfs-img {
@@ -1985,5 +1993,34 @@ body {
   height: 400px; }
 .be .applicationbox {
   height: 515px; }
+
+/** partners **/
+.brand-logo {
+  width: 208px; }
+
+.p-brandlogo li {
+  margin: 55px 0;
+  text-align: center; }
+
+.more-ptn {
+  position: relative;
+  color: #292929; }
+
+.partners-box .ptn-tl {
+  color: #3f3f3f;
+  margin: 65px 0 20px; }
+
+@media only screen and (min-width: 475px) and (max-width: 767px) {
+  .partners-box .col-md-4 {
+    width: 50%;
+    float: left; }
+  .partners-box .p-brandlogo li {
+    margin: 25px 0; } }
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .partners-box .col-md-4 {
+    width: 33.33333333%;
+    float: left; }
+  .partners-box .p-brandlogo li {
+    margin: 35px 0; } }
 
 /*# sourceMappingURL=all.css.map */

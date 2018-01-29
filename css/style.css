@@ -4633,3 +4633,16 @@ h2.text-normal{
 }
 
 
+/* team style */
+@media (min-width: 1200px){
+    .team-wrap .col-lg-3 {
+        /*width: 33.33%;*/
+        width: 50% !important;
+    }
+
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+    .team-wrap .col-sm-6 {
+        width: 50% !important;
+    }
+}

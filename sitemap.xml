@@ -8,68 +8,50 @@
 
 <url>
   <loc>https://mvs.org/</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-     <priority>1.00</priority>
+  <lastmod>2017-09-20T07:29:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mvs.org/news.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-     <priority>0.80</priority>
+  <lastmod>2017-09-18T02:55:44+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mvs.org/foundation.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-    <priority>0.80</priority>
+  <lastmod>2017-09-18T02:55:44+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mvs.org/zh/index.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-    <priority>0.90</priority>
+  <loc>https://mvs.org/index_cn.html</loc>
+  <lastmod>2017-09-20T07:29:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mvs.org/index.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-    <priority>0.80</priority>
+  <lastmod>2017-09-20T07:29:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mvs.org/zh/news.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+  <loc>https://mvs.org/news_cn.html</loc>
+  <lastmod>2017-09-18T02:55:44+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mvs.org/zh/foundation.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-    <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mvs.org/ko/index.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-    <priority>0.9</priority>
-</url>
-<url>
-  <loc>https://mvs.org/ko/news.html</loc>
-    <lastmod>2017-12-29T14:00:00+00:00</lastmod>
-    <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mvs.org/ko/foundation.html</loc>
-  <lastmod>2017-12-29T14:00:00+00:00</lastmod>
+  <loc>https://mvs.org/foundation-cn.html</loc>
+  <lastmod>2017-09-18T02:55:44+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-    <loc>https://mvs.org/es/index.html</loc>
-    <priority>0.9</priority>
-</url>
-<url>
-    <loc>https://mvs.org/es/news.html</loc>
-    <priority>0.64</priority>
-</url>
-<url>
-    <loc>https://mvs.org/es/foundation.html</loc>
-    <priority>0.64</priority>
-</url>
-<url>
-    <loc>https://mvs.org/Ambassador-Program.html</loc>
-    <priority>0.64</priority>
+  <loc>http://newmetaverse.org/guide/Metaverse-wallet-user-manual-CN.pdf</loc>
+  <lastmod>2017-09-18T02:55:44+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>

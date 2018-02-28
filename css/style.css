@@ -1595,7 +1595,7 @@ audio, canvas, progress, video {
 	overflow: hidden;
 }
 .ww-wrap{
-	margin: 130px 0;
+	margin: 130px 0 0;
 	padding-top: 10px;
 	overflow: hidden;
 }
@@ -1627,7 +1627,7 @@ audio, canvas, progress, video {
 	border-radius:0;
 }
 .icon-nav img{
-	height:120px;
+	height:130px;
 }
 @media only screen and (max-width:768px){
 	.icon-nav i{
@@ -1664,9 +1664,9 @@ audio, canvas, progress, video {
 
 .icon-nav em{
 	font-style:normal;
-	font-size:16px;
+	font-size:18px;
 	font-weight:400;
-	line-height:20px;
+	line-height:24px;
 	color:#979fad;
 	display:block
 }
@@ -1716,7 +1716,8 @@ audio, canvas, progress, video {
 	line-height:20px;
 	color: #fff;
 	margin-top: 25px;
-	/*margin-bottom:0*/
+	position: relative;
+	bottom: 6px;
 }
 
 #documents .service-item p, .etp-about .des, .etp-about .service-item:hover .des{
@@ -1840,8 +1841,8 @@ audio, canvas, progress, video {
 }
 
 .exchange_info{
-	background: #292929;
-	padding-bottom: 40px;
+	background: #009fe1;
+	padding-bottom: 100px;
 }
 
 @media only screen and (max-width:1220px){
@@ -1969,7 +1970,6 @@ audio, canvas, progress, video {
 	text-align: center;
 	font-size: 14px;
 	color: #fff;
-	/*background: #0fdd7a;*/
 	background: #347DED;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -1978,7 +1978,6 @@ audio, canvas, progress, video {
 	right: 20px;
 	border-radius: 50%;
 	bottom: 10px;
-	/*font-weight: lighter; */
 }
 
 .back-top:hover{
@@ -2066,24 +2065,17 @@ audio, canvas, progress, video {
 	zoom: 0.6;
 }
 
-
-
 .footer{
-	background:#35444e;
+	background:#292929;
 	/* padding-top:25px; */
-	padding-bottom:10px;
+	padding-bottom:40px;
 	text-align:center;
 }
 
-/*.footer-promo{*/
-	/*display:none;*/
-	/*background:#111;*/
-	/*padding-top:60px;*/
-	/*padding-bottom:60px;*/
-	/*text-align:center*/
-/*}*/
 .copyright{
-	color: #6F7980;
+	color: #666;
+	font-size: 14px;
+	margin-top: 20px;
 }
 .promo-control{
 	position:relative;
@@ -2138,7 +2130,7 @@ audio, canvas, progress, video {
 .baas_title{
 	background: #272727;
 	margin-top: 50px;
-	padding: 180px 0px;
+	padding: 100px 0px;
 	background-origin: center;
 	background-size: cover;
 }
@@ -2427,7 +2419,7 @@ img {
 
 .h3-title, .h2-title{
 	font-weight: 700;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	color: #373737;
 	font-size: 30px;
 	font-weight: 400;
@@ -2483,32 +2475,12 @@ a:hover{
 }
 
 /*media*/
-.footer .social li {
-	display: inline-block;
-	margin: 0 5px;
-	height: 45px;
-	width: 45px;
-	line-height: 50px;
-	border-radius: 50%;
-	/* border: 2px solid #e5e5e5; */
-	background: #8a9297;
-	transition: all .4s;
-	color: #35444e;
-}
 
-.footer li:hover {
-	cursor: pointer;
-}
-.footer li a {
-	/*color: #35444e;*/
-}
 .footer li i {
 	text-align: center;
+	font-size: 40px;
 }
-.footer .social i {
-	font-size: 22px;
-	transition: all .4s;
-}
+
 /*.footer .facebook:hover {*/
 /*border-color: #3b5998;*/
 /*}*/
@@ -2523,49 +2495,7 @@ a:hover{
 .footer .social li:hover > a i {
 	color: #225BB3;
 }
-.fa-ji{
-	width: 27px;
-	height: 28px;
-	background: url('../images/ji.png') no-repeat;
 
-}
-.fa-blog{
-	background: url('../images/blogi.png');
-	/*top: 5px !important;*/
-	zoom: .8;
-}
-.fa-bbs{
-	background: url('../images/bbs.png');
-	top: 12px;
-}
-.footerbox .fa-blog{
-	top: 5px !important;
-}
-.fa-ji, .fa-blog, .fa-bbs{
-	width: 20px;
-	height: 28px;
-	background-repeat:no-repeat;
-	position: relative;
-	top: 2px;
-}
-
-.fa-ji, .fa-bbs{
-	width: 28px;
-}
-.fa-bbs{
-	/*background: url('../images/new/bbs.png');*/
-	top: 15px;
-}
-
-.footer .social li:hover {
-	background: #fff;
-	/*color:red*/
-}
-
-
-/* ========================================================================
- 1.4 Hover animation by hover.css http://ianlunn.github.io/Hover/
- ========================================================================== */
 @-webkit-keyframes hvr-pulse {
 	25% {
 		-webkit-transform: scale(1.1);
@@ -3202,8 +3132,8 @@ a:hover{
 		margin-right: 25px;
 	}
 	.about .col-sm-6 {
-		height: 210px;
-		padding: 0 50px;
+		height: 340px;
+
 	}
 }
 @media only screen and (min-width: 880px) and (max-width: 1024px) {
@@ -3666,9 +3596,7 @@ h2.text-normal{
 
 
 .box{overflow: hidden;}
-.items{
-	display: none;
-}
+
 .pre,.next,.page-number,.all-page,.page-btn{
 	float: left;
 	display: inline;
@@ -3800,7 +3728,7 @@ h2.text-normal{
 
 /*ETP*/
 .etp-box{
-	height: 300px !important;
+	height: 500px;
 	/*background: #6FD9D9;*/
 	background: #009FE1;
 }
@@ -3814,7 +3742,7 @@ h2.text-normal{
 	margin: 0;
 }
 .etp-box .testimonial-panel  .left-fdbox{
-	height: 550px;
+	height: 500px;
 }
 .etp-box .rightimgcbox {
 	width: 50%;
@@ -3868,7 +3796,7 @@ h2.text-normal{
 
 .etp-desinfo{
 	color: #475367;
-	margin: 50px 0;
+	margin: 100px 0 50px;
 }
 
 .etp-about .des{
@@ -3924,7 +3852,7 @@ h2.text-normal{
 	font-size: 30px;
 }
 .team-h1 img.photo{
-	width: 220px;
+	width: 120px;
 }
 .team-h2 img.photo{
 	width: 180px;
@@ -3943,8 +3871,8 @@ h2.text-normal{
 
 .team-wrap .text-desinfo{
 	color: #434F63;
-	margin: 50px 0 100px 0;
-	font-size: 24px;
+	margin: 30px 0 60px 0;
+	font-size: 18px;
 }
 
 .team-h2 .col-sm-6{
@@ -3960,16 +3888,20 @@ h2.text-normal{
 	font-style: normal;
 	font-size: 14px;
 }
-@media (min-width: 1200px){
-	.team-wrap .col-lg-3 {
-		width: 33.33%;
-	}
 
+.twelve li{
+	margin: 20px 0;
+	text-align: left;
+	padding-left: 80px;
+}
+
+.ambass p{
+	font-size: 16px;
+	margin: 0 10%;
 }
 
 @media (min-width: 768px){
 	.team-wrap .col-sm-6 {
-		width:33.33%;
 		margin-bottom: 15px;
 	}
 }
@@ -3978,7 +3910,6 @@ h2.text-normal{
 	.team-wrap .col-sm-6 {
 		width:50%;
 		float: left;
-		/*margin-bottom: 15px;*/
 	}
 	.personal-info {
 		margin: 15px 0;
@@ -3996,6 +3927,10 @@ h2.text-normal{
 		color: #475367;
 		margin: 50px 0;
 	}
+
+	.ambass p{
+		margin: 0;
+	}
 }
 /*Team end*/
 @media only screen and (max-width:1200px){
@@ -4006,6 +3941,7 @@ h2.text-normal{
 	.baas_title p{
 		width: 100%;
 	}
+
 
 }
 .mobile_show{
@@ -4021,7 +3957,183 @@ h2.text-normal{
 		display: block;
 	}
 
+	.twelve li {
+	    padding-left: 0;
+	}
+
 }
+
+#partners{
+	padding-bottom: 50px;
+}
+
+.downicon{
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.sp span{
+	cursor: pointer;
+}
+
+.sp{
+	color: #89dcff;
+}
+
+.spac{
+	color: #fff;
+}
+
+#download .sp p{
+	margin-top: 12px;
+}
+
+.twelve{
+	padding: 40px 0;
+}
+
+.twelve li a{
+	color: #999;
+}
+
+.twelve li a:hover{
+	color: #fff;
+}
+
+.twelve li a span{
+	font-size: 16px;
+	margin-left: 10px;
+	position: relative;
+    bottom: 6px;
+}
+
+.footerlogo{
+	height: 50px;
+	margin: 30px 0 10px;
+}
+
+#download .sp .fa{
+	font-size: 30px;
+}
+
+.mainnetinfo a{
+	margin: 0 30px;
+	color: #999;
+}
+
+.mainnetinfo a:hover{
+	color: #fff;
+}
+
+.ambass{
+	background: #f4f4f4;
+	padding-bottom: 80px;
+}
+
+.ambass a{
+	display: block;
+	padding: 10px 0;
+	width: 140px;
+	background: #009fe1;
+	margin: 30px auto 0;
+	text-align: center;
+	color: #fff;
+	border-radius: 36px;
+}
+
+.ambass h5{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.box .items {
+    height: 160px;
+    max-width: 320px;
+    margin-bottom: 60px;
+}
+
+.title-news {
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #495060;
+    margin: 10px 0!important;
+    position: relative;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.info-news {
+    font-size: 10px;
+}
+
+.info-news .date-news {
+    background: #02cbff;
+    padding: 0 20px;
+    color: #fff;
+}
+.info-news>* {
+    display: table-cell;
+}
+
+.info-news .source-web {
+    background: #f8f8f8;
+    padding: 0 30px;
+    color: #464646;
+}
+
+.news-sdes {
+    line-height: 1.5;
+    margin: 10px 0 6px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.read-more.cool-line {
+    position: relative;
+    padding-bottom: 3px;
+}
+.read-more {
+    color: #02cbff;
+    font-weight: lighter;
+}
+
+.annt-wrap .li-item {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    border: 1px solid #f0f0f0;
+    border-left: 4px solid #02cbff;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.annt-wrap .li-item .fl-t {
+    color: #02cbff;
+    margin: 10px 0;
+}
+
+.annt-wrap .ant-title {
+    margin: 10px 0;
+    line-height: 1;
+}
+
+.annt-wrap .news-date {
+    font-size: 12px;
+}
+
+
+
+
+
+
 
 
 

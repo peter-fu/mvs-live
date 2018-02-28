@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/animate-colorcicle.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="js/lib/modernizr.js"></script>
 	<!--[if lt IE 9]>
 	<script src="/js/h5/respond.js"></script>
@@ -109,21 +110,68 @@
 			</div>
 		</header>
 		<!--header end-->
-<section class="baas_title walletpage_bk">
+<!-- <section class="baas_title walletpage_bk">
 	<div class="container">
 		<h1>Easy to use and Safe</h1>
 		<p>The Metaverse full-node Wallet is currently the safest and most complete Metaverse asset wallet. Both the Light Wallet and the Metaverse full-node Wallet are now available. </p>
 	</div>
 	
 
-</section>
+</section> -->
+<section id="home" class="home">
+		<div class="fd-screen large bg-img fixed">
+			<div class="banner-box">
+				<h1 class="bigtext text-white mb0 fadeInUp animated">
+					<span class="bigtexttips">Metaverse foundatiion</span>
+					<img src="images/mvs-wallet.png" alt="Metaverse Foundation" title="Metaverse Foundation"  class="metaverse-slg">
+				</h1>
+			</div>
+		</div>
+	</section>
+
 <section id="download" class="downloadwrap overhide ptb80">
 	<div class="container relative">
-		<h3 class="text-white h3-title text-center fadeInUp animated">Official full-node wallet</h3>
+		<h3 class="text-white h3-title text-center fadeInUp animated">Mataverse Wallet</h3>
+		<div class="col-md-4 col-sm-4 col-xs-4 sp">
+			<span id="mobile_click" class="spac">
+				<i class="fa fa-mobile downicon"></i>
+				<p>Mobile</p>
+			</span>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4 sp">
+			<span id="desktop_click">
+				<i class="fa fa-desktop downicon"></i>
+				<p>Desktop</p>
+			</span>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4 sp">
+			<span id="web_click">
+				<i class="fa fa-safari downicon"></i>
+				<p>Web</p>
+			</span>
+		</div>
+<div id="mobile_wallet">
+	<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">
+		<div class="service-item">
+			<i class="fa fa-android"></i>
+			<span>Android</span>
+		</div>
+		<!-- begin-->
+		<div class="hover-show">
+			<ul>
+				<a href="https://play.google.com/store/apps/details?id=com.myetpwallet.app&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">
+					<img class="google-play-icon" alt="Get it on Google Play" src="images/google-play.png"/>
+				</a>
+			</ul>
+		</div>
+		<!-- end-->
+	</div>
+</div>
 
-		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom  fadeInUp animated spe-hover spe-wbox cool-line">
+<div id="desktop_wallet">
+	<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom  fadeInUp animated spe-hover spe-wbox cool-line">
 			<div class="service-item">
-				<i class="fa fa-windows hvr-pulse"></i>
+				<i class="fa fa-windows"></i>
 				<span>Windows 64bit</span>
 			</div>
 			<!-- begin-->
@@ -140,13 +188,13 @@
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">
 			<div class="service-item">
-				<i class="fa fa-apple hvr-pulse"></i>
+				<i class="fa fa-apple"></i>
 				<span>OS X</span>
 			</div>
 			<!-- begin-->
 			<div class="hover-show">
 				<ul>
-					<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-v0.7.0.pkg" class="cool-line dldata-title">wallet normal</a></li>
+					<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-v0.7.0.pkg" class="cool-line dldata-title">wallet normal/a></li>
 					<li><p class="md5-data mvs-macOSX">6991e571c8279ac82a847d4cd92dc282</p></li>
 					<li><a href="http://newmetaverse.org/mvs-download/mvs-macOSX-x86_64-database-v0.7.0.pkg" class="cool-line dldata-title">wallet blockdata-inside</a></li>
 					<li><p class="md5-data mvs-macOSX">5c1d8d4c4a6c71e0c91b8f2ef53f2d15</p></li>
@@ -157,7 +205,7 @@
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover cool-line">
 			<div class="service-item">
-				<i class="fa fa-linux hvr-pulse"></i>
+				<i class="fa fa-linux"></i>
 				<span>Linux 64bit</span>
 			</div>
 			<!-- begin-->
@@ -169,45 +217,124 @@
 			</div>
 			<!-- end-->
 		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
+		<!-- <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
 			<a href="http://github.com/mvs-org/metaverse" target="_blank">
 				<div class="service-item">
-					<i class="fa fa-code hvr-pulse"></i>
+					<i class="fa fa-code"></i>
 					<span>Source Code</span>
 				</div>
 			</a>
+		</div> -->
+</div>
+<div id="web_wallet">
+	<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">
+		<div class="service-item">
+			<i class="fa fa-laptop"></i>
+			<span>Light Wallet</span>
 		</div>
+		<!-- begin-->
+		<div class="hover-show">
+			<ul>
+				<li>
+					<a href="https://www.myetpwallet.com" target="_blank" class="cool-line dldata-title">Visit Light Wallet</a>
+				</li>
+				<li>
+					<p class="md5-data mvs-macOSX">https://www.myetpwallet.com</p>
+				</li>
+				
+				
+			</ul>
+		</div>
+		<!-- end-->
+	</div>
+</div>
+		
 
 	</div>
 </section>
 
 
-
-
 <footer class="footer footerbox">
-	<div class="row">
-		<div class="twelve col">
-			<ul class="social margin-bottom-medium">
-				<li class="sinaweibo hvr-pulse"><a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank"><i class="fa fa-weibo"></i></a></li>
-				<li class="blog hvr-pulse"><a href="http://blog.mvs.org/" target="_blank"><i class="fa fa-blog"></i></a></li>
-				<li class="github hvr-pulse"><a href="http://github.com/mvs-org" target="_blank"><i class="fa fa fa-github"></i></a></li>
-				<li class="facebook hvr-pulse"><a href="https://www.facebook.com/mvsofficial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-				<li class="twitter hvr-pulse"><a href="https://twitter.com/mvs_org" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				<li class="youtube hvr-pulse"><a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-				<li class="instagram hvr-pulse"><a href="https://www.instagram.com/metaverseofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-				<li class="bbs hvr-pulse"><a href="https://metaversetalk.org/forum.php" target="_blank"><i class="fa fa-bbs"></i></a></li>
-				<li class="reddit hvr-pulse"><a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank"><i class="fa fa-reddit"></i></a></li>
-				<li class="slack hvr-pulse"><a href="https://metaverse-project.herokuapp.com/" target="_blank"><i class="fa fa-slack"></i></a></li>
-				<!--<li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>-->
-				<!--<li class="dribbble hvr-pulse"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-				<!--<li class="g-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-				<!--<li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-			</ul>
-
-			<strong class="copyright">Copyright<i class="fa-copyright"></i> 2016-2017 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></strong>
-		</div>
+	<div class="container">
+		<div class="twelve col">	
+			<li class="github col-lg-3 col-md-3 col-xs-6">
+				<a href="http://github.com/mvs-org" target="_blank">
+					<i class="fa fa fa-github"></i>
+					<span>Github</span>
+				</a>
+			</li>
+			<li class="facebook col-lg-3 col-md-3 col-xs-6">
+				<a href="https://www.facebook.com/mvsofficial/" target="_blank">
+					<i class="fa fa-facebook"></i>
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li class="twitter col-lg-3 col-md-3 col-xs-6">
+				<a href="https://twitter.com/mvs_org" target="_blank">
+					<i class="fa fa-twitter"></i>
+					<span>Twitter</span>
+				</a>
+			</li>
+			<li class="youtube col-lg-3 col-md-3 col-xs-6">
+				<a href="https://www.youtube.com/channel/UCdDGnCLtG2Fb6McCaDcAiBw" target="_blank">
+					<i class="fa fa-youtube"></i>
+					<span>Youtube</span>
+				</a>
+			</li>
+			<li class="instagram col-lg-3 col-md-3 col-xs-6">
+				<a href="https://www.instagram.com/metaverseofficial/" target="_blank">
+					<i class="fa fa-instagram"></i>
+					<span>Instagram</span>
+				</a>
+			</li>
+			<li class="bbs col-lg-3 col-md-3 col-xs-6">
+				<a href="http://bbs.viewfin.com/" target="_blank">
+					<i class="fa fa-rss-square"></i>
+					<span>bbs</span>
+				</a>
+			</li>
+			<li class="reddit col-lg-3 col-md-3 col-xs-6">
+				<a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank">
+					<i class="fa fa-reddit"></i>
+					<span>Reddit</span>
+				</a>
+			</li>
+			<li class="slack col-lg-3 col-md-3 col-xs-6">
+				<a href="https://metaverse-project.herokuapp.com/" target="_blank">
+					<i class="fa fa-slack"></i>
+					<span>Slack</span>
+				</a>
+			</li>
+			<li class="sinaweibo col-lg-3 col-md-3 col-xs-6">
+				<a href="http://weibo.com/6356057248/profile?topnav=1&wvr=6" target="_blank">
+					<i class="fa fa-weibo"></i>
+					<span>微博</span>
+				</a>
+			</li>
+			<li class="blog col-lg-3 col-md-3 col-xs-6">
+				<a href="http://blog.mvs.live/" target="_blank">
+					<i class="fa fa-bold"></i>
+					<span>Blog</span>
+				</a>
+			</li>
+		</div>	
 	</div>
+	<div>
+		<img src="images/metaverselogo_light.png" alt="metaverse" title="metaverse" class="footerlogo">
+	</div>
+	<div class="mainnetinfo">
+		<a href="https://docs.mvs.org/docs/mainnet-info.html" target="_blank">
+			Mainnet Information
+		</a>
+		<a href="http://newmetaverse.org/img/metaverse-logo.zip" target="_blank" rel="noopener">
+			Logo Download
+		</a>
+	</div>
+	<p class="copyright">
+		<strong>Copyright 2016-2018 <a href="" title="" target="_blank"></a>Metaverse Foundation. All Rights Reserved.<a href="" target="_blank" title=""></a></strong>
+	</p>
 </footer>
+
 
 
 <script src="js/lib/jquery.min.js"></script>
@@ -279,5 +406,43 @@
 
 </script>
 <!-- Swiper JS end -->
+<script src="./js/swiper.min.js"></script>
+
+<script type="text/javascript">
+$("#desktop_wallet").hide();
+$("#web_wallet").hide();
+$("#desktop_click").click(
+	function(){
+		$("#desktop_click").addClass("spac");
+		$("#web_click").removeClass("spac");
+		$("#mobile_click").removeClass("spac");
+		$("#desktop_wallet").show();
+		$("#web_wallet").hide();
+		$("#mobile_wallet").hide();
+	}
+)
+
+$("#web_click").click(
+	function(){
+		$("#web_click").addClass("spac");
+		$("#desktop_click").removeClass("spac");
+		$("#mobile_click").removeClass("spac");
+		$("#web_wallet").show();
+		$("#desktop_wallet").hide();
+		$("#mobile_wallet").hide();
+	}
+)
+
+$("#mobile_click").click(
+	function(){
+		$("#mobile_click").addClass("spac");
+		$("#desktop_click").removeClass("spac");
+		$("#web_click").removeClass("spac");
+		$("#mobile_wallet").show();
+		$("#web_wallet").hide();
+		$("#desktop_wallet").hide();
+	}
+)
+</script>
 </body>
 </html>

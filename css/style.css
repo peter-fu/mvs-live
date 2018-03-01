@@ -1655,10 +1655,9 @@ audio, canvas, progress, video {
 	font-weight: normal;
 	margin: 30px 0;
 	letter-spacing:.08em;
-	/*text-transform:uppercase;*/
-	line-height:20px;
 	color:#161c25;
 	display:block;
+	line-height: 32px;
 }
 
 
@@ -3366,6 +3365,8 @@ ul, li{
 }
 .sld02{
 	background-image: url(../images/zengoldbg.jpg);
+	background-position: center;
+	background-size: cover;
 }
 
 .sld03{
@@ -4129,7 +4130,18 @@ h2.text-normal{
     font-size: 12px;
 }
 
+.baascontent{
+	background: #333;
+	padding: 80px 0;
+	color: #fff;
+}
 
+.baascontent p{
+	font-size: 20px;
+	line-height: 28px;
+	margin-top: 50px;
+	font-weight: normal;
+}
 
 
 

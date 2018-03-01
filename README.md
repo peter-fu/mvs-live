@@ -1,1 +1,2 @@
-# http://mvs.live source code
+# mvs.org
+Sources of mvs.org

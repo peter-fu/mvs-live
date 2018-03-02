@@ -1548,13 +1548,14 @@ audio, canvas, progress, video {
 	font-size:18px;
 }
 .mvs-slbox{
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .mvs-des{
-	opacity: .8;
-	max-width: 735px;
-	margin:0 auto 24px;
-	color: rgba(255,255,255,.6);
+	opacity: .9;
+	margin:80px auto 24px;
+	color: rgba(255,255,255,.9);
+	font-size: 48px;
+	line-height: 30px;
 }
 .play-video .plvideo{
 	margin-right: 20px;
@@ -3943,7 +3944,10 @@ h2.text-normal{
 		width: 100%;
 	}
 
-
+	.mvs-des{
+		margin:80px auto 24px;
+		font-size: 24px;
+	}
 }
 .mobile_show{
 	display: none;
@@ -4143,11 +4147,57 @@ h2.text-normal{
 	font-weight: normal;
 }
 
+.mvs_info{
+	background: #009fe1;
+	padding: 80px 0;
+	color: #fff;
+}
+
+.mvs_info>div>h2{
+	margin-bottom: 40px;
+}
+
+.mvsinfo p{
+	padding: 0 10%;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.mvsinfomore{
+	font-size: 16px;
+	margin-top: 50px;
+	color: rgba(255,255,255,0.5);
+}
+
+.mvsinfomore a{
+	color: #fff;
+}
+
+.formula{
+	margin-top: 60px;
+}
+
+@media only screen and (max-width:1200px){
+	.mvsinfo p{
+	    padding: 0;
+	}
+
+}
+
+@media only screen and (max-width:768px){
+	.icon-nav strong{
+	   	margin: 0;
+	   	line-height: 40px;
+	}
+
+	.mvsinfo p{
+		font-size: 16px;
+	}
+
+	.formula h2{
+		font-size: 16px;
+	}
 
 
-
-
-
-
-
+}
 

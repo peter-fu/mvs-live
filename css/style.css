@@ -478,9 +478,9 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 	text-transform: none;
 }
 .btn.cc-cbtn2 {
-	color: #fff;
+	color: #009fe1;
 	/* border: 2px solid rgba(255,255,255,.3); */
-	border: 1px solid #fff;
+	border: 1px solid #009fe1;
 	border-radius: 25px;
 	font-size: 16px;
 	padding: 2px 40px;
@@ -570,8 +570,8 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 	z-index:60
 }
 .metaverse-slg{
-	margin: 0 0 20px 30px;
-	width: 600px;
+	margin: 40px 0 0px 30px;
+	width: 450px;
 	opacity: .9;
 }
 @media (min-width: 1200px){
@@ -1714,7 +1714,7 @@ audio, canvas, progress, video {
 	letter-spacing:.08em;
 	/* text-transform:uppercase; */
 	line-height:20px;
-	color: #fff;
+	color: #009fe1;
 	margin-top: 25px;
 	position: relative;
 	bottom: 6px;
@@ -1751,7 +1751,7 @@ audio, canvas, progress, video {
 	/* line-height:88px; */
 	text-align:center;
 	font-size: 40px;
-	color:#fff;
+	color:#009fe1;
 	/*margin-right: 15px;*/
 	-webkit-border-radius:40px;
 	-moz-border-radius:40px;
@@ -2378,7 +2378,7 @@ img {
 	color:#fff;
 }
 .social-footer {
-	background: url('../images/blue-bg.png') repeat;
+	background: #009FE1;
 	height: 540px;
 	position: relative;
 }
@@ -2420,7 +2420,7 @@ img {
 .h3-title, .h2-title{
 	font-weight: 700;
 	margin-bottom: 80px;
-	color: #373737;
+	color: #434F63;
 	font-size: 30px;
 	font-weight: 400;
 	/*font-weight: lighter;*/
@@ -3188,9 +3188,10 @@ a:hover{
 
 
 .downloadwrap{
-	background: #009FE1;
+	background: #fff;
 	text-align: center;
 	padding-bottom: 40px;
+	color: #333;
 }
 .downloadwrap .service-item:hover span{
 	color:#347ded;
@@ -3269,7 +3270,7 @@ a:hover{
 .fd-screen{
 	background-image: url('../images/bannerbg.jpg');
 	/*background-position: center -150px;*/
-	height: 500px;
+	height: 300px;
 }
 .fd-screen .header-inner{
 	top: 30%;
@@ -3384,9 +3385,7 @@ ul, li{
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA);/*IE<9>*/
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#57C0F5, endColorstr=#4EA8EA)";/*IE8+*/
 }
-.s-panel2{
-	background: #FFDE48;
-}
+
 .s-panel3{
 	/*background: #6FD9D9;*/
 	background: linear-gradient(75deg,rgba(93,154,231,0),rgba(93,154,231,100));
@@ -3660,19 +3659,23 @@ h2.text-normal{
 /*download list*/
 .downloadwrap .service-item {
 	padding: 50px 0 20px;
+
 }
 .hover-show {
 	/*visibility: hidden;*/
-	display: none;
+	/*display: none;*/
 	padding-top: 25px;
 	border-top: 1px dashed #ccc;
 	color: #35444E;
 }
 .spe-hover, .spe-hoverh {
-	height: 255px;
+	height: 290px;
+	background: #f4f4f4;
 }
 .spe-wbox.spe-hover, .spe-wbox.spe-hoverh {
 	height: 290px;
+	background: #f4f4f4;
+	margin-right: 10px;
 }
 .spe-hover.active {
 	background: #f3f3f3;
@@ -3982,11 +3985,11 @@ h2.text-normal{
 }
 
 .sp{
-	color: #89dcff;
+	color: #d5d8da;
 }
 
 .spac{
-	color: #fff;
+	color: #009fe1;
 }
 
 #download .sp p{
@@ -4135,9 +4138,9 @@ h2.text-normal{
 }
 
 .baascontent{
-	background: #333;
+	background: #f4f4f4;
 	padding: 80px 0;
-	color: #fff;
+	color: #434F63;
 }
 
 .baascontent p{
@@ -4177,9 +4180,33 @@ h2.text-normal{
 	margin-top: 60px;
 }
 
+.s-panel2 .text-normal, .text-desfd{
+	/*background: #FFDE48;*/
+	color: #434F63;
+}
+
+.text-fff{
+	color: #fff;
+}
+
+.arrowfixed{
+	font: normal normal normal 14px/2 FontAwesome;
+	display: inline-block;
+    /* font: normal normal normal 14px/1 FontAwesome; */
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 @media only screen and (max-width:1200px){
 	.mvsinfo p{
 	    padding: 0;
+	}
+
+	.spe-wbox.spe-hover, .spe-wbox.spe-hoverh {
+		width: 48%;
+		margin-right: 1%;
 	}
 
 }
@@ -4197,6 +4224,19 @@ h2.text-normal{
 	.formula h2{
 		font-size: 16px;
 		line-height: 24px;
+	}
+
+	.spe-wbox.spe-hover, .spe-wbox.spe-hoverh{
+		margin-bottom: 10px;
+	}
+
+	.hover-show img{
+		width: 400px;
+	}
+
+	.spe-wbox.spe-hover, .spe-wbox.spe-hoverh {
+		width: 100%;
+		margin-right: 0;
 	}
 
 

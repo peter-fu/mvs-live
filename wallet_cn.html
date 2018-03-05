@@ -17,9 +17,9 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/animate-colorcicle.min.css">
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script src="js/lib/modernizr.js"></script>
 	<!--[if lt IE 9]>
 	<script src="/js/h5/respond.js"></script>
@@ -130,7 +130,7 @@
 	</section>
 <section id="download" class="downloadwrap overhide ptb80">
 	<div class="container relative">
-		<h3 class="text-white h3-title text-center fadeInUp animated">客户端下载</h3>
+		<h3 class="h3-title text-center fadeInUp animated">客户端下载</h3>
 		<div class="col-md-4 col-sm-4 col-xs-4 sp">
 			<span id="mobile_click" class="spac">
 				<i class="fa fa-mobile downicon"></i>
@@ -217,20 +217,21 @@
 			</div>
 			<!-- end-->
 		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover cool-line">
-			<div class="service-item">
-				<i class="fa fa-linux"></i>
-				<span>Linux 64bit</span>
-			</div>
-			<!-- begin-->
-			<div class="hover-show">
-				<ul>
-					<li><a href="http://newmetaverse.org/mvs-download/mvs-linux-x86_64-v0.7.4.zip" class="cool-line dldata-title">标准版下载</a></li>
-					<li><p class="md5-data mvs-macOSX">fa89be890b14a8fface5a5280d0d82b9</p></li>
-				</ul>
-			</div>
-			<!-- end-->
+		<div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated spe-hover spe-wbox cool-line">
+		<div class="service-item">
+			<i class="fa fa-linux"></i>
+			<span>Linux 64bit</span>
 		</div>
+		<!-- begin-->
+		<div class="hover-show">
+			<ul>
+				<li><a href="http://newmetaverse.org/mvs-download/mvs-linux-x86_64-v0.7.4.zip" class="cool-line dldata-title">标准版下载</a></li>
+				<li><p class="md5-data mvs-macOSX">fa89be890b14a8fface5a5280d0d82b9</p></li>
+			</ul>
+		</div>
+		<!-- end-->
+	</div>
+		
 		<!-- <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large border-from-bottom fadeInUp animated">
 			<a href="http://github.com/mvs-org/metaverse" target="_blank">
 				<div class="service-item">
@@ -383,7 +384,7 @@
             _btn.style.display = _con.scrollTop ? 'block': "none";
         }
     };
-    document.write("<div id=\"goTop\" style=\" background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:9999; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\"><a href='##' class='scrollto'><i class='back-top fa fa-chevron-up'></i></a></div>");
+    document.write("<div id=\"goTop\" style=\" background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:9999; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\"><a href='##' class='scrollto'><i class='back-top fa-chevron-up arrowfixed'></i></a></div>");
     //document.write("<div id=\"goTop\" style=\"font-size:12px; width:20px; height:55px; background:#0950A2; color:#fff; line-height:14px; position:fixed; bottom:30px; display:none; cursor:pointer; text-align:center; padding:5px 0; z-index:1; _position:absolute; _top:expression(eval(document.compatMode && document.compatMode == \'CSS1Compat\') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 30 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 30);\">返<br />回<br />顶<br />部</div>");
     window.onscroll = goTop;
 

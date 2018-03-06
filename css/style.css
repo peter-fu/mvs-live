@@ -2465,16 +2465,18 @@ a:hover{
 	padding: 0 22px;
 	/* line-height: 48px; */
 	border-radius: 24px;
-	background-color: #fc9900;
+	/*background-color: #fc9900;*/
 	text-transform: none;
 	border: none;
 	outline: none;
 	font-size: 18px;
 	margin: 6px 0;
 	font-weight: 400;
+	border: #009FE1 1px solid;
+    color: #009FE1;
 }
 .send-email button:hover{
-	background-color: #225BB3;
+	background-color: #009FE1;
 }
 
 /*media*/

@@ -1551,7 +1551,8 @@ audio, canvas, progress, video {
 	font-size:18px;
 }
 .mvs-slbox{
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	display: none;
 }
 .mvs-des{
 	opacity: .9;
@@ -4191,7 +4192,7 @@ h2.text-normal{
 }
 
 .text-fff{
-	color: #fff;
+	color: #fff !important;
 }
 
 .arrowfixed{

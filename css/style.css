@@ -1463,13 +1463,13 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .video-background, .video-wrapper {
-	background-color: #000;
+	background-color: #FFF;
 	position: relative;
 }
 .video-wrapper{
 	/*width: 100%;*/
 	/*position: absolute;*/
-	background: url(../images/bannerbg.jpg);
+	/*background: url(../images/bannerbg.jpg);*/
 	background-size: cover;
 	background-position: center;
 	/*background-attachment: fixed;*/

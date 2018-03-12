@@ -789,10 +789,6 @@ body {
       line-height: 2 !important;
       font-size: 20px !important; }
 
-  .icon-discord {
-    width: 40px;
-    margin-top: -5px; }
-
   .footerbox .slg-mvs {
     margin: 30px 0 30px !important;
     height: 60px !important; } }
@@ -2024,5 +2020,21 @@ body {
     margin: 35px 0; } }
 .be .icon-nav strong {
   font-size: 20px; }
-  .icon-discord{width:40px;}
+.discord{
+    margin-top: 6px;
+    -webkit-filter: brightness(80%);
+}
+  .discord:hover{
+    -webkit-filter: brightness(100%);}
+  .icon-discord{
+    margin-top: 6px;
+    width:40px;
+}
+  .icon-discord:hover{
+    width:40px;
+  }
+  .text-discord {
+    top:6px;
+    color: #fff;
+  }
 /*# sourceMappingURL=all.css.map */

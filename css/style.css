@@ -1469,6 +1469,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	height: 450px !important;
 	/*top: 0;
 	overflow: hidden;
 	height: 100%;
@@ -1524,7 +1525,7 @@ audio, canvas, progress, video {
 	position: absolute;
 	/*top: 25%;*/
 	left: 0;
-	height: 100%;
+	/*height: 100%;*/
 	opacity: 1;
 }
 .img-cover {
@@ -1533,8 +1534,9 @@ audio, canvas, progress, video {
 }
 
 .video-placeholder{
-	/*background-image: url('../images/videobg.jpg')*/
+	background-image: url('../images/bg_banner2.jpg')
 }
+
 .desinfobox{
 	top: 50%;
 	position: absolute;
@@ -2913,7 +2915,7 @@ a:hover{
 	}
 }
 
-@media only screen and (min-width: 300px) and (max-width: 475px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
 	.tb-logo img {
 		width: 140px;
 		margin-top: 5px;

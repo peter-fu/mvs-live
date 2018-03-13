@@ -1470,9 +1470,10 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	/*width: 100%;*/
 	/*position: absolute;*/
 	/*background: url(../images/bannerbg.jpg);*/
+	background: url(../images/bg_banner2.jpg);
 	background-size: cover;
 	background-position: center;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	/*top: 0;
 	overflow: hidden;
 	height: 100%;
@@ -1537,7 +1538,7 @@ audio, canvas, progress, video {
 }
 
 .video-placeholder{
-	background-image: url('../images/videobg.jpg')
+	/*background-image: url('../images/videobg.jpg')*/
 }
 .desinfobox{
 	top: 50%;
@@ -1552,12 +1553,11 @@ audio, canvas, progress, video {
 }
 .mvs-slbox{
 	margin-bottom: 30px;
-	display: none;
 }
 .mvs-des{
 	opacity: .9;
 	margin:80px auto 24px;
-	color: rgba(63,63,63,.9);
+	/*color: rgba(63,63,63,.9);*/
 	font-size: 48px;
 	line-height: 30px;
 }
@@ -2192,7 +2192,7 @@ audio, canvas, progress, video {
 		margin-bottom:25px
 	}
 
-	
+
 }
 
 
@@ -3948,13 +3948,13 @@ h2.text-normal{
 	.etp-box .testimonial-panel{
 		width: 100%;
 	}
-	
+
 	.baas_title p{
 		width: 100%;
 	}
 
 	.mvs-des{
-		margin:80px auto 24px;
+		margin: auto 24px;
 		font-size: 24px;
 	}
 }
@@ -4251,4 +4251,3 @@ h2.text-normal{
 
 
 }
-

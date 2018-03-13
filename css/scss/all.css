@@ -17,9 +17,6 @@ section:before {
 
 /*url*/
 /*common en-font*/
-.new-enfont, .h4-title, .title-news, .read-more, .annt-wrap .li-item .fl-t, .amp-slgtl {
-  font-family: 'Conv_HelveticaNeue-BoldCond',Sans-Serif; }
-
 .moren-font, .entrance-amp .amp-ctl, .partners-box .hh-title {
   font-family: 'Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial !important'; }
 
@@ -258,16 +255,10 @@ p {
 .padding120 {
   padding: 120px 0; }
 
-.dis-tablecell, .etp-infobox p, .team-h1 .positionbox, .team-h1 .name-info, .social-footer .twelve_list {
-  display: table-cell;
-  vertical-align: middle; }
-
 .bg-cover, .recruit-infobox {
   background-position: center;
   background-size: cover; }
 
-.zdy-font, .btn-onn, .btn.cc-cbtn, .cc-cbtn, .en .menu, .h2-title, .h2-htitle, .en .h2-tl, .team-h1 .name-info, .sendbtn, .en .dev-docwrap .wallet-base, .en .team-wrap .text-spett, .en .position-info, .t-name, .amp-ctl, .blue-cctn {
-  font-family: 'Conv_HelveticaNeue-BoldCond' !important; }
 
 body {
   position: relative;
@@ -412,9 +403,9 @@ body {
 
 /* our team */
 .team-h1 .positionbox {
-  height: 262px;
+  /*height: 262px;
   vertical-align: middle;
-  text-align: center; }
+text-align: center;*/ }
 
 .team-h1 .name-info {
   color: #02CBFF;
@@ -1404,9 +1395,6 @@ body {
 .spe-desza {
   font-size: 16px; }
 
-.en .icon-nav strong {
-  font-family: 'Conv_HelveticaNeue-BoldCond' !important; }
-
 .en .cc-infodes {
   line-height: 1.6;
   font-weight: 500; }
@@ -1467,9 +1455,9 @@ body {
 
 .team-h1 .personal-info {
   /*margin: 0 auto;*/
-  padding: 12px 0;
+  /*padding: 12px 0;
   width: 220px;
-  border: 1px solid #F1F1F1;
+  border: 1px solid #F1F1F1;*/
   border-top: none; }
 
 .team-h1 .personal-info .t-name {
@@ -1485,7 +1473,7 @@ body {
   display: block; }
 
 .team-h1 .positionbox {
-  font-style: normal;
+  /*font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.2;
@@ -1494,14 +1482,14 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  top: 0;
+  top: 0;*/
   /*top: 260px;*/
-  text-align: center;
+  /*text-align: center;
   z-index: 1000;
   visibility: hidden;
-  height: 262px;
+  height: 262px;*/
   /*line-height: 260px;*/
-  vertical-align: middle; }
+/*vertical-align: middle;*/ }
 
 .team-h2 {
   margin-bottom: 30px; }
@@ -1594,8 +1582,6 @@ body {
   .swiper-container .swiper-slide {
     padding: 25px !important; } }
 /*Team end*/
-.mvs-sl {
-  width: 700px; }
 
 .spe-blockbox {
   padding: 40px 0; }
@@ -1604,15 +1590,8 @@ body {
   .pc-sl {
     display: none; }
 
-  .mvs-slbox {
-    display: block; }
-
   .wap-sl {
     display: inline-block; }
-
-  .mvs-sl.w-logo {
-    width: 320px;
-    margin-bottom: 30px; }
 
   .desinfobox {
     top: 50%;
@@ -1621,9 +1600,6 @@ body {
     left: 50%;
     width: 100%;
     /* background: rgba(0,0,0,.3); */ }
-
-  .mvs-sl {
-    width: 460px; }
 
   .mvs-des {
     color: #fff; }

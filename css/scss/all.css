@@ -264,9 +264,6 @@ body {
   position: relative;
   font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial; }
 
-.en ul li a {
-  letter-spacing: 0; }
-
 /*header*/
 .top-bar.fixedtop {
   bottom: inherit;
@@ -1996,21 +1993,5 @@ text-align: center;*/ }
     margin: 35px 0; } }
 .be .icon-nav strong {
   font-size: 20px; }
-.discord{
-    margin-top: 6px;
-    -webkit-filter: brightness(80%);
-}
-  .discord:hover{
-    -webkit-filter: brightness(100%);}
-  .icon-discord{
-    margin-top: 6px;
-    width:40px;
-}
-  .icon-discord:hover{
-    width:40px;
-  }
-  .text-discord {
-    top:6px;
-    color: #fff;
-  }
+
 /*# sourceMappingURL=all.css.map */

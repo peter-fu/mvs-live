@@ -447,7 +447,7 @@ text-align: center;*/ }
   .spe-desza.text-desfd {
     font-size: 16px; } }
 @media (min-width: 1300px) {
-  .cn-menu.menu {
+  .cn-menu.menu, .en-menu.menu {
     /* height: 70px; */
     display: block !important; }
 

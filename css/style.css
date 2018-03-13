@@ -982,7 +982,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 	text-transform:uppercase;
 	line-height:25px
 }
-.cn-menu.menu{
+.cn-menu.menu, .en-menu.menu{
 	margin-left: 90px;
 	/*height: 70px;*/
 }
@@ -1030,11 +1030,6 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .menu ul li.active a{
 	color: #0099FF;
 }
-
-.en-menu.menu ul li a{
-	font-size: 14px;
-}
-
 
 .menu ul ul{
 	position:absolute;
@@ -3214,7 +3209,7 @@ a:hover{
 	.menu ul li a {
 		padding: 3px 6px;
 	}
-	.cn-menu.menu{
+	.cn-menu.menu, .en-menu.menu{
 		margin-left: 50px !important;
 	}
 	/*ETP*/
@@ -3230,7 +3225,7 @@ a:hover{
 	.menu ul li a {
 		padding: 3px 8px;
 	}
-	.cn-menu.menu{
+	.cn-menu.menu, .en-menu.menu{
 		margin-left: 30px !important;
 	}
 
@@ -4270,7 +4265,7 @@ h2.text-normal{
 	color: #fff;
 }
 
-.en ul li a {
+.en-menu ul li a {
   letter-spacing: 0; }
 
 .footer .social .icon-medium, .footer .social .icon-telegram, .footer .social .icon-github2 {

@@ -4284,5 +4284,6 @@ h2.text-normal{
     background-color: #FFD2D2;
 		position: relative;
 		top: 50px;
-		text-align: center;
+		text-align: left;
+		padding: 20px;
 }

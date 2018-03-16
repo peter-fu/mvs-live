@@ -15,10 +15,6 @@ section:before {
   content: " ";
   display: table; }
 
-/*url*/
-/*common en-font*/
-.moren-font, .entrance-amp .amp-ctl, .partners-box .hh-title {
-  font-family: 'Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial !important'; }
 
 /******Font Sizes*******/
 .f-s-1 {
@@ -262,7 +258,7 @@ p {
 
 body {
   position: relative;
-  font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial; }
+  font-family: Microsoft YaHei,Tahoma,Arial; }
 
 /*header*/
 .top-bar.fixedtop {
@@ -1374,7 +1370,7 @@ text-align: center;*/ }
       height: 55px; }
 
 .icon-nav {
-  font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Tahoma,Arial !important; }
+  font-family: Microsoft YaHei,Tahoma,Arial !important; }
 
 #toTop {
   display: none  !important; }
@@ -1567,7 +1563,7 @@ text-align: center;*/ }
 
   .etp-desinfo {
     color: #475367;
-    margin: 80px 0 !important; } }
+    /*margin: 80px 0 !important;*/ } }
 @media only screen and (max-width: 375px) {
   .team-h2 .personal-info {
     margin: 0;

@@ -30,7 +30,7 @@ body {
 	/*font-family: "Open Sans","Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	/*font-family: "Open Sans", Arial, sans-serif;*/
-	font-family: 'Source Sans Pro',Arial,sans-serif,Tahoma,Arial,sans-serif;
+	/*font-family: 'Source Sans Pro',Arial,sans-serif,Tahoma,Arial,sans-serif;*/
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 25px;
@@ -308,7 +308,7 @@ a i{
 }
 
 .serif{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:italic;
 	font-weight:400;
 	letter-spacing:0;
@@ -316,7 +316,7 @@ a i{
 }
 
 .uber{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -349,7 +349,7 @@ a i{
 }
 
 blockquote{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:italic;
 	font-weight:400;
 	font-size:1.25em;
@@ -361,7 +361,7 @@ blockquote{
 
 blockquote small{
 	display:block;
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-size:.75em;
 	font-weight:400;
 	font-style:normal
@@ -405,7 +405,7 @@ input::-moz-focus-inner{
 
 .btn,button,input[type=submit]{
 	display:inline-block;
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-size:13px;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -606,7 +606,7 @@ a.btn.outline:hover,button.outline:hover,input[type=submit].outline:hover, .btn.
 }
 
 .title h1,.title h2{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-size:16px;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -664,7 +664,7 @@ a.inverted.underline:hover{
 }
 
 a.arrow-link{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-weight:700;
 	letter-spacing:.08em;
 	text-transform:uppercase;
@@ -810,7 +810,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }*/
 
 .o-hover em{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-size:13px;
 	font-weight:400;
@@ -890,7 +890,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 }
 
 .e-info h3{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-size:13px;
 	font-weight:700;
@@ -975,7 +975,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 .menu{
 	/*float:right;*/
 	text-align:left;
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-size: 16px;
 	/*font-weight:700;*/
 	letter-spacing:.08em;
@@ -1405,7 +1405,7 @@ a.arrow-link:hover,a.arrow-link:hover:before{
 
 .blue-ctn.btn.cc-cbtn{
 	letter-spacing: 0.5px;
-	color: #0099FF;
+	/*color: #0099FF;*/
 	border: 2px solid #0099FF;
 	font-size: 18px;
 	/* padding: 8px 100px; */
@@ -1651,7 +1651,7 @@ audio, canvas, progress, video {
 }
 
 .icon-nav strong{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-size: 32px;
 	font-weight: normal;
@@ -1887,7 +1887,7 @@ audio, canvas, progress, video {
 }
 
 .c-message h6{
-	font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;
+	/*font-family: "Source Sans Pro","Segoe UI","Droid Sans",Tahoma,Arial,sans-serif;*/
 	font-style:normal;
 	font-weight:700;
 	letter-spacing:.08em;
@@ -4277,3 +4277,12 @@ h2.text-normal{
   content: "\f2c6"; }
 .icon-telegram:before {
   content: "\e90c"; }
+
+
+.alert-message {
+    color: #D8000C;
+    background-color: #FFD2D2;
+		position: relative;
+		top: 50px;
+		text-align: center;
+}

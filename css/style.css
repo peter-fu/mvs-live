@@ -2859,12 +2859,6 @@ a:hover{
 		font-size: 24px;
 	}
 
-	.team-wrap .col-sm-6 {
-		width:100% !important;
-		/*float: left;*/
-		/*margin-bottom: 15px;*/
-	}
-
 }
 @media only screen and (min-width: 321px) and (max-width: 600px) {
 	.container .six {
@@ -3915,10 +3909,6 @@ h2.text-normal{
 }
 
 @media only screen and (max-width: 768px){
-	.team-wrap .col-sm-6 {
-		width:50%;
-		float: left;
-	}
 	.personal-info {
 		margin: 15px 0;
 		min-height: 75px;
